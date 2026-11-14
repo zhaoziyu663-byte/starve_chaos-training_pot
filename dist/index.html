@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24251c">
+  <title>饥荒 · 战斗训练</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <canvas id="world" aria-label="战斗训练场" tabindex="0"></canvas>
+  <div id="vignette"></div>
+  <div class="hud equipment equipment-info" aria-label="当前装备">
+    <span id="equipped-name">矛</span>
+    <label class="damage-row"><span>攻击力</span><input id="damage" type="number" min="1" max="9999" step="0.5" value="34" aria-label="武器基础攻击力"></label>
+  </div>
+  <form class="hud setup" id="setup">
+    <select id="monster" aria-label="怪物类型">
+      <option value="hound">猎犬</option>
+      <option value="spider">蜘蛛</option>
+      <option value="tallbird">高脚鸟</option>
+      <option value="leif">树精守卫</option>
+      <option value="tentacle">触手</option>
+      <option value="killerbee">杀人蜂</option>
+      <option value="knight">发条骑士</option>
+      <option value="werepig">疯猪</option>
+    </select>
+    <label class="count-row">数量 <input id="count" type="number" min="1" max="12" value="1" aria-label="怪物数量"></label>
+    <button id="start" class="text-button" type="submit" disabled>载入中</button>
+  </form>
+  <div class="hud bottom-controls">
+    <span class="key-hint" title="WASD 移动；F 持续攻击；数字键装备物品"><kbd>W A S D</kbd> 移动 <kbd>F</kbd> 攻击 <span id="dash-hint" class="hidden"><kbd>右键</kbd> 瞄准 <kbd>左键</kbd> 冲刺</span></span>
+    <button id="pause" class="icon-button" title="暂停 / 继续（Esc）" aria-label="暂停">Ⅱ</button>
+    <button id="reset" class="icon-button" title="重新开始（R）" aria-label="重新开始">↻</button>
+    <div class="sound-control"><button id="sound" class="icon-button" title="静音 / 开启声音" aria-label="静音" aria-pressed="false">♫</button><input id="volume" type="range" min="0" max="100" value="45" aria-label="音量" title="音量"></div>
+  </div>
+  <div id="inventory" class="hud inventory" aria-label="物品栏"></div>
+  <div id="overlay" class="hidden"><div class="overlay-panel"><strong id="overlay-title">暂停</strong><button id="overlay-action" class="text-button">继续</button></div></div>
+  <div id="load-error" class="hidden" role="alert"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "kind": "record-of-completed-validation",
+  "note": "Saved results of earlier one-off checks; this report does not rerun them or claim a browser FPS benchmark. Later root HP bounds integration was tested separately by root.",
+  "sourceSafety": {
+    "gameInstallation": "read-only",
+    "originalTrainerOnEDrive": "read-only",
+    "outputs": "independent dst-inventory-update staging project"
+  },
+  "expandedAssets": {
+    "passed": true,
+    "modelsChecked": 22,
+    "animationFramesChecked": 25496,
+    "atlasTilesChecked": 7228,
+    "checks": ["selected animation bank", "finite tile values", "atlas index", "UV rectangles inside source atlas"],
+    "note": "20 added monsters plus ordinary Deerclops and its ice-spike asset. The only different-length duplicate found was an unused beefalo MISC clip."
+  },
+  "resourceReferences": {
+    "passed": true,
+    "models": 42,
+    "referencesChecked": 150,
+    "missingReferences": [],
+    "checks": ["manifest model paths", "base and tinted atlas paths", "UI paths", "CSS image paths", "dependency IDs", "variant IDs"]
+  },
+  "lazyLoading": {
+    "passed": true,
+    "method": "Node local-file fetch and Image stubs",
+    "initialModelCount": 9,
+    "loadedAfterScenario": 19,
+    "concurrentDuplicateFrogFetches": 1,
+    "sharedMosquitoAtlasFetches": 1,
+    "catcoonFetchesWithOneInjected404ThenRetry": 2,
+    "checks": ["common-only initial load", "serialized ensure commits", "dependency loading", "duplicate request deduplication", "shared atlas deduplication", "failed load leaves no half-prepared model", "retry succeeds"]
+  },
+  "rendererRegression": {
+    "passed": true,
+    "command": "node tools/test-render.mjs",
+    "compiledFramesChecked": 13091,
+    "geometryCornersChecked": 3460128,
+    "crowdScenario": {
+      "monsters": 12,
+      "renderFrames": 600,
+      "oldSourceDrawCalls": 343824,
+      "newSourceDrawCalls": 382,
+      "newCompositeDrawCalls": 7200,
+      "drawCallReductionPercent": 97.79,
+      "note": "Draw-call counts, not a measured FPS improvement."
+    },
+    "additionalChecks": ["six-facing back views", "ordinary four-facing Deerclops", "charged goat and mosquito variants", "player frozen symbol", "cane and unarmed cache isolation", "eight-direction electrical FX", "reticule tint and ground rotation", "recharge animation completion"]
+  },
+  "visualChecks": {
+    "passed": true,
+    "images": [
+      "tools/research/expanded-creatures-1.png",
+      "tools/research/expanded-creatures-2.png",
+      "tools/research/expanded-creatures-3.png",
+      "tools/research/deerclops-freeze-qa.png",
+      "tools/ui-contact-sheet.png"
+    ],
+    "note": "Each newly selected monster was inspected in a composited original-art contact sheet; charged goat, full mosquito belly, ice spike and player ice block were also inspected."
+  },
+  "cutgrassFollowup": {
+    "source": "data/databundles/images.zip:images/inventoryimages1.xml:cutgrass.tex",
+    "output": "dist/assets/ui-cutgrass.png",
+    "size": [64, 64],
+    "nonemptyAlpha": true,
+    "uiManifestUpdated": true,
+    "extractorUpdated": true,
+    "note": "Only this new icon and its UI manifest entry were extracted in this follow-up."
+  }
+}

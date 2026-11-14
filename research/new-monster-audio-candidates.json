@@ -1,0 +1,4074 @@
+{
+  "bat": [
+    {
+      "index": 1,
+      "name": "bat_bite_1"
+    },
+    {
+      "index": 2,
+      "name": "bat_bite_2"
+    },
+    {
+      "index": 3,
+      "name": "bat_bite_3"
+    },
+    {
+      "index": 4,
+      "name": "bat_chew_1"
+    },
+    {
+      "index": 5,
+      "name": "bat_chew_2"
+    },
+    {
+      "index": 6,
+      "name": "bat_chew_3"
+    },
+    {
+      "index": 7,
+      "name": "bat_chew_4"
+    },
+    {
+      "index": 8,
+      "name": "bat_mediumvocal_1"
+    },
+    {
+      "index": 9,
+      "name": "bat_mediumvocal_2"
+    },
+    {
+      "index": 10,
+      "name": "bat_mediumvocal_3"
+    },
+    {
+      "index": 11,
+      "name": "bat_mediumvocal_4"
+    },
+    {
+      "index": 12,
+      "name": "bat_mediumvocal_5"
+    },
+    {
+      "index": 13,
+      "name": "bat_scream_1"
+    },
+    {
+      "index": 14,
+      "name": "bat_scream_2"
+    },
+    {
+      "index": 15,
+      "name": "bat_scream_3"
+    },
+    {
+      "index": 16,
+      "name": "bat_scream_4"
+    },
+    {
+      "index": 17,
+      "name": "bat_scream_5"
+    },
+    {
+      "index": 18,
+      "name": "bat_shortchirp_1"
+    },
+    {
+      "index": 19,
+      "name": "bat_shortchirp_2"
+    },
+    {
+      "index": 20,
+      "name": "bat_shortchirp_3"
+    },
+    {
+      "index": 21,
+      "name": "bat_shortchirp_4"
+    },
+    {
+      "index": 22,
+      "name": "bat_shortchirp_5"
+    },
+    {
+      "index": 23,
+      "name": "bat_shortchirp_6"
+    },
+    {
+      "index": 24,
+      "name": "bat_shortchirp_7"
+    },
+    {
+      "index": 25,
+      "name": "bat_shortchirp_8"
+    },
+    {
+      "index": 26,
+      "name": "bat_wingflap_1"
+    },
+    {
+      "index": 27,
+      "name": "bat_wingflap_10"
+    },
+    {
+      "index": 28,
+      "name": "bat_wingflap_11"
+    },
+    {
+      "index": 29,
+      "name": "bat_wingflap_2"
+    },
+    {
+      "index": 30,
+      "name": "bat_wingflap_3"
+    },
+    {
+      "index": 31,
+      "name": "bat_wingflap_4"
+    },
+    {
+      "index": 32,
+      "name": "bat_wingflap_5"
+    },
+    {
+      "index": 33,
+      "name": "bat_wingflap_6"
+    },
+    {
+      "index": 34,
+      "name": "bat_wingflap_7"
+    },
+    {
+      "index": 35,
+      "name": "bat_wingflap_8"
+    },
+    {
+      "index": 36,
+      "name": "bat_wingflap_9"
+    },
+    {
+      "index": 37,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-001"
+    },
+    {
+      "index": 38,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-002"
+    },
+    {
+      "index": 39,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-003"
+    },
+    {
+      "index": 40,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-004"
+    },
+    {
+      "index": 41,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-005"
+    },
+    {
+      "index": 42,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-006"
+    },
+    {
+      "index": 43,
+      "name": "wolfbat_cave_warning_RND_distant_DST_-007"
+    },
+    {
+      "index": 44,
+      "name": "charlie_voice_v2_DST-001"
+    },
+    {
+      "index": 45,
+      "name": "charlie_voice_v2_DST-002"
+    },
+    {
+      "index": 46,
+      "name": "charlie_voice_v2_DST-003"
+    },
+    {
+      "index": 47,
+      "name": "charlie_voice_v2_DST-004"
+    },
+    {
+      "index": 48,
+      "name": "charlie_voice_v2_DST-005"
+    },
+    {
+      "index": 49,
+      "name": "charlie_voice_v2_DST-006"
+    },
+    {
+      "index": 50,
+      "name": "charlie_voice_v2_DST-009"
+    },
+    {
+      "index": 51,
+      "name": "charlie_voice_v2_DST-010"
+    },
+    {
+      "index": 52,
+      "name": "charlie_voice_v2_DST-011"
+    },
+    {
+      "index": 53,
+      "name": "charlie_voice_v2_DST-012"
+    },
+    {
+      "index": 54,
+      "name": "charlie_voice_v2_DST-013"
+    },
+    {
+      "index": 55,
+      "name": "silence_-002"
+    },
+    {
+      "index": 56,
+      "name": "shadowmax_step_1"
+    },
+    {
+      "index": 57,
+      "name": "shadowmax_step_2"
+    },
+    {
+      "index": 58,
+      "name": "shadowmax_step_3"
+    },
+    {
+      "index": 59,
+      "name": "shadowmax_step_4"
+    },
+    {
+      "index": 60,
+      "name": "Wendy_carol_01"
+    },
+    {
+      "index": 61,
+      "name": "frankenpig_shorter_groan_deep_zombie_DST-001"
+    },
+    {
+      "index": 62,
+      "name": "frankenpig_shorter_groan_deep_zombie_DST-002"
+    },
+    {
+      "index": 63,
+      "name": "frankenpig_shorter_groan_deep_zombie_DST-003"
+    },
+    {
+      "index": 64,
+      "name": "frankenpig_shorter_groan_deep_zombie_DST-004"
+    },
+    {
+      "index": 65,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-001"
+    },
+    {
+      "index": 66,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-002"
+    },
+    {
+      "index": 67,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-003"
+    },
+    {
+      "index": 68,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-004"
+    },
+    {
+      "index": 69,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-005"
+    },
+    {
+      "index": 70,
+      "name": "caves_bats_nitreseeking_warning_v2_DST_-007"
+    },
+    {
+      "index": 71,
+      "name": "wolfbat_boss_shadow_stun_LP_DST"
+    },
+    {
+      "index": 72,
+      "name": "wolfbat_boss_shadow_stun_pre_DST"
+    },
+    {
+      "index": 73,
+      "name": "wolfbat_boss_stun_LP_DST"
+    },
+    {
+      "index": 74,
+      "name": "wolfbat_boss_stun_pre_DST"
+    },
+    {
+      "index": 75,
+      "name": "wolfbat_death_DST-001"
+    },
+    {
+      "index": 76,
+      "name": "wolfbat_death_DST-002"
+    },
+    {
+      "index": 77,
+      "name": "wolfbat_death_DST-003"
+    },
+    {
+      "index": 78,
+      "name": "wolfbat_headattack_growl_lowpass_DST_002"
+    },
+    {
+      "index": 79,
+      "name": "wolfbat_headattack_growl_lowpass_DST_003"
+    },
+    {
+      "index": 80,
+      "name": "wolfbat_headattack_growl_lowpass_DST_004"
+    },
+    {
+      "index": 81,
+      "name": "wolfbat_headattack_growl_lowpass_DST_005"
+    },
+    {
+      "index": 82,
+      "name": "wolfbat_headattack_growl_lowpass_DST_006"
+    },
+    {
+      "index": 83,
+      "name": "wolfbat_headbite_DST-001"
+    },
+    {
+      "index": 84,
+      "name": "wolfbat_headbite_DST-002"
+    },
+    {
+      "index": 85,
+      "name": "wolfbat_headbite_DST-003"
+    },
+    {
+      "index": 86,
+      "name": "wolfbat_headsuck_attack_v3_lowpass_DST_001"
+    },
+    {
+      "index": 87,
+      "name": "wolfbat_headsuck_attack_v3_lowpass_DST_002"
+    },
+    {
+      "index": 88,
+      "name": "wolfbat_headsuck_attack_v3_lowpass_DST_003"
+    },
+    {
+      "index": 89,
+      "name": "wolfbat_howl_v3_DST-001"
+    },
+    {
+      "index": 90,
+      "name": "wolfbat_howl_v3_DST-002"
+    },
+    {
+      "index": 91,
+      "name": "wolfbat_shadow_boss_split_DST"
+    },
+    {
+      "index": 92,
+      "name": "wolfbat_shadow_death_DST-001"
+    },
+    {
+      "index": 93,
+      "name": "wolfbat_shadow_death_DST-002"
+    },
+    {
+      "index": 94,
+      "name": "wolfbat_shadow_death_DST-003"
+    },
+    {
+      "index": 95,
+      "name": "wolfbat_shadow_headbite_DST-001"
+    },
+    {
+      "index": 96,
+      "name": "wolfbat_shadow_headbite_DST-002"
+    },
+    {
+      "index": 97,
+      "name": "wolfbat_shadow_headbite_DST-003"
+    },
+    {
+      "index": 98,
+      "name": "wolfbat_shadow_howl_DST-001"
+    },
+    {
+      "index": 99,
+      "name": "wolfbat_shadow_howl_DST-002"
+    },
+    {
+      "index": 100,
+      "name": "wolfbat_shadow_hurt_DST-001"
+    },
+    {
+      "index": 101,
+      "name": "wolfbat_shadow_hurt_DST-002"
+    },
+    {
+      "index": 102,
+      "name": "wolfbat_shadow_hurt_DST-003"
+    },
+    {
+      "index": 103,
+      "name": "wolfbat_shadow_hurt_DST-004"
+    },
+    {
+      "index": 104,
+      "name": "wolfbat_shadow_sleep_DST-001"
+    },
+    {
+      "index": 105,
+      "name": "wolfbat_shadow_sleep_DST-002"
+    },
+    {
+      "index": 106,
+      "name": "wolfbat_shadow_sleep_DST-003"
+    },
+    {
+      "index": 107,
+      "name": "wolfbat_shadow_taunt_DST-001"
+    },
+    {
+      "index": 108,
+      "name": "wolfbat_shadow_taunt_DST-002"
+    },
+    {
+      "index": 109,
+      "name": "wolfbat_shadow_taunt_DST-003"
+    },
+    {
+      "index": 110,
+      "name": "wolfbat_taunt_trimmed_DST-001"
+    },
+    {
+      "index": 111,
+      "name": "wolfbat_taunt_trimmed_DST-002"
+    },
+    {
+      "index": 112,
+      "name": "wolfbat_taunt_trimmed_DST-003"
+    },
+    {
+      "index": 113,
+      "name": "wolfbite_hurt_DST-001"
+    },
+    {
+      "index": 114,
+      "name": "wolfbite_hurt_DST-002"
+    },
+    {
+      "index": 115,
+      "name": "wolfbite_hurt_DST-003"
+    },
+    {
+      "index": 116,
+      "name": "wolfbite_hurt_DST-004"
+    },
+    {
+      "index": 117,
+      "name": "wolfbite_sleep_DST-001"
+    },
+    {
+      "index": 118,
+      "name": "wolfbite_sleep_DST-002"
+    },
+    {
+      "index": 119,
+      "name": "wolfbite_sleep_DST-003"
+    }
+  ],
+  "bee": [
+    {
+      "index": 1,
+      "name": "misquito_explo"
+    },
+    {
+      "index": 2,
+      "name": "BeeMine_explo_1"
+    },
+    {
+      "index": 3,
+      "name": "BeeMine_intoAir_1"
+    },
+    {
+      "index": 4,
+      "name": "BeeMine_rattle_1"
+    },
+    {
+      "index": 5,
+      "name": "BeeMine_rattle_2"
+    },
+    {
+      "index": 6,
+      "name": "BeeMine_rattle_3"
+    },
+    {
+      "index": 7,
+      "name": "BeeMine_rattle_4"
+    },
+    {
+      "index": 8,
+      "name": "Bee_death_1"
+    },
+    {
+      "index": 9,
+      "name": "Bee_death_2"
+    },
+    {
+      "index": 10,
+      "name": "bee_attack_1"
+    },
+    {
+      "index": 11,
+      "name": "bee_attack_2"
+    },
+    {
+      "index": 12,
+      "name": "bee_attack_3"
+    },
+    {
+      "index": 13,
+      "name": "bee_attack_4"
+    },
+    {
+      "index": 14,
+      "name": "bee_fly_LP_1"
+    },
+    {
+      "index": 15,
+      "name": "bee_fly_LP_2"
+    },
+    {
+      "index": 16,
+      "name": "bee_hive_LP_1"
+    },
+    {
+      "index": 17,
+      "name": "bee_hive_LP_2"
+    },
+    {
+      "index": 18,
+      "name": "bee_hive_LP_3"
+    },
+    {
+      "index": 19,
+      "name": "bee_outofbreath_1"
+    },
+    {
+      "index": 20,
+      "name": "bee_outofbreath_2"
+    },
+    {
+      "index": 21,
+      "name": "bee_outofbreath_3"
+    },
+    {
+      "index": 22,
+      "name": "bee_takeoff_1"
+    },
+    {
+      "index": 23,
+      "name": "bee_takeoff_2"
+    },
+    {
+      "index": 24,
+      "name": "beehive_destroy_1"
+    },
+    {
+      "index": 25,
+      "name": "beehive_hit_1"
+    },
+    {
+      "index": 26,
+      "name": "beehive_hit_2"
+    },
+    {
+      "index": 27,
+      "name": "beehive_hit_3"
+    }
+  ],
+  "beefalo": [
+    {
+      "index": 1,
+      "name": "Sprat_chew_1"
+    },
+    {
+      "index": 2,
+      "name": "Sprat_chew_2"
+    },
+    {
+      "index": 3,
+      "name": "Sprat_chew_3"
+    },
+    {
+      "index": 4,
+      "name": "Sprat_chew_5"
+    },
+    {
+      "index": 5,
+      "name": "Sprat_chew_6"
+    },
+    {
+      "index": 6,
+      "name": "Sprat_chew_7"
+    },
+    {
+      "index": 7,
+      "name": "Sprat_death_1"
+    },
+    {
+      "index": 8,
+      "name": "Sprat_death_2"
+    },
+    {
+      "index": 9,
+      "name": "Sprat_death_3"
+    },
+    {
+      "index": 10,
+      "name": "Sprat_death_4"
+    },
+    {
+      "index": 11,
+      "name": "Sprat_death_5"
+    },
+    {
+      "index": 12,
+      "name": "Sprat_death_6"
+    },
+    {
+      "index": 13,
+      "name": "Sprat_death_7"
+    },
+    {
+      "index": 14,
+      "name": "Sprat_hurt_1"
+    },
+    {
+      "index": 15,
+      "name": "Sprat_hurt_2"
+    },
+    {
+      "index": 16,
+      "name": "Sprat_hurt_3"
+    },
+    {
+      "index": 17,
+      "name": "Sprat_hurt_4"
+    },
+    {
+      "index": 18,
+      "name": "Sprat_hurt_5"
+    },
+    {
+      "index": 19,
+      "name": "Sprat_hurt_6"
+    },
+    {
+      "index": 20,
+      "name": "Sprat_hurt_7"
+    },
+    {
+      "index": 21,
+      "name": "Sprat_hurt_8"
+    },
+    {
+      "index": 22,
+      "name": "Sprat_sleep_1"
+    },
+    {
+      "index": 23,
+      "name": "Sprat_sleep_2"
+    },
+    {
+      "index": 24,
+      "name": "Sprat_sleep_3"
+    },
+    {
+      "index": 25,
+      "name": "Sprat_sleep_4"
+    },
+    {
+      "index": 26,
+      "name": "Sprat_spit_1"
+    },
+    {
+      "index": 27,
+      "name": "Sprat_spit_2"
+    },
+    {
+      "index": 28,
+      "name": "Sprat_spit_3"
+    },
+    {
+      "index": 29,
+      "name": "Sprat_spit_4"
+    },
+    {
+      "index": 30,
+      "name": "Sprat_spit_hit_1"
+    },
+    {
+      "index": 31,
+      "name": "Sprat_spit_hit_2"
+    },
+    {
+      "index": 32,
+      "name": "Sprat_spit_hit_3"
+    },
+    {
+      "index": 33,
+      "name": "Sprat_spit_hit_4"
+    },
+    {
+      "index": 34,
+      "name": "Sprat_spit_struggle_1"
+    },
+    {
+      "index": 35,
+      "name": "Sprat_spit_struggle_2"
+    },
+    {
+      "index": 36,
+      "name": "Sprat_spit_struggle_3"
+    },
+    {
+      "index": 37,
+      "name": "Sprat_spit_struggle_4"
+    },
+    {
+      "index": 38,
+      "name": "Sprat_spit_unstuck_1"
+    },
+    {
+      "index": 39,
+      "name": "Sprat_spit_unstuck_2"
+    },
+    {
+      "index": 40,
+      "name": "Sprat_spit_unstuck_3"
+    },
+    {
+      "index": 41,
+      "name": "Sprat_spit_unstuck_4"
+    },
+    {
+      "index": 42,
+      "name": "Sprat_yell_1"
+    },
+    {
+      "index": 43,
+      "name": "Sprat_yell_2"
+    },
+    {
+      "index": 44,
+      "name": "Sprat_yell_3"
+    },
+    {
+      "index": 45,
+      "name": "Sprat_yell_4"
+    },
+    {
+      "index": 46,
+      "name": "Sprat_yell_5"
+    },
+    {
+      "index": 47,
+      "name": "Sprat_yell_6"
+    },
+    {
+      "index": 48,
+      "name": "Beefalo_angry_1"
+    },
+    {
+      "index": 49,
+      "name": "Beefalo_chew_1"
+    },
+    {
+      "index": 50,
+      "name": "Beefalo_chew_2"
+    },
+    {
+      "index": 51,
+      "name": "Beefalo_chew_3"
+    },
+    {
+      "index": 52,
+      "name": "Beefalo_chew_4"
+    },
+    {
+      "index": 53,
+      "name": "Beefalo_chew_5"
+    },
+    {
+      "index": 54,
+      "name": "Beefalo_chew_6"
+    },
+    {
+      "index": 55,
+      "name": "Beefalo_curious_1"
+    },
+    {
+      "index": 56,
+      "name": "Beefalo_generic_1"
+    },
+    {
+      "index": 57,
+      "name": "Beefalo_generic_2"
+    },
+    {
+      "index": 58,
+      "name": "Beefalo_generic_3"
+    },
+    {
+      "index": 59,
+      "name": "Beefalo_hairpop"
+    },
+    {
+      "index": 60,
+      "name": "Beefalo_walk_1"
+    },
+    {
+      "index": 61,
+      "name": "Beefalo_walk_2"
+    },
+    {
+      "index": 62,
+      "name": "Beefalo_walk_3"
+    },
+    {
+      "index": 63,
+      "name": "Beefalo_yell_1"
+    },
+    {
+      "index": 64,
+      "name": "DSS_Beefalo_negative_1"
+    },
+    {
+      "index": 65,
+      "name": "DSS_Beefalo_negative_2"
+    },
+    {
+      "index": 66,
+      "name": "DSS_Beefalo_negative_3"
+    },
+    {
+      "index": 67,
+      "name": "DSS_Beefalo_negative_4"
+    },
+    {
+      "index": 68,
+      "name": "DSS_Beefalo_negative_5"
+    },
+    {
+      "index": 69,
+      "name": "DSS_Beefalo_positive_1"
+    },
+    {
+      "index": 70,
+      "name": "DSS_Beefalo_positive_2"
+    },
+    {
+      "index": 71,
+      "name": "DSS_Beefalo_positive_3"
+    },
+    {
+      "index": 72,
+      "name": "DSS_Beefalo_positive_4"
+    },
+    {
+      "index": 73,
+      "name": "DSS_Beefalo_positive_5"
+    },
+    {
+      "index": 74,
+      "name": "DSS_beefalo_cower_1"
+    },
+    {
+      "index": 75,
+      "name": "DSS_beefalo_cower_2"
+    },
+    {
+      "index": 76,
+      "name": "DSS_beefalo_cower_3"
+    },
+    {
+      "index": 77,
+      "name": "DSS_beefalo_cower_4"
+    },
+    {
+      "index": 78,
+      "name": "DSS_beefalo_eat_treat_1"
+    },
+    {
+      "index": 79,
+      "name": "DSS_beefalo_eat_treat_2"
+    },
+    {
+      "index": 80,
+      "name": "DSS_beefalo_eat_treat_3"
+    },
+    {
+      "index": 81,
+      "name": "DSS_beefalo_eat_treat_4"
+    },
+    {
+      "index": 82,
+      "name": "DSS_beefalo_eat_treat_5"
+    },
+    {
+      "index": 83,
+      "name": "DSS_beefalo_eat_treat_6"
+    },
+    {
+      "index": 84,
+      "name": "DSS_beefalo_eat_treat_7"
+    },
+    {
+      "index": 85,
+      "name": "DSS_beefalo_puke_out"
+    },
+    {
+      "index": 86,
+      "name": "DSS_beefalo_puke_start"
+    },
+    {
+      "index": 87,
+      "name": "beefalo_hairpop_vocal"
+    },
+    {
+      "index": 88,
+      "name": "beefalo_tail_1"
+    },
+    {
+      "index": 89,
+      "name": "beefalo_tail_2"
+    },
+    {
+      "index": 90,
+      "name": "beefalo_tail_3"
+    },
+    {
+      "index": 91,
+      "name": "beefalo_tail_4"
+    },
+    {
+      "index": 92,
+      "name": "sprat_sleep_in_1"
+    },
+    {
+      "index": 93,
+      "name": "sprat_sleep_in_2"
+    },
+    {
+      "index": 94,
+      "name": "sprat_sleep_in_3"
+    },
+    {
+      "index": 95,
+      "name": "sprat_sleep_in_4"
+    },
+    {
+      "index": 96,
+      "name": "sprat_sleep_out_1"
+    },
+    {
+      "index": 97,
+      "name": "sprat_sleep_out_2"
+    },
+    {
+      "index": 98,
+      "name": "sprat_sleep_out_3"
+    },
+    {
+      "index": 99,
+      "name": "sprat_sleep_out_4"
+    }
+  ],
+  "bunnyman": [
+    {
+      "index": 1,
+      "name": "bunnyman_angryidle_1"
+    },
+    {
+      "index": 2,
+      "name": "bunnyman_angryidle_2"
+    },
+    {
+      "index": 3,
+      "name": "bunnyman_angryidle_3"
+    },
+    {
+      "index": 4,
+      "name": "bunnyman_angryidle_4"
+    },
+    {
+      "index": 5,
+      "name": "bunnyman_angryidle_5"
+    },
+    {
+      "index": 6,
+      "name": "bunnyman_angryidle_6"
+    },
+    {
+      "index": 7,
+      "name": "bunnyman_angryidle_7"
+    },
+    {
+      "index": 8,
+      "name": "bunnyman_angryidle_8"
+    },
+    {
+      "index": 9,
+      "name": "bunnyman_angryidle_9"
+    },
+    {
+      "index": 10,
+      "name": "bunnyman_attack_1"
+    },
+    {
+      "index": 11,
+      "name": "bunnyman_attack_2"
+    },
+    {
+      "index": 12,
+      "name": "bunnyman_attack_3"
+    },
+    {
+      "index": 13,
+      "name": "bunnyman_attack_4"
+    },
+    {
+      "index": 14,
+      "name": "bunnyman_attack_5"
+    },
+    {
+      "index": 15,
+      "name": "bunnyman_attack_6"
+    },
+    {
+      "index": 16,
+      "name": "bunnyman_bite_1"
+    },
+    {
+      "index": 17,
+      "name": "bunnyman_bite_2"
+    },
+    {
+      "index": 18,
+      "name": "bunnyman_bite_3"
+    },
+    {
+      "index": 19,
+      "name": "bunnyman_bite_4"
+    },
+    {
+      "index": 20,
+      "name": "bunnyman_bite_5"
+    },
+    {
+      "index": 21,
+      "name": "bunnyman_die_1"
+    },
+    {
+      "index": 22,
+      "name": "bunnyman_die_2"
+    },
+    {
+      "index": 23,
+      "name": "bunnyman_die_3"
+    },
+    {
+      "index": 24,
+      "name": "bunnyman_die_4"
+    },
+    {
+      "index": 25,
+      "name": "bunnyman_eat_1"
+    },
+    {
+      "index": 26,
+      "name": "bunnyman_happy_1"
+    },
+    {
+      "index": 27,
+      "name": "bunnyman_happy_2"
+    },
+    {
+      "index": 28,
+      "name": "bunnyman_happy_3"
+    },
+    {
+      "index": 29,
+      "name": "bunnyman_happy_4"
+    },
+    {
+      "index": 30,
+      "name": "bunnyman_happy_5"
+    },
+    {
+      "index": 31,
+      "name": "bunnyman_hop_1"
+    },
+    {
+      "index": 32,
+      "name": "bunnyman_hop_2"
+    },
+    {
+      "index": 33,
+      "name": "bunnyman_hop_3"
+    },
+    {
+      "index": 34,
+      "name": "bunnyman_hop_4"
+    },
+    {
+      "index": 35,
+      "name": "bunnyman_hurt_1"
+    },
+    {
+      "index": 36,
+      "name": "bunnyman_hurt_2"
+    },
+    {
+      "index": 37,
+      "name": "bunnyman_hurt_3"
+    },
+    {
+      "index": 38,
+      "name": "bunnyman_hurt_4"
+    },
+    {
+      "index": 39,
+      "name": "bunnyman_hurt_5"
+    },
+    {
+      "index": 40,
+      "name": "bunnyman_hurt_6"
+    },
+    {
+      "index": 41,
+      "name": "bunnyman_hurt_7"
+    },
+    {
+      "index": 42,
+      "name": "bunnyman_hurt_8"
+    },
+    {
+      "index": 43,
+      "name": "bunnyman_hurt_9"
+    },
+    {
+      "index": 44,
+      "name": "bunnyman_idle_med_1"
+    },
+    {
+      "index": 45,
+      "name": "bunnyman_idle_med_2"
+    },
+    {
+      "index": 46,
+      "name": "bunnyman_idle_med_3"
+    },
+    {
+      "index": 47,
+      "name": "bunnyman_idle_med_4"
+    },
+    {
+      "index": 48,
+      "name": "bunnyman_idle_short_1"
+    },
+    {
+      "index": 49,
+      "name": "bunnyman_idle_short_2"
+    },
+    {
+      "index": 50,
+      "name": "bunnyman_idle_short_3"
+    },
+    {
+      "index": 51,
+      "name": "bunnyman_idle_short_4"
+    },
+    {
+      "index": 52,
+      "name": "bunnyman_idle_short_5"
+    },
+    {
+      "index": 53,
+      "name": "bunnyman_idle_short_6"
+    },
+    {
+      "index": 54,
+      "name": "bunnyman_idle_short_7"
+    },
+    {
+      "index": 55,
+      "name": "bunnyman_sleep_1"
+    },
+    {
+      "index": 56,
+      "name": "bunnyman_sleep_2"
+    },
+    {
+      "index": 57,
+      "name": "bunnyman_sleep_3"
+    },
+    {
+      "index": 58,
+      "name": "bunnyman_sleep_4"
+    },
+    {
+      "index": 59,
+      "name": "bunnyman_sleep_5"
+    },
+    {
+      "index": 60,
+      "name": "bunnyman_transform_1"
+    },
+    {
+      "index": 61,
+      "name": "bunnyman_transform_2"
+    },
+    {
+      "index": 62,
+      "name": "bunnyman_transform_3"
+    },
+    {
+      "index": 63,
+      "name": "bunnyman_wereattack_1"
+    },
+    {
+      "index": 64,
+      "name": "bunnyman_wereattack_2"
+    },
+    {
+      "index": 65,
+      "name": "bunnyman_wereattack_3"
+    },
+    {
+      "index": 66,
+      "name": "bunnyman_wereattack_4"
+    },
+    {
+      "index": 67,
+      "name": "bunnyman_werebreathin_1"
+    },
+    {
+      "index": 68,
+      "name": "bunnyman_werebreathin_2"
+    },
+    {
+      "index": 69,
+      "name": "bunnyman_werebreathin_3"
+    },
+    {
+      "index": 70,
+      "name": "bunnyman_werebreathin_4"
+    },
+    {
+      "index": 71,
+      "name": "bunnyman_wereidle_1"
+    },
+    {
+      "index": 72,
+      "name": "bunnyman_wereidle_2"
+    },
+    {
+      "index": 73,
+      "name": "bunnyman_wereidle_3"
+    },
+    {
+      "index": 74,
+      "name": "bunnyman_wereidle_4"
+    },
+    {
+      "index": 75,
+      "name": "bunnyman_wereidle_5"
+    }
+  ],
+  "catcoon": [
+    {
+      "index": 1,
+      "name": "catcoon_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "catcoon_attack_10"
+    },
+    {
+      "index": 3,
+      "name": "catcoon_attack_11"
+    },
+    {
+      "index": 4,
+      "name": "catcoon_attack_2"
+    },
+    {
+      "index": 5,
+      "name": "catcoon_attack_3"
+    },
+    {
+      "index": 6,
+      "name": "catcoon_attack_4"
+    },
+    {
+      "index": 7,
+      "name": "catcoon_attack_5"
+    },
+    {
+      "index": 8,
+      "name": "catcoon_attack_6"
+    },
+    {
+      "index": 9,
+      "name": "catcoon_attack_7"
+    },
+    {
+      "index": 10,
+      "name": "catcoon_attack_8"
+    },
+    {
+      "index": 11,
+      "name": "catcoon_attack_9"
+    },
+    {
+      "index": 12,
+      "name": "catcoon_death_1"
+    },
+    {
+      "index": 13,
+      "name": "catcoon_death_2"
+    },
+    {
+      "index": 14,
+      "name": "catcoon_death_3"
+    },
+    {
+      "index": 15,
+      "name": "catcoon_death_4"
+    },
+    {
+      "index": 16,
+      "name": "catcoon_death_5"
+    },
+    {
+      "index": 17,
+      "name": "catcoon_death_6"
+    },
+    {
+      "index": 18,
+      "name": "catcoon_hairball_hack_1"
+    },
+    {
+      "index": 19,
+      "name": "catcoon_hairball_hack_2"
+    },
+    {
+      "index": 20,
+      "name": "catcoon_hairball_hack_3"
+    },
+    {
+      "index": 21,
+      "name": "catcoon_hairball_hack_4"
+    },
+    {
+      "index": 22,
+      "name": "catcoon_hairball_hack_5"
+    },
+    {
+      "index": 23,
+      "name": "catcoon_hairball_hack_6"
+    },
+    {
+      "index": 24,
+      "name": "catcoon_hairball_hack_7"
+    },
+    {
+      "index": 25,
+      "name": "catcoon_hairball_hack_8"
+    },
+    {
+      "index": 26,
+      "name": "catcoon_hairball_hack_9"
+    },
+    {
+      "index": 27,
+      "name": "catcoon_hairball_vomit_1"
+    },
+    {
+      "index": 28,
+      "name": "catcoon_hairball_vomit_2"
+    },
+    {
+      "index": 29,
+      "name": "catcoon_hairball_vomit_3"
+    },
+    {
+      "index": 30,
+      "name": "catcoon_hiss_1"
+    },
+    {
+      "index": 31,
+      "name": "catcoon_hiss_2"
+    },
+    {
+      "index": 32,
+      "name": "catcoon_hiss_3"
+    },
+    {
+      "index": 33,
+      "name": "catcoon_hiss_4"
+    },
+    {
+      "index": 34,
+      "name": "catcoon_hiss_5"
+    },
+    {
+      "index": 35,
+      "name": "catcoon_hiss_6"
+    },
+    {
+      "index": 36,
+      "name": "catcoon_hiss_7"
+    },
+    {
+      "index": 37,
+      "name": "catcoon_hiss_8"
+    },
+    {
+      "index": 38,
+      "name": "catcoon_hisspre_1"
+    },
+    {
+      "index": 39,
+      "name": "catcoon_hisspre_2"
+    },
+    {
+      "index": 40,
+      "name": "catcoon_hisspre_3"
+    },
+    {
+      "index": 41,
+      "name": "catcoon_hisspre_4"
+    },
+    {
+      "index": 42,
+      "name": "catcoon_hisspre_5"
+    },
+    {
+      "index": 43,
+      "name": "catcoon_hisspre_6"
+    },
+    {
+      "index": 44,
+      "name": "catcoon_hisspre_7"
+    },
+    {
+      "index": 45,
+      "name": "catcoon_hurt_1"
+    },
+    {
+      "index": 46,
+      "name": "catcoon_hurt_2"
+    },
+    {
+      "index": 47,
+      "name": "catcoon_hurt_3"
+    },
+    {
+      "index": 48,
+      "name": "catcoon_hurt_4"
+    },
+    {
+      "index": 49,
+      "name": "catcoon_hurt_5"
+    },
+    {
+      "index": 50,
+      "name": "catcoon_hurt_6"
+    },
+    {
+      "index": 51,
+      "name": "catcoon_hurt_7"
+    },
+    {
+      "index": 52,
+      "name": "catcoon_hurt_8"
+    },
+    {
+      "index": 53,
+      "name": "catcoon_hurt_9"
+    },
+    {
+      "index": 54,
+      "name": "catcoon_pickup_1"
+    },
+    {
+      "index": 55,
+      "name": "catcoon_pickup_10"
+    },
+    {
+      "index": 56,
+      "name": "catcoon_pickup_2"
+    },
+    {
+      "index": 57,
+      "name": "catcoon_pickup_3"
+    },
+    {
+      "index": 58,
+      "name": "catcoon_pickup_4"
+    },
+    {
+      "index": 59,
+      "name": "catcoon_pickup_5"
+    },
+    {
+      "index": 60,
+      "name": "catcoon_pickup_6"
+    },
+    {
+      "index": 61,
+      "name": "catcoon_pickup_7"
+    },
+    {
+      "index": 62,
+      "name": "catcoon_pickup_8"
+    },
+    {
+      "index": 63,
+      "name": "catcoon_pickup_9"
+    },
+    {
+      "index": 64,
+      "name": "catcoon_pounce_1"
+    },
+    {
+      "index": 65,
+      "name": "catcoon_pounce_2"
+    },
+    {
+      "index": 66,
+      "name": "catcoon_pounce_3"
+    },
+    {
+      "index": 67,
+      "name": "catcoon_pounce_4"
+    },
+    {
+      "index": 68,
+      "name": "catcoon_pounce_pre_1"
+    },
+    {
+      "index": 69,
+      "name": "catcoon_pounce_pre_2"
+    },
+    {
+      "index": 70,
+      "name": "catcoon_pounce_pre_3"
+    },
+    {
+      "index": 71,
+      "name": "catcoon_pounce_pre_4"
+    },
+    {
+      "index": 72,
+      "name": "catcoon_sleep_1"
+    },
+    {
+      "index": 73,
+      "name": "catcoon_sleep_2"
+    },
+    {
+      "index": 74,
+      "name": "catcoon_sleep_3"
+    },
+    {
+      "index": 75,
+      "name": "catcoon_sleep_4"
+    },
+    {
+      "index": 76,
+      "name": "catcoon_sleep_5"
+    },
+    {
+      "index": 77,
+      "name": "catcoon_sleep_6"
+    },
+    {
+      "index": 78,
+      "name": "catcoon_sleep_7"
+    },
+    {
+      "index": 79,
+      "name": "catcoon_sleep_8"
+    },
+    {
+      "index": 80,
+      "name": "catcoon_sleep_9"
+    },
+    {
+      "index": 81,
+      "name": "catcoon_swipe_1"
+    },
+    {
+      "index": 82,
+      "name": "catcoon_swipe_2"
+    },
+    {
+      "index": 83,
+      "name": "catcoon_swipe_3"
+    },
+    {
+      "index": 84,
+      "name": "catcoon_swipe_4"
+    },
+    {
+      "index": 85,
+      "name": "catcoon_swipe_5"
+    },
+    {
+      "index": 86,
+      "name": "catcoon_swipe_6"
+    },
+    {
+      "index": 87,
+      "name": "catcoon_swipe_pre_1"
+    },
+    {
+      "index": 88,
+      "name": "catcoon_swipe_pre_2"
+    },
+    {
+      "index": 89,
+      "name": "catcoon_swipe_pre_3"
+    },
+    {
+      "index": 90,
+      "name": "catcoon_swipe_pre_4"
+    },
+    {
+      "index": 91,
+      "name": "catcoon_swipe_pre_5"
+    },
+    {
+      "index": 92,
+      "name": "catcoon_swipe_pre_6"
+    },
+    {
+      "index": 93,
+      "name": "catcoon_yawn_1"
+    },
+    {
+      "index": 94,
+      "name": "catcoon_yawn_2"
+    },
+    {
+      "index": 95,
+      "name": "catcoon_yawn_3"
+    },
+    {
+      "index": 96,
+      "name": "catcoon_yawn_4"
+    },
+    {
+      "index": 97,
+      "name": "catcoon_yawn_5"
+    },
+    {
+      "index": 98,
+      "name": "catcoon_yawn_6"
+    },
+    {
+      "index": 99,
+      "name": "Chester_lick_1"
+    },
+    {
+      "index": 100,
+      "name": "Chester_lick_2"
+    },
+    {
+      "index": 101,
+      "name": "Chester_lick_3"
+    }
+  ],
+  "deerclops": [
+    {
+      "index": 1,
+      "name": "deerclops_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "deerclops_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "deerclops_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "deerclops_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "deerclops_attack_5"
+    },
+    {
+      "index": 6,
+      "name": "deerclops_bodyfall_dirt"
+    },
+    {
+      "index": 7,
+      "name": "deerclops_bodyfall_snow"
+    },
+    {
+      "index": 8,
+      "name": "deerclops_death_1"
+    },
+    {
+      "index": 9,
+      "name": "deerclops_death_2"
+    },
+    {
+      "index": 10,
+      "name": "deerclops_distant_1"
+    },
+    {
+      "index": 11,
+      "name": "deerclops_distant_2"
+    },
+    {
+      "index": 12,
+      "name": "deerclops_distant_3"
+    },
+    {
+      "index": 13,
+      "name": "deerclops_distant_4"
+    },
+    {
+      "index": 14,
+      "name": "deerclops_hurt_1"
+    },
+    {
+      "index": 15,
+      "name": "deerclops_hurt_2"
+    },
+    {
+      "index": 16,
+      "name": "deerclops_hurt_3"
+    },
+    {
+      "index": 17,
+      "name": "deerclops_hurt_4"
+    },
+    {
+      "index": 18,
+      "name": "deerclops_hurt_5"
+    },
+    {
+      "index": 19,
+      "name": "deerclops_hurt_6"
+    },
+    {
+      "index": 20,
+      "name": "deerclops_iceattack_big_1"
+    },
+    {
+      "index": 21,
+      "name": "deerclops_iceattack_big_2"
+    },
+    {
+      "index": 22,
+      "name": "deerclops_iceattack_big_3"
+    },
+    {
+      "index": 23,
+      "name": "deerclops_iceattack_small_1"
+    },
+    {
+      "index": 24,
+      "name": "deerclops_iceattack_small_2"
+    },
+    {
+      "index": 25,
+      "name": "deerclops_iceattack_small_3"
+    },
+    {
+      "index": 26,
+      "name": "deerclops_iceattack_small_4"
+    },
+    {
+      "index": 27,
+      "name": "deerclops_idle_1"
+    },
+    {
+      "index": 28,
+      "name": "deerclops_idle_2"
+    },
+    {
+      "index": 29,
+      "name": "deerclops_idle_3"
+    },
+    {
+      "index": 30,
+      "name": "deerclops_idle_4"
+    },
+    {
+      "index": 31,
+      "name": "deerclops_idle_5"
+    },
+    {
+      "index": 32,
+      "name": "deerclops_step_1"
+    },
+    {
+      "index": 33,
+      "name": "deerclops_step_2"
+    },
+    {
+      "index": 34,
+      "name": "deerclops_step_3"
+    },
+    {
+      "index": 35,
+      "name": "deerclops_step_4"
+    },
+    {
+      "index": 36,
+      "name": "deerclops_swipe_1"
+    },
+    {
+      "index": 37,
+      "name": "deerclops_swipe_2"
+    },
+    {
+      "index": 38,
+      "name": "deerclops_swipe_3"
+    },
+    {
+      "index": 39,
+      "name": "deerclops_taunt_1"
+    },
+    {
+      "index": 40,
+      "name": "deerclops_taunt_2"
+    },
+    {
+      "index": 41,
+      "name": "deerclops_taunt_3"
+    },
+    {
+      "index": 42,
+      "name": "deerclops_taunt_4"
+    },
+    {
+      "index": 43,
+      "name": "deerclops_taunt_5"
+    },
+    {
+      "index": 44,
+      "name": "deerclops_tauntgrrr_1"
+    },
+    {
+      "index": 45,
+      "name": "deerclops_tauntgrrr_2"
+    },
+    {
+      "index": 46,
+      "name": "deerclops_tauntgrrr_3"
+    },
+    {
+      "index": 47,
+      "name": "deerclops_tauntgrrr_4"
+    },
+    {
+      "index": 48,
+      "name": "deerclops_tauntgrrr_5"
+    },
+    {
+      "index": 49,
+      "name": "deerclops_walk_1"
+    },
+    {
+      "index": 50,
+      "name": "deerclops_walk_2"
+    },
+    {
+      "index": 51,
+      "name": "deerclops_walk_3"
+    },
+    {
+      "index": 52,
+      "name": "deerclops_walk_4"
+    },
+    {
+      "index": 53,
+      "name": "deerclops_walk_5"
+    },
+    {
+      "index": 54,
+      "name": "Charge_Winterdeerclops_01-glued_V3"
+    },
+    {
+      "index": 55,
+      "name": "Charge_Winterdeerclops_02-glued_V3"
+    },
+    {
+      "index": 56,
+      "name": "Charge_Winterdeerclops_03-glued_V3"
+    },
+    {
+      "index": 57,
+      "name": "Charge_Winterdeerclops_04_V3"
+    },
+    {
+      "index": 58,
+      "name": "Lazer_Winterdeerclops_01"
+    },
+    {
+      "index": 59,
+      "name": "Lazer_Winterdeerclops_02"
+    },
+    {
+      "index": 60,
+      "name": "Lazer_Winterdeerclops_03"
+    },
+    {
+      "index": 61,
+      "name": "Lazer_Winterdeerclops_04"
+    }
+  ],
+  "DLC_music": [
+    {
+      "index": 1,
+      "name": "DST_Wigfrid_loop_v1"
+    },
+    {
+      "index": 2,
+      "name": "DS_SpringEFS_180bpm_opera"
+    },
+    {
+      "index": 3,
+      "name": "DS_Spring_Fight_140bpm_opera"
+    },
+    {
+      "index": 4,
+      "name": "DS_SummerEFS_170bpm_opera"
+    },
+    {
+      "index": 5,
+      "name": "DS_Summer_Fight_126bpm_opera"
+    },
+    {
+      "index": 6,
+      "name": "DS_Spring_Fight_140bpm"
+    },
+    {
+      "index": 7,
+      "name": "DS_Spring_Working_120bpm"
+    },
+    {
+      "index": 8,
+      "name": "DS_SummerEFS_170bpm"
+    },
+    {
+      "index": 9,
+      "name": "DS_Summer_Fight_126bpm"
+    },
+    {
+      "index": 10,
+      "name": "DS_Summer_Working"
+    }
+  ],
+  "frog": [
+    {
+      "index": 1,
+      "name": "Frog_attackspit_1"
+    },
+    {
+      "index": 2,
+      "name": "Frog_attackspit_2"
+    },
+    {
+      "index": 3,
+      "name": "Frog_attackvoice_1"
+    },
+    {
+      "index": 4,
+      "name": "Frog_attackvoice_2"
+    },
+    {
+      "index": 5,
+      "name": "Frog_attackvoice_3"
+    },
+    {
+      "index": 6,
+      "name": "Frog_attackvoice_4"
+    },
+    {
+      "index": 7,
+      "name": "Frog_die_1"
+    },
+    {
+      "index": 8,
+      "name": "Frog_die_2"
+    },
+    {
+      "index": 9,
+      "name": "Frog_idle_1"
+    },
+    {
+      "index": 10,
+      "name": "Frog_idle_2"
+    },
+    {
+      "index": 11,
+      "name": "Frog_idle_3"
+    },
+    {
+      "index": 12,
+      "name": "Frog_idle_4"
+    },
+    {
+      "index": 13,
+      "name": "Frog_idle_5"
+    },
+    {
+      "index": 14,
+      "name": "Frog_idle_6"
+    },
+    {
+      "index": 15,
+      "name": "Frog_land_1"
+    },
+    {
+      "index": 16,
+      "name": "Frog_land_2"
+    },
+    {
+      "index": 17,
+      "name": "Frog_land_3"
+    },
+    {
+      "index": 18,
+      "name": "Frog_land_4"
+    },
+    {
+      "index": 19,
+      "name": "Frog_wake_1"
+    },
+    {
+      "index": 20,
+      "name": "Frog_wake_2"
+    }
+  ],
+  "koalefant": [
+    {
+      "index": 1,
+      "name": "koalephant_alert_1"
+    },
+    {
+      "index": 2,
+      "name": "koalephant_alert_2"
+    },
+    {
+      "index": 3,
+      "name": "koalephant_alert_3"
+    },
+    {
+      "index": 4,
+      "name": "koalephant_alert_4"
+    },
+    {
+      "index": 5,
+      "name": "koalephant_alert_5"
+    },
+    {
+      "index": 6,
+      "name": "koalephant_alert_6"
+    },
+    {
+      "index": 7,
+      "name": "koalephant_alert_7"
+    },
+    {
+      "index": 8,
+      "name": "koalephant_alert_8"
+    },
+    {
+      "index": 9,
+      "name": "koalephant_attack_1"
+    },
+    {
+      "index": 10,
+      "name": "koalephant_attack_2"
+    },
+    {
+      "index": 11,
+      "name": "koalephant_attack_3"
+    },
+    {
+      "index": 12,
+      "name": "koalephant_attack_4"
+    },
+    {
+      "index": 13,
+      "name": "koalephant_bellow_1"
+    },
+    {
+      "index": 14,
+      "name": "koalephant_bellow_2"
+    },
+    {
+      "index": 15,
+      "name": "koalephant_bellow_3"
+    },
+    {
+      "index": 16,
+      "name": "koalephant_death_1"
+    },
+    {
+      "index": 17,
+      "name": "koalephant_hurt_1"
+    },
+    {
+      "index": 18,
+      "name": "koalephant_hurt_2"
+    },
+    {
+      "index": 19,
+      "name": "koalephant_hurt_3"
+    },
+    {
+      "index": 20,
+      "name": "koalephant_hurt_4"
+    },
+    {
+      "index": 21,
+      "name": "koalephant_hurt_5"
+    },
+    {
+      "index": 22,
+      "name": "koalephant_hurt_6"
+    },
+    {
+      "index": 23,
+      "name": "koalephant_hurt_7"
+    },
+    {
+      "index": 24,
+      "name": "koalephant_idle_1"
+    },
+    {
+      "index": 25,
+      "name": "koalephant_idle_2"
+    },
+    {
+      "index": 26,
+      "name": "koalephant_idle_3"
+    },
+    {
+      "index": 27,
+      "name": "koalephant_idle_4"
+    },
+    {
+      "index": 28,
+      "name": "koalephant_idle_5"
+    },
+    {
+      "index": 29,
+      "name": "koalephant_idle_6"
+    },
+    {
+      "index": 30,
+      "name": "koalephant_idle_7"
+    },
+    {
+      "index": 31,
+      "name": "koalephant_idle_8"
+    },
+    {
+      "index": 32,
+      "name": "koalephant_shake_1"
+    },
+    {
+      "index": 33,
+      "name": "koalephant_shake_2"
+    },
+    {
+      "index": 34,
+      "name": "koalephant_shake_3"
+    }
+  ],
+  "krampus": [
+    {
+      "index": 1,
+      "name": "Krampus_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "Krampus_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "Krampus_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "Krampus_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "Krampus_bagdissappear"
+    },
+    {
+      "index": 6,
+      "name": "Krampus_bagfoley_1"
+    },
+    {
+      "index": 7,
+      "name": "Krampus_bagfoley_2"
+    },
+    {
+      "index": 8,
+      "name": "Krampus_bagfoley_3"
+    },
+    {
+      "index": 9,
+      "name": "Krampus_bagfoley_4"
+    },
+    {
+      "index": 10,
+      "name": "Krampus_bagfoley_5"
+    },
+    {
+      "index": 11,
+      "name": "Krampus_bagfoley_6"
+    },
+    {
+      "index": 12,
+      "name": "Krampus_baghit_1"
+    },
+    {
+      "index": 13,
+      "name": "Krampus_baghit_2"
+    },
+    {
+      "index": 14,
+      "name": "Krampus_baghit_3"
+    },
+    {
+      "index": 15,
+      "name": "Krampus_bagswing_1"
+    },
+    {
+      "index": 16,
+      "name": "Krampus_bagswing_2"
+    },
+    {
+      "index": 17,
+      "name": "Krampus_bagswing_3"
+    },
+    {
+      "index": 18,
+      "name": "Krampus_death_1"
+    },
+    {
+      "index": 19,
+      "name": "Krampus_death_2"
+    },
+    {
+      "index": 20,
+      "name": "Krampus_dropbag"
+    },
+    {
+      "index": 21,
+      "name": "Krampus_growlLong_1"
+    },
+    {
+      "index": 22,
+      "name": "Krampus_growlLong_2"
+    },
+    {
+      "index": 23,
+      "name": "Krampus_growlLong_3"
+    },
+    {
+      "index": 24,
+      "name": "Krampus_growlLong_4"
+    },
+    {
+      "index": 25,
+      "name": "Krampus_growlLong_5"
+    },
+    {
+      "index": 26,
+      "name": "Krampus_growlShort_1"
+    },
+    {
+      "index": 27,
+      "name": "Krampus_growlShort_2"
+    },
+    {
+      "index": 28,
+      "name": "Krampus_growlShort_3"
+    },
+    {
+      "index": 29,
+      "name": "Krampus_growlShort_4"
+    },
+    {
+      "index": 30,
+      "name": "Krampus_growlShort_5"
+    },
+    {
+      "index": 31,
+      "name": "Krampus_growlShort_6"
+    },
+    {
+      "index": 32,
+      "name": "Krampus_growlShort_7"
+    },
+    {
+      "index": 33,
+      "name": "Krampus_growlShort_8"
+    },
+    {
+      "index": 34,
+      "name": "Krampus_growlShort_9"
+    },
+    {
+      "index": 35,
+      "name": "Krampus_hurt_1"
+    },
+    {
+      "index": 36,
+      "name": "Krampus_hurt_2"
+    },
+    {
+      "index": 37,
+      "name": "Krampus_hurt_3"
+    },
+    {
+      "index": 38,
+      "name": "Krampus_hurt_4"
+    },
+    {
+      "index": 39,
+      "name": "Krampus_hurt_5"
+    },
+    {
+      "index": 40,
+      "name": "Krampus_hurt_6"
+    },
+    {
+      "index": 41,
+      "name": "Krampus_hurt_7"
+    },
+    {
+      "index": 42,
+      "name": "Krampus_hurt_8"
+    },
+    {
+      "index": 43,
+      "name": "Krampus_iscoming_lvl1"
+    },
+    {
+      "index": 44,
+      "name": "Krampus_iscoming_lvl2"
+    },
+    {
+      "index": 45,
+      "name": "Krampus_iscoming_lvl3"
+    },
+    {
+      "index": 46,
+      "name": "Krampus_jumpintobag"
+    },
+    {
+      "index": 47,
+      "name": "Krampus_kickimpact_1"
+    },
+    {
+      "index": 48,
+      "name": "Krampus_kickimpact_2"
+    },
+    {
+      "index": 49,
+      "name": "Krampus_kickimpact_3"
+    },
+    {
+      "index": 50,
+      "name": "Krampus_kickswipe_1"
+    },
+    {
+      "index": 51,
+      "name": "Krampus_kickswipe_2"
+    },
+    {
+      "index": 52,
+      "name": "Krampus_kickswipe_3"
+    },
+    {
+      "index": 53,
+      "name": "Krampus_sleep_1"
+    },
+    {
+      "index": 54,
+      "name": "Krampus_sleep_2"
+    },
+    {
+      "index": 55,
+      "name": "Krampus_sleep_3"
+    },
+    {
+      "index": 56,
+      "name": "Krampus_sleep_4"
+    },
+    {
+      "index": 57,
+      "name": "Krampus_sleep_5"
+    },
+    {
+      "index": 58,
+      "name": "Krampus_sleep_6"
+    },
+    {
+      "index": 59,
+      "name": "Krampus_taunt_1"
+    }
+  ],
+  "lightninggoat": [
+    {
+      "index": 1,
+      "name": "lightninggoat_bleet_1"
+    },
+    {
+      "index": 2,
+      "name": "lightninggoat_bleet_2"
+    },
+    {
+      "index": 3,
+      "name": "lightninggoat_bleet_3"
+    },
+    {
+      "index": 4,
+      "name": "lightninggoat_bleet_4"
+    },
+    {
+      "index": 5,
+      "name": "lightninggoat_bleet_5"
+    },
+    {
+      "index": 6,
+      "name": "lightninggoat_bleet_6"
+    },
+    {
+      "index": 7,
+      "name": "lightninggoat_bleet_7"
+    },
+    {
+      "index": 8,
+      "name": "lightninggoat_bleet_8"
+    },
+    {
+      "index": 9,
+      "name": "lightninggoat_bleet_9"
+    },
+    {
+      "index": 10,
+      "name": "lightninggoat_boing"
+    },
+    {
+      "index": 11,
+      "name": "lightninggoat_chew_1"
+    },
+    {
+      "index": 12,
+      "name": "lightninggoat_chew_10"
+    },
+    {
+      "index": 13,
+      "name": "lightninggoat_chew_11"
+    },
+    {
+      "index": 14,
+      "name": "lightninggoat_chew_12"
+    },
+    {
+      "index": 15,
+      "name": "lightninggoat_chew_13"
+    },
+    {
+      "index": 16,
+      "name": "lightninggoat_chew_14"
+    },
+    {
+      "index": 17,
+      "name": "lightninggoat_chew_2"
+    },
+    {
+      "index": 18,
+      "name": "lightninggoat_chew_3"
+    },
+    {
+      "index": 19,
+      "name": "lightninggoat_chew_4"
+    },
+    {
+      "index": 20,
+      "name": "lightninggoat_chew_5"
+    },
+    {
+      "index": 21,
+      "name": "lightninggoat_chew_6"
+    },
+    {
+      "index": 22,
+      "name": "lightninggoat_chew_7"
+    },
+    {
+      "index": 23,
+      "name": "lightninggoat_chew_8"
+    },
+    {
+      "index": 24,
+      "name": "lightninggoat_chew_9"
+    },
+    {
+      "index": 25,
+      "name": "lightninggoat_die_1"
+    },
+    {
+      "index": 26,
+      "name": "lightninggoat_die_2"
+    },
+    {
+      "index": 27,
+      "name": "lightninggoat_die_3"
+    },
+    {
+      "index": 28,
+      "name": "lightninggoat_hoof_1"
+    },
+    {
+      "index": 29,
+      "name": "lightninggoat_hoof_2"
+    },
+    {
+      "index": 30,
+      "name": "lightninggoat_hoof_3"
+    },
+    {
+      "index": 31,
+      "name": "lightninggoat_hurt_1"
+    },
+    {
+      "index": 32,
+      "name": "lightninggoat_hurt_2"
+    },
+    {
+      "index": 33,
+      "name": "lightninggoat_hurt_3"
+    },
+    {
+      "index": 34,
+      "name": "lightninggoat_hurt_4"
+    },
+    {
+      "index": 35,
+      "name": "lightninggoat_jacobshorn_1"
+    },
+    {
+      "index": 36,
+      "name": "lightninggoat_jacobshorn_2"
+    },
+    {
+      "index": 37,
+      "name": "lightninggoat_jacobshorn_3"
+    },
+    {
+      "index": 38,
+      "name": "lightninggoat_jacobshorn_4"
+    },
+    {
+      "index": 39,
+      "name": "lightninggoat_jacobshorn_5"
+    },
+    {
+      "index": 40,
+      "name": "lightninggoat_shockedVO_1"
+    },
+    {
+      "index": 41,
+      "name": "lightninggoat_shockedVO_2"
+    },
+    {
+      "index": 42,
+      "name": "lightninggoat_shockedVO_3"
+    },
+    {
+      "index": 43,
+      "name": "lightninggoat_shockedVO_4"
+    },
+    {
+      "index": 44,
+      "name": "lightninggoat_shockedVO_5"
+    },
+    {
+      "index": 45,
+      "name": "lightninggoat_shockedVO_6"
+    },
+    {
+      "index": 46,
+      "name": "lightninggoat_shockedelec_1"
+    },
+    {
+      "index": 47,
+      "name": "lightninggoat_shockedelec_2"
+    },
+    {
+      "index": 48,
+      "name": "lightninggoat_shockedelec_3"
+    },
+    {
+      "index": 49,
+      "name": "lightninggoat_sleep_1"
+    },
+    {
+      "index": 50,
+      "name": "lightninggoat_sleep_2"
+    },
+    {
+      "index": 51,
+      "name": "lightninggoat_sleep_3"
+    },
+    {
+      "index": 52,
+      "name": "lightninggoat_sleep_4"
+    },
+    {
+      "index": 53,
+      "name": "lightninggoat_sleep_5"
+    },
+    {
+      "index": 54,
+      "name": "lightninggoat_sleep_6"
+    },
+    {
+      "index": 55,
+      "name": "lightninggoat_sleep_7"
+    },
+    {
+      "index": 56,
+      "name": "lightninggoat_sleep_8"
+    },
+    {
+      "index": 57,
+      "name": "lightninggoat_taunt_1"
+    },
+    {
+      "index": 58,
+      "name": "lightninggoat_taunt_2"
+    },
+    {
+      "index": 59,
+      "name": "lightninggoat_taunt_3"
+    },
+    {
+      "index": 60,
+      "name": "lightninggoat_taunt_4"
+    },
+    {
+      "index": 61,
+      "name": "lightninggoat_taunt_5"
+    },
+    {
+      "index": 62,
+      "name": "lightninggoat_taunt_6"
+    }
+  ],
+  "merm": [
+    {
+      "index": 1,
+      "name": "merm_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "merm_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "merm_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "merm_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "merm_attack_5"
+    },
+    {
+      "index": 6,
+      "name": "merm_attack_6"
+    },
+    {
+      "index": 7,
+      "name": "merm_attack_7"
+    },
+    {
+      "index": 8,
+      "name": "merm_death_1"
+    },
+    {
+      "index": 9,
+      "name": "merm_death_2"
+    },
+    {
+      "index": 10,
+      "name": "merm_death_3"
+    },
+    {
+      "index": 11,
+      "name": "merm_death_4"
+    },
+    {
+      "index": 12,
+      "name": "merm_hurt_1"
+    },
+    {
+      "index": 13,
+      "name": "merm_hurt_10"
+    },
+    {
+      "index": 14,
+      "name": "merm_hurt_2"
+    },
+    {
+      "index": 15,
+      "name": "merm_hurt_3"
+    },
+    {
+      "index": 16,
+      "name": "merm_hurt_4"
+    },
+    {
+      "index": 17,
+      "name": "merm_hurt_5"
+    },
+    {
+      "index": 18,
+      "name": "merm_hurt_6"
+    },
+    {
+      "index": 19,
+      "name": "merm_hurt_7"
+    },
+    {
+      "index": 20,
+      "name": "merm_hurt_8"
+    },
+    {
+      "index": 21,
+      "name": "merm_hurt_9"
+    },
+    {
+      "index": 22,
+      "name": "merm_idle_1"
+    },
+    {
+      "index": 23,
+      "name": "merm_idle_10"
+    },
+    {
+      "index": 24,
+      "name": "merm_idle_2"
+    },
+    {
+      "index": 25,
+      "name": "merm_idle_3"
+    },
+    {
+      "index": 26,
+      "name": "merm_idle_4"
+    },
+    {
+      "index": 27,
+      "name": "merm_idle_5"
+    },
+    {
+      "index": 28,
+      "name": "merm_idle_6"
+    },
+    {
+      "index": 29,
+      "name": "merm_idle_7"
+    },
+    {
+      "index": 30,
+      "name": "merm_idle_8"
+    },
+    {
+      "index": 31,
+      "name": "merm_idle_9"
+    },
+    {
+      "index": 32,
+      "name": "merm_sleep_1"
+    },
+    {
+      "index": 33,
+      "name": "merm_sleep_2"
+    },
+    {
+      "index": 34,
+      "name": "merm_sleep_3"
+    },
+    {
+      "index": 35,
+      "name": "merm_sleep_4"
+    },
+    {
+      "index": 36,
+      "name": "merm_sleep_5"
+    },
+    {
+      "index": 37,
+      "name": "merm_sleep_6"
+    },
+    {
+      "index": 38,
+      "name": "merm_sleep_7"
+    },
+    {
+      "index": 39,
+      "name": "merm_sleep_9"
+    },
+    {
+      "index": 40,
+      "name": "merm_taunt_1"
+    },
+    {
+      "index": 41,
+      "name": "merm_taunt_10"
+    },
+    {
+      "index": 42,
+      "name": "merm_taunt_11"
+    },
+    {
+      "index": 43,
+      "name": "merm_taunt_2"
+    },
+    {
+      "index": 44,
+      "name": "merm_taunt_3"
+    },
+    {
+      "index": 45,
+      "name": "merm_taunt_4"
+    },
+    {
+      "index": 46,
+      "name": "merm_taunt_5"
+    },
+    {
+      "index": 47,
+      "name": "merm_taunt_6"
+    },
+    {
+      "index": 48,
+      "name": "merm_taunt_7"
+    },
+    {
+      "index": 49,
+      "name": "merm_taunt_8"
+    },
+    {
+      "index": 50,
+      "name": "merm_taunt_9"
+    }
+  ],
+  "pengull": [
+    {
+      "index": 1,
+      "name": "pengull_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "pengull_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "pengull_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "pengull_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "pengull_attack_5"
+    },
+    {
+      "index": 6,
+      "name": "pengull_attack_6"
+    },
+    {
+      "index": 7,
+      "name": "pengull_attack_7"
+    },
+    {
+      "index": 8,
+      "name": "pengull_attack_8"
+    },
+    {
+      "index": 9,
+      "name": "pengull_death_1"
+    },
+    {
+      "index": 10,
+      "name": "pengull_death_2"
+    },
+    {
+      "index": 11,
+      "name": "pengull_death_3"
+    },
+    {
+      "index": 12,
+      "name": "pengull_hurt_1"
+    },
+    {
+      "index": 13,
+      "name": "pengull_hurt_2"
+    },
+    {
+      "index": 14,
+      "name": "pengull_hurt_3"
+    },
+    {
+      "index": 15,
+      "name": "pengull_hurt_4"
+    },
+    {
+      "index": 16,
+      "name": "pengull_hurt_5"
+    },
+    {
+      "index": 17,
+      "name": "pengull_hurt_6"
+    },
+    {
+      "index": 18,
+      "name": "pengull_hurt_7"
+    },
+    {
+      "index": 19,
+      "name": "pengull_jumpin_1"
+    },
+    {
+      "index": 20,
+      "name": "pengull_jumpin_2"
+    },
+    {
+      "index": 21,
+      "name": "pengull_jumpin_3"
+    },
+    {
+      "index": 22,
+      "name": "pengull_jumpin_4"
+    },
+    {
+      "index": 23,
+      "name": "pengull_jumpin_5"
+    },
+    {
+      "index": 24,
+      "name": "pengull_jumpin_6"
+    },
+    {
+      "index": 25,
+      "name": "pengull_jumpin_7"
+    },
+    {
+      "index": 26,
+      "name": "pengull_land"
+    },
+    {
+      "index": 27,
+      "name": "pengull_land_dirt"
+    },
+    {
+      "index": 28,
+      "name": "pengull_sleep_1"
+    },
+    {
+      "index": 29,
+      "name": "pengull_sleep_2"
+    },
+    {
+      "index": 30,
+      "name": "pengull_sleep_3"
+    },
+    {
+      "index": 31,
+      "name": "pengull_sleep_4"
+    },
+    {
+      "index": 32,
+      "name": "pengull_sleep_5"
+    },
+    {
+      "index": 33,
+      "name": "pengull_sleep_6"
+    },
+    {
+      "index": 34,
+      "name": "pengull_sleep_7"
+    },
+    {
+      "index": 35,
+      "name": "pengull_sleep_8"
+    },
+    {
+      "index": 36,
+      "name": "pengull_slide_LP"
+    },
+    {
+      "index": 37,
+      "name": "pengull_slide_dirt_LP"
+    },
+    {
+      "index": 38,
+      "name": "pengull_step_1"
+    },
+    {
+      "index": 39,
+      "name": "pengull_step_2"
+    },
+    {
+      "index": 40,
+      "name": "pengull_step_3"
+    },
+    {
+      "index": 41,
+      "name": "pengull_step_4"
+    },
+    {
+      "index": 42,
+      "name": "pengull_step_dirt_1"
+    },
+    {
+      "index": 43,
+      "name": "pengull_step_dirt_2"
+    },
+    {
+      "index": 44,
+      "name": "pengull_step_dirt_3"
+    },
+    {
+      "index": 45,
+      "name": "pengull_step_dirt_4"
+    },
+    {
+      "index": 46,
+      "name": "pengull_taunt_1"
+    },
+    {
+      "index": 47,
+      "name": "pengull_taunt_10"
+    },
+    {
+      "index": 48,
+      "name": "pengull_taunt_11"
+    },
+    {
+      "index": 49,
+      "name": "pengull_taunt_12"
+    },
+    {
+      "index": 50,
+      "name": "pengull_taunt_13"
+    },
+    {
+      "index": 51,
+      "name": "pengull_taunt_14"
+    },
+    {
+      "index": 52,
+      "name": "pengull_taunt_15"
+    },
+    {
+      "index": 53,
+      "name": "pengull_taunt_2"
+    },
+    {
+      "index": 54,
+      "name": "pengull_taunt_3"
+    },
+    {
+      "index": 55,
+      "name": "pengull_taunt_4"
+    },
+    {
+      "index": 56,
+      "name": "pengull_taunt_5"
+    },
+    {
+      "index": 57,
+      "name": "pengull_taunt_6"
+    },
+    {
+      "index": 58,
+      "name": "pengull_taunt_7"
+    },
+    {
+      "index": 59,
+      "name": "pengull_taunt_8"
+    },
+    {
+      "index": 60,
+      "name": "pengull_taunt_9"
+    }
+  ],
+  "pig": [
+    {
+      "index": 1,
+      "name": "PigKing_GoldToss"
+    },
+    {
+      "index": 2,
+      "name": "PigKing_happy"
+    },
+    {
+      "index": 3,
+      "name": "PigKing_reject"
+    },
+    {
+      "index": 4,
+      "name": "Pig_death_1"
+    },
+    {
+      "index": 5,
+      "name": "Pig_death_2"
+    },
+    {
+      "index": 6,
+      "name": "Pig_oink_1"
+    },
+    {
+      "index": 7,
+      "name": "Pig_oink_2"
+    },
+    {
+      "index": 8,
+      "name": "Pig_oink_3"
+    },
+    {
+      "index": 9,
+      "name": "Pig_sleep_1"
+    },
+    {
+      "index": 10,
+      "name": "Pig_sleep_2"
+    },
+    {
+      "index": 11,
+      "name": "Pig_sleep_3"
+    },
+    {
+      "index": 12,
+      "name": "Pig_sleep_4"
+    },
+    {
+      "index": 13,
+      "name": "Werepig_howl_1"
+    },
+    {
+      "index": 14,
+      "name": "Werepig_howl_2"
+    },
+    {
+      "index": 15,
+      "name": "pig_grunts_1"
+    },
+    {
+      "index": 16,
+      "name": "pig_grunts_2"
+    },
+    {
+      "index": 17,
+      "name": "pig_grunts_3"
+    },
+    {
+      "index": 18,
+      "name": "pig_grunts_4"
+    },
+    {
+      "index": 19,
+      "name": "pig_grunts_5"
+    },
+    {
+      "index": 20,
+      "name": "pig_grunts_6"
+    },
+    {
+      "index": 21,
+      "name": "werepig_attack_1"
+    },
+    {
+      "index": 22,
+      "name": "werepig_attack_2"
+    },
+    {
+      "index": 23,
+      "name": "werepig_attack_3"
+    },
+    {
+      "index": 24,
+      "name": "werepig_attack_4"
+    },
+    {
+      "index": 25,
+      "name": "werepig_grunt_1"
+    },
+    {
+      "index": 26,
+      "name": "werepig_grunt_2"
+    },
+    {
+      "index": 27,
+      "name": "werepig_grunt_3"
+    },
+    {
+      "index": 28,
+      "name": "werepig_grunt_4"
+    },
+    {
+      "index": 29,
+      "name": "werepig_grunt_5"
+    },
+    {
+      "index": 30,
+      "name": "werepig_howl_1_new"
+    },
+    {
+      "index": 31,
+      "name": "werepig_howl_2_new"
+    },
+    {
+      "index": 32,
+      "name": "werepig_howl_3"
+    },
+    {
+      "index": 33,
+      "name": "werepig_howl_4"
+    },
+    {
+      "index": 34,
+      "name": "werepig_hurt_1"
+    },
+    {
+      "index": 35,
+      "name": "werepig_hurt_2"
+    },
+    {
+      "index": 36,
+      "name": "werepig_hurt_3"
+    },
+    {
+      "index": 37,
+      "name": "werepig_hurt_4"
+    },
+    {
+      "index": 38,
+      "name": "werepig_idle_1"
+    },
+    {
+      "index": 39,
+      "name": "werepig_idle_2"
+    },
+    {
+      "index": 40,
+      "name": "werepig_idle_3"
+    },
+    {
+      "index": 41,
+      "name": "werepig_inhouse_1"
+    },
+    {
+      "index": 42,
+      "name": "werepig_inhouse_2"
+    },
+    {
+      "index": 43,
+      "name": "werepig_inhouse_3"
+    },
+    {
+      "index": 44,
+      "name": "werepig_inhouse_4"
+    },
+    {
+      "index": 45,
+      "name": "werepig_inhouse_5"
+    },
+    {
+      "index": 46,
+      "name": "werepig_inhouse_6"
+    },
+    {
+      "index": 47,
+      "name": "werepig_inhouse_7"
+    },
+    {
+      "index": 48,
+      "name": "werepig_transformToPig_1"
+    },
+    {
+      "index": 49,
+      "name": "werepig_transform_1"
+    },
+    {
+      "index": 50,
+      "name": "PigHut_light_Off"
+    },
+    {
+      "index": 51,
+      "name": "PigHut_light_On"
+    },
+    {
+      "index": 52,
+      "name": "bruceLee_Pig_king_DST-001"
+    },
+    {
+      "index": 53,
+      "name": "bruceLee_Pig_king_DST-002"
+    },
+    {
+      "index": 54,
+      "name": "laugh_Pig_king_DST-001"
+    },
+    {
+      "index": 55,
+      "name": "laugh_Pig_king_DST-002"
+    },
+    {
+      "index": 56,
+      "name": "laugh_Pig_king_DST-003"
+    },
+    {
+      "index": 57,
+      "name": "laugh_Pig_king_DST-004"
+    }
+  ],
+  "slurtle": [
+    {
+      "index": 1,
+      "name": "shell_shatter"
+    },
+    {
+      "index": 2,
+      "name": "slurtle_chew_1"
+    },
+    {
+      "index": 3,
+      "name": "slurtle_chew_2"
+    },
+    {
+      "index": 4,
+      "name": "slurtle_chew_3"
+    },
+    {
+      "index": 5,
+      "name": "slurtle_chew_4"
+    },
+    {
+      "index": 6,
+      "name": "slurtle_explode"
+    },
+    {
+      "index": 7,
+      "name": "slurtle_idle_1"
+    },
+    {
+      "index": 8,
+      "name": "slurtle_idle_10"
+    },
+    {
+      "index": 9,
+      "name": "slurtle_idle_11"
+    },
+    {
+      "index": 10,
+      "name": "slurtle_idle_12"
+    },
+    {
+      "index": 11,
+      "name": "slurtle_idle_13"
+    },
+    {
+      "index": 12,
+      "name": "slurtle_idle_14"
+    },
+    {
+      "index": 13,
+      "name": "slurtle_idle_15"
+    },
+    {
+      "index": 14,
+      "name": "slurtle_idle_16"
+    },
+    {
+      "index": 15,
+      "name": "slurtle_idle_17"
+    },
+    {
+      "index": 16,
+      "name": "slurtle_idle_18"
+    },
+    {
+      "index": 17,
+      "name": "slurtle_idle_2"
+    },
+    {
+      "index": 18,
+      "name": "slurtle_idle_3"
+    },
+    {
+      "index": 19,
+      "name": "slurtle_idle_4"
+    },
+    {
+      "index": 20,
+      "name": "slurtle_idle_5"
+    },
+    {
+      "index": 21,
+      "name": "slurtle_idle_6"
+    },
+    {
+      "index": 22,
+      "name": "slurtle_idle_7"
+    },
+    {
+      "index": 23,
+      "name": "slurtle_idle_8"
+    },
+    {
+      "index": 24,
+      "name": "slurtle_idle_9"
+    },
+    {
+      "index": 25,
+      "name": "slurtle_shellrattle"
+    },
+    {
+      "index": 26,
+      "name": "slurtle_slide_in_1"
+    },
+    {
+      "index": 27,
+      "name": "slurtle_slide_in_2"
+    },
+    {
+      "index": 28,
+      "name": "slurtle_slide_in_3"
+    },
+    {
+      "index": 29,
+      "name": "slurtle_slide_in_4"
+    },
+    {
+      "index": 30,
+      "name": "slurtle_slide_in_5"
+    },
+    {
+      "index": 31,
+      "name": "slurtle_slide_out_1"
+    },
+    {
+      "index": 32,
+      "name": "slurtle_slide_out_2"
+    },
+    {
+      "index": 33,
+      "name": "slurtle_slide_out_3"
+    },
+    {
+      "index": 34,
+      "name": "slurtle_slide_out_4"
+    },
+    {
+      "index": 35,
+      "name": "slurtle_slide_out_5"
+    },
+    {
+      "index": 36,
+      "name": "slurtle_slide_out_6"
+    },
+    {
+      "index": 37,
+      "name": "slurtle_slide_out_7"
+    },
+    {
+      "index": 38,
+      "name": "slurtle_taunt_1"
+    },
+    {
+      "index": 39,
+      "name": "slurtle_taunt_10"
+    },
+    {
+      "index": 40,
+      "name": "slurtle_taunt_11"
+    },
+    {
+      "index": 41,
+      "name": "slurtle_taunt_2"
+    },
+    {
+      "index": 42,
+      "name": "slurtle_taunt_3"
+    },
+    {
+      "index": 43,
+      "name": "slurtle_taunt_4"
+    },
+    {
+      "index": 44,
+      "name": "slurtle_taunt_5"
+    },
+    {
+      "index": 45,
+      "name": "slurtle_taunt_6"
+    },
+    {
+      "index": 46,
+      "name": "slurtle_taunt_7"
+    },
+    {
+      "index": 47,
+      "name": "slurtle_taunt_8"
+    },
+    {
+      "index": 48,
+      "name": "slurtle_taunt_9"
+    },
+    {
+      "index": 49,
+      "name": "slurtlemound_idle_LP"
+    }
+  ],
+  "spider": [
+    {
+      "index": 1,
+      "name": "SpiderEggSack"
+    },
+    {
+      "index": 2,
+      "name": "SpiderHive_grow"
+    },
+    {
+      "index": 3,
+      "name": "SpiderLair_LP_v2"
+    },
+    {
+      "index": 4,
+      "name": "SpiderLair_destroy_1"
+    },
+    {
+      "index": 5,
+      "name": "SpiderLair_hit_1"
+    },
+    {
+      "index": 6,
+      "name": "SpiderLair_hit_2"
+    },
+    {
+      "index": 7,
+      "name": "SpiderLair_hit_3"
+    },
+    {
+      "index": 8,
+      "name": "SpiderQueenLegsHiveBurst_1"
+    },
+    {
+      "index": 9,
+      "name": "SpiderQueenLegsHiveBurst_2"
+    },
+    {
+      "index": 10,
+      "name": "SpiderQueenLegsHiveBurst_3"
+    },
+    {
+      "index": 11,
+      "name": "SpiderQueen_attack_1"
+    },
+    {
+      "index": 12,
+      "name": "SpiderQueen_attack_2"
+    },
+    {
+      "index": 13,
+      "name": "SpiderQueen_attack_3"
+    },
+    {
+      "index": 14,
+      "name": "SpiderQueen_attack_4"
+    },
+    {
+      "index": 15,
+      "name": "SpiderQueen_attack_5"
+    },
+    {
+      "index": 16,
+      "name": "SpiderQueen_attack_6"
+    },
+    {
+      "index": 17,
+      "name": "SpiderQueen_attack_7"
+    },
+    {
+      "index": 18,
+      "name": "SpiderQueen_attack_8"
+    },
+    {
+      "index": 19,
+      "name": "SpiderQueen_attack_9"
+    },
+    {
+      "index": 20,
+      "name": "SpiderQueen_birthFoley_1"
+    },
+    {
+      "index": 21,
+      "name": "SpiderQueen_birthFoley_2"
+    },
+    {
+      "index": 22,
+      "name": "SpiderQueen_birthFoley_3"
+    },
+    {
+      "index": 23,
+      "name": "SpiderQueen_death_1"
+    },
+    {
+      "index": 24,
+      "name": "SpiderQueen_death_2"
+    },
+    {
+      "index": 25,
+      "name": "SpiderQueen_death_3"
+    },
+    {
+      "index": 26,
+      "name": "SpiderQueen_disstress_1"
+    },
+    {
+      "index": 27,
+      "name": "SpiderQueen_disstress_2"
+    },
+    {
+      "index": 28,
+      "name": "SpiderQueen_disstress_3"
+    },
+    {
+      "index": 29,
+      "name": "SpiderQueen_emerge_1"
+    },
+    {
+      "index": 30,
+      "name": "SpiderQueen_emerge_2"
+    },
+    {
+      "index": 31,
+      "name": "SpiderQueen_giveBirth_1"
+    },
+    {
+      "index": 32,
+      "name": "SpiderQueen_giveBirth_2"
+    },
+    {
+      "index": 33,
+      "name": "SpiderQueen_giveBirth_3"
+    },
+    {
+      "index": 34,
+      "name": "SpiderQueen_giveBirth_4"
+    },
+    {
+      "index": 35,
+      "name": "SpiderQueen_hurt_1"
+    },
+    {
+      "index": 36,
+      "name": "SpiderQueen_hurt_2"
+    },
+    {
+      "index": 37,
+      "name": "SpiderQueen_hurt_3"
+    },
+    {
+      "index": 38,
+      "name": "SpiderQueen_hurt_4"
+    },
+    {
+      "index": 39,
+      "name": "SpiderQueen_hurt_5"
+    },
+    {
+      "index": 40,
+      "name": "SpiderQueen_hurt_6"
+    },
+    {
+      "index": 41,
+      "name": "SpiderQueen_hurt_7"
+    },
+    {
+      "index": 42,
+      "name": "SpiderQueen_idleLong_1"
+    },
+    {
+      "index": 43,
+      "name": "SpiderQueen_idleLong_2"
+    },
+    {
+      "index": 44,
+      "name": "SpiderQueen_idleLong_3"
+    },
+    {
+      "index": 45,
+      "name": "SpiderQueen_idleLong_4"
+    },
+    {
+      "index": 46,
+      "name": "SpiderQueen_idleLong_5"
+    },
+    {
+      "index": 47,
+      "name": "SpiderQueen_idleLong_6"
+    },
+    {
+      "index": 48,
+      "name": "SpiderQueen_idleLong_7"
+    },
+    {
+      "index": 49,
+      "name": "SpiderQueen_idleLong_8"
+    },
+    {
+      "index": 50,
+      "name": "SpiderQueen_idleShort_1"
+    },
+    {
+      "index": 51,
+      "name": "SpiderQueen_idleShort_2"
+    },
+    {
+      "index": 52,
+      "name": "SpiderQueen_idleShort_3"
+    },
+    {
+      "index": 53,
+      "name": "SpiderQueen_idleShort_4"
+    },
+    {
+      "index": 54,
+      "name": "SpiderQueen_idleShort_5"
+    },
+    {
+      "index": 55,
+      "name": "SpiderQueen_idleShort_6"
+    },
+    {
+      "index": 56,
+      "name": "SpiderQueen_idleShort_7"
+    },
+    {
+      "index": 57,
+      "name": "SpiderQueen_idleShort_8"
+    },
+    {
+      "index": 58,
+      "name": "SpiderQueen_sleep_1"
+    },
+    {
+      "index": 59,
+      "name": "SpiderQueen_sleep_2"
+    },
+    {
+      "index": 60,
+      "name": "SpiderQueen_sleep_3"
+    },
+    {
+      "index": 61,
+      "name": "SpiderQueen_sleep_4"
+    },
+    {
+      "index": 62,
+      "name": "SpiderQueen_sleep_5"
+    },
+    {
+      "index": 63,
+      "name": "SpiderQueen_sleep_6"
+    },
+    {
+      "index": 64,
+      "name": "SpiderQueen_sleep_7"
+    },
+    {
+      "index": 65,
+      "name": "SpiderQueen_sleep_8"
+    },
+    {
+      "index": 66,
+      "name": "Spider_attack_1"
+    },
+    {
+      "index": 67,
+      "name": "Spider_attack_10"
+    },
+    {
+      "index": 68,
+      "name": "Spider_attack_11"
+    },
+    {
+      "index": 69,
+      "name": "Spider_attack_12"
+    },
+    {
+      "index": 70,
+      "name": "Spider_attack_13"
+    },
+    {
+      "index": 71,
+      "name": "Spider_attack_14"
+    },
+    {
+      "index": 72,
+      "name": "Spider_attack_15"
+    },
+    {
+      "index": 73,
+      "name": "Spider_attack_2"
+    },
+    {
+      "index": 74,
+      "name": "Spider_attack_3"
+    },
+    {
+      "index": 75,
+      "name": "Spider_attack_4"
+    },
+    {
+      "index": 76,
+      "name": "Spider_attack_5"
+    },
+    {
+      "index": 77,
+      "name": "Spider_attack_6"
+    },
+    {
+      "index": 78,
+      "name": "Spider_attack_7"
+    },
+    {
+      "index": 79,
+      "name": "Spider_attack_8"
+    },
+    {
+      "index": 80,
+      "name": "Spider_attack_9"
+    },
+    {
+      "index": 81,
+      "name": "Spider_death_1"
+    },
+    {
+      "index": 82,
+      "name": "Spider_death_2"
+    },
+    {
+      "index": 83,
+      "name": "Spider_death_3"
+    },
+    {
+      "index": 84,
+      "name": "Spider_eat_1"
+    },
+    {
+      "index": 85,
+      "name": "Spider_eat_2"
+    },
+    {
+      "index": 86,
+      "name": "Spider_eat_3"
+    },
+    {
+      "index": 87,
+      "name": "Spider_eat_4"
+    },
+    {
+      "index": 88,
+      "name": "Spider_eat_5"
+    },
+    {
+      "index": 89,
+      "name": "Spider_eat_6"
+    },
+    {
+      "index": 90,
+      "name": "Spider_fallasleep_1"
+    },
+    {
+      "index": 91,
+      "name": "Spider_jump_1"
+    },
+    {
+      "index": 92,
+      "name": "Spider_jump_2"
+    },
+    {
+      "index": 93,
+      "name": "Spider_jump_3"
+    },
+    {
+      "index": 94,
+      "name": "Spider_scream_1"
+    },
+    {
+      "index": 95,
+      "name": "Spider_scream_2"
+    },
+    {
+      "index": 96,
+      "name": "Spider_scream_3"
+    },
+    {
+      "index": 97,
+      "name": "Spider_scream_4"
+    },
+    {
+      "index": 98,
+      "name": "Spider_scream_5"
+    },
+    {
+      "index": 99,
+      "name": "Spider_scream_6"
+    },
+    {
+      "index": 100,
+      "name": "Spider_scream_7"
+    },
+    {
+      "index": 101,
+      "name": "Spider_sleeping_1"
+    },
+    {
+      "index": 102,
+      "name": "Spider_sleeping_2"
+    },
+    {
+      "index": 103,
+      "name": "Spider_sleeping_3"
+    },
+    {
+      "index": 104,
+      "name": "Spider_sleeping_4"
+    },
+    {
+      "index": 105,
+      "name": "Spider_sleeping_5"
+    },
+    {
+      "index": 106,
+      "name": "Spider_step_1"
+    },
+    {
+      "index": 107,
+      "name": "Spider_step_2"
+    },
+    {
+      "index": 108,
+      "name": "Spider_step_3"
+    },
+    {
+      "index": 109,
+      "name": "Spider_step_4"
+    },
+    {
+      "index": 110,
+      "name": "Spider_step_5"
+    },
+    {
+      "index": 111,
+      "name": "Spider_wakeup_1"
+    },
+    {
+      "index": 112,
+      "name": "Spider_wakeup_2"
+    },
+    {
+      "index": 113,
+      "name": "Spider_wakeup_3"
+    },
+    {
+      "index": 114,
+      "name": "Spiderqueen_swipe_1"
+    },
+    {
+      "index": 115,
+      "name": "Spiderqueen_swipe_2"
+    },
+    {
+      "index": 116,
+      "name": "Spiderqueen_swipe_3"
+    },
+    {
+      "index": 117,
+      "name": "spider_cave_spit_1"
+    },
+    {
+      "index": 118,
+      "name": "spider_cave_spit_2"
+    },
+    {
+      "index": 119,
+      "name": "spider_cave_spit_3"
+    },
+    {
+      "index": 120,
+      "name": "spider_webdescend_v2_1"
+    },
+    {
+      "index": 121,
+      "name": "spider_webdescend_v2_2"
+    },
+    {
+      "index": 122,
+      "name": "spider_webdescend_v2_3"
+    },
+    {
+      "index": 123,
+      "name": "spiderqueen_footstep_1"
+    },
+    {
+      "index": 124,
+      "name": "spiderqueen_footstep_2"
+    },
+    {
+      "index": 125,
+      "name": "spiderqueen_footstep_3"
+    },
+    {
+      "index": 126,
+      "name": "spiderqueen_footstep_4"
+    },
+    {
+      "index": 127,
+      "name": "blood_squirt"
+    }
+  ]
+}

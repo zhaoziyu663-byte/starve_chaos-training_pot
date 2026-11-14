@@ -1,0 +1,169 @@
+{
+  "dontstarve/bee/killerbee_hurt": {
+    "13458": [
+      "bee:bee_attack_4"
+    ],
+    "23070": [
+      "bee:bee_attack_2",
+      "sfx:Medium_rock_move_20"
+    ]
+  },
+  "dontstarve/bee/killerbee_attack": {
+    "13411": [
+      "bee:bee_attack_3"
+    ],
+    "22107": [
+      "bee:bee_attack_1"
+    ],
+    "23070": [
+      "bee:bee_attack_2",
+      "sfx:Medium_rock_move_20"
+    ]
+  },
+  "dontstarve/bee/killerbee_death": {
+    "28157": [
+      "bee:Bee_death_1"
+    ],
+    "32581": [
+      "bee:Bee_death_2"
+    ]
+  },
+  "dontstarve/creatures/knight/hurt": {
+    "23567": [
+      "chess:bishop_land_4",
+      "chess:knight_attacklean_4",
+      "chess:knight_land_4",
+      "sfx:DSS_limestone_armour_4"
+    ],
+    "24594": [
+      "chess:knight_land_1"
+    ],
+    "25155": [
+      "chess:knight_land_3"
+    ],
+    "25297": [
+      "chess:knight_land_2"
+    ]
+  },
+  "dontstarve/creatures/knight/death": {
+    "46154": [
+      "chess:knight_hitgroundhard_1",
+      "chess:rook_hitgroundhard_1"
+    ]
+  },
+  "dontstarve/creatures/spider/hit_response": {
+    "16267": [
+      "sfx:Impact_bloody_short_2"
+    ],
+    "17486": [
+      "sfx:Impact_bloody_short_3"
+    ],
+    "17997": [
+      "sfx:Impact_bloody_short_1"
+    ],
+    "19439": [
+      "sfx:Impact_bloody_short_4"
+    ]
+  },
+  "meta3/wigfrid/spear_lighting_lunge": {
+    "29453": [
+      "meta3:wigfrid_electric_spear_lunge_v2_DST-001"
+    ],
+    "29788": [
+      "meta3:wigfrid_electric_spear_lunge_v2_DST-002"
+    ],
+    "32839": [
+      "meta3:wigfrid_electric_spear_lunge_v2_DST-003"
+    ]
+  },
+  "meta3/wigfrid/spear_lighting_lunge_thunder": {
+    "65363": [
+      "meta3:wigfrid_spear_thunderclap_DST_-004"
+    ],
+    "80649": [
+      "meta3:wigfrid_spear_thunderclap_DST_-003"
+    ],
+    "84160": [
+      "meta3:wigfrid_spear_thunderclap_DST_-002"
+    ],
+    "87526": [
+      "meta3:wigfrid_spear_thunderclap_DST_-001"
+    ]
+  },
+  "dontstarve/common/twirl": {
+    "13042": [
+      "common:twirl_lava_weapons_01"
+    ]
+  },
+  "dontstarve/characters/wx78/spark": {
+    "19542": [
+      "wx78:wx78_spark_4"
+    ],
+    "20934": [
+      "wx78:wx78_spark_3"
+    ],
+    "21845": [
+      "wx78:wx78_spark_2"
+    ]
+  },
+  "dontstarve/creatures/werepig/howl": {
+    "20857": [
+      "pig:werepig_howl_2_new"
+    ],
+    "23805": [
+      "pig:werepig_howl_4"
+    ],
+    "24975": [
+      "pig:werepig_howl_3",
+      "pig:werepig_inhouse_7"
+    ],
+    "28575": [
+      "pig:werepig_howl_1_new",
+      "pig:werepig_inhouse_6"
+    ]
+  },
+  "dontstarve/creatures/werepig/attack": {
+    "11407": [
+      "pig:werepig_attack_1",
+      "pig:werepig_inhouse_4"
+    ],
+    "13365": [
+      "pig:werepig_attack_2"
+    ],
+    "14112": [
+      "pig:werepig_attack_4"
+    ],
+    "16830": [
+      "pig:werepig_attack_3",
+      "pig:werepig_inhouse_5"
+    ]
+  },
+  "dontstarve/creatures/werepig/grunt": {
+    "7807": [
+      "pig:werepig_grunt_5"
+    ],
+    "8628": [
+      "pig:werepig_grunt_1",
+      "sfx:chop_mushtree_2"
+    ],
+    "8843": [
+      "pig:werepig_grunt_4"
+    ],
+    "9270": [
+      "pig:werepig_grunt_2"
+    ]
+  },
+  "dontstarve/tentacle/tentacle_disappear": {
+    "29429": [
+      "tentacle:Tentacle_dissappear"
+    ]
+  },
+  "dontstarve/tentacle/tentacle_emerge_VO": {
+    "23263": [
+      "tentacle:Tentacle_voice_appear_1"
+    ],
+    "23268": [
+      "tentacle:Tentacle_voice_appear_4"
+    ]
+  }
+}

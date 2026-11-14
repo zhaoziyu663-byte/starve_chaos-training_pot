@@ -1,0 +1,42 @@
+Audio update for DST build 762172
+
+Output: 170 Ogg Vorbis clips, 65 manifest events, 6,901,534 bytes.
+Only the staging project was written. Original game files and the existing
+E:/DST-Combat-Trainer project were only read. vgmstream and python-soundfile
+were reused from E:/DST-Combat-Trainer/tools; Python bytecode writes were disabled.
+
+New audio and timing:
+- Lightning dash: twirl at windup frame 4; weapon swing and electrical lunge
+  at dash execution; actual electric hit events add wx78 spark samples.
+- Charged spear uses its thunderclap event instead of the ordinary lunge event.
+- Killer bee: attack frame 10, hurt/death/takeoff cues.
+- Clockwork knight: attack frame 14; taunt voice at 0 and pawing at 10/28.
+- Werepig: swing at 10, attack voice at 15; howl at 20, hurt/death.
+- Tentacle: attack_pre break-ground at 0 and emerge voice at 20; attack loop
+  lashes at 2/15; retract plays disappearance. Breach taunt is not attack_pre.
+
+Evidence:
+Lua scripts were read from data/databundles/scripts.zip: SGbee, SGknight,
+SGwerepig, SGtentacle, SGwilson, spear_wathgrithr, componentutil and sparks.
+Source bank/sample/index/duration metadata is retained in the audio manifest.
+Original FMOD DLLs were loaded with FMOD_OUTPUTTYPE_NOSOUND to inspect event
+channels without audible playback or starting the game. Native PCM sample
+lengths were compared with FSB5 sample tables. See audio-fmod-sample-validation.json.
+This confirmed bee hurt reuses bee_attack, knight hurt uses knight_land,
+knight death uses knight_hitgroundhard, and spider hit_response uses
+Impact_bloody_short. The latter three mappings were corrected from the first build.
+Lunge, thunderclap, twirl, spark, werepig and tentacle sample families were
+also verified by the native event output.
+
+Validation:
+26 audio tests pass, including real CombatWorld dash/new-monster/tentacle events.
+All referenced OGG assets exist and have matching frame counts, sample rates
+and durations after conversion. Source bank hashes shared with the previous
+extraction still match. Old unreferenced generated samples were removed only
+inside the staging audio directory.
+
+Retained scope:
+Browser mix gains are application defaults. Full FMOD spatialisation, DSP,
+random pitch/variant weighting and phase-perfect native music loops are not
+emulated. Cancellation guards, asynchronous decode invalidation, sound limits
+and single-music-track transitions remain in place.

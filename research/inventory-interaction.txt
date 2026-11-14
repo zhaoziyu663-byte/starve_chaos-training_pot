@@ -1,0 +1,230 @@
+DST inventory and switching interaction research — 2026-11-11
+
+Evidence boundary
+Local game build: 762172. All source references below are inside the read-only
+game data/databundles/scripts.zip. No game files or existing E:/DST-Combat-Trainer
+files were modified. This note is the only output of this research task.
+
+1. Original video references
+
+A. 《【效率饥荒】新手也能学会的提高攻速方法》
+Author: 告别悲痛
+Published: 2020-01-09 22:32:39
+URL: https://www.bilibili.com/video/BV1PJ411V7o8/
+Bilibili original-page search index confirms title, author, date, DST-related
+tags and the description: hold the attack key and click the left mouse button.
+This description supports mouse-based attack cancel practice; it does NOT by
+itself establish that this particular video demonstrates two-weapon swapping.
+The page does not establish whether the demonstration used a listen-server
+player, a remote client, a dedicated local server, caves, or latency compensation.
+Direct page access returned HTTP 412. I did not play or frame-inspect this video.
+
+B. 《饥荒：实用的战斗技巧，切A走A的训练方式》
+Author: Kiki笑无忧
+Published: 2023-07-12 17:07:58
+URL: https://www.bilibili.com/video/BV1VV411T7Dh/
+Original-page index explicitly identifies the game as 饥荒联机版 and shows a
+03:45 video. The associated collection also lists a separate keyboard-setting
+video called 《饥荒：切A寄巧之键位设置与运用，来张嘴吃饭！！》.
+Useful DST reference for switching/attack practice. Host/client conditions are
+not disclosed in the accessible description. Direct access returned HTTP 412;
+not played or frame-inspected. Do not claim that its exact timing was measured.
+
+C. 《从零教会你切A和走A『饥荒联机版』》
+Author: 沐月凌寒
+Published: 2023-09-02 16:43:36
+URL: https://www.bilibili.com/video/BV1m94y1s7sY/
+Original-page index confirms the title, author, date and DST / 切A / 走A tags.
+Accessible description does not distinguish host from client or disclose a
+frame-by-frame benchmark. Direct access returned HTTP 412; not played.
+
+Additional lead, NOT a verified primary video link:
+《饥荒联机：离谱的攻速》, 告别悲痛, 2022-01-28, 01:27 appeared in Bilibili
+search listings, but a reliable direct video URL was not recovered. Do not
+present it as a watched, validated source.
+
+A syndicated 17173 article describes F -> cane slot -> weapon slot switching,
+and claims that no mod is required. Its title/description is not enough to
+identify the exact original video or its server configuration; it must not be
+used as authoritative evidence for an unlimited cooldown reset.
+
+2. DS single-player, DST host and DST client must be distinguished
+
+The installed product and all inspected scripts are Don't Starve Together,
+not the separate Don't Starve / Reign of Giants single-player executable.
+A video tagged 饥荒联机版 is DST; one person in a world is still not evidence
+that it is the DS single-player product or that it is a zero-latency master sim.
+
+Local authoritative path:
+- components/inventory.lua:2270-2302 UseItemFromInvTile checks busy and pushes
+  the selected action through locomotor.
+- components/inventory_replica.lua:482-489 chooses authoritative Inventory
+  or inventory_classified, depending on whether the component is present.
+
+Remote / predicted path:
+- prefabs/inventory_classified.lua:901-921 checks local busy state, selects an
+  inventory action, then calls RemoteUseItemFromInvTile.
+- components/playercontroller.lua:5565-5582 sends RPC.UseItemFromInvTile.
+- components/combat_replica.lua:136-157 keeps client-side attack timestamps;
+  authoritative Combat is still used when present.
+
+Therefore host/master-sim timing and client-visible animation timing must not
+be conflated. Local caves or dedicated-server configurations can still have a
+client/server boundary. This research did not measure a specific network RTT
+and does not justify hard-coding a universal extra number of delay frames.
+
+3. Equipment switching and attack cooldown
+
+Source facts:
+- tuning.lua:43 WILSON_ATTACK_PERIOD = 0.4 seconds.
+- stategraphs/SGwilson.lua:10898-10928 ordinary held weapons use atk_pre/atk
+  and a state timeout of at least 13 * FRAMES.
+- SGwilson.lua:11066-11075 performs the normal weapon hit at 8 * FRAMES and
+  removes abouttoattack.
+- SGwilson.lua:11100-11101 equipment changes leave the attack state for idle.
+- SGwilson.lua:11109-11116 calls CancelAttack only if abouttoattack remains.
+- components/combat.lua:128-145 implements a single character attack timestamp
+  and minimum period. StartAttack at 763-767 restarts this cooldown.
+- components/combat.lua:770 aliases CancelAttack to ResetCooldown.
+- components/equippable.lua, inventoryitem.lua and the ordinary Equip path do
+  not independently reset combat cooldown every time a weapon is swapped.
+
+Implementation implication:
+Switching before the hit cancels that unlanded attack; no damage should survive.
+Switching after the hit can leave the attack animation / chain state, but the
+already-started combat cooldown remains. Two weapons do not provide two separate
+attack cooldown pools. A mod that explicitly calls ResetCooldown on each swap
+is not evidence for vanilla behavior.
+The exact one-tick ordering of input and state transitions should be validated
+by the combat implementation; neither the video title nor an 8-frame hit point
+justifies allowing one landed attack every 8 frames.
+
+4. The native inventory is 15 storage slots plus distinct equipment slots
+
+- widgets/inventorybar.lua:244-284 creates num_slots storage InvSlot widgets
+  and separate EquipSlot widgets. Gaps are grouped every five storage slots.
+- Equipped weapons move out of storage into EQUIPSLOTS.HANDS. They are not
+  permanent duplicated weapon icons in the original storage slot.
+- Inventory:Equip at components/inventory.lua:1286-1296 records the incoming
+  item's own prevslot / prevcontainer. It removes the incoming item, unequips
+  the previous item and gives the previous item back at 1349-1365.
+- Inventory:GiveItem at 1062-1095 prefers the returning item's own previous
+  empty slot, then falls back to the next available slot.
+- The controller-specific same-slot swap at 1298-1302 is not the default
+  keyboard/mouse path.
+
+Example: put spear in slot 1 and cane in slot 2. Equip spear -> slot 1 becomes
+empty, spear is in hands. Equip cane with key 2 -> spear returns to its original
+slot 1 if free, slot 2 becomes empty, cane is in hands. Key 1 then reverses it.
+Pressing the key for an empty storage slot does nothing; it does not toggle the
+currently equipped item just because that item used to occupy the slot.
+
+5. Keyboard mapping
+
+- constants.lua:131-140 defines CONTROL_INV_1 through CONTROL_INV_10.
+- constants.lua:207-211 defines CONTROL_INV_11 through CONTROL_INV_15.
+- screens/playerhud.lua:1614-1642 dispatches both groups to the corresponding
+  physical storage slot, using UseItemFromInvTile.
+- The first ten default bindings are the number row 1 2 3 4 5 6 7 8 9 0.
+- Slots 11-15 are bindable but default to unbound, not Shift+1..5 or -/=.
+  Official Klei Steam hotfix [501079], 2022-03-31 explicitly states that the
+  newly supported slots 11-15 are unbound by default:
+  https://store.steampowered.com/news/posts/?appids=322330&enddate=1648848112&feed=steam_community_announcements
+  The aggregate page was opened successfully. Its individual announcement link
+  resolves to https://steamcommunity.com/ogg/322330/announcements/detail/3194748490857813951
+  but that direct page was not accessible to the web tool.
+- General DS wiki controls list - and = for slots 11 and 12 of Don't Starve;
+  that must not override the verified DST-specific defaults above.
+- Keybinds can be changed in native settings (redux/optionsscreen.lua:255-269).
+- A crafting modifier changes the first ten inventory hotkeys into crafting
+  pin selection in playerhud.lua:1620-1625. Slots 11-15 have no pin behavior.
+
+6. Mouse interaction: storage slots
+
+Authoritative UI routing: widgets/invslot.lua:10-60, 100-198, 396-401.
+ItemTile itself only refreshes tooltips in itemtile.lua:442-444; the slot owns
+the click behavior.
+
+Left click, no modifiers:
+- Empty cursor + item slot: take the item/stack into the cursor active item.
+- Held cursor item + empty slot: place it in that slot.
+- Held cursor item + occupied different item: swap; old slot item becomes
+  the cursor item, and the cursor item occupies the slot.
+- Matching stackable items: merge the stack, subject to capacity.
+This is click-to-pick-up and click-to-place, not merely drag-sort and not
+left-click-to-equip. Supporting optional pointer drag in addition is an extra
+convenience; it must not replace these native left-click semantics.
+
+Right click, no modifiers:
+- InvSlot:UseItem -> inventory:UseItemFromInvTile.
+- With no cursor item this selects the default inventory action. For ordinary
+  unequipped spear/cane it is EQUIP; for already equipped gear it is UNEQUIP.
+- With a cursor item, it can use that item on the clicked inventory item.
+- componentactions.lua:2692-2705 supplies EQUIP / UNEQUIP for equippables.
+- actions.lua:858-884 executes the actual inventory equip / return action.
+
+Modifiers relevant to a broader inventory implementation:
+- Ctrl (force stack) + left click splits a stack; with an active stack places
+  one into an eligible slot. Not relevant to unstackable spears/cane.
+- Shift (force trade) + left click transfers to an eligible open container.
+- Alt (force inspect) + left click examines.
+- Shift + right click uses DropItem in InvSlot:OnControl, except restricted
+  locked-slot branches. A trainer need not fabricate container/drop systems.
+
+7. Mouse interaction: the separate hand equipment slot
+
+widgets/equipslot.lua:31-68:
+- Left click with empty cursor takes the equipped item into the cursor.
+- Left click while holding a compatible item equips it; if hands already
+  contain equipment, SwapEquipWithActiveItem swaps it with the cursor item.
+- Right click calls UseItemFromInvTile; ordinary equipped weapon/cane uses
+  UNEQUIP and returns it to inventory. This is different from right-clicking
+  empty world space to start the spear's targeting mode.
+
+8. Native recharge display versus durability number
+
+widgets/itemtile.lua:129-185 builds recharge_meter UIAnim frame and fill.
+Normal cooldown uses dark-blue frame and blue recharge overlay. The special
+rechargeable_bonus tag uses green; it is not the usual lightning spear state.
+SetChargePercent at 619-658 seeks the recharge animation by charge percent,
+shows the frame while incomplete, and on completion plays frame_pst / briefly
+white coloring before hiding the frame.
+SetChargeTime at 661-667 and OnUpdate at 786 extrapolate percent over time.
+
+There is no numeric remaining-seconds text created by this recharge code.
+The percentage text at itemtile.lua:587-602 is durability/uses/fuel, and must
+not be relabeled as a skill-cooldown percentage or seconds countdown.
+If a numeric countdown is added for practice it is an explicit trainer feature,
+not a claim of untouched native UI. A faithful baseline uses recharge artwork.
+
+9. Lightning spear right-click -> aim arrow -> left-click confirm
+
+components/playercontroller.lua:
+- OnRightClick at 4999-5001 cancels existing AOE targeting.
+- OnRightClick at 5010-5025, when no other contextual RMB action takes priority,
+  returns the cursor item and calls TryAOETargeting.
+- TryAOETargeting at 1609-1621 checks the held item's aoetargeting, skill / charge
+  enabled state and riding restrictions, then starts targeting.
+- OnLeftClick at 4728-4745 reads CASTAOE while aiming, pings the reticule and
+  cancels targeting when the action is committed. An invalid action does not
+  cast; busy feedback blips the reticule and uses click_negative.
+- Clicking HUD is handled separately at 4702-4704 and 5002; a right click on an
+  inventory icon should not accidentally launch the world-space skill.
+
+components/aoetargeting.lua:98-119 creates/removes the reticule component.
+prefabs/spear_wathgrithr.lua:430-438 selects reticuleline/reticulelineping,
+mouse targeting, a golden valid color {1,.75,0,1}, and dark-red invalid color.
+Its mouse target at 211-226 normalizes the vector to a fixed 6.5-world-unit
+distance. Mouse movement changes direction, not dash distance.
+The skill is enabled only when charged and arsenal_spear_4 is active (62-64).
+Equipping an enabled spear can discharge it back to its 3-second cooldown when
+the remaining recharge time is shorter (103-108). Switching to it is therefore
+not a way to obtain an immediately ready dash on every equip.
+
+10. Useful native inventory sounds (not extracted in this research task)
+
+InvSlot click take/place/swap: dontstarve/HUD/click_object.
+Invalid click: dontstarve/HUD/click_negative.
+Controller navigation: dontstarve/HUD/click_move.
+These should be attached to actual inventory action success/failure, not every
+pointer hover. No audio files or runtime modules were modified in this task.

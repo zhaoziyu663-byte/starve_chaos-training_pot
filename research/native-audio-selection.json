@@ -1,0 +1,4216 @@
+{
+  "dontstarve/pig/attack": {
+    "samples": [
+      {
+        "bank": "pig",
+        "index": 7,
+        "name": "Pig_oink_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "51440218694b13ad17c7dbbee20d3c1c06146d28e2fc91283e91680070843fb9": [
+        {
+          "bank": "pig",
+          "index": 7,
+          "name": "Pig_oink_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/pig/oink": {
+    "samples": [
+      {
+        "bank": "pig",
+        "index": 7,
+        "name": "Pig_oink_2"
+      },
+      {
+        "bank": "pig",
+        "index": 6,
+        "name": "Pig_oink_1"
+      },
+      {
+        "bank": "pig",
+        "index": 8,
+        "name": "Pig_oink_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "51440218694b13ad17c7dbbee20d3c1c06146d28e2fc91283e91680070843fb9": [
+        {
+          "bank": "pig",
+          "index": 7,
+          "name": "Pig_oink_2"
+        }
+      ],
+      "6466e71fde08b7fd5d6dcf6fafcc0faa8185727750400153f931ade8e6cdaa93": [
+        {
+          "bank": "pig",
+          "index": 6,
+          "name": "Pig_oink_1"
+        }
+      ],
+      "fe92f69e403b1d5de339e9d0cc5f049c675a9f6bc2e7ece0403cfd88329f7abc": [
+        {
+          "bank": "pig",
+          "index": 8,
+          "name": "Pig_oink_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/pig/grunt": {
+    "samples": [
+      {
+        "bank": "pig",
+        "index": 20,
+        "name": "pig_grunts_6"
+      },
+      {
+        "bank": "pig",
+        "index": 19,
+        "name": "pig_grunts_5"
+      },
+      {
+        "bank": "pig",
+        "index": 15,
+        "name": "pig_grunts_1"
+      },
+      {
+        "bank": "pig",
+        "index": 16,
+        "name": "pig_grunts_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0188ab46c01ccc7c9d705c8c0a59af830ee176d9894e5906d017735436a7b9e0": [
+        {
+          "bank": "pig",
+          "index": 20,
+          "name": "pig_grunts_6"
+        }
+      ],
+      "8b9eeff32fe13b0cc578109ba031a1549f6c5af3480a659175af1a173c39c05c": [
+        {
+          "bank": "pig",
+          "index": 19,
+          "name": "pig_grunts_5"
+        }
+      ],
+      "d9aee1257e35728b636f16119164a32499c1a9d89ab6f2a88292ed9166d01a1e": [
+        {
+          "bank": "pig",
+          "index": 15,
+          "name": "pig_grunts_1"
+        }
+      ],
+      "e3f7a7110ec282f1fce9d083e25e36f9fb080973fcdb02fc50be30bf70d294ac": [
+        {
+          "bank": "pig",
+          "index": 16,
+          "name": "pig_grunts_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/wilson/attack_whoosh": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 1247,
+        "name": "attack_whoosh_4"
+      },
+      {
+        "bank": "sfx",
+        "index": 1244,
+        "name": "attack_whoosh_1"
+      },
+      {
+        "bank": "sfx",
+        "index": 1246,
+        "name": "attack_whoosh_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "7d063bd179515b46d90c29679ca4fb439f0ce362527f9f059863bfbd39c7d747": [
+        {
+          "bank": "sfx",
+          "index": 1247,
+          "name": "attack_whoosh_4"
+        }
+      ],
+      "a7267e08d7e06866c69dac163a82984dbe8ea8b0040a00a7114044c763c03bc2": [
+        {
+          "bank": "sfx",
+          "index": 1244,
+          "name": "attack_whoosh_1"
+        }
+      ],
+      "ff35c9b4647ff68a967036272d8d18c1f1b1d0bb163a5913fde243d731facf0f": [
+        {
+          "bank": "sfx",
+          "index": 1246,
+          "name": "attack_whoosh_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bunnyman/attack": {
+    "samples": [
+      {
+        "bank": "bunnyman",
+        "index": 15,
+        "name": "bunnyman_attack_6"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 10,
+        "name": "bunnyman_attack_1"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 11,
+        "name": "bunnyman_attack_2"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 13,
+        "name": "bunnyman_attack_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0ba2f0cd83ae3df20182cac9c7426596f26fae424575e7370747e9b6fd51d5d0": [
+        {
+          "bank": "bunnyman",
+          "index": 15,
+          "name": "bunnyman_attack_6"
+        }
+      ],
+      "68fe288f40952084879ce592b08106b92d9a8247a0308da4e72a61fbe608f9d5": [
+        {
+          "bank": "bunnyman",
+          "index": 10,
+          "name": "bunnyman_attack_1"
+        }
+      ],
+      "8d6c58351836195f995dc8ab4c91c37dd39d8c07b8012dcb8f52f59e36870420": [
+        {
+          "bank": "bunnyman",
+          "index": 11,
+          "name": "bunnyman_attack_2"
+        }
+      ],
+      "d6c5c8d1afb252e0eca55b058e13e8ecde3e9c07cdf2cd3002d806c57a79c77c": [
+        {
+          "bank": "bunnyman",
+          "index": 13,
+          "name": "bunnyman_attack_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bunnyman/bite": {
+    "samples": [
+      {
+        "bank": "bunnyman",
+        "index": 18,
+        "name": "bunnyman_bite_3"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 16,
+        "name": "bunnyman_bite_1"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 17,
+        "name": "bunnyman_bite_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2d45afbab3be1781fb61603298551a8b42003a8549fd438755bf666d49d71763": [
+        {
+          "bank": "bunnyman",
+          "index": 18,
+          "name": "bunnyman_bite_3"
+        }
+      ],
+      "7bca3ef56c92e7d6053bb0e5a3aa7cc0d7d7ba2aa8c927a40047833897dc6df4": [
+        {
+          "bank": "bunnyman",
+          "index": 16,
+          "name": "bunnyman_bite_1"
+        }
+      ],
+      "ccfaee1bd1fdeb5c204e0efff7ecbdcf081b8c6f42f9a4efb70c31b222d61df4": [
+        {
+          "bank": "bunnyman",
+          "index": 17,
+          "name": "bunnyman_bite_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bunnyman/hurt": {
+    "samples": [
+      {
+        "bank": "bunnyman",
+        "index": 42,
+        "name": "bunnyman_hurt_8"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 39,
+        "name": "bunnyman_hurt_5"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 37,
+        "name": "bunnyman_hurt_3"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 36,
+        "name": "bunnyman_hurt_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "025c12bc1fd404e0f42425617c0fb13e30f306f9a3b4dd92a9a775b6113eb406": [
+        {
+          "bank": "bunnyman",
+          "index": 42,
+          "name": "bunnyman_hurt_8"
+        }
+      ],
+      "7068a46d48a2706f539187a6ba8cc39d6b20d95bae61a5498a862efd3be7e612": [
+        {
+          "bank": "bunnyman",
+          "index": 39,
+          "name": "bunnyman_hurt_5"
+        }
+      ],
+      "72af74a650762d10dc0a3083be013205ca0b211a5bce27bdae8bfee849bc34ef": [
+        {
+          "bank": "bunnyman",
+          "index": 37,
+          "name": "bunnyman_hurt_3"
+        }
+      ],
+      "9357284e0c2f69f13f3ef7609dee0b7e053ef0a4b6ef1113989b96f1a1a7b23c": [
+        {
+          "bank": "bunnyman",
+          "index": 36,
+          "name": "bunnyman_hurt_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bunnyman/death": {
+    "samples": [
+      {
+        "bank": "bunnyman",
+        "index": 24,
+        "name": "bunnyman_die_4"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 22,
+        "name": "bunnyman_die_2"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 21,
+        "name": "bunnyman_die_1"
+      },
+      {
+        "bank": "bunnyman",
+        "index": 23,
+        "name": "bunnyman_die_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "8b15cf4e062d9ec83ddd219fad48e1cb5b54e1561ab57f146f3518a841d0265c": [
+        {
+          "bank": "bunnyman",
+          "index": 24,
+          "name": "bunnyman_die_4"
+        }
+      ],
+      "9884e884705d1662c7751ca2669edba41445b2b0a26159d73fc182586d88e3ed": [
+        {
+          "bank": "bunnyman",
+          "index": 22,
+          "name": "bunnyman_die_2"
+        }
+      ],
+      "b57895c5cd12d9fd77052040e50ec1523dcb5230fc9d5c27eaf90551fc372d91": [
+        {
+          "bank": "bunnyman",
+          "index": 21,
+          "name": "bunnyman_die_1"
+        }
+      ],
+      "bf3ae362b09618dbd836120335ab8663fab3bcf62e0735998a4b377597dac05a": [
+        {
+          "bank": "bunnyman",
+          "index": 23,
+          "name": "bunnyman_die_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/merm/attack": {
+    "samples": [
+      {
+        "bank": "merm",
+        "index": 1,
+        "name": "merm_attack_1"
+      },
+      {
+        "bank": "merm",
+        "index": 3,
+        "name": "merm_attack_3"
+      },
+      {
+        "bank": "merm",
+        "index": 2,
+        "name": "merm_attack_2"
+      },
+      {
+        "bank": "merm",
+        "index": 7,
+        "name": "merm_attack_7"
+      },
+      {
+        "bank": "merm",
+        "index": 5,
+        "name": "merm_attack_5"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "014b69f21b6a2daa46237ad5889b64daaef0ccd10b3fe62fec628b053f9d2804": [
+        {
+          "bank": "merm",
+          "index": 1,
+          "name": "merm_attack_1"
+        }
+      ],
+      "3c52d4cc15dd8cc255e5c0f4341888f6345212ed23d4c7874e33194c09ffe025": [
+        {
+          "bank": "merm",
+          "index": 3,
+          "name": "merm_attack_3"
+        }
+      ],
+      "656edc49dd9cd0c06934e529183e6dec38fa3aa65d68850516b05f4f90312ff3": [
+        {
+          "bank": "merm",
+          "index": 2,
+          "name": "merm_attack_2"
+        }
+      ],
+      "d3167ef78c903ef25ad5b73379e6f128f4f3b5305ca66eada000dcece29eca47": [
+        {
+          "bank": "merm",
+          "index": 7,
+          "name": "merm_attack_7"
+        }
+      ],
+      "fecbc6816b7eff4cc1a6c51feb21d2fdfed483de378113554ec14a1c165ebebd": [
+        {
+          "bank": "merm",
+          "index": 5,
+          "name": "merm_attack_5"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/merm/hurt": {
+    "samples": [
+      {
+        "bank": "merm",
+        "index": 18,
+        "name": "merm_hurt_6"
+      },
+      {
+        "bank": "merm",
+        "index": 19,
+        "name": "merm_hurt_7"
+      },
+      {
+        "bank": "merm",
+        "index": 17,
+        "name": "merm_hurt_5"
+      },
+      {
+        "bank": "merm",
+        "index": 16,
+        "name": "merm_hurt_4"
+      },
+      {
+        "bank": "merm",
+        "index": 15,
+        "name": "merm_hurt_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1b7f8a5119739158c851cb40217e108f60457c5497f2fdfa4648adf48d3382f9": [
+        {
+          "bank": "merm",
+          "index": 18,
+          "name": "merm_hurt_6"
+        }
+      ],
+      "3e68e44b4c3be7cb1549d9c11f6dbb8f08197d0b11c49848ca41cdcdb4b7cf0d": [
+        {
+          "bank": "merm",
+          "index": 19,
+          "name": "merm_hurt_7"
+        }
+      ],
+      "9c080482032b23df4d697bded71530d6463b826c77a0d4a1b4f7668116b2f287": [
+        {
+          "bank": "merm",
+          "index": 17,
+          "name": "merm_hurt_5"
+        }
+      ],
+      "ba5fd5f6c7af8c1205ee3814427c611aaa25853b491ac875a6d9adbc2e1bd5ac": [
+        {
+          "bank": "merm",
+          "index": 16,
+          "name": "merm_hurt_4"
+        }
+      ],
+      "f3f1af46b203b24b12e5d5a3c0795db4aa0417a7de4cb3af5aaebb189650f9fd": [
+        {
+          "bank": "merm",
+          "index": 15,
+          "name": "merm_hurt_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/merm/death": {
+    "samples": [
+      {
+        "bank": "merm",
+        "index": 11,
+        "name": "merm_death_4"
+      },
+      {
+        "bank": "merm",
+        "index": 10,
+        "name": "merm_death_3"
+      },
+      {
+        "bank": "merm",
+        "index": 9,
+        "name": "merm_death_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "6d64bdf681d95e16d68f3ce9b88733308a588c767564e5595d56c6b9e98ee819": [
+        {
+          "bank": "merm",
+          "index": 11,
+          "name": "merm_death_4"
+        }
+      ],
+      "a8e13e535eb89bbb7325b42d659772600748c294b90b8c59e6fd26c003f25383": [
+        {
+          "bank": "merm",
+          "index": 10,
+          "name": "merm_death_3"
+        }
+      ],
+      "e9b51ca3f12743cb77f3cd7baa91124423ccc95cd9265500957ec13906e04328": [
+        {
+          "bank": "merm",
+          "index": 9,
+          "name": "merm_death_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/characters/wurt/merm/warrior/attack": {
+    "samples": [
+      {
+        "bank": "wurt",
+        "index": 134,
+        "name": "warcry_merm_king_warrior-003"
+      },
+      {
+        "bank": "wurt",
+        "index": 133,
+        "name": "warcry_merm_king_warrior-002"
+      },
+      {
+        "bank": "wurt",
+        "index": 132,
+        "name": "warcry_merm_king_warrior-001"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4c1650376c330adb1755b59d507e1559c6509cf43025962fe1039d9fef31119d": [
+        {
+          "bank": "wurt",
+          "index": 134,
+          "name": "warcry_merm_king_warrior-003"
+        }
+      ],
+      "76badc7ddb27506e18d37c01f3e7f87bcb9af38b00a07a5e9f1195d446b00c36": [
+        {
+          "bank": "wurt",
+          "index": 133,
+          "name": "warcry_merm_king_warrior-002"
+        }
+      ],
+      "f1b8049c48c669b0cef6d9264f80a286cdbfee3390a4f2e38b2346ba602b5d5b": [
+        {
+          "bank": "wurt",
+          "index": 132,
+          "name": "warcry_merm_king_warrior-001"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/characters/wurt/merm/warrior/hit": {
+    "samples": [
+      {
+        "bank": "wurt",
+        "index": 88,
+        "name": "hurt_merm_king_warrior-002"
+      },
+      {
+        "bank": "wurt",
+        "index": 93,
+        "name": "hurt_merm_king_warrior-007"
+      },
+      {
+        "bank": "wurt",
+        "index": 90,
+        "name": "hurt_merm_king_warrior-004"
+      },
+      {
+        "bank": "wurt",
+        "index": 87,
+        "name": "hurt_merm_king_warrior-001"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0877473d508091d5bd47d41354e4e1419824fa74bcdd2e9e73dc228c8ab2c46d": [
+        {
+          "bank": "wurt",
+          "index": 88,
+          "name": "hurt_merm_king_warrior-002"
+        }
+      ],
+      "1c6b61a7366360611305a95d8245bdf58ccfc5a6594d2dcc296a37bf0e8ec630": [
+        {
+          "bank": "wurt",
+          "index": 93,
+          "name": "hurt_merm_king_warrior-007"
+        }
+      ],
+      "6e6fb79dee807f735ea96e3023fbf0759875b2176ee3fcf0987b5c8af771e994": [
+        {
+          "bank": "wurt",
+          "index": 90,
+          "name": "hurt_merm_king_warrior-004"
+        }
+      ],
+      "cef4b2aad672347b40421a0703a2a90f7974344b8043b7ac836f49ca79d8c645": [
+        {
+          "bank": "wurt",
+          "index": 87,
+          "name": "hurt_merm_king_warrior-001"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/characters/wurt/merm/warrior/death": {
+    "samples": [
+      {
+        "bank": "wurt",
+        "index": 76,
+        "name": "death_merm_warrior-004"
+      },
+      {
+        "bank": "wurt",
+        "index": 78,
+        "name": "death_merm_warrior-006"
+      },
+      {
+        "bank": "wurt",
+        "index": 74,
+        "name": "death_merm_warrior-002"
+      },
+      {
+        "bank": "wurt",
+        "index": 75,
+        "name": "death_merm_warrior-003"
+      },
+      {
+        "bank": "wurt",
+        "index": 77,
+        "name": "death_merm_warrior-005"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4b17aea4d6612db676a9ff731e5dac0eb426be0dff7d62cc9df1e7d53036905d": [
+        {
+          "bank": "wurt",
+          "index": 76,
+          "name": "death_merm_warrior-004"
+        }
+      ],
+      "7c9ccab872e2cd46122abdb3ed001e7e7e118b1929fcec05e8899badc7292539": [
+        {
+          "bank": "wurt",
+          "index": 78,
+          "name": "death_merm_warrior-006"
+        }
+      ],
+      "857d2665ea43e299fead5df4225cb8a0c953ae333f33870a89ff79d91f7576fa": [
+        {
+          "bank": "wurt",
+          "index": 74,
+          "name": "death_merm_warrior-002"
+        }
+      ],
+      "a3f573b1322c63954f134f01251e2bbfab03fe4c256a745fda0fbcb71b330301": [
+        {
+          "bank": "wurt",
+          "index": 75,
+          "name": "death_merm_warrior-003"
+        }
+      ],
+      "ff557482c765379c033cbf74c52c4971af8cdb8dc7adfb58368674da952f6443": [
+        {
+          "bank": "wurt",
+          "index": 77,
+          "name": "death_merm_warrior-005"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/beefalo/angry": {
+    "samples": [
+      {
+        "bank": "beefalo",
+        "index": 48,
+        "name": "Beefalo_angry_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "7f5f6bdee3c500bb528479c26e9862bacbe3782216933290adc430ba9b4366a2": [
+        {
+          "bank": "beefalo",
+          "index": 48,
+          "name": "Beefalo_angry_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/beefalo/yell": {
+    "samples": [
+      {
+        "bank": "beefalo",
+        "index": 63,
+        "name": "Beefalo_yell_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0f4bdabebc1ea9e540a350eccf3801154fe2dfb1ee29215287050b2dfaa10b95": [
+        {
+          "bank": "beefalo",
+          "index": 63,
+          "name": "Beefalo_yell_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/koalefant/angry": {
+    "samples": [
+      {
+        "bank": "koalefant",
+        "index": 14,
+        "name": "koalephant_bellow_2"
+      },
+      {
+        "bank": "koalefant",
+        "index": 13,
+        "name": "koalephant_bellow_1"
+      },
+      {
+        "bank": "koalefant",
+        "index": 15,
+        "name": "koalephant_bellow_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "7ff07057c136881bb523ac08f4bc99bb3696606820022de568d1e610d93bcfe1": [
+        {
+          "bank": "koalefant",
+          "index": 14,
+          "name": "koalephant_bellow_2"
+        }
+      ],
+      "bc78a4c2f242377c74c7ee37490c93ac72e31ac4c7d602307977dd8d3c603baa": [
+        {
+          "bank": "koalefant",
+          "index": 13,
+          "name": "koalephant_bellow_1"
+        }
+      ],
+      "f351f187e5a1fbee4cbd44ac0b162d709f8f69b49436c0ce8db9f2378c8c7256": [
+        {
+          "bank": "koalefant",
+          "index": 15,
+          "name": "koalephant_bellow_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/koalefant/yell": {
+    "samples": [
+      {
+        "bank": "koalefant",
+        "index": 14,
+        "name": "koalephant_bellow_2"
+      },
+      {
+        "bank": "koalefant",
+        "index": 13,
+        "name": "koalephant_bellow_1"
+      },
+      {
+        "bank": "koalefant",
+        "index": 15,
+        "name": "koalephant_bellow_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "7ff07057c136881bb523ac08f4bc99bb3696606820022de568d1e610d93bcfe1": [
+        {
+          "bank": "koalefant",
+          "index": 14,
+          "name": "koalephant_bellow_2"
+        }
+      ],
+      "bc78a4c2f242377c74c7ee37490c93ac72e31ac4c7d602307977dd8d3c603baa": [
+        {
+          "bank": "koalefant",
+          "index": 13,
+          "name": "koalephant_bellow_1"
+        }
+      ],
+      "f351f187e5a1fbee4cbd44ac0b162d709f8f69b49436c0ce8db9f2378c8c7256": [
+        {
+          "bank": "koalefant",
+          "index": 15,
+          "name": "koalephant_bellow_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/attack_grunt": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 77,
+        "name": "Spider_attack_6"
+      },
+      {
+        "bank": "spider",
+        "index": 75,
+        "name": "Spider_attack_4"
+      },
+      {
+        "bank": "spider",
+        "index": 71,
+        "name": "Spider_attack_14"
+      },
+      {
+        "bank": "spider",
+        "index": 68,
+        "name": "Spider_attack_11"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2914cf9d8c261b5729eb0d2c9a6bb4dbccded90480004ce121d2e29de11c5b35": [
+        {
+          "bank": "spider",
+          "index": 77,
+          "name": "Spider_attack_6"
+        }
+      ],
+      "3b1d63fc0679fccf10aad4a0254fce5391ed9fac917175252a3653d5e781b4c3": [
+        {
+          "bank": "spider",
+          "index": 75,
+          "name": "Spider_attack_4"
+        }
+      ],
+      "56621d4f422f9b6455c4223ad3854488b52d63df37f03d555c29f552215631f8": [
+        {
+          "bank": "spider",
+          "index": 71,
+          "name": "Spider_attack_14"
+        }
+      ],
+      "df08d51ed916406f2aa3de6e97eb33e88bbd81f3642bf14ae08e44003b7cde5e": [
+        {
+          "bank": "spider",
+          "index": 68,
+          "name": "Spider_attack_11"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/Attack": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 127,
+        "name": "blood_squirt"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "f54289f9666baf61e5f750519f53289fe78421b0cf19c788b67276b2ee7bcea7": [
+        {
+          "bank": "rifts6",
+          "index": 51,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "spider",
+          "index": 127,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 24,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "webber1",
+          "index": 20,
+          "name": "blood_squirt"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/hit_response": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 415,
+        "name": "Impact_bloody_short_1"
+      },
+      {
+        "bank": "sfx",
+        "index": 416,
+        "name": "Impact_bloody_short_2"
+      },
+      {
+        "bank": "sfx",
+        "index": 418,
+        "name": "Impact_bloody_short_4"
+      },
+      {
+        "bank": "sfx",
+        "index": 417,
+        "name": "Impact_bloody_short_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4c0380de45bb6f30aa790040538bded41bdbf2c8067604a25ed798fa61395985": [
+        {
+          "bank": "rifts6",
+          "index": 47,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "sfx",
+          "index": 415,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 20,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "webber1",
+          "index": 16,
+          "name": "Impact_bloody_short_1"
+        }
+      ],
+      "820cef5a81fb51492b291fa8b849a79cb844552256a4f8913f1f80c875e1c2e6": [
+        {
+          "bank": "rifts6",
+          "index": 48,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "sfx",
+          "index": 416,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 21,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "webber1",
+          "index": 17,
+          "name": "Impact_bloody_short_2"
+        }
+      ],
+      "8c2b4ed138aa1dbb8330d31a1567fcc7e88d5c125c3d6c452db81a75d86cb93e": [
+        {
+          "bank": "rifts6",
+          "index": 50,
+          "name": "Impact_bloody_short_4"
+        },
+        {
+          "bank": "sfx",
+          "index": 418,
+          "name": "Impact_bloody_short_4"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 23,
+          "name": "Impact_bloody_short_4"
+        },
+        {
+          "bank": "webber1",
+          "index": 19,
+          "name": "Impact_bloody_short_4"
+        }
+      ],
+      "c2eeea61c6e5fe4be0883f32a7771924ca39d7d7d5a8cea6b4f4bb24f426997b": [
+        {
+          "bank": "rifts6",
+          "index": 49,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "sfx",
+          "index": 417,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 22,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "webber1",
+          "index": 18,
+          "name": "Impact_bloody_short_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/die": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 82,
+        "name": "Spider_death_2"
+      },
+      {
+        "bank": "spider",
+        "index": 83,
+        "name": "Spider_death_3"
+      },
+      {
+        "bank": "spider",
+        "index": 81,
+        "name": "Spider_death_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1e7007f44340e025e16db1aaf0c79b506fd5199558b3d4796c1870535c4940dd": [
+        {
+          "bank": "spider",
+          "index": 82,
+          "name": "Spider_death_2"
+        }
+      ],
+      "58a6311741b83c2579745e0cce54ead4adc5518b1247b2982afb46f2b01b50f8": [
+        {
+          "bank": "spider",
+          "index": 83,
+          "name": "Spider_death_3"
+        }
+      ],
+      "fa2649c93f2d3781c62d91f4a1299a004e5e390d7c921c16a0d20a1863d85df0": [
+        {
+          "bank": "spider",
+          "index": 81,
+          "name": "Spider_death_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/scream": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 94,
+        "name": "Spider_scream_1"
+      },
+      {
+        "bank": "spider",
+        "index": 96,
+        "name": "Spider_scream_3"
+      },
+      {
+        "bank": "spider",
+        "index": 95,
+        "name": "Spider_scream_2"
+      },
+      {
+        "bank": "spider",
+        "index": 100,
+        "name": "Spider_scream_7"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1ed7205a5f0d1ca211b91c29a49de4599ad0db4ff01152a4fabddaccc335c1bd": [
+        {
+          "bank": "spider",
+          "index": 94,
+          "name": "Spider_scream_1"
+        }
+      ],
+      "46451b3e69b24989d4dcfb8f27042a182f53741e8ce7c3510b3d82cb51dfde63": [
+        {
+          "bank": "spider",
+          "index": 96,
+          "name": "Spider_scream_3"
+        }
+      ],
+      "5798271d0c28bbeeaafff56581f22d2b10cbdcd3290bb9098f7f3aad11def299": [
+        {
+          "bank": "spider",
+          "index": 95,
+          "name": "Spider_scream_2"
+        }
+      ],
+      "d83a967b27dda82547754c26059bf45710d4d17bfa204b3877f3f5638e180016": [
+        {
+          "bank": "spider",
+          "index": 100,
+          "name": "Spider_scream_7"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/spiderwarrior/Jump": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 93,
+        "name": "Spider_jump_3"
+      },
+      {
+        "bank": "spider",
+        "index": 92,
+        "name": "Spider_jump_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2a2bb6700d8b0fbc1ddd1c86736bfa32ce2be94fe74e2fd4dff6b2b1a275c87e": [
+        {
+          "bank": "rifts6",
+          "index": 36,
+          "name": "Spider_jump_3"
+        },
+        {
+          "bank": "spider",
+          "index": 93,
+          "name": "Spider_jump_3"
+        }
+      ],
+      "b449f7d439c1776cf3da953f36660b2f3ee81e26a69389b41f4ddf6e8db423f8": [
+        {
+          "bank": "rifts6",
+          "index": 35,
+          "name": "Spider_jump_2"
+        },
+        {
+          "bank": "spider",
+          "index": 92,
+          "name": "Spider_jump_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/attack_grunt": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 72,
+        "name": "Spider_attack_15"
+      },
+      {
+        "bank": "spider",
+        "index": 77,
+        "name": "Spider_attack_6"
+      },
+      {
+        "bank": "spider",
+        "index": 75,
+        "name": "Spider_attack_4"
+      },
+      {
+        "bank": "spider",
+        "index": 71,
+        "name": "Spider_attack_14"
+      },
+      {
+        "bank": "spider",
+        "index": 80,
+        "name": "Spider_attack_9"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "189161c850b4afd40d61aaba54554345b5aeb5d406d45f84ad1bfc6410e638b4": [
+        {
+          "bank": "spider",
+          "index": 72,
+          "name": "Spider_attack_15"
+        }
+      ],
+      "2914cf9d8c261b5729eb0d2c9a6bb4dbccded90480004ce121d2e29de11c5b35": [
+        {
+          "bank": "spider",
+          "index": 77,
+          "name": "Spider_attack_6"
+        }
+      ],
+      "3b1d63fc0679fccf10aad4a0254fce5391ed9fac917175252a3653d5e781b4c3": [
+        {
+          "bank": "spider",
+          "index": 75,
+          "name": "Spider_attack_4"
+        }
+      ],
+      "56621d4f422f9b6455c4223ad3854488b52d63df37f03d555c29f552215631f8": [
+        {
+          "bank": "spider",
+          "index": 71,
+          "name": "Spider_attack_14"
+        }
+      ],
+      "8621d8fa5d08e01e374bdb53091aea5e438e508c30a672a8bdd12ed7691558bb": [
+        {
+          "bank": "spider",
+          "index": 80,
+          "name": "Spider_attack_9"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/Attack": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 127,
+        "name": "blood_squirt"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "f54289f9666baf61e5f750519f53289fe78421b0cf19c788b67276b2ee7bcea7": [
+        {
+          "bank": "rifts6",
+          "index": 51,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "spider",
+          "index": 127,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 24,
+          "name": "blood_squirt"
+        },
+        {
+          "bank": "webber1",
+          "index": 20,
+          "name": "blood_squirt"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/hit_response": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 415,
+        "name": "Impact_bloody_short_1"
+      },
+      {
+        "bank": "sfx",
+        "index": 416,
+        "name": "Impact_bloody_short_2"
+      },
+      {
+        "bank": "sfx",
+        "index": 417,
+        "name": "Impact_bloody_short_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4c0380de45bb6f30aa790040538bded41bdbf2c8067604a25ed798fa61395985": [
+        {
+          "bank": "rifts6",
+          "index": 47,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "sfx",
+          "index": 415,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 20,
+          "name": "Impact_bloody_short_1"
+        },
+        {
+          "bank": "webber1",
+          "index": 16,
+          "name": "Impact_bloody_short_1"
+        }
+      ],
+      "820cef5a81fb51492b291fa8b849a79cb844552256a4f8913f1f80c875e1c2e6": [
+        {
+          "bank": "rifts6",
+          "index": 48,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "sfx",
+          "index": 416,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 21,
+          "name": "Impact_bloody_short_2"
+        },
+        {
+          "bank": "webber1",
+          "index": 17,
+          "name": "Impact_bloody_short_2"
+        }
+      ],
+      "c2eeea61c6e5fe4be0883f32a7771924ca39d7d7d5a8cea6b4f4bb24f426997b": [
+        {
+          "bank": "rifts6",
+          "index": 49,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "sfx",
+          "index": 417,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "waterlogged1",
+          "index": 22,
+          "name": "Impact_bloody_short_3"
+        },
+        {
+          "bank": "webber1",
+          "index": 18,
+          "name": "Impact_bloody_short_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/die": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 82,
+        "name": "Spider_death_2"
+      },
+      {
+        "bank": "spider",
+        "index": 83,
+        "name": "Spider_death_3"
+      },
+      {
+        "bank": "spider",
+        "index": 81,
+        "name": "Spider_death_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1e7007f44340e025e16db1aaf0c79b506fd5199558b3d4796c1870535c4940dd": [
+        {
+          "bank": "spider",
+          "index": 82,
+          "name": "Spider_death_2"
+        }
+      ],
+      "58a6311741b83c2579745e0cce54ead4adc5518b1247b2982afb46f2b01b50f8": [
+        {
+          "bank": "spider",
+          "index": 83,
+          "name": "Spider_death_3"
+        }
+      ],
+      "fa2649c93f2d3781c62d91f4a1299a004e5e390d7c921c16a0d20a1863d85df0": [
+        {
+          "bank": "spider",
+          "index": 81,
+          "name": "Spider_death_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/scream": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 98,
+        "name": "Spider_scream_5"
+      },
+      {
+        "bank": "spider",
+        "index": 95,
+        "name": "Spider_scream_2"
+      },
+      {
+        "bank": "spider",
+        "index": 97,
+        "name": "Spider_scream_4"
+      },
+      {
+        "bank": "spider",
+        "index": 99,
+        "name": "Spider_scream_6"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1c7947e9063021429fd0e43da40221dd8429dbaed0558dddd6aaa67bdf604b8f": [
+        {
+          "bank": "spider",
+          "index": 98,
+          "name": "Spider_scream_5"
+        }
+      ],
+      "5798271d0c28bbeeaafff56581f22d2b10cbdcd3290bb9098f7f3aad11def299": [
+        {
+          "bank": "spider",
+          "index": 95,
+          "name": "Spider_scream_2"
+        }
+      ],
+      "5bf62309c606365d2a2b62ac48f779c5123927d4fba7cff9011d555da25d2bc5": [
+        {
+          "bank": "spider",
+          "index": 97,
+          "name": "Spider_scream_4"
+        }
+      ],
+      "ac0a5cdeef33805a0730685e313ed1ec5855f3de50534216b7472716e62b064e": [
+        {
+          "bank": "spider",
+          "index": 99,
+          "name": "Spider_scream_6"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/cavespider/Jump": {
+    "samples": [
+      {
+        "bank": "spider",
+        "index": 93,
+        "name": "Spider_jump_3"
+      },
+      {
+        "bank": "spider",
+        "index": 91,
+        "name": "Spider_jump_1"
+      },
+      {
+        "bank": "spider",
+        "index": 92,
+        "name": "Spider_jump_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2a2bb6700d8b0fbc1ddd1c86736bfa32ce2be94fe74e2fd4dff6b2b1a275c87e": [
+        {
+          "bank": "rifts6",
+          "index": 36,
+          "name": "Spider_jump_3"
+        },
+        {
+          "bank": "spider",
+          "index": 93,
+          "name": "Spider_jump_3"
+        }
+      ],
+      "ad5c63ec903575df5b5ea3a297659ee9d7a9fafb548b99bf7afeec08eb84f73a": [
+        {
+          "bank": "rifts6",
+          "index": 34,
+          "name": "Spider_jump_1"
+        },
+        {
+          "bank": "spider",
+          "index": 91,
+          "name": "Spider_jump_1"
+        }
+      ],
+      "b449f7d439c1776cf3da953f36660b2f3ee81e26a69389b41f4ddf6e8db423f8": [
+        {
+          "bank": "rifts6",
+          "index": 35,
+          "name": "Spider_jump_2"
+        },
+        {
+          "bank": "spider",
+          "index": 92,
+          "name": "Spider_jump_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bat/bite": {
+    "samples": [
+      {
+        "bank": "bat",
+        "index": 3,
+        "name": "bat_bite_3"
+      },
+      {
+        "bank": "bat",
+        "index": 2,
+        "name": "bat_bite_2"
+      },
+      {
+        "bank": "bat",
+        "index": 1,
+        "name": "bat_bite_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4c074b67927727c6435eb4637e2078196b18048ca682f9acd059a7074368e67a": [
+        {
+          "bank": "bat",
+          "index": 3,
+          "name": "bat_bite_3"
+        }
+      ],
+      "74c53d1a75941a039912177a2867d06c48ae1a1445b1a4b70e8c882e428c8208": [
+        {
+          "bank": "bat",
+          "index": 2,
+          "name": "bat_bite_2"
+        }
+      ],
+      "8729f3a516e09ba5687438a4671f349091d7b15cbfaf6c0818762900d110d71b": [
+        {
+          "bank": "bat",
+          "index": 1,
+          "name": "bat_bite_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bat/flap": {
+    "samples": [
+      {
+        "bank": "bat",
+        "index": 28,
+        "name": "bat_wingflap_11"
+      },
+      {
+        "bank": "bat",
+        "index": 33,
+        "name": "bat_wingflap_6"
+      },
+      {
+        "bank": "bat",
+        "index": 30,
+        "name": "bat_wingflap_3"
+      },
+      {
+        "bank": "bat",
+        "index": 29,
+        "name": "bat_wingflap_2"
+      },
+      {
+        "bank": "bat",
+        "index": 36,
+        "name": "bat_wingflap_9"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "6231d75b582358987b65e73f855a52799142a50e1acb935306c0b0cb489cdfbc": [
+        {
+          "bank": "bat",
+          "index": 28,
+          "name": "bat_wingflap_11"
+        }
+      ],
+      "a464c33b7d066ab6ae60df56013a3a628a58ec52e69638a46595e8b5dadd800a": [
+        {
+          "bank": "bat",
+          "index": 33,
+          "name": "bat_wingflap_6"
+        }
+      ],
+      "ad1a5366fa543ef64b651ffe7d89ff584d9383520e45dc7119db5ce40dd6ef77": [
+        {
+          "bank": "bat",
+          "index": 30,
+          "name": "bat_wingflap_3"
+        }
+      ],
+      "cc9f00909dec30f2f6ec6595742a0bba213c9a1768fc3e65945935aafaaea92c": [
+        {
+          "bank": "bat",
+          "index": 29,
+          "name": "bat_wingflap_2"
+        }
+      ],
+      "e2ca1a1f791534c1b303e20966b69c2e03f2eb8bfbbeaeb8748e44f09b46cda8": [
+        {
+          "bank": "bat",
+          "index": 36,
+          "name": "bat_wingflap_9"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bat/hurt": {
+    "samples": [
+      {
+        "bank": "bat",
+        "index": 21,
+        "name": "bat_shortchirp_4"
+      },
+      {
+        "bank": "bat",
+        "index": 19,
+        "name": "bat_shortchirp_2"
+      },
+      {
+        "bank": "bat",
+        "index": 23,
+        "name": "bat_shortchirp_6"
+      },
+      {
+        "bank": "bat",
+        "index": 22,
+        "name": "bat_shortchirp_5"
+      },
+      {
+        "bank": "bat",
+        "index": 25,
+        "name": "bat_shortchirp_8"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "08f7f54ac0cd5890a8e502c2ba19d95f2e993528f6bc567f19e2a49f368ac036": [
+        {
+          "bank": "bat",
+          "index": 21,
+          "name": "bat_shortchirp_4"
+        }
+      ],
+      "0cc761bc97471b9d15149bfa14306e054b81584e94d7e51ff14f274b342eeacc": [
+        {
+          "bank": "bat",
+          "index": 19,
+          "name": "bat_shortchirp_2"
+        }
+      ],
+      "2589bf8f5016fb64926f4c5d7f0bafd9f76c3670001a50771dc0d9f40553497d": [
+        {
+          "bank": "bat",
+          "index": 23,
+          "name": "bat_shortchirp_6"
+        }
+      ],
+      "4e3b93370f4d04e37e12bb3f17f229be89cf23e8600eab3ed093b068b064d048": [
+        {
+          "bank": "bat",
+          "index": 22,
+          "name": "bat_shortchirp_5"
+        }
+      ],
+      "da3a51078b693417951130a67e68f041e8a4da11eab450d2c886eaccb3d6a549": [
+        {
+          "bank": "bat",
+          "index": 25,
+          "name": "bat_shortchirp_8"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bat/death": {
+    "samples": [
+      {
+        "bank": "bat",
+        "index": 10,
+        "name": "bat_mediumvocal_3"
+      },
+      {
+        "bank": "bat",
+        "index": 12,
+        "name": "bat_mediumvocal_5"
+      },
+      {
+        "bank": "bat",
+        "index": 11,
+        "name": "bat_mediumvocal_4"
+      },
+      {
+        "bank": "bat",
+        "index": 8,
+        "name": "bat_mediumvocal_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "69e17e7e944e64da2c736778c39bef30179cbef5dc70a5caba20ad10487f13d6": [
+        {
+          "bank": "bat",
+          "index": 10,
+          "name": "bat_mediumvocal_3"
+        }
+      ],
+      "6a9e4190dd98cee72b30b30f37e68f731211d21e04feab830c7dab96d2d73c10": [
+        {
+          "bank": "bat",
+          "index": 12,
+          "name": "bat_mediumvocal_5"
+        }
+      ],
+      "99bfc7ff1fb65029138a7145364ddd2a775db6555ce0599e21f36b95aaa87116": [
+        {
+          "bank": "bat",
+          "index": 11,
+          "name": "bat_mediumvocal_4"
+        }
+      ],
+      "d89a5fee646a5cb5afc1a40f3685f2aaf524504f46cd30a931ac0f7c42966af7": [
+        {
+          "bank": "bat",
+          "index": 8,
+          "name": "bat_mediumvocal_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/bat/taunt": {
+    "samples": [
+      {
+        "bank": "bat",
+        "index": 13,
+        "name": "bat_scream_1"
+      },
+      {
+        "bank": "bat",
+        "index": 17,
+        "name": "bat_scream_5"
+      },
+      {
+        "bank": "bat",
+        "index": 14,
+        "name": "bat_scream_2"
+      },
+      {
+        "bank": "bat",
+        "index": 16,
+        "name": "bat_scream_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "6f76de2bf855e5cae78d1f2428fc23f7da5c308d83e9ae56b80926c7a3ea7c5d": [
+        {
+          "bank": "bat",
+          "index": 13,
+          "name": "bat_scream_1"
+        }
+      ],
+      "776cc0aba113a64b7465981120840988308494e43abb65e0f1dd98326d8dd9b8": [
+        {
+          "bank": "bat",
+          "index": 17,
+          "name": "bat_scream_5"
+        }
+      ],
+      "b1412b9fb9910e8faa86a805d93600fe991b3db0b7d31a78729e66c6c414a753": [
+        {
+          "bank": "bat",
+          "index": 14,
+          "name": "bat_scream_2"
+        }
+      ],
+      "cfdfafe402720bb10cbd9d4113821289d91625d963db17166710a6bf59b9c82f": [
+        {
+          "bank": "bat",
+          "index": 16,
+          "name": "bat_scream_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/frog/attack_voice": {
+    "samples": [
+      {
+        "bank": "frog",
+        "index": 5,
+        "name": "Frog_attackvoice_3"
+      },
+      {
+        "bank": "frog",
+        "index": 3,
+        "name": "Frog_attackvoice_1"
+      },
+      {
+        "bank": "frog",
+        "index": 6,
+        "name": "Frog_attackvoice_4"
+      },
+      {
+        "bank": "frog",
+        "index": 4,
+        "name": "Frog_attackvoice_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "652d66dab480df5cb9e4ada44f37206fd19c985a5b0f507fd34a09f50f3954bd": [
+        {
+          "bank": "frog",
+          "index": 5,
+          "name": "Frog_attackvoice_3"
+        }
+      ],
+      "71fd3c7152750963f0e35f58148cb8cbbcb28852033874ea00e77a347828f796": [
+        {
+          "bank": "frog",
+          "index": 3,
+          "name": "Frog_attackvoice_1"
+        }
+      ],
+      "f6a61d1806ea63142bcc5881ef57d95ff37b2213055fae655e79379595df12fa": [
+        {
+          "bank": "frog",
+          "index": 6,
+          "name": "Frog_attackvoice_4"
+        }
+      ],
+      "f8d6f7744016ade0298b437cbbe204808893a63a99f0e513ddd63f33825d9a33": [
+        {
+          "bank": "frog",
+          "index": 4,
+          "name": "Frog_attackvoice_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/frog/attack_spit": {
+    "samples": [
+      {
+        "bank": "frog",
+        "index": 2,
+        "name": "Frog_attackspit_2"
+      },
+      {
+        "bank": "frog",
+        "index": 1,
+        "name": "Frog_attackspit_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "303f44c09205d83fc8be5486062830899b9b6cf2225e0924ac9ad5cf464251e1": [
+        {
+          "bank": "frog",
+          "index": 2,
+          "name": "Frog_attackspit_2"
+        }
+      ],
+      "f9ddd68be54c8aeb77bb43286606ffcd1f1f946cbf76098eb4edfded92d77aab": [
+        {
+          "bank": "frog",
+          "index": 1,
+          "name": "Frog_attackspit_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/frog/grunt": {
+    "samples": [
+      {
+        "bank": "frog",
+        "index": 11,
+        "name": "Frog_idle_3"
+      },
+      {
+        "bank": "frog",
+        "index": 12,
+        "name": "Frog_idle_4"
+      },
+      {
+        "bank": "frog",
+        "index": 14,
+        "name": "Frog_idle_6"
+      },
+      {
+        "bank": "frog",
+        "index": 10,
+        "name": "Frog_idle_2"
+      },
+      {
+        "bank": "frog",
+        "index": 13,
+        "name": "Frog_idle_5"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4f87cf4f4fc2c38400a5cf84c139041d300d27c711946903d75dd66ddcd463f2": [
+        {
+          "bank": "frog",
+          "index": 11,
+          "name": "Frog_idle_3"
+        }
+      ],
+      "50802896b052c567dae0686bb180bedca2431a4bea932110be88933327f87416": [
+        {
+          "bank": "frog",
+          "index": 12,
+          "name": "Frog_idle_4"
+        }
+      ],
+      "7dd0b7d57850c14bbcdf5a1e938f04f3fd07927ba317b24695a56a2029a70e9f": [
+        {
+          "bank": "frog",
+          "index": 14,
+          "name": "Frog_idle_6"
+        }
+      ],
+      "ca4c8146b907e9798088959935a808c0d533e83ca8eef65c855764bc06410ca8": [
+        {
+          "bank": "frog",
+          "index": 10,
+          "name": "Frog_idle_2"
+        }
+      ],
+      "ecad107fc51cdd0986ad471b1fe960424cbabf31eb206890fb30bb59bc9cdb5a": [
+        {
+          "bank": "frog",
+          "index": 13,
+          "name": "Frog_idle_5"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/frog/die": {
+    "samples": [
+      {
+        "bank": "frog",
+        "index": 7,
+        "name": "Frog_die_1"
+      },
+      {
+        "bank": "frog",
+        "index": 8,
+        "name": "Frog_die_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "170ed5a2aa19860171dca6119594be79b3431bafe0183cc8c0672b2d8d216d17": [
+        {
+          "bank": "frog",
+          "index": 7,
+          "name": "Frog_die_1"
+        }
+      ],
+      "a62baaf1ff15e1985ed74bc10c3c5fa735e32f72e0875f31f7ba1011ac4c96a2": [
+        {
+          "bank": "frog",
+          "index": 8,
+          "name": "Frog_die_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/bee/bee_attack": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 13,
+        "name": "bee_attack_4"
+      },
+      {
+        "bank": "bee",
+        "index": 11,
+        "name": "bee_attack_2"
+      },
+      {
+        "bank": "bee",
+        "index": 10,
+        "name": "bee_attack_1"
+      },
+      {
+        "bank": "bee",
+        "index": 12,
+        "name": "bee_attack_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "134f6bae2e991e3d6bb65b5f74906c0686fc5bb747f6353046f8524fce9082d6": [
+        {
+          "bank": "bee",
+          "index": 13,
+          "name": "bee_attack_4"
+        }
+      ],
+      "47b69babe053b73f65c22c478386f2cb9519abf56bd373cb4a6ec8c8cf52e4e7": [
+        {
+          "bank": "bee",
+          "index": 11,
+          "name": "bee_attack_2"
+        }
+      ],
+      "8229df2fb22b5fbb9ea8f75326aa5991ff57c45568ff15b549bc7319fc31ed8c": [
+        {
+          "bank": "bee",
+          "index": 10,
+          "name": "bee_attack_1"
+        }
+      ],
+      "eb29aad6e73a4351ea3fb983eb8a6673bf446176649ee4746c61d17fca9e6bc4": [
+        {
+          "bank": "bee",
+          "index": 12,
+          "name": "bee_attack_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/bee/bee_hurt": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 13,
+        "name": "bee_attack_4"
+      },
+      {
+        "bank": "bee",
+        "index": 11,
+        "name": "bee_attack_2"
+      },
+      {
+        "bank": "bee",
+        "index": 10,
+        "name": "bee_attack_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "134f6bae2e991e3d6bb65b5f74906c0686fc5bb747f6353046f8524fce9082d6": [
+        {
+          "bank": "bee",
+          "index": 13,
+          "name": "bee_attack_4"
+        }
+      ],
+      "47b69babe053b73f65c22c478386f2cb9519abf56bd373cb4a6ec8c8cf52e4e7": [
+        {
+          "bank": "bee",
+          "index": 11,
+          "name": "bee_attack_2"
+        }
+      ],
+      "8229df2fb22b5fbb9ea8f75326aa5991ff57c45568ff15b549bc7319fc31ed8c": [
+        {
+          "bank": "bee",
+          "index": 10,
+          "name": "bee_attack_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/bee/bee_death": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 8,
+        "name": "Bee_death_1"
+      },
+      {
+        "bank": "bee",
+        "index": 9,
+        "name": "Bee_death_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "03968da6cc316bd47833b56baea71ef7e200a092003852df9c28ba92079e0929": [
+        {
+          "bank": "bee",
+          "index": 8,
+          "name": "Bee_death_1"
+        }
+      ],
+      "671d9bad52fc6eb5eb138fd878c08662fcda569afa409884e5bee06ced84b1cf": [
+        {
+          "bank": "bee",
+          "index": 9,
+          "name": "Bee_death_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/bee/bee_takeoff": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 23,
+        "name": "bee_takeoff_2"
+      },
+      {
+        "bank": "bee",
+        "index": 22,
+        "name": "bee_takeoff_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "6d3acf98e206da1fae3544c6d18de3ead864e5bdd75e41f430e18c578a87a7d2": [
+        {
+          "bank": "bee",
+          "index": 23,
+          "name": "bee_takeoff_2"
+        }
+      ],
+      "c7c2be24dfacf44a6249e64066737a04a09dffc36db56b33d74d0c57b0d82281": [
+        {
+          "bank": "bee",
+          "index": 22,
+          "name": "bee_takeoff_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/mosquito/mosquito_attack": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 13,
+        "name": "bee_attack_4"
+      },
+      {
+        "bank": "bee",
+        "index": 11,
+        "name": "bee_attack_2"
+      },
+      {
+        "bank": "bee",
+        "index": 12,
+        "name": "bee_attack_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "134f6bae2e991e3d6bb65b5f74906c0686fc5bb747f6353046f8524fce9082d6": [
+        {
+          "bank": "bee",
+          "index": 13,
+          "name": "bee_attack_4"
+        }
+      ],
+      "47b69babe053b73f65c22c478386f2cb9519abf56bd373cb4a6ec8c8cf52e4e7": [
+        {
+          "bank": "bee",
+          "index": 11,
+          "name": "bee_attack_2"
+        }
+      ],
+      "eb29aad6e73a4351ea3fb983eb8a6673bf446176649ee4746c61d17fca9e6bc4": [
+        {
+          "bank": "bee",
+          "index": 12,
+          "name": "bee_attack_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/mosquito/mosquito_hurt": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 13,
+        "name": "bee_attack_4"
+      },
+      {
+        "bank": "bee",
+        "index": 11,
+        "name": "bee_attack_2"
+      },
+      {
+        "bank": "bee",
+        "index": 10,
+        "name": "bee_attack_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "134f6bae2e991e3d6bb65b5f74906c0686fc5bb747f6353046f8524fce9082d6": [
+        {
+          "bank": "bee",
+          "index": 13,
+          "name": "bee_attack_4"
+        }
+      ],
+      "47b69babe053b73f65c22c478386f2cb9519abf56bd373cb4a6ec8c8cf52e4e7": [
+        {
+          "bank": "bee",
+          "index": 11,
+          "name": "bee_attack_2"
+        }
+      ],
+      "8229df2fb22b5fbb9ea8f75326aa5991ff57c45568ff15b549bc7319fc31ed8c": [
+        {
+          "bank": "bee",
+          "index": 10,
+          "name": "bee_attack_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/mosquito/mosquito_death": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 8,
+        "name": "Bee_death_1"
+      },
+      {
+        "bank": "bee",
+        "index": 9,
+        "name": "Bee_death_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "03968da6cc316bd47833b56baea71ef7e200a092003852df9c28ba92079e0929": [
+        {
+          "bank": "bee",
+          "index": 8,
+          "name": "Bee_death_1"
+        }
+      ],
+      "671d9bad52fc6eb5eb138fd878c08662fcda569afa409884e5bee06ced84b1cf": [
+        {
+          "bank": "bee",
+          "index": 9,
+          "name": "Bee_death_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/mosquito/mosquito_explo": {
+    "samples": [
+      {
+        "bank": "bee",
+        "index": 1,
+        "name": "misquito_explo"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2a2db880a213716c63f5ea5329bf644ebe6e98641b7252bc474358015dabffd6": [
+        {
+          "bank": "bee",
+          "index": 1,
+          "name": "misquito_explo"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/pengull/attack": {
+    "samples": [
+      {
+        "bank": "pengull",
+        "index": 4,
+        "name": "pengull_attack_4"
+      },
+      {
+        "bank": "pengull",
+        "index": 2,
+        "name": "pengull_attack_2"
+      },
+      {
+        "bank": "pengull",
+        "index": 3,
+        "name": "pengull_attack_3"
+      },
+      {
+        "bank": "pengull",
+        "index": 12,
+        "name": "pengull_hurt_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0bdb1badcf8a2fb5f3846546daa9c705709061729e9d16692a7623bd0631d11b": [
+        {
+          "bank": "pengull",
+          "index": 4,
+          "name": "pengull_attack_4"
+        }
+      ],
+      "2060a7eaea6fd2ee2142177c3d64c615dd3f8b9fe8e91bf71030e220ca6ec7fb": [
+        {
+          "bank": "pengull",
+          "index": 2,
+          "name": "pengull_attack_2"
+        }
+      ],
+      "7b3353e8ccd74444442e2ae988fd8cbc575e07ed47f1a21936f242771a3dc424": [
+        {
+          "bank": "pengull",
+          "index": 3,
+          "name": "pengull_attack_3"
+        }
+      ],
+      "c20899e0342ea41f00a7a73d5632f7b8f1b5a1b0fd0bba5b558a7d4a00bad676": [
+        {
+          "bank": "pengull",
+          "index": 12,
+          "name": "pengull_hurt_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/pengull/death": {
+    "samples": [
+      {
+        "bank": "pengull",
+        "index": 11,
+        "name": "pengull_death_3"
+      },
+      {
+        "bank": "pengull",
+        "index": 9,
+        "name": "pengull_death_1"
+      },
+      {
+        "bank": "pengull",
+        "index": 10,
+        "name": "pengull_death_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "8f6a14d34c9e505c868b186f8c346d4dc7c5f276afa5f3067bf4bca4527590d9": [
+        {
+          "bank": "pengull",
+          "index": 11,
+          "name": "pengull_death_3"
+        }
+      ],
+      "92803a32b725b5ec3ff8805f7a2da703f562ee51fd548dfb88d9af1473ed08d4": [
+        {
+          "bank": "pengull",
+          "index": 9,
+          "name": "pengull_death_1"
+        }
+      ],
+      "d13a56aeada7592b649a48b5ee35d5eb0c96f52d9e2d57f508f0f80b60b56481": [
+        {
+          "bank": "pengull",
+          "index": 10,
+          "name": "pengull_death_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/pengull/taunt": {
+    "samples": [
+      {
+        "bank": "pengull",
+        "index": 54,
+        "name": "pengull_taunt_3"
+      },
+      {
+        "bank": "pengull",
+        "index": 57,
+        "name": "pengull_taunt_6"
+      },
+      {
+        "bank": "pengull",
+        "index": 55,
+        "name": "pengull_taunt_4"
+      },
+      {
+        "bank": "pengull",
+        "index": 60,
+        "name": "pengull_taunt_9"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "3dc11ea41db05fbacadd5b2cef0beaf5707874945289918d213072e71abc0b5b": [
+        {
+          "bank": "pengull",
+          "index": 54,
+          "name": "pengull_taunt_3"
+        }
+      ],
+      "bb8353b932e94865f9767fb16215caa76a09f5c62fe7af3901f188bab6427007": [
+        {
+          "bank": "pengull",
+          "index": 57,
+          "name": "pengull_taunt_6"
+        }
+      ],
+      "c26d2caa9ddee8c6fa21547463fd1a42e5d78ef5374faa5960cbb5fbb7b0916a": [
+        {
+          "bank": "pengull",
+          "index": 55,
+          "name": "pengull_taunt_4"
+        }
+      ],
+      "d37643dbd4941273204c44e33d8cfbaec90ce1e8f36d65c0d3447e17600192d0": [
+        {
+          "bank": "pengull",
+          "index": 60,
+          "name": "pengull_taunt_9"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/swipe": {
+    "samples": [
+      {
+        "bank": "catcoon",
+        "index": 86,
+        "name": "catcoon_swipe_6"
+      },
+      {
+        "bank": "catcoon",
+        "index": 82,
+        "name": "catcoon_swipe_2"
+      },
+      {
+        "bank": "catcoon",
+        "index": 85,
+        "name": "catcoon_swipe_5"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "308917e4c1752ce9a427131fd94537217a078247dd2fc4f0f779dccce714d35e": [
+        {
+          "bank": "catcoon",
+          "index": 86,
+          "name": "catcoon_swipe_6"
+        }
+      ],
+      "72260e351700d95bdb8181dd0f72cf572433ee79fd1e3ae95fcd7f5dcffa7962": [
+        {
+          "bank": "catcoon",
+          "index": 82,
+          "name": "catcoon_swipe_2"
+        }
+      ],
+      "c5bfb1bcf2028a2c8ea894ae886643e00dfd67ee2e25871a0e40f250627b53a6": [
+        {
+          "bank": "catcoon",
+          "index": 85,
+          "name": "catcoon_swipe_5"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/swipe_whoosh": {
+    "samples": [
+      {
+        "bank": "stuff",
+        "index": 18,
+        "name": "attack_swipe_4"
+      },
+      {
+        "bank": "stuff",
+        "index": 17,
+        "name": "attack_swipe_3"
+      },
+      {
+        "bank": "stuff",
+        "index": 16,
+        "name": "attack_swipe_2"
+      },
+      {
+        "bank": "stuff",
+        "index": 15,
+        "name": "attack_swipe_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1ff9dd5c837658feafb3b3173846ff4bca6f115a97cafeb04e53c71e9e7d5a38": [
+        {
+          "bank": "stuff",
+          "index": 18,
+          "name": "attack_swipe_4"
+        }
+      ],
+      "83aab479e7c97b12c2be3a54bd575303d56ce63d070ddef20493d3981b6c54d3": [
+        {
+          "bank": "stuff",
+          "index": 17,
+          "name": "attack_swipe_3"
+        }
+      ],
+      "aff69cd62960ca370340077a778f39728da6b49b93a643edce5570e27c2c6c93": [
+        {
+          "bank": "stuff",
+          "index": 16,
+          "name": "attack_swipe_2"
+        }
+      ],
+      "f8aefe77885dbc750b8ab94f8673fea73c472bfb12512c42f8403fff622fdb75": [
+        {
+          "bank": "stuff",
+          "index": 15,
+          "name": "attack_swipe_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/attack": {
+    "samples": [
+      {
+        "bank": "catcoon",
+        "index": 5,
+        "name": "catcoon_attack_3"
+      },
+      {
+        "bank": "catcoon",
+        "index": 7,
+        "name": "catcoon_attack_5"
+      },
+      {
+        "bank": "catcoon",
+        "index": 10,
+        "name": "catcoon_attack_8"
+      },
+      {
+        "bank": "catcoon",
+        "index": 11,
+        "name": "catcoon_attack_9"
+      },
+      {
+        "bank": "catcoon",
+        "index": 4,
+        "name": "catcoon_attack_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "3f7910ee741f5d44bf9228fd892bba8872be194a8e700c9fe4bfc174f7bc1b1d": [
+        {
+          "bank": "catcoon",
+          "index": 5,
+          "name": "catcoon_attack_3"
+        }
+      ],
+      "434e1a2dfb3a51572ff8e98cd85be2cdbc617e0ddffad757541bacca6ca0fce4": [
+        {
+          "bank": "catcoon",
+          "index": 7,
+          "name": "catcoon_attack_5"
+        }
+      ],
+      "7beaf8b7a1f786fecda52ea9ed73bd8d6e9b882f0ff7a3a0507d06623091ca1f": [
+        {
+          "bank": "catcoon",
+          "index": 10,
+          "name": "catcoon_attack_8"
+        }
+      ],
+      "f0646fe9731cc1330b5f2082d56a29c46b4208c33a7bb719e5897391080923e6": [
+        {
+          "bank": "catcoon",
+          "index": 11,
+          "name": "catcoon_attack_9"
+        }
+      ],
+      "fbf17e7829dfddd879101ed57126f7ce20d5c702537f544cc1aeaae0ff6baf79": [
+        {
+          "bank": "catcoon",
+          "index": 4,
+          "name": "catcoon_attack_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/jump": {
+    "samples": [
+      {
+        "bank": "stuff",
+        "index": 18,
+        "name": "attack_swipe_4"
+      },
+      {
+        "bank": "stuff",
+        "index": 17,
+        "name": "attack_swipe_3"
+      },
+      {
+        "bank": "stuff",
+        "index": 16,
+        "name": "attack_swipe_2"
+      },
+      {
+        "bank": "stuff",
+        "index": 15,
+        "name": "attack_swipe_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1ff9dd5c837658feafb3b3173846ff4bca6f115a97cafeb04e53c71e9e7d5a38": [
+        {
+          "bank": "stuff",
+          "index": 18,
+          "name": "attack_swipe_4"
+        }
+      ],
+      "83aab479e7c97b12c2be3a54bd575303d56ce63d070ddef20493d3981b6c54d3": [
+        {
+          "bank": "stuff",
+          "index": 17,
+          "name": "attack_swipe_3"
+        }
+      ],
+      "aff69cd62960ca370340077a778f39728da6b49b93a643edce5570e27c2c6c93": [
+        {
+          "bank": "stuff",
+          "index": 16,
+          "name": "attack_swipe_2"
+        }
+      ],
+      "f8aefe77885dbc750b8ab94f8673fea73c472bfb12512c42f8403fff622fdb75": [
+        {
+          "bank": "stuff",
+          "index": 15,
+          "name": "attack_swipe_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/hurt": {
+    "samples": [
+      {
+        "bank": "catcoon",
+        "index": 53,
+        "name": "catcoon_hurt_9"
+      },
+      {
+        "bank": "catcoon",
+        "index": 50,
+        "name": "catcoon_hurt_6"
+      },
+      {
+        "bank": "catcoon",
+        "index": 48,
+        "name": "catcoon_hurt_4"
+      },
+      {
+        "bank": "catcoon",
+        "index": 51,
+        "name": "catcoon_hurt_7"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "3ac363b92d0bb0bb89ae053e39e2d80339fbafd0f2ed1a464f38e818f426d17b": [
+        {
+          "bank": "catcoon",
+          "index": 53,
+          "name": "catcoon_hurt_9"
+        }
+      ],
+      "7b5ca0578d931db8f1ebcea04854d2c1027eee5dfe4b7554de298d6dcbaa0687": [
+        {
+          "bank": "catcoon",
+          "index": 50,
+          "name": "catcoon_hurt_6"
+        }
+      ],
+      "ba0269371dc2dadde76aba338326c5b2340ba363e924f892f83b5a8723657bff": [
+        {
+          "bank": "catcoon",
+          "index": 48,
+          "name": "catcoon_hurt_4"
+        }
+      ],
+      "e196217a0026b6322a6a5d910ef632ae291cca24b39baf1801327e44e12592bd": [
+        {
+          "bank": "catcoon",
+          "index": 51,
+          "name": "catcoon_hurt_7"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/death": {
+    "samples": [
+      {
+        "bank": "catcoon",
+        "index": 16,
+        "name": "catcoon_death_5"
+      },
+      {
+        "bank": "catcoon",
+        "index": 17,
+        "name": "catcoon_death_6"
+      },
+      {
+        "bank": "catcoon",
+        "index": 14,
+        "name": "catcoon_death_3"
+      },
+      {
+        "bank": "catcoon",
+        "index": 12,
+        "name": "catcoon_death_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1d96c261e81963ba941b90c0f45eb974ad280d34c5155ac1828d07ca705556f9": [
+        {
+          "bank": "catcoon",
+          "index": 16,
+          "name": "catcoon_death_5"
+        }
+      ],
+      "3064359276178a37e3eccc96fe7337a13f75bd08e6d4fe068dba6599abb4eb2c": [
+        {
+          "bank": "catcoon",
+          "index": 17,
+          "name": "catcoon_death_6"
+        }
+      ],
+      "86cd3007b24e109329c5755fdf38395c89734f51bcedca5bcaef1a705ce7e2b8": [
+        {
+          "bank": "catcoon",
+          "index": 14,
+          "name": "catcoon_death_3"
+        }
+      ],
+      "d7adea23ad9f160d1a317921e1a26cf6bd5e994f7657ba055036edf92a0067ca": [
+        {
+          "bank": "catcoon",
+          "index": 12,
+          "name": "catcoon_death_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/catcoon/hiss": {
+    "samples": [
+      {
+        "bank": "catcoon",
+        "index": 36,
+        "name": "catcoon_hiss_7"
+      },
+      {
+        "bank": "catcoon",
+        "index": 30,
+        "name": "catcoon_hiss_1"
+      },
+      {
+        "bank": "catcoon",
+        "index": 32,
+        "name": "catcoon_hiss_3"
+      },
+      {
+        "bank": "catcoon",
+        "index": 35,
+        "name": "catcoon_hiss_6"
+      },
+      {
+        "bank": "catcoon",
+        "index": 33,
+        "name": "catcoon_hiss_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "3aba80a380552be748bd8ddd9dd3d6a8390dbe13abd32c8074b9b19bfb90e512": [
+        {
+          "bank": "catcoon",
+          "index": 36,
+          "name": "catcoon_hiss_7"
+        }
+      ],
+      "435e89f10a32f11f7dd21496f6208e8bf132d7564f551a1d7085099b60f55ca5": [
+        {
+          "bank": "catcoon",
+          "index": 30,
+          "name": "catcoon_hiss_1"
+        }
+      ],
+      "a7dc32f9ce34bbab0c403e011809b985df4b06a94911bf09fba157321a2317e8": [
+        {
+          "bank": "catcoon",
+          "index": 32,
+          "name": "catcoon_hiss_3"
+        }
+      ],
+      "e7a91e536971edd7eaae4ef4ba6731f07b5db95377d32b02dae24328d5057297": [
+        {
+          "bank": "catcoon",
+          "index": 35,
+          "name": "catcoon_hiss_6"
+        }
+      ],
+      "fdfed6a7a9415b4c0f308e98805e15897133b06ac8b43ffcd769a4b833957662": [
+        {
+          "bank": "catcoon",
+          "index": 33,
+          "name": "catcoon_hiss_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/krampus/attack": {
+    "samples": [
+      {
+        "bank": "krampus",
+        "index": 4,
+        "name": "Krampus_attack_4"
+      },
+      {
+        "bank": "krampus",
+        "index": 3,
+        "name": "Krampus_attack_3"
+      },
+      {
+        "bank": "krampus",
+        "index": 2,
+        "name": "Krampus_attack_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0ea984a56c1f74d8d0b2d379b0c1d505553973ba8f0d470f8cb97c469d7df838": [
+        {
+          "bank": "krampus",
+          "index": 4,
+          "name": "Krampus_attack_4"
+        }
+      ],
+      "75bed86af1af4e27484007f4f7b574f3b2116b9cb4ab674a53ce830ed2b979e8": [
+        {
+          "bank": "krampus",
+          "index": 3,
+          "name": "Krampus_attack_3"
+        }
+      ],
+      "db084bc83c30899b22a65d1ddb0494e5a09b13db29b920bb29ae3419c3f1461d": [
+        {
+          "bank": "krampus",
+          "index": 2,
+          "name": "Krampus_attack_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/krampus/kick_whoosh": {
+    "samples": [
+      {
+        "bank": "krampus",
+        "index": 52,
+        "name": "Krampus_kickswipe_3"
+      },
+      {
+        "bank": "krampus",
+        "index": 50,
+        "name": "Krampus_kickswipe_1"
+      },
+      {
+        "bank": "krampus",
+        "index": 51,
+        "name": "Krampus_kickswipe_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "11aafeefb6edede22159a59fb90217217db2f8f65cb65a78a618fec7c84a4e1d": [
+        {
+          "bank": "krampus",
+          "index": 52,
+          "name": "Krampus_kickswipe_3"
+        }
+      ],
+      "1741e2e1a15a29a2602af2fd874a58254f2ae1e78b56121d724570334047f4ba": [
+        {
+          "bank": "krampus",
+          "index": 50,
+          "name": "Krampus_kickswipe_1"
+        }
+      ],
+      "253f343605c9eb30261b4834f4936481790d06ad802d487abd863e74d132a7df": [
+        {
+          "bank": "krampus",
+          "index": 51,
+          "name": "Krampus_kickswipe_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/krampus/hurt": {
+    "samples": [
+      {
+        "bank": "krampus",
+        "index": 38,
+        "name": "Krampus_hurt_4"
+      },
+      {
+        "bank": "krampus",
+        "index": 39,
+        "name": "Krampus_hurt_5"
+      },
+      {
+        "bank": "krampus",
+        "index": 41,
+        "name": "Krampus_hurt_7"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "752dcbf1d2a5e56cd62e635994ca6ce9371d668c91c77536bf1133f7cd10b3bb": [
+        {
+          "bank": "krampus",
+          "index": 38,
+          "name": "Krampus_hurt_4"
+        }
+      ],
+      "8ca549c929a5c7d5a3867068ba3f1f67f151619e583bd059c6d5b5bca5db51d8": [
+        {
+          "bank": "krampus",
+          "index": 39,
+          "name": "Krampus_hurt_5"
+        }
+      ],
+      "f0e110df0cae6ab32fda5df34af4248d80dd60fcd67a41ed5afdd3cd4dfffaf1": [
+        {
+          "bank": "krampus",
+          "index": 41,
+          "name": "Krampus_hurt_7"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/krampus/death": {
+    "samples": [
+      {
+        "bank": "krampus",
+        "index": 19,
+        "name": "Krampus_death_2"
+      },
+      {
+        "bank": "krampus",
+        "index": 18,
+        "name": "Krampus_death_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4e968ef7ccea0fb158ef04fe853eef6cf1f51aedca0d9a538be3da4de996900b": [
+        {
+          "bank": "krampus",
+          "index": 19,
+          "name": "Krampus_death_2"
+        }
+      ],
+      "b3c2e59ad3ce2e752b6894b31b9ae0eb1b30d80e39eca44700dfd4ef7e535319": [
+        {
+          "bank": "krampus",
+          "index": 18,
+          "name": "Krampus_death_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/krampus/taunt": {
+    "samples": [
+      {
+        "bank": "krampus",
+        "index": 59,
+        "name": "Krampus_taunt_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "e9ed066b1631ee7457f77fd6276c6112e6d47728ab0416c83b90b398fa52c5af": [
+        {
+          "bank": "krampus",
+          "index": 59,
+          "name": "Krampus_taunt_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/headbutt": {
+    "samples": [
+      {
+        "bank": "stuff",
+        "index": 18,
+        "name": "attack_swipe_4"
+      },
+      {
+        "bank": "stuff",
+        "index": 17,
+        "name": "attack_swipe_3"
+      },
+      {
+        "bank": "stuff",
+        "index": 16,
+        "name": "attack_swipe_2"
+      },
+      {
+        "bank": "stuff",
+        "index": 15,
+        "name": "attack_swipe_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1ff9dd5c837658feafb3b3173846ff4bca6f115a97cafeb04e53c71e9e7d5a38": [
+        {
+          "bank": "stuff",
+          "index": 18,
+          "name": "attack_swipe_4"
+        }
+      ],
+      "83aab479e7c97b12c2be3a54bd575303d56ce63d070ddef20493d3981b6c54d3": [
+        {
+          "bank": "stuff",
+          "index": 17,
+          "name": "attack_swipe_3"
+        }
+      ],
+      "aff69cd62960ca370340077a778f39728da6b49b93a643edce5570e27c2c6c93": [
+        {
+          "bank": "stuff",
+          "index": 16,
+          "name": "attack_swipe_2"
+        }
+      ],
+      "f8aefe77885dbc750b8ab94f8673fea73c472bfb12512c42f8403fff622fdb75": [
+        {
+          "bank": "stuff",
+          "index": 15,
+          "name": "attack_swipe_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/hurt": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 31,
+        "name": "lightninggoat_hurt_1"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 34,
+        "name": "lightninggoat_hurt_4"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 33,
+        "name": "lightninggoat_hurt_3"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 32,
+        "name": "lightninggoat_hurt_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "39afef240e29938a4dce7f398b2f7e8f2e846f96f6508af8dce2ba5856169b09": [
+        {
+          "bank": "lightninggoat",
+          "index": 31,
+          "name": "lightninggoat_hurt_1"
+        }
+      ],
+      "57704c2552788b51ed3e991ee68f560519078630dcb655ebdb3401e50f5fdd02": [
+        {
+          "bank": "lightninggoat",
+          "index": 34,
+          "name": "lightninggoat_hurt_4"
+        }
+      ],
+      "6595690c7045858b7b32e234bba88018fabfb1eb5c3761f1caf1a60c9aff33ad": [
+        {
+          "bank": "lightninggoat",
+          "index": 33,
+          "name": "lightninggoat_hurt_3"
+        }
+      ],
+      "f82598e8b74fa08d250236b9fa6a93469cfa18462b421376be420b6a420b7d06": [
+        {
+          "bank": "lightninggoat",
+          "index": 32,
+          "name": "lightninggoat_hurt_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/death": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 26,
+        "name": "lightninggoat_die_2"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 27,
+        "name": "lightninggoat_die_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4356235050cf0ccf756141cb97cdb3117ba9e13a0e17309833aa7f677448842a": [
+        {
+          "bank": "lightninggoat",
+          "index": 26,
+          "name": "lightninggoat_die_2"
+        }
+      ],
+      "eddad5eb800733cfa8b0c9640b19a662d2a7dc87ec38f08486639fd4cea58e0b": [
+        {
+          "bank": "lightninggoat",
+          "index": 27,
+          "name": "lightninggoat_die_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/taunt": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 62,
+        "name": "lightninggoat_taunt_6"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 61,
+        "name": "lightninggoat_taunt_5"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 59,
+        "name": "lightninggoat_taunt_3"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 57,
+        "name": "lightninggoat_taunt_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "242dcc1b3a4f0093a2ff67949de83839ba728d0a3795cc3d000153fa5da51270": [
+        {
+          "bank": "lightninggoat",
+          "index": 62,
+          "name": "lightninggoat_taunt_6"
+        }
+      ],
+      "40385dc1825daa0d12e1131c05ce3e89f342f94c6bdb049d807216a37ec898a9": [
+        {
+          "bank": "lightninggoat",
+          "index": 61,
+          "name": "lightninggoat_taunt_5"
+        }
+      ],
+      "833b07ee62e724f1fdd449167668f2edbe44748846c0031b97aeaf3f5d9cd733": [
+        {
+          "bank": "lightninggoat",
+          "index": 59,
+          "name": "lightninggoat_taunt_3"
+        }
+      ],
+      "d26f601acddb8ff7b06ec3ea879cac2f38739a4298aa1357efbfcc9272114705": [
+        {
+          "bank": "lightninggoat",
+          "index": 57,
+          "name": "lightninggoat_taunt_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/shocked_electric": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 48,
+        "name": "lightninggoat_shockedelec_3"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 46,
+        "name": "lightninggoat_shockedelec_1"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 47,
+        "name": "lightninggoat_shockedelec_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "885f3c71cd2a1649b0943704aa33f940cf7b70adc9407c749e29dda4094027cc": [
+        {
+          "bank": "goosemoose",
+          "index": 56,
+          "name": "moosling_elecegg_3.wav"
+        },
+        {
+          "bank": "lightninggoat",
+          "index": 48,
+          "name": "lightninggoat_shockedelec_3"
+        }
+      ],
+      "a5b6cedea251f6c71940e7e73e4d1fb344fc05f726057fe1f7a5964ac0831e53": [
+        {
+          "bank": "goosemoose",
+          "index": 54,
+          "name": "moosling_elecegg_1"
+        },
+        {
+          "bank": "lightninggoat",
+          "index": 46,
+          "name": "lightninggoat_shockedelec_1"
+        }
+      ],
+      "fc2a31be40bdcf29693e6f2fc6f1a6ea5c96a370cb9ed6e09bc303a773c26f24": [
+        {
+          "bank": "goosemoose",
+          "index": 55,
+          "name": "moosling_elecegg_2.wav"
+        },
+        {
+          "bank": "lightninggoat",
+          "index": 47,
+          "name": "lightninggoat_shockedelec_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/shocked_bleet": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 44,
+        "name": "lightninggoat_shockedVO_5"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 43,
+        "name": "lightninggoat_shockedVO_4"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 42,
+        "name": "lightninggoat_shockedVO_3"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 45,
+        "name": "lightninggoat_shockedVO_6"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "4c5cdb3f3610755c3996369a4e860d6babae85d2c9e9edf5b1503730c631426f": [
+        {
+          "bank": "lightninggoat",
+          "index": 44,
+          "name": "lightninggoat_shockedVO_5"
+        }
+      ],
+      "a6d1417a72dbedbc87a859156348c38b37b3ffa0a76d417c695b10b405d7c07a": [
+        {
+          "bank": "lightninggoat",
+          "index": 43,
+          "name": "lightninggoat_shockedVO_4"
+        }
+      ],
+      "b50e42be5c6ae4746b7f903655ea1a67968296c094ee5e4162cb2f2b9a018c99": [
+        {
+          "bank": "lightninggoat",
+          "index": 42,
+          "name": "lightninggoat_shockedVO_3"
+        }
+      ],
+      "eff725ab2eab9dbde30c55ef7984f5a1d6741289b6757b4a772ad603a2021a9e": [
+        {
+          "bank": "lightninggoat",
+          "index": 45,
+          "name": "lightninggoat_shockedVO_6"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve_DLC001/creatures/lightninggoat/jacobshorn": {
+    "samples": [
+      {
+        "bank": "lightninggoat",
+        "index": 37,
+        "name": "lightninggoat_jacobshorn_3"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 38,
+        "name": "lightninggoat_jacobshorn_4"
+      },
+      {
+        "bank": "lightninggoat",
+        "index": 36,
+        "name": "lightninggoat_jacobshorn_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "6fcb5f0218d2d02f06b5439bd0fe1a012460ef3ef8094f21e11493df50773df3": [
+        {
+          "bank": "lightninggoat",
+          "index": 37,
+          "name": "lightninggoat_jacobshorn_3"
+        }
+      ],
+      "85d16d2f4d9c631baca2ce42a104e033768647536349a8651dd49c451ac32605": [
+        {
+          "bank": "lightninggoat",
+          "index": 38,
+          "name": "lightninggoat_jacobshorn_4"
+        }
+      ],
+      "f107024520af027c87ce67f1b64102db4dc3a15bcac0cc9ba253a607deda9afb": [
+        {
+          "bank": "lightninggoat",
+          "index": 36,
+          "name": "lightninggoat_jacobshorn_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/slurtle/bite": {
+    "samples": [
+      {
+        "bank": "slurtle",
+        "index": 4,
+        "name": "slurtle_chew_3"
+      },
+      {
+        "bank": "slurtle",
+        "index": 2,
+        "name": "slurtle_chew_1"
+      },
+      {
+        "bank": "slurtle",
+        "index": 3,
+        "name": "slurtle_chew_2"
+      },
+      {
+        "bank": "slurtle",
+        "index": 5,
+        "name": "slurtle_chew_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "1384cd1c347c533792d17556e4eb89bef81a1acaa3ce9bd6993e27f05e4975e6": [
+        {
+          "bank": "slurtle",
+          "index": 4,
+          "name": "slurtle_chew_3"
+        }
+      ],
+      "4393fb348618cb7788f2a1cb9dacc6d7d494fb797bc2c35912242803e610a002": [
+        {
+          "bank": "slurtle",
+          "index": 2,
+          "name": "slurtle_chew_1"
+        }
+      ],
+      "458e163f10b248f6f549270103c64b0ab70c0670cab39a829427680db52a0a10": [
+        {
+          "bank": "slurtle",
+          "index": 3,
+          "name": "slurtle_chew_2"
+        }
+      ],
+      "4fcdf8222921b603ecd4157d1a794c80e63e4d3b1b06586108a30128e1ccfe9f": [
+        {
+          "bank": "slurtle",
+          "index": 5,
+          "name": "slurtle_chew_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/slurtle/death": {
+    "samples": [
+      {
+        "bank": "slurtle",
+        "index": 37,
+        "name": "slurtle_slide_out_7"
+      },
+      {
+        "bank": "slurtle",
+        "index": 36,
+        "name": "slurtle_slide_out_6"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "44aea5d44c4fd4251f2a028aeaaed2989009e82b331563bd164716827e301cbc": [
+        {
+          "bank": "slurtle",
+          "index": 37,
+          "name": "slurtle_slide_out_7"
+        }
+      ],
+      "dd2afd032be0924d15a0a5889e561cd9b54185f6f0d701436f25edbb9693f2f5": [
+        {
+          "bank": "slurtle",
+          "index": 36,
+          "name": "slurtle_slide_out_6"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/slurtle/taunt": {
+    "samples": [
+      {
+        "bank": "slurtle",
+        "index": 48,
+        "name": "slurtle_taunt_9"
+      },
+      {
+        "bank": "slurtle",
+        "index": 45,
+        "name": "slurtle_taunt_6"
+      },
+      {
+        "bank": "slurtle",
+        "index": 40,
+        "name": "slurtle_taunt_11"
+      },
+      {
+        "bank": "slurtle",
+        "index": 46,
+        "name": "slurtle_taunt_7"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "013bba705273cfd1a2f5363ea24efa4629b6950fbfcf95386f674b3b730a54cb": [
+        {
+          "bank": "slurtle",
+          "index": 48,
+          "name": "slurtle_taunt_9"
+        }
+      ],
+      "5b1df6c560da21154c720410076ea74c9dbb2b4f562e91097eb67a4965573dd1": [
+        {
+          "bank": "slurtle",
+          "index": 45,
+          "name": "slurtle_taunt_6"
+        }
+      ],
+      "6fcafae15cd82a0dfbf90e9e7e59a0016290f3568888fc876cade4e5677ff752": [
+        {
+          "bank": "slurtle",
+          "index": 40,
+          "name": "slurtle_taunt_11"
+        }
+      ],
+      "d820e34e4fe5da051b3af95f8d74bd5a29cc391ff5b299f78291358ce4113315": [
+        {
+          "bank": "slurtle",
+          "index": 46,
+          "name": "slurtle_taunt_7"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/slurtle/hide": {
+    "samples": [
+      {
+        "bank": "slurtle",
+        "index": 27,
+        "name": "slurtle_slide_in_2"
+      },
+      {
+        "bank": "slurtle",
+        "index": 30,
+        "name": "slurtle_slide_in_5"
+      },
+      {
+        "bank": "slurtle",
+        "index": 28,
+        "name": "slurtle_slide_in_3"
+      },
+      {
+        "bank": "slurtle",
+        "index": 29,
+        "name": "slurtle_slide_in_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "030db12054596423fc4b462593de48cdbe0da16c6b5978bc47edaf88235dc013": [
+        {
+          "bank": "slurtle",
+          "index": 27,
+          "name": "slurtle_slide_in_2"
+        }
+      ],
+      "056f89b5a60a7d5877e1f4146cbd9518c752d87b6996d9f0e2a4886e27c8b628": [
+        {
+          "bank": "slurtle",
+          "index": 30,
+          "name": "slurtle_slide_in_5"
+        }
+      ],
+      "68aaf00f1756af2cf81d56645fe77623bc73ad37089d47d62f90806f88228642": [
+        {
+          "bank": "slurtle",
+          "index": 28,
+          "name": "slurtle_slide_in_3"
+        }
+      ],
+      "acb1bdefea8b7dc33ddcb6a8e3dc2cc0dff158ad22e5de02ae9311af2579b8db": [
+        {
+          "bank": "slurtle",
+          "index": 29,
+          "name": "slurtle_slide_in_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/slurtle/emerge": {
+    "samples": [
+      {
+        "bank": "slurtle",
+        "index": 35,
+        "name": "slurtle_slide_out_5"
+      },
+      {
+        "bank": "slurtle",
+        "index": 32,
+        "name": "slurtle_slide_out_2"
+      },
+      {
+        "bank": "slurtle",
+        "index": 33,
+        "name": "slurtle_slide_out_3"
+      },
+      {
+        "bank": "slurtle",
+        "index": 31,
+        "name": "slurtle_slide_out_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "07198284869b312ff67ef96ed3c58dd6570c3d1250e5ad558ab9871e7cc14b32": [
+        {
+          "bank": "slurtle",
+          "index": 35,
+          "name": "slurtle_slide_out_5"
+        }
+      ],
+      "9b7e80db48f678a678fd07cf6c601d18e5060e9732158c573e9eb1e601a33bb3": [
+        {
+          "bank": "slurtle",
+          "index": 32,
+          "name": "slurtle_slide_out_2"
+        }
+      ],
+      "b5416747fac073fad79f03dcad1024e2054f45c417d09cec4412a7254631963b": [
+        {
+          "bank": "slurtle",
+          "index": 33,
+          "name": "slurtle_slide_out_3"
+        }
+      ],
+      "eec8dd30d997806646bbcc2d8faf51a23cc30a6858292e6caca56f838c9c457d": [
+        {
+          "bank": "slurtle",
+          "index": 31,
+          "name": "slurtle_slide_out_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/attack": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 5,
+        "name": "deerclops_attack_5"
+      },
+      {
+        "bank": "deerclops",
+        "index": 3,
+        "name": "deerclops_attack_3"
+      },
+      {
+        "bank": "deerclops",
+        "index": 1,
+        "name": "deerclops_attack_1"
+      },
+      {
+        "bank": "deerclops",
+        "index": 4,
+        "name": "deerclops_attack_4"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "06bf7a468162044ec07bf21e92ca721059d3e140b4a88cb7eb34c37ca0305d2e": [
+        {
+          "bank": "deerclops",
+          "index": 5,
+          "name": "deerclops_attack_5"
+        }
+      ],
+      "075f32aa49162ec7ef53898db70aefde86feb719115b308b5eaf3e7fbed560a2": [
+        {
+          "bank": "deerclops",
+          "index": 3,
+          "name": "deerclops_attack_3"
+        }
+      ],
+      "e4d22186c6132270a659e726a0f3f0ea451be9f7b3ac067fd2742eb00f2f6aba": [
+        {
+          "bank": "deerclops",
+          "index": 1,
+          "name": "deerclops_attack_1"
+        }
+      ],
+      "e899722c4d2077951b53626815dc06e7f520ddc47c13bf0082053283b6d56c17": [
+        {
+          "bank": "deerclops",
+          "index": 4,
+          "name": "deerclops_attack_4"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/swipe": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 36,
+        "name": "deerclops_swipe_1"
+      },
+      {
+        "bank": "deerclops",
+        "index": 38,
+        "name": "deerclops_swipe_3"
+      },
+      {
+        "bank": "deerclops",
+        "index": 37,
+        "name": "deerclops_swipe_2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "40113b1ea7cea80858240acf1ecd7ad1b5f9c661a0738277c94cb968164b4206": [
+        {
+          "bank": "deerclops",
+          "index": 36,
+          "name": "deerclops_swipe_1"
+        }
+      ],
+      "8efb3c1d0dfa9a237c98de6ff406e37af5bc14c1c45b4883da83b04b6c4fd36b": [
+        {
+          "bank": "deerclops",
+          "index": 38,
+          "name": "deerclops_swipe_3"
+        }
+      ],
+      "98cfabc2cccac63af16799e5f09b94d4e84708a1a0ca0fc8d3644fa4a8d5cbb5": [
+        {
+          "bank": "deerclops",
+          "index": 37,
+          "name": "deerclops_swipe_2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/hurt": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 14,
+        "name": "deerclops_hurt_1"
+      },
+      {
+        "bank": "deerclops",
+        "index": 17,
+        "name": "deerclops_hurt_4"
+      },
+      {
+        "bank": "deerclops",
+        "index": 19,
+        "name": "deerclops_hurt_6"
+      },
+      {
+        "bank": "deerclops",
+        "index": 15,
+        "name": "deerclops_hurt_2"
+      },
+      {
+        "bank": "deerclops",
+        "index": 16,
+        "name": "deerclops_hurt_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "0ef28cabb2e624aa506aaa10c0f2b18906617cec9755f92ff488ddc15fb59032": [
+        {
+          "bank": "deerclops",
+          "index": 14,
+          "name": "deerclops_hurt_1"
+        }
+      ],
+      "472a2e5836dd135ef51ec87730592c7bbe5308bb1dafcc1c2afd62d6aa1e8b61": [
+        {
+          "bank": "deerclops",
+          "index": 17,
+          "name": "deerclops_hurt_4"
+        }
+      ],
+      "4934d6621ac9e2469fb0a32567fad4ebc5f80ae43d27724218ed62b7ed731f59": [
+        {
+          "bank": "deerclops",
+          "index": 19,
+          "name": "deerclops_hurt_6"
+        }
+      ],
+      "9a1b3eb13492e05c9edcacf4fa3ae2d32daa47059313822cf2b64afafef24254": [
+        {
+          "bank": "deerclops",
+          "index": 15,
+          "name": "deerclops_hurt_2"
+        }
+      ],
+      "b580fa25847a8ec39c8526f08e1e82e83491270fe0632736704fde358014d994": [
+        {
+          "bank": "deerclops",
+          "index": 16,
+          "name": "deerclops_hurt_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/death": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 9,
+        "name": "deerclops_death_2"
+      },
+      {
+        "bank": "deerclops",
+        "index": 8,
+        "name": "deerclops_death_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "61614e56b0960fae70c0376ee5671a86288808b3ae086ea53ee1a8168eb741fd": [
+        {
+          "bank": "deerclops",
+          "index": 9,
+          "name": "deerclops_death_2"
+        }
+      ],
+      "67fa69bf0834ea637d4889ab603fd949e8ae64b8c040e465d671ef23fb1de9e6": [
+        {
+          "bank": "deerclops",
+          "index": 8,
+          "name": "deerclops_death_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/taunt_grrr": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 46,
+        "name": "deerclops_tauntgrrr_3"
+      },
+      {
+        "bank": "deerclops",
+        "index": 47,
+        "name": "deerclops_tauntgrrr_4"
+      },
+      {
+        "bank": "deerclops",
+        "index": 48,
+        "name": "deerclops_tauntgrrr_5"
+      },
+      {
+        "bank": "deerclops",
+        "index": 44,
+        "name": "deerclops_tauntgrrr_1"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2a2e7d40501db4ed14ea4c444e7f0b2fe7eaef12a229905851e702d2106827a9": [
+        {
+          "bank": "deerclops",
+          "index": 46,
+          "name": "deerclops_tauntgrrr_3"
+        }
+      ],
+      "38aa40ff7d95d4814536c3c47f9fb0c9022cf78caba3648a217c2cefcdc2fe7b": [
+        {
+          "bank": "deerclops",
+          "index": 47,
+          "name": "deerclops_tauntgrrr_4"
+        }
+      ],
+      "47c503a1dacb5f836efc13ef19b33339ad166ce7f100fa6835ce736d693a86ea": [
+        {
+          "bank": "deerclops",
+          "index": 48,
+          "name": "deerclops_tauntgrrr_5"
+        }
+      ],
+      "c059571fd9becd1baa31c14f4709f5fac18aec5ed035e9564d602cb1017c9eb0": [
+        {
+          "bank": "deerclops",
+          "index": 44,
+          "name": "deerclops_tauntgrrr_1"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/taunt_howl": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 41,
+        "name": "deerclops_taunt_3"
+      },
+      {
+        "bank": "deerclops",
+        "index": 42,
+        "name": "deerclops_taunt_4"
+      },
+      {
+        "bank": "deerclops",
+        "index": 40,
+        "name": "deerclops_taunt_2"
+      },
+      {
+        "bank": "deerclops",
+        "index": 39,
+        "name": "deerclops_taunt_1"
+      },
+      {
+        "bank": "deerclops",
+        "index": 43,
+        "name": "deerclops_taunt_5"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "28bb7bca503a4a16765207957c0e322edd36bd6f5b9438e976852a608198b0af": [
+        {
+          "bank": "deerclops",
+          "index": 41,
+          "name": "deerclops_taunt_3"
+        }
+      ],
+      "4b5373becad997c49fd33f01b700dc3a04a40fb82cf6f80373291ac29a7a0b6e": [
+        {
+          "bank": "deerclops",
+          "index": 42,
+          "name": "deerclops_taunt_4"
+        }
+      ],
+      "4b8497bf6f156dbed7aa9d457da08b4a3c40581af1bdb15420ca8a2faf51a9bc": [
+        {
+          "bank": "deerclops",
+          "index": 40,
+          "name": "deerclops_taunt_2"
+        }
+      ],
+      "a94de11f8afcf774a037929b21c6b49d22798431662b44be75b5a9170ca214a1": [
+        {
+          "bank": "deerclops",
+          "index": 39,
+          "name": "deerclops_taunt_1"
+        }
+      ],
+      "f2762489a0a5d9023bb90ffc8d59d74356c2e44eb49839de082d20a672347d85": [
+        {
+          "bank": "deerclops",
+          "index": 43,
+          "name": "deerclops_taunt_5"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/creatures/deerclops/ice_small": {
+    "samples": [
+      {
+        "bank": "deerclops",
+        "index": 26,
+        "name": "deerclops_iceattack_small_4"
+      },
+      {
+        "bank": "deerclops",
+        "index": 24,
+        "name": "deerclops_iceattack_small_2"
+      },
+      {
+        "bank": "deerclops",
+        "index": 25,
+        "name": "deerclops_iceattack_small_3"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "7213777955eeaf9c90d093d35227e344c8afddee0f2d9444d7011e062ca95efe": [
+        {
+          "bank": "deerclops",
+          "index": 26,
+          "name": "deerclops_iceattack_small_4"
+        }
+      ],
+      "9fd512aa0dc24db11eb88365f96f536ec517c78dc55f1f4a0a965fe30ead04a5": [
+        {
+          "bank": "deerclops",
+          "index": 24,
+          "name": "deerclops_iceattack_small_2"
+        }
+      ],
+      "d5e926f4e182cf873f08858be7ca81f0aca70d26d54cd915dbf0ab484aca0ccc": [
+        {
+          "bank": "deerclops",
+          "index": 25,
+          "name": "deerclops_iceattack_small_3"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/common/freezecreature": {
+    "samples": [
+      {
+        "bank": "common",
+        "index": 345,
+        "name": "freeze_creature"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "99bb6574e7cae83ca717a3dd4bdabaf57f37185c46331fdfc1927f94fbf563d1": [
+        {
+          "bank": "common",
+          "index": 345,
+          "name": "freeze_creature"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/common/freezethaw": {
+    "samples": [
+      {
+        "bank": "common",
+        "index": 346,
+        "name": "freeze_thaw_LP_V2"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2688485a7efc921272416c982294c72942342f167f29aa5b9ff8371192b53008": [
+        {
+          "bank": "common",
+          "index": 346,
+          "name": "freeze_thaw_LP_V2"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/common/break_iceblock": {
+    "samples": [
+      {
+        "bank": "common",
+        "index": 208,
+        "name": "iceblock_break"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "a7ff1f19d97555a401a95c080763bc5fe2e517b0e80681d629a2394e74e7f306": [
+        {
+          "bank": "common",
+          "index": 208,
+          "name": "iceblock_break"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/HUD/click_object": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 74,
+        "name": "click_object"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "73b22ec2ba83f25545898f0295b920432b1c291034c83354a71c421491c912bb": [
+        {
+          "bank": "sfx",
+          "index": 74,
+          "name": "click_object"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/HUD/click_negative": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 73,
+        "name": "click_negative"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "9a7459ea896f0db448f7b34f1916534f7f21447d9ebc1da9619e70b58dc214cc": [
+        {
+          "bank": "sfx",
+          "index": 73,
+          "name": "click_negative"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/wilson/equip_item": {
+    "samples": [
+      {
+        "bank": "wilson",
+        "index": 1,
+        "name": "Pickup_item"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2af46ced7b1b310d99986b9220044aceb5f28ce009bd05db57c2e98a5d90e0c8": [
+        {
+          "bank": "wilson",
+          "index": 1,
+          "name": "Pickup_item"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/HUD/collect_resource": {
+    "samples": [
+      {
+        "bank": "sfx",
+        "index": 437,
+        "name": "aqol_soothed_pickup_sound_v2_DST"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "cfb822e7bd27c6c051af64a16f5baaaa9a548b46e9b6a03dd05c50e6eb7acc07": [
+        {
+          "bank": "sfx",
+          "index": 437,
+          "name": "aqol_soothed_pickup_sound_v2_DST"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "aqol/new_test/vegetation_grassy": {
+    "samples": [
+      {
+        "bank": "aqol",
+        "index": 30,
+        "name": "DSS_grass_thatch_pack_11"
+      },
+      {
+        "bank": "aqol",
+        "index": 32,
+        "name": "DSS_grass_thatch_pack_14"
+      },
+      {
+        "bank": "aqol",
+        "index": 29,
+        "name": "DSS_grass_thatch_pack_09"
+      },
+      {
+        "bank": "aqol",
+        "index": 31,
+        "name": "DSS_grass_thatch_pack_13"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "23522d4faf4d7002f9244fc1b119c5c2cf823c7572262f4c73198283e5d8f666": [
+        {
+          "bank": "aqol",
+          "index": 30,
+          "name": "DSS_grass_thatch_pack_11"
+        },
+        {
+          "bank": "meta5",
+          "index": 104,
+          "name": "DSS_grass_thatch_pack_11"
+        }
+      ],
+      "65bccc6a3d125b34c76eb690271c71df67506b7f5a41b5ea15a3e064cfc5dd50": [
+        {
+          "bank": "aqol",
+          "index": 32,
+          "name": "DSS_grass_thatch_pack_14"
+        },
+        {
+          "bank": "meta5",
+          "index": 107,
+          "name": "DSS_grass_thatch_pack_14"
+        },
+        {
+          "bank": "monkeyisland",
+          "index": 40,
+          "name": "DSS_grass_thatch_pack_14"
+        }
+      ],
+      "8dfc6ca4b6d9eb015d317a53e765fc58cda05eb53e7db31f15f091361410a94b": [
+        {
+          "bank": "aqol",
+          "index": 29,
+          "name": "DSS_grass_thatch_pack_09"
+        },
+        {
+          "bank": "meta5",
+          "index": 102,
+          "name": "DSS_grass_thatch_pack_09"
+        }
+      ],
+      "d68d63f4ab0746d80073e715dca3c2447b52edd6622eb18179369a915f861dc6": [
+        {
+          "bank": "aqol",
+          "index": 31,
+          "name": "DSS_grass_thatch_pack_13"
+        },
+        {
+          "bank": "meta5",
+          "index": 106,
+          "name": "DSS_grass_thatch_pack_13"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  },
+  "dontstarve/common/dropGeneric": {
+    "samples": [
+      {
+        "bank": "common",
+        "index": 65,
+        "name": "Drop_generic"
+      }
+    ],
+    "compressedPrefixMatches": {
+      "2c256aa33f72373eff5ba04c7534f5d1ff8302a65b722aa5e5bdff5af90f540b": [
+        {
+          "bank": "common",
+          "index": 65,
+          "name": "Drop_generic"
+        }
+      ]
+    },
+    "mapping": "compressed-prefix-exact"
+  }
+}

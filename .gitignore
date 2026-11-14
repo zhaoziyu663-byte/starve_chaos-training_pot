@@ -1,0 +1,9 @@
+node_modules/
+.backups/
+.openai/
+__pycache__/
+*.pyc
+tools/audio_cache/
+tools/audio_python/
+tools/vgmstream/
+*.log

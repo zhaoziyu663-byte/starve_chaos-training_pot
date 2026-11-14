@@ -1,0 +1,58 @@
+{
+  "events": 177,
+  "clips": 397,
+  "reusedClips": 391,
+  "totalBytes": 9084625,
+  "tracks": {
+    "ambient": {
+      "bank": "forest_stream.fsb",
+      "subsong": 33,
+      "sampleName": "AMB_grassland_LP",
+      "duration": 123.12,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.995636,
+      "bytes": 1611259
+    },
+    "calm": {
+      "bank": "music.fsb",
+      "subsong": 48,
+      "sampleName": "Working_Remix_V1_172bpm_DST",
+      "duration": 89.302313,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.477905,
+      "bytes": 1209211
+    },
+    "combat": {
+      "bank": "together.fsb",
+      "subsong": 9,
+      "sampleName": "Danger_Remix_V3_1_172bpm_DST",
+      "duration": 66.97675,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peak": 0.775513,
+      "bytes": 898979
+    },
+    "combat_alt": {
+      "bank": "together.fsb",
+      "subsong": 10,
+      "sampleName": "Danger_Remix_V3_2_172bpm_DST",
+      "duration": 66.976729,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peak": 0.772766,
+      "bytes": 896221
+    },
+    "boss": {
+      "bank": "music.fsb",
+      "subsong": 44,
+      "sampleName": "Don't Starve - EFS 4_4 160bpm",
+      "duration": 48.0,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.522156,
+      "bytes": 730421
+    }
+  }
+}

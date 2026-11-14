@@ -1,0 +1,30 @@
+Audio extraction completed from local DST version 762172.
+
+Runtime manifest: dist/assets/audio/manifest.json
+108 Ogg Vorbis files, 43 event entries, 6,309,063 bytes total.
+All output file paths exist. Each decoded output frame count and sample rate
+matches its source WAV. All clips have nonzero finite source samples.
+
+Tool: vgmstream r2168 win64 official portable release.
+URL: https://github.com/vgmstream/vgmstream/releases/download/r2168/vgmstream-win64.zip
+SHA256: 692d45070852a35c1fa42726aa3c9de528e44eec925d37d99b1074256b99a229
+OGG encoder: python-soundfile 0.14.0, project-local tools/audio_python.
+Original FSB files were only read. Generated files stay in E:/DST-Combat-Trainer.
+
+Manifest clips preserve bank, subsong index, original sample name, duration,
+sample rate, channels and peak. Source bank SHA256 digests are recorded.
+Browser gains are chosen mix defaults, not recovered FMOD gains.
+
+Known limits:
+- All audio is original game sound, but browser events must be driven at the
+  Lua sound cue frames, which differ from damage frames.
+- Native FMOD spatialisation, DSP, sound layering and exact randomisation are
+  not reproduced. Sample-to-event mapping uses sample names plus Lua events;
+  compound effects are individual samples, not flattened FMOD event renders.
+- Complete BGM tracks are provided. Use crossfades on loops and transitions.
+- Original work music is activity-driven, not an always-on idle track.
+
+Browser integration:
+events[key].files paths are relative to the page root. Unlock AudioContext on
+a user start gesture. Suggested gains are in events[key].volume. Pause all
+sources while paused or hidden. Stop combat music after the encounter.

@@ -1,0 +1,10584 @@
+{
+  "spider": [
+    {
+      "index": 1,
+      "name": "SpiderEggSack"
+    },
+    {
+      "index": 2,
+      "name": "SpiderHive_grow"
+    },
+    {
+      "index": 3,
+      "name": "SpiderLair_LP_v2"
+    },
+    {
+      "index": 4,
+      "name": "SpiderLair_destroy_1"
+    },
+    {
+      "index": 5,
+      "name": "SpiderLair_hit_1"
+    },
+    {
+      "index": 6,
+      "name": "SpiderLair_hit_2"
+    },
+    {
+      "index": 7,
+      "name": "SpiderLair_hit_3"
+    },
+    {
+      "index": 8,
+      "name": "SpiderQueenLegsHiveBurst_1"
+    },
+    {
+      "index": 9,
+      "name": "SpiderQueenLegsHiveBurst_2"
+    },
+    {
+      "index": 10,
+      "name": "SpiderQueenLegsHiveBurst_3"
+    },
+    {
+      "index": 11,
+      "name": "SpiderQueen_attack_1"
+    },
+    {
+      "index": 12,
+      "name": "SpiderQueen_attack_2"
+    },
+    {
+      "index": 13,
+      "name": "SpiderQueen_attack_3"
+    },
+    {
+      "index": 14,
+      "name": "SpiderQueen_attack_4"
+    },
+    {
+      "index": 15,
+      "name": "SpiderQueen_attack_5"
+    },
+    {
+      "index": 16,
+      "name": "SpiderQueen_attack_6"
+    },
+    {
+      "index": 17,
+      "name": "SpiderQueen_attack_7"
+    },
+    {
+      "index": 18,
+      "name": "SpiderQueen_attack_8"
+    },
+    {
+      "index": 19,
+      "name": "SpiderQueen_attack_9"
+    },
+    {
+      "index": 20,
+      "name": "SpiderQueen_birthFoley_1"
+    },
+    {
+      "index": 21,
+      "name": "SpiderQueen_birthFoley_2"
+    },
+    {
+      "index": 22,
+      "name": "SpiderQueen_birthFoley_3"
+    },
+    {
+      "index": 23,
+      "name": "SpiderQueen_death_1"
+    },
+    {
+      "index": 24,
+      "name": "SpiderQueen_death_2"
+    },
+    {
+      "index": 25,
+      "name": "SpiderQueen_death_3"
+    },
+    {
+      "index": 26,
+      "name": "SpiderQueen_disstress_1"
+    },
+    {
+      "index": 27,
+      "name": "SpiderQueen_disstress_2"
+    },
+    {
+      "index": 28,
+      "name": "SpiderQueen_disstress_3"
+    },
+    {
+      "index": 29,
+      "name": "SpiderQueen_emerge_1"
+    },
+    {
+      "index": 30,
+      "name": "SpiderQueen_emerge_2"
+    },
+    {
+      "index": 31,
+      "name": "SpiderQueen_giveBirth_1"
+    },
+    {
+      "index": 32,
+      "name": "SpiderQueen_giveBirth_2"
+    },
+    {
+      "index": 33,
+      "name": "SpiderQueen_giveBirth_3"
+    },
+    {
+      "index": 34,
+      "name": "SpiderQueen_giveBirth_4"
+    },
+    {
+      "index": 35,
+      "name": "SpiderQueen_hurt_1"
+    },
+    {
+      "index": 36,
+      "name": "SpiderQueen_hurt_2"
+    },
+    {
+      "index": 37,
+      "name": "SpiderQueen_hurt_3"
+    },
+    {
+      "index": 38,
+      "name": "SpiderQueen_hurt_4"
+    },
+    {
+      "index": 39,
+      "name": "SpiderQueen_hurt_5"
+    },
+    {
+      "index": 40,
+      "name": "SpiderQueen_hurt_6"
+    },
+    {
+      "index": 41,
+      "name": "SpiderQueen_hurt_7"
+    },
+    {
+      "index": 42,
+      "name": "SpiderQueen_idleLong_1"
+    },
+    {
+      "index": 43,
+      "name": "SpiderQueen_idleLong_2"
+    },
+    {
+      "index": 44,
+      "name": "SpiderQueen_idleLong_3"
+    },
+    {
+      "index": 45,
+      "name": "SpiderQueen_idleLong_4"
+    },
+    {
+      "index": 46,
+      "name": "SpiderQueen_idleLong_5"
+    },
+    {
+      "index": 47,
+      "name": "SpiderQueen_idleLong_6"
+    },
+    {
+      "index": 48,
+      "name": "SpiderQueen_idleLong_7"
+    },
+    {
+      "index": 49,
+      "name": "SpiderQueen_idleLong_8"
+    },
+    {
+      "index": 50,
+      "name": "SpiderQueen_idleShort_1"
+    },
+    {
+      "index": 51,
+      "name": "SpiderQueen_idleShort_2"
+    },
+    {
+      "index": 52,
+      "name": "SpiderQueen_idleShort_3"
+    },
+    {
+      "index": 53,
+      "name": "SpiderQueen_idleShort_4"
+    },
+    {
+      "index": 54,
+      "name": "SpiderQueen_idleShort_5"
+    },
+    {
+      "index": 55,
+      "name": "SpiderQueen_idleShort_6"
+    },
+    {
+      "index": 56,
+      "name": "SpiderQueen_idleShort_7"
+    },
+    {
+      "index": 57,
+      "name": "SpiderQueen_idleShort_8"
+    },
+    {
+      "index": 58,
+      "name": "SpiderQueen_sleep_1"
+    },
+    {
+      "index": 59,
+      "name": "SpiderQueen_sleep_2"
+    },
+    {
+      "index": 60,
+      "name": "SpiderQueen_sleep_3"
+    },
+    {
+      "index": 61,
+      "name": "SpiderQueen_sleep_4"
+    },
+    {
+      "index": 62,
+      "name": "SpiderQueen_sleep_5"
+    },
+    {
+      "index": 63,
+      "name": "SpiderQueen_sleep_6"
+    },
+    {
+      "index": 64,
+      "name": "SpiderQueen_sleep_7"
+    },
+    {
+      "index": 65,
+      "name": "SpiderQueen_sleep_8"
+    },
+    {
+      "index": 66,
+      "name": "Spider_attack_1"
+    },
+    {
+      "index": 67,
+      "name": "Spider_attack_10"
+    },
+    {
+      "index": 68,
+      "name": "Spider_attack_11"
+    },
+    {
+      "index": 69,
+      "name": "Spider_attack_12"
+    },
+    {
+      "index": 70,
+      "name": "Spider_attack_13"
+    },
+    {
+      "index": 71,
+      "name": "Spider_attack_14"
+    },
+    {
+      "index": 72,
+      "name": "Spider_attack_15"
+    },
+    {
+      "index": 73,
+      "name": "Spider_attack_2"
+    },
+    {
+      "index": 74,
+      "name": "Spider_attack_3"
+    },
+    {
+      "index": 75,
+      "name": "Spider_attack_4"
+    },
+    {
+      "index": 76,
+      "name": "Spider_attack_5"
+    },
+    {
+      "index": 77,
+      "name": "Spider_attack_6"
+    },
+    {
+      "index": 78,
+      "name": "Spider_attack_7"
+    },
+    {
+      "index": 79,
+      "name": "Spider_attack_8"
+    },
+    {
+      "index": 80,
+      "name": "Spider_attack_9"
+    },
+    {
+      "index": 81,
+      "name": "Spider_death_1"
+    },
+    {
+      "index": 82,
+      "name": "Spider_death_2"
+    },
+    {
+      "index": 83,
+      "name": "Spider_death_3"
+    },
+    {
+      "index": 84,
+      "name": "Spider_eat_1"
+    },
+    {
+      "index": 85,
+      "name": "Spider_eat_2"
+    },
+    {
+      "index": 86,
+      "name": "Spider_eat_3"
+    },
+    {
+      "index": 87,
+      "name": "Spider_eat_4"
+    },
+    {
+      "index": 88,
+      "name": "Spider_eat_5"
+    },
+    {
+      "index": 89,
+      "name": "Spider_eat_6"
+    },
+    {
+      "index": 90,
+      "name": "Spider_fallasleep_1"
+    },
+    {
+      "index": 91,
+      "name": "Spider_jump_1"
+    },
+    {
+      "index": 92,
+      "name": "Spider_jump_2"
+    },
+    {
+      "index": 93,
+      "name": "Spider_jump_3"
+    },
+    {
+      "index": 94,
+      "name": "Spider_scream_1"
+    },
+    {
+      "index": 95,
+      "name": "Spider_scream_2"
+    },
+    {
+      "index": 96,
+      "name": "Spider_scream_3"
+    },
+    {
+      "index": 97,
+      "name": "Spider_scream_4"
+    },
+    {
+      "index": 98,
+      "name": "Spider_scream_5"
+    },
+    {
+      "index": 99,
+      "name": "Spider_scream_6"
+    },
+    {
+      "index": 100,
+      "name": "Spider_scream_7"
+    },
+    {
+      "index": 101,
+      "name": "Spider_sleeping_1"
+    },
+    {
+      "index": 102,
+      "name": "Spider_sleeping_2"
+    },
+    {
+      "index": 103,
+      "name": "Spider_sleeping_3"
+    },
+    {
+      "index": 104,
+      "name": "Spider_sleeping_4"
+    },
+    {
+      "index": 105,
+      "name": "Spider_sleeping_5"
+    },
+    {
+      "index": 106,
+      "name": "Spider_step_1"
+    },
+    {
+      "index": 107,
+      "name": "Spider_step_2"
+    },
+    {
+      "index": 108,
+      "name": "Spider_step_3"
+    },
+    {
+      "index": 109,
+      "name": "Spider_step_4"
+    },
+    {
+      "index": 110,
+      "name": "Spider_step_5"
+    },
+    {
+      "index": 111,
+      "name": "Spider_wakeup_1"
+    },
+    {
+      "index": 112,
+      "name": "Spider_wakeup_2"
+    },
+    {
+      "index": 113,
+      "name": "Spider_wakeup_3"
+    },
+    {
+      "index": 114,
+      "name": "Spiderqueen_swipe_1"
+    },
+    {
+      "index": 115,
+      "name": "Spiderqueen_swipe_2"
+    },
+    {
+      "index": 116,
+      "name": "Spiderqueen_swipe_3"
+    },
+    {
+      "index": 117,
+      "name": "spider_cave_spit_1"
+    },
+    {
+      "index": 118,
+      "name": "spider_cave_spit_2"
+    },
+    {
+      "index": 119,
+      "name": "spider_cave_spit_3"
+    },
+    {
+      "index": 120,
+      "name": "spider_webdescend_v2_1"
+    },
+    {
+      "index": 121,
+      "name": "spider_webdescend_v2_2"
+    },
+    {
+      "index": 122,
+      "name": "spider_webdescend_v2_3"
+    },
+    {
+      "index": 123,
+      "name": "spiderqueen_footstep_1"
+    },
+    {
+      "index": 124,
+      "name": "spiderqueen_footstep_2"
+    },
+    {
+      "index": 125,
+      "name": "spiderqueen_footstep_3"
+    },
+    {
+      "index": 126,
+      "name": "spiderqueen_footstep_4"
+    },
+    {
+      "index": 127,
+      "name": "blood_squirt"
+    }
+  ],
+  "hound": [
+    {
+      "index": 1,
+      "name": "Hound_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "Hound_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "Hound_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "Hound_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "Hound_attack_5"
+    },
+    {
+      "index": 6,
+      "name": "Hound_attack_6"
+    },
+    {
+      "index": 7,
+      "name": "Hound_bark_1"
+    },
+    {
+      "index": 8,
+      "name": "Hound_bark_2"
+    },
+    {
+      "index": 9,
+      "name": "Hound_bark_3"
+    },
+    {
+      "index": 10,
+      "name": "Hound_bark_4"
+    },
+    {
+      "index": 11,
+      "name": "Hound_bark_5"
+    },
+    {
+      "index": 12,
+      "name": "Hound_bark_6"
+    },
+    {
+      "index": 13,
+      "name": "Hound_bark_7"
+    },
+    {
+      "index": 14,
+      "name": "Hound_bark_8"
+    },
+    {
+      "index": 15,
+      "name": "Hound_bark_9"
+    },
+    {
+      "index": 16,
+      "name": "Hound_death_1"
+    },
+    {
+      "index": 17,
+      "name": "Hound_death_2"
+    },
+    {
+      "index": 18,
+      "name": "Hound_death_3"
+    },
+    {
+      "index": 19,
+      "name": "Hound_distant_10"
+    },
+    {
+      "index": 20,
+      "name": "Hound_distant_5"
+    },
+    {
+      "index": 21,
+      "name": "Hound_distant_6"
+    },
+    {
+      "index": 22,
+      "name": "Hound_distant_7"
+    },
+    {
+      "index": 23,
+      "name": "Hound_distant_8"
+    },
+    {
+      "index": 24,
+      "name": "Hound_distant_9"
+    },
+    {
+      "index": 25,
+      "name": "Hound_growl_1"
+    },
+    {
+      "index": 26,
+      "name": "Hound_growl_10"
+    },
+    {
+      "index": 27,
+      "name": "Hound_growl_2"
+    },
+    {
+      "index": 28,
+      "name": "Hound_growl_3"
+    },
+    {
+      "index": 29,
+      "name": "Hound_growl_4"
+    },
+    {
+      "index": 30,
+      "name": "Hound_growl_5"
+    },
+    {
+      "index": 31,
+      "name": "Hound_growl_6"
+    },
+    {
+      "index": 32,
+      "name": "Hound_growl_7"
+    },
+    {
+      "index": 33,
+      "name": "Hound_growl_8"
+    },
+    {
+      "index": 34,
+      "name": "Hound_growl_9"
+    },
+    {
+      "index": 35,
+      "name": "Hound_hurt_1"
+    },
+    {
+      "index": 36,
+      "name": "Hound_hurt_2"
+    },
+    {
+      "index": 37,
+      "name": "Hound_hurt_3"
+    },
+    {
+      "index": 38,
+      "name": "Hound_hurt_4"
+    },
+    {
+      "index": 39,
+      "name": "Hound_hurt_5"
+    },
+    {
+      "index": 40,
+      "name": "Hound_hurt_6"
+    },
+    {
+      "index": 41,
+      "name": "Hound_hurt_7"
+    },
+    {
+      "index": 42,
+      "name": "Hound_hurt_8"
+    },
+    {
+      "index": 43,
+      "name": "Hound_pant_1"
+    },
+    {
+      "index": 44,
+      "name": "Hound_pant_2"
+    },
+    {
+      "index": 45,
+      "name": "Hound_pant_3"
+    },
+    {
+      "index": 46,
+      "name": "Hound_pant_4"
+    },
+    {
+      "index": 47,
+      "name": "Hound_pant_5"
+    },
+    {
+      "index": 48,
+      "name": "Hound_pant_6"
+    },
+    {
+      "index": 49,
+      "name": "Hound_pant_7"
+    },
+    {
+      "index": 50,
+      "name": "Hound_sleep_1"
+    },
+    {
+      "index": 51,
+      "name": "Hound_sleep_10"
+    },
+    {
+      "index": 52,
+      "name": "Hound_sleep_2"
+    },
+    {
+      "index": 53,
+      "name": "Hound_sleep_3"
+    },
+    {
+      "index": 54,
+      "name": "Hound_sleep_4"
+    },
+    {
+      "index": 55,
+      "name": "Hound_sleep_5"
+    },
+    {
+      "index": 56,
+      "name": "Hound_sleep_6"
+    },
+    {
+      "index": 57,
+      "name": "Hound_sleep_7"
+    },
+    {
+      "index": 58,
+      "name": "Hound_sleep_8"
+    },
+    {
+      "index": 59,
+      "name": "Hound_sleep_9"
+    },
+    {
+      "index": 60,
+      "name": "firehound_explo"
+    },
+    {
+      "index": 61,
+      "name": "icehound_explo"
+    },
+    {
+      "index": 62,
+      "name": "houndmound_LP1"
+    },
+    {
+      "index": 63,
+      "name": "houndmound_LP2"
+    },
+    {
+      "index": 64,
+      "name": "Clay_Hound_Attack_01"
+    },
+    {
+      "index": 65,
+      "name": "Clay_Hound_Attack_02"
+    },
+    {
+      "index": 66,
+      "name": "Clay_Hound_Attack_03"
+    },
+    {
+      "index": 67,
+      "name": "Clay_Hound_Attack_04"
+    },
+    {
+      "index": 68,
+      "name": "Clay_Hound_Attack_05"
+    },
+    {
+      "index": 69,
+      "name": "Clay_Hound_Attack_06"
+    },
+    {
+      "index": 70,
+      "name": "Clay_Hound_Bark_01"
+    },
+    {
+      "index": 71,
+      "name": "Clay_Hound_Bark_02"
+    },
+    {
+      "index": 72,
+      "name": "Clay_Hound_Bark_03"
+    },
+    {
+      "index": 73,
+      "name": "Clay_Hound_Bark_04"
+    },
+    {
+      "index": 74,
+      "name": "Clay_Hound_Bark_05"
+    },
+    {
+      "index": 75,
+      "name": "Clay_Hound_Bark_06"
+    },
+    {
+      "index": 76,
+      "name": "Clay_Hound_Bark_07"
+    },
+    {
+      "index": 77,
+      "name": "Clay_Hound_Bark_08"
+    },
+    {
+      "index": 78,
+      "name": "Clay_Hound_Bark_09"
+    },
+    {
+      "index": 79,
+      "name": "Clay_Hound_Death_01"
+    },
+    {
+      "index": 80,
+      "name": "Clay_Hound_Death_02"
+    },
+    {
+      "index": 81,
+      "name": "Clay_Hound_Death_03"
+    },
+    {
+      "index": 82,
+      "name": "Clay_Hound_Distant_01"
+    },
+    {
+      "index": 83,
+      "name": "Clay_Hound_Distant_02"
+    },
+    {
+      "index": 84,
+      "name": "Clay_Hound_Distant_03"
+    },
+    {
+      "index": 85,
+      "name": "Clay_Hound_Distant_04"
+    },
+    {
+      "index": 86,
+      "name": "Clay_Hound_Distant_05"
+    },
+    {
+      "index": 87,
+      "name": "Clay_Hound_Distant_06"
+    },
+    {
+      "index": 88,
+      "name": "Clay_Hound_Distant_07"
+    },
+    {
+      "index": 89,
+      "name": "Clay_Hound_Distant_08"
+    },
+    {
+      "index": 90,
+      "name": "Clay_Hound_Distant_09"
+    },
+    {
+      "index": 91,
+      "name": "Clay_Hound_Distant_10"
+    },
+    {
+      "index": 92,
+      "name": "Clay_Hound_Growl_01"
+    },
+    {
+      "index": 93,
+      "name": "Clay_Hound_Growl_02"
+    },
+    {
+      "index": 94,
+      "name": "Clay_Hound_Growl_03"
+    },
+    {
+      "index": 95,
+      "name": "Clay_Hound_Growl_04"
+    },
+    {
+      "index": 96,
+      "name": "Clay_Hound_Growl_05"
+    },
+    {
+      "index": 97,
+      "name": "Clay_Hound_Growl_06"
+    },
+    {
+      "index": 98,
+      "name": "Clay_Hound_Growl_07"
+    },
+    {
+      "index": 99,
+      "name": "Clay_Hound_Growl_08"
+    },
+    {
+      "index": 100,
+      "name": "Clay_Hound_Growl_09"
+    },
+    {
+      "index": 101,
+      "name": "Clay_Hound_Growl_10"
+    },
+    {
+      "index": 102,
+      "name": "Clay_Hound_Hurt_01"
+    },
+    {
+      "index": 103,
+      "name": "Clay_Hound_Hurt_02"
+    },
+    {
+      "index": 104,
+      "name": "Clay_Hound_Hurt_03"
+    },
+    {
+      "index": 105,
+      "name": "Clay_Hound_Hurt_04"
+    },
+    {
+      "index": 106,
+      "name": "Clay_Hound_Hurt_05"
+    },
+    {
+      "index": 107,
+      "name": "Clay_Hound_Hurt_06"
+    },
+    {
+      "index": 108,
+      "name": "Clay_Hound_Hurt_07"
+    },
+    {
+      "index": 109,
+      "name": "Clay_Hound_Hurt_08"
+    },
+    {
+      "index": 110,
+      "name": "Clay_Hound_Pant_01"
+    },
+    {
+      "index": 111,
+      "name": "Clay_Hound_Pant_02"
+    },
+    {
+      "index": 112,
+      "name": "Clay_Hound_Pant_03"
+    },
+    {
+      "index": 113,
+      "name": "Clay_Hound_Pant_04"
+    },
+    {
+      "index": 114,
+      "name": "Clay_Hound_Pant_05"
+    },
+    {
+      "index": 115,
+      "name": "Clay_Hound_Pant_06"
+    },
+    {
+      "index": 116,
+      "name": "Clay_Hound_Pant_07"
+    },
+    {
+      "index": 117,
+      "name": "Clay_Hound_Sleep_01"
+    },
+    {
+      "index": 118,
+      "name": "Clay_Hound_Sleep_02"
+    },
+    {
+      "index": 119,
+      "name": "Clay_Hound_Sleep_03"
+    },
+    {
+      "index": 120,
+      "name": "Clay_Hound_Sleep_04"
+    },
+    {
+      "index": 121,
+      "name": "Clay_Hound_Sleep_05"
+    },
+    {
+      "index": 122,
+      "name": "Clay_Hound_Sleep_06"
+    },
+    {
+      "index": 123,
+      "name": "Clay_Hound_Sleep_07"
+    },
+    {
+      "index": 124,
+      "name": "Clay_Hound_Sleep_08"
+    },
+    {
+      "index": 125,
+      "name": "Clay_Hound_Sleep_09"
+    },
+    {
+      "index": 126,
+      "name": "Clay_Hound_Sleep_10"
+    },
+    {
+      "index": 127,
+      "name": "Clay_StoneShake_01"
+    },
+    {
+      "index": 128,
+      "name": "Clay_StoneShake_02"
+    },
+    {
+      "index": 129,
+      "name": "Clay_StoneShake_03"
+    },
+    {
+      "index": 130,
+      "name": "Clay_StoneShake_04"
+    },
+    {
+      "index": 131,
+      "name": "Clay_StoneShake_05"
+    },
+    {
+      "index": 132,
+      "name": "Clay_StoneShake_06"
+    },
+    {
+      "index": 133,
+      "name": "Clay_StoneShake_07"
+    },
+    {
+      "index": 134,
+      "name": "Clay_StoneShake_08"
+    },
+    {
+      "index": 135,
+      "name": "Clay_StoneShake_09"
+    },
+    {
+      "index": 136,
+      "name": "Clay_StoneShake_10"
+    },
+    {
+      "index": 137,
+      "name": "Clay_StoneShake_11"
+    },
+    {
+      "index": 138,
+      "name": "Clay_StoneShake_12"
+    },
+    {
+      "index": 139,
+      "name": "Clay_StoneShake_13"
+    },
+    {
+      "index": 140,
+      "name": "Clay_hound_taunt_howl_01"
+    },
+    {
+      "index": 141,
+      "name": "Clay_hound_taunt_howl_02"
+    },
+    {
+      "index": 142,
+      "name": "Clay_hound_taunt_howl_03"
+    },
+    {
+      "index": 143,
+      "name": "Clay_hound_taunt_howl_04"
+    },
+    {
+      "index": 144,
+      "name": "Clay_hound_taunt_howl_05"
+    },
+    {
+      "index": 145,
+      "name": "Clay_hound_taunt_howl_06"
+    }
+  ],
+  "tallbird": [
+    {
+      "index": 1,
+      "name": "Egg_hatch_crack"
+    },
+    {
+      "index": 2,
+      "name": "Egg_hatch_start"
+    },
+    {
+      "index": 3,
+      "name": "egg_explo"
+    },
+    {
+      "index": 4,
+      "name": "egg_freeze"
+    },
+    {
+      "index": 5,
+      "name": "egg_jump"
+    },
+    {
+      "index": 6,
+      "name": "egg_shiver_LP"
+    },
+    {
+      "index": 7,
+      "name": "egg_steam_LP"
+    },
+    {
+      "index": 8,
+      "name": "smallbird_grow"
+    },
+    {
+      "index": 9,
+      "name": "smallbird_shortchirp_1"
+    },
+    {
+      "index": 10,
+      "name": "smallbird_shortchirp_2"
+    },
+    {
+      "index": 11,
+      "name": "smallbird_shortchirp_4"
+    },
+    {
+      "index": 12,
+      "name": "smallbird_shortchirp_5"
+    },
+    {
+      "index": 13,
+      "name": "smallbird_swallow"
+    },
+    {
+      "index": 14,
+      "name": "smallbird_wings_1"
+    },
+    {
+      "index": 15,
+      "name": "smallbird_wings_2"
+    },
+    {
+      "index": 16,
+      "name": "smallbird_wings_3"
+    },
+    {
+      "index": 17,
+      "name": "smallbird_wings_4"
+    },
+    {
+      "index": 18,
+      "name": "tallbird_blink_1"
+    },
+    {
+      "index": 19,
+      "name": "tallbird_chirp_1"
+    },
+    {
+      "index": 20,
+      "name": "tallbird_chirp_2"
+    },
+    {
+      "index": 21,
+      "name": "tallbird_chirp_3"
+    },
+    {
+      "index": 22,
+      "name": "tallbird_chirp_4"
+    },
+    {
+      "index": 23,
+      "name": "tallbird_death_1"
+    },
+    {
+      "index": 24,
+      "name": "tallbird_egg_1"
+    },
+    {
+      "index": 25,
+      "name": "tallbird_groundscratch_1"
+    },
+    {
+      "index": 26,
+      "name": "tallbird_groundscratch_2"
+    },
+    {
+      "index": 27,
+      "name": "tallbird_groundscratch_3"
+    },
+    {
+      "index": 28,
+      "name": "tallbird_headbut_1"
+    },
+    {
+      "index": 29,
+      "name": "tallbird_hurt_1"
+    },
+    {
+      "index": 30,
+      "name": "tallbird_hurt_2"
+    },
+    {
+      "index": 31,
+      "name": "tallbird_hurt_3"
+    },
+    {
+      "index": 32,
+      "name": "tallbird_hurt_4"
+    },
+    {
+      "index": 33,
+      "name": "tallbird_hurt_5"
+    },
+    {
+      "index": 34,
+      "name": "tallbird_legsproing_1"
+    },
+    {
+      "index": 35,
+      "name": "tallbird_sleep_1"
+    },
+    {
+      "index": 36,
+      "name": "tallbird_wakeup_1"
+    }
+  ],
+  "leif": [
+    {
+      "index": 1,
+      "name": "Leif_VO_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "Leif_VO_attack_10"
+    },
+    {
+      "index": 3,
+      "name": "Leif_VO_attack_11"
+    },
+    {
+      "index": 4,
+      "name": "Leif_VO_attack_12"
+    },
+    {
+      "index": 5,
+      "name": "Leif_VO_attack_13"
+    },
+    {
+      "index": 6,
+      "name": "Leif_VO_attack_2"
+    },
+    {
+      "index": 7,
+      "name": "Leif_VO_attack_3"
+    },
+    {
+      "index": 8,
+      "name": "Leif_VO_attack_4"
+    },
+    {
+      "index": 9,
+      "name": "Leif_VO_attack_5"
+    },
+    {
+      "index": 10,
+      "name": "Leif_VO_attack_6"
+    },
+    {
+      "index": 11,
+      "name": "Leif_VO_attack_7"
+    },
+    {
+      "index": 12,
+      "name": "Leif_VO_attack_8"
+    },
+    {
+      "index": 13,
+      "name": "Leif_VO_attack_9"
+    },
+    {
+      "index": 14,
+      "name": "Leif_VO_death_1"
+    },
+    {
+      "index": 15,
+      "name": "Leif_VO_death_2"
+    },
+    {
+      "index": 16,
+      "name": "Leif_VO_death_3"
+    },
+    {
+      "index": 17,
+      "name": "Leif_VO_death_4"
+    },
+    {
+      "index": 18,
+      "name": "Leif_VO_hurt_1"
+    },
+    {
+      "index": 19,
+      "name": "Leif_VO_hurt_2"
+    },
+    {
+      "index": 20,
+      "name": "Leif_VO_hurt_3"
+    },
+    {
+      "index": 21,
+      "name": "Leif_VO_hurt_4"
+    },
+    {
+      "index": 22,
+      "name": "Leif_VO_hurt_5"
+    },
+    {
+      "index": 23,
+      "name": "Leif_VO_hurt_6"
+    },
+    {
+      "index": 24,
+      "name": "Leif_VO_onfire_1"
+    },
+    {
+      "index": 25,
+      "name": "Leif_VO_onfire_2"
+    },
+    {
+      "index": 26,
+      "name": "Leif_VO_onfire_3"
+    },
+    {
+      "index": 27,
+      "name": "Leif_VO_onfire_4"
+    },
+    {
+      "index": 28,
+      "name": "Leif_VO_taunt_2"
+    },
+    {
+      "index": 29,
+      "name": "Leif_VO_taunt_3"
+    },
+    {
+      "index": 30,
+      "name": "Leif_VO_taunt_4"
+    },
+    {
+      "index": 31,
+      "name": "Leif_VO_taunt_6"
+    },
+    {
+      "index": 32,
+      "name": "Leif_VO_taunt_7"
+    },
+    {
+      "index": 33,
+      "name": "Leif_VO_taunt_8"
+    },
+    {
+      "index": 34,
+      "name": "Leif_VO_transform_1"
+    },
+    {
+      "index": 35,
+      "name": "Leif_VO_transform_2"
+    },
+    {
+      "index": 36,
+      "name": "Leif_VO_transform_3"
+    },
+    {
+      "index": 37,
+      "name": "Leif_VO_transform_4"
+    },
+    {
+      "index": 38,
+      "name": "Leif_VO_transform_5"
+    },
+    {
+      "index": 39,
+      "name": "Leif_VO_transform_6"
+    },
+    {
+      "index": 40,
+      "name": "Leif_VO_transform_7"
+    },
+    {
+      "index": 41,
+      "name": "Leif_VO_walk_1"
+    },
+    {
+      "index": 42,
+      "name": "Leif_VO_walk_10"
+    },
+    {
+      "index": 43,
+      "name": "Leif_VO_walk_2"
+    },
+    {
+      "index": 44,
+      "name": "Leif_VO_walk_3"
+    },
+    {
+      "index": 45,
+      "name": "Leif_VO_walk_4"
+    },
+    {
+      "index": 46,
+      "name": "Leif_VO_walk_5"
+    },
+    {
+      "index": 47,
+      "name": "Leif_VO_walk_6"
+    },
+    {
+      "index": 48,
+      "name": "Leif_VO_walk_7"
+    },
+    {
+      "index": 49,
+      "name": "Leif_VO_walk_8"
+    },
+    {
+      "index": 50,
+      "name": "Leif_VO_walk_9"
+    },
+    {
+      "index": 51,
+      "name": "Leif_branchfoley_1"
+    },
+    {
+      "index": 52,
+      "name": "Leif_branchfoley_10"
+    },
+    {
+      "index": 53,
+      "name": "Leif_branchfoley_2"
+    },
+    {
+      "index": 54,
+      "name": "Leif_branchfoley_3"
+    },
+    {
+      "index": 55,
+      "name": "Leif_branchfoley_4"
+    },
+    {
+      "index": 56,
+      "name": "Leif_branchfoley_5"
+    },
+    {
+      "index": 57,
+      "name": "Leif_branchfoley_6"
+    },
+    {
+      "index": 58,
+      "name": "Leif_branchfoley_7"
+    },
+    {
+      "index": 59,
+      "name": "Leif_branchfoley_8"
+    },
+    {
+      "index": 60,
+      "name": "Leif_branchfoley_9"
+    },
+    {
+      "index": 61,
+      "name": "Leif_step_1"
+    },
+    {
+      "index": 62,
+      "name": "Leif_step_2"
+    },
+    {
+      "index": 63,
+      "name": "Leif_step_3"
+    },
+    {
+      "index": 64,
+      "name": "Leif_step_4"
+    },
+    {
+      "index": 65,
+      "name": "Leif_step_5"
+    },
+    {
+      "index": 66,
+      "name": "Leif_step_6"
+    },
+    {
+      "index": 67,
+      "name": "livinglog_burn_1"
+    },
+    {
+      "index": 68,
+      "name": "livinglog_burn_2"
+    },
+    {
+      "index": 69,
+      "name": "livinglog_burn_3"
+    },
+    {
+      "index": 70,
+      "name": "livinglog_burn_4"
+    }
+  ],
+  "tentacle": [
+    {
+      "index": 1,
+      "name": "Tentacle_attack_1"
+    },
+    {
+      "index": 2,
+      "name": "Tentacle_attack_2"
+    },
+    {
+      "index": 3,
+      "name": "Tentacle_attack_3"
+    },
+    {
+      "index": 4,
+      "name": "Tentacle_attack_4"
+    },
+    {
+      "index": 5,
+      "name": "Tentacle_attack_5"
+    },
+    {
+      "index": 6,
+      "name": "Tentacle_breakGround"
+    },
+    {
+      "index": 7,
+      "name": "Tentacle_dissappear"
+    },
+    {
+      "index": 8,
+      "name": "Tentacle_rumble_LP"
+    },
+    {
+      "index": 9,
+      "name": "Tentacle_voice_appear_1"
+    },
+    {
+      "index": 10,
+      "name": "Tentacle_voice_appear_2"
+    },
+    {
+      "index": 11,
+      "name": "Tentacle_voice_appear_3"
+    },
+    {
+      "index": 12,
+      "name": "Tentacle_voice_appear_4"
+    },
+    {
+      "index": 13,
+      "name": "Tentacle_voice_death_1"
+    },
+    {
+      "index": 14,
+      "name": "Tentacle_voice_death_2"
+    },
+    {
+      "index": 15,
+      "name": "Tentacle_voice_death_3"
+    },
+    {
+      "index": 16,
+      "name": "Tentacle_voice_death_4"
+    },
+    {
+      "index": 17,
+      "name": "Tentacle_voice_hurt_1"
+    },
+    {
+      "index": 18,
+      "name": "Tentacle_voice_hurt_2"
+    },
+    {
+      "index": 19,
+      "name": "Tentacle_voice_hurt_3"
+    },
+    {
+      "index": 20,
+      "name": "Tentacle_voice_hurt_4"
+    },
+    {
+      "index": 21,
+      "name": "tentacle_slice"
+    },
+    {
+      "index": 22,
+      "name": "tentapiller_die"
+    },
+    {
+      "index": 23,
+      "name": "tentapiller_emerge"
+    },
+    {
+      "index": 24,
+      "name": "tentapiller_hidden_VO_1"
+    },
+    {
+      "index": 25,
+      "name": "tentapiller_hidden_VO_2"
+    },
+    {
+      "index": 26,
+      "name": "tentapiller_hidden_VO_3"
+    },
+    {
+      "index": 27,
+      "name": "tentapiller_hidden_VO_4"
+    },
+    {
+      "index": 28,
+      "name": "tentapiller_idle_LP"
+    }
+  ],
+  "wathgrithr": [
+    {
+      "index": 1,
+      "name": "Wigfrid_carol_01"
+    },
+    {
+      "index": 2,
+      "name": "Wigfrid_PlayerSinking"
+    },
+    {
+      "index": 3,
+      "name": "valhalla_1"
+    },
+    {
+      "index": 4,
+      "name": "valhalla_2"
+    },
+    {
+      "index": 5,
+      "name": "valhalla_3"
+    },
+    {
+      "index": 6,
+      "name": "valhalla_4"
+    },
+    {
+      "index": 7,
+      "name": "valhalla_5"
+    },
+    {
+      "index": 8,
+      "name": "wigfrid_eyerub"
+    },
+    {
+      "index": 9,
+      "name": "DST_WigfridSongs_Lunar_V1"
+    },
+    {
+      "index": 10,
+      "name": "DST_WigfridSongs_Shadow_V1"
+    },
+    {
+      "index": 11,
+      "name": "inspiration_meter_Wigfrid_DST-001"
+    },
+    {
+      "index": 12,
+      "name": "inspiration_meter_Wigfrid_DST-002"
+    },
+    {
+      "index": 13,
+      "name": "inspiration_meter_Wigfrid_DST-003"
+    },
+    {
+      "index": 14,
+      "name": "inspiration_meter_down_Wigfrid_DST"
+    },
+    {
+      "index": 15,
+      "name": "quote_Wigfrid_DST-001"
+    },
+    {
+      "index": 16,
+      "name": "quote_Wigfrid_DST-002"
+    },
+    {
+      "index": 17,
+      "name": "quote_Wigfrid_DST-003"
+    },
+    {
+      "index": 18,
+      "name": "song_Wigfrid_DST-001"
+    },
+    {
+      "index": 19,
+      "name": "song_Wigfrid_DST-002"
+    },
+    {
+      "index": 20,
+      "name": "song_Wigfrid_DST-003"
+    },
+    {
+      "index": 21,
+      "name": "song_Wigfrid_DST-004"
+    },
+    {
+      "index": 22,
+      "name": "song_Wigfrid_DST-006"
+    },
+    {
+      "index": 23,
+      "name": "song_Wigfrid_DST-007"
+    },
+    {
+      "index": 24,
+      "name": "wathgrithr_generic_1"
+    },
+    {
+      "index": 25,
+      "name": "wathgrithr_generic_10"
+    },
+    {
+      "index": 26,
+      "name": "wathgrithr_generic_11"
+    },
+    {
+      "index": 27,
+      "name": "wathgrithr_generic_12"
+    },
+    {
+      "index": 28,
+      "name": "wathgrithr_generic_13"
+    },
+    {
+      "index": 29,
+      "name": "wathgrithr_generic_14"
+    },
+    {
+      "index": 30,
+      "name": "wathgrithr_generic_16"
+    },
+    {
+      "index": 31,
+      "name": "wathgrithr_generic_17"
+    },
+    {
+      "index": 32,
+      "name": "wathgrithr_generic_18"
+    },
+    {
+      "index": 33,
+      "name": "wathgrithr_generic_19"
+    },
+    {
+      "index": 34,
+      "name": "wathgrithr_generic_2"
+    },
+    {
+      "index": 35,
+      "name": "wathgrithr_generic_20"
+    },
+    {
+      "index": 36,
+      "name": "wathgrithr_generic_21"
+    },
+    {
+      "index": 37,
+      "name": "wathgrithr_generic_22"
+    },
+    {
+      "index": 38,
+      "name": "wathgrithr_generic_23"
+    },
+    {
+      "index": 39,
+      "name": "wathgrithr_generic_24"
+    },
+    {
+      "index": 40,
+      "name": "wathgrithr_generic_25"
+    },
+    {
+      "index": 41,
+      "name": "wathgrithr_generic_26"
+    },
+    {
+      "index": 42,
+      "name": "wathgrithr_generic_27"
+    },
+    {
+      "index": 43,
+      "name": "wathgrithr_generic_28"
+    },
+    {
+      "index": 44,
+      "name": "wathgrithr_generic_29"
+    },
+    {
+      "index": 45,
+      "name": "wathgrithr_generic_3"
+    },
+    {
+      "index": 46,
+      "name": "wathgrithr_generic_30"
+    },
+    {
+      "index": 47,
+      "name": "wathgrithr_generic_31"
+    },
+    {
+      "index": 48,
+      "name": "wathgrithr_generic_32"
+    },
+    {
+      "index": 49,
+      "name": "wathgrithr_generic_4"
+    },
+    {
+      "index": 50,
+      "name": "wathgrithr_generic_5"
+    },
+    {
+      "index": 51,
+      "name": "wathgrithr_generic_6"
+    },
+    {
+      "index": 52,
+      "name": "wathgrithr_generic_7"
+    },
+    {
+      "index": 53,
+      "name": "wathgrithr_generic_8"
+    },
+    {
+      "index": 54,
+      "name": "wathgrithr_generic_9"
+    },
+    {
+      "index": 55,
+      "name": "wathgrithr_hurt_1"
+    },
+    {
+      "index": 56,
+      "name": "wathgrithr_hurt_2"
+    },
+    {
+      "index": 57,
+      "name": "wathgrithr_hurt_3"
+    },
+    {
+      "index": 58,
+      "name": "wathgrithr_hurt_4"
+    },
+    {
+      "index": 59,
+      "name": "wathgrithr_hurt_5"
+    },
+    {
+      "index": 60,
+      "name": "wathgrithr_hurt_6"
+    },
+    {
+      "index": 61,
+      "name": "wigfrid ghost voice 01"
+    },
+    {
+      "index": 62,
+      "name": "wigfrid ghost voice 02"
+    },
+    {
+      "index": 63,
+      "name": "wigfrid ghost voice 03"
+    },
+    {
+      "index": 64,
+      "name": "wigfrid ghost voice 04"
+    },
+    {
+      "index": 65,
+      "name": "wigfrid ghost voice 05"
+    },
+    {
+      "index": 66,
+      "name": "wigfrid ghost voice 06"
+    },
+    {
+      "index": 67,
+      "name": "wigfrid ghost voice 07"
+    },
+    {
+      "index": 68,
+      "name": "wigfrid ghost voice 08"
+    },
+    {
+      "index": 69,
+      "name": "wigfrid ghost voice 09"
+    },
+    {
+      "index": 70,
+      "name": "wigfrid ghost voice 10"
+    },
+    {
+      "index": 71,
+      "name": "wigfrid ghost voice 11"
+    }
+  ],
+  "wilson": [
+    {
+      "index": 1,
+      "name": "Pickup_item"
+    },
+    {
+      "index": 2,
+      "name": "bodyfall_dirt"
+    },
+    {
+      "index": 3,
+      "name": "1manband_accord_1"
+    },
+    {
+      "index": 4,
+      "name": "1manband_accord_2"
+    },
+    {
+      "index": 5,
+      "name": "1manband_accord_3"
+    },
+    {
+      "index": 6,
+      "name": "1manband_accord_4"
+    },
+    {
+      "index": 7,
+      "name": "1manband_accord_5"
+    },
+    {
+      "index": 8,
+      "name": "1manband_cymb_1"
+    },
+    {
+      "index": 9,
+      "name": "1manband_cymb_2"
+    },
+    {
+      "index": 10,
+      "name": "1manband_kickdrum_1"
+    },
+    {
+      "index": 11,
+      "name": "1manband_kickdrum_2"
+    },
+    {
+      "index": 12,
+      "name": "1manband_tamb_1"
+    },
+    {
+      "index": 13,
+      "name": "1manband_tamb_2"
+    },
+    {
+      "index": 14,
+      "name": "Chest_close"
+    },
+    {
+      "index": 15,
+      "name": "Chest_open"
+    },
+    {
+      "index": 16,
+      "name": "Cook_sizzle"
+    },
+    {
+      "index": 17,
+      "name": "Harvest_Sticks_1"
+    },
+    {
+      "index": 18,
+      "name": "Harvest_Sticks_2"
+    },
+    {
+      "index": 19,
+      "name": "Harvest_Sticks_3"
+    },
+    {
+      "index": 20,
+      "name": "Harvest_berries_1"
+    },
+    {
+      "index": 21,
+      "name": "Harvest_berries_2"
+    },
+    {
+      "index": 22,
+      "name": "Harvest_berries_3"
+    },
+    {
+      "index": 23,
+      "name": "Plant_seeds"
+    },
+    {
+      "index": 24,
+      "name": "Plant_tree"
+    },
+    {
+      "index": 25,
+      "name": "Stone_break"
+    },
+    {
+      "index": 26,
+      "name": "book_open_1"
+    },
+    {
+      "index": 27,
+      "name": "book_open_2"
+    },
+    {
+      "index": 28,
+      "name": "book_open_3"
+    },
+    {
+      "index": 29,
+      "name": "lantern_burn_LP"
+    },
+    {
+      "index": 30,
+      "name": "lantern_off"
+    },
+    {
+      "index": 31,
+      "name": "lantern_on"
+    },
+    {
+      "index": 32,
+      "name": "make_soup"
+    },
+    {
+      "index": 33,
+      "name": "umbrella_close"
+    },
+    {
+      "index": 34,
+      "name": "umbrella_open"
+    },
+    {
+      "index": 35,
+      "name": "Wilson_carol_01"
+    },
+    {
+      "index": 36,
+      "name": "DST_death_body_fall_v2"
+    },
+    {
+      "index": 37,
+      "name": "DST_pose_speach_v2_wilson"
+    },
+    {
+      "index": 38,
+      "name": "Wilson_PlayerSinking"
+    },
+    {
+      "index": 39,
+      "name": "WilsonVoice_ghost_1"
+    },
+    {
+      "index": 40,
+      "name": "WilsonVoice_ghost_10"
+    },
+    {
+      "index": 41,
+      "name": "WilsonVoice_ghost_11"
+    },
+    {
+      "index": 42,
+      "name": "WilsonVoice_ghost_12"
+    },
+    {
+      "index": 43,
+      "name": "WilsonVoice_ghost_13"
+    },
+    {
+      "index": 44,
+      "name": "WilsonVoice_ghost_14"
+    },
+    {
+      "index": 45,
+      "name": "WilsonVoice_ghost_15"
+    },
+    {
+      "index": 46,
+      "name": "WilsonVoice_ghost_2"
+    },
+    {
+      "index": 47,
+      "name": "WilsonVoice_ghost_3"
+    },
+    {
+      "index": 48,
+      "name": "WilsonVoice_ghost_4"
+    },
+    {
+      "index": 49,
+      "name": "WilsonVoice_ghost_5"
+    },
+    {
+      "index": 50,
+      "name": "WilsonVoice_ghost_6"
+    },
+    {
+      "index": 51,
+      "name": "WilsonVoice_ghost_7"
+    },
+    {
+      "index": 52,
+      "name": "WilsonVoice_ghost_8"
+    },
+    {
+      "index": 53,
+      "name": "WilsonVoice_ghost_9"
+    },
+    {
+      "index": 54,
+      "name": "wilson_yawn"
+    },
+    {
+      "index": 55,
+      "name": "winnie_yawn"
+    },
+    {
+      "index": 56,
+      "name": "Backpack_close"
+    },
+    {
+      "index": 57,
+      "name": "Backpack_open"
+    },
+    {
+      "index": 58,
+      "name": "Bugnet_swish_1"
+    },
+    {
+      "index": 59,
+      "name": "Bugnet_swish_2"
+    },
+    {
+      "index": 60,
+      "name": "Bugnet_swish_3"
+    },
+    {
+      "index": 61,
+      "name": "Bugnet_swish_4"
+    },
+    {
+      "index": 62,
+      "name": "Bugnet_swish_5"
+    },
+    {
+      "index": 63,
+      "name": "Bugnet_swish_6"
+    },
+    {
+      "index": 64,
+      "name": "Dig_1"
+    },
+    {
+      "index": 65,
+      "name": "Dig_2"
+    },
+    {
+      "index": 66,
+      "name": "Dig_3"
+    },
+    {
+      "index": 67,
+      "name": "Harvest_Plant"
+    },
+    {
+      "index": 68,
+      "name": "Hungry_1"
+    },
+    {
+      "index": 69,
+      "name": "Hungry_2"
+    },
+    {
+      "index": 70,
+      "name": "Hungry_3"
+    },
+    {
+      "index": 71,
+      "name": "MakeWhoosh1_1"
+    },
+    {
+      "index": 72,
+      "name": "MakeWhoosh1_2"
+    },
+    {
+      "index": 73,
+      "name": "MakeWhoosh1_3"
+    },
+    {
+      "index": 74,
+      "name": "MakeWhoosh1_4"
+    },
+    {
+      "index": 75,
+      "name": "MakeWhoosh1_5"
+    },
+    {
+      "index": 76,
+      "name": "MakeWhoosh2_1"
+    },
+    {
+      "index": 77,
+      "name": "MakeWhoosh2_2"
+    },
+    {
+      "index": 78,
+      "name": "MakeWhoosh2_3"
+    },
+    {
+      "index": 79,
+      "name": "MakeWhoosh2_4"
+    },
+    {
+      "index": 80,
+      "name": "MakeWhoosh2_5"
+    },
+    {
+      "index": 81,
+      "name": "ReedFlute_1_verb"
+    },
+    {
+      "index": 82,
+      "name": "ReedFlute_2_verb"
+    },
+    {
+      "index": 83,
+      "name": "ReedFlute_3_verb"
+    },
+    {
+      "index": 84,
+      "name": "ReedFlute_4_verb"
+    },
+    {
+      "index": 85,
+      "name": "ReedFlute_5_verb"
+    },
+    {
+      "index": 86,
+      "name": "ReedFlute_6_verb"
+    },
+    {
+      "index": 87,
+      "name": "ReedFlute_7_verb"
+    },
+    {
+      "index": 88,
+      "name": "Shave_1"
+    },
+    {
+      "index": 89,
+      "name": "Shave_2"
+    },
+    {
+      "index": 90,
+      "name": "Shave_3"
+    },
+    {
+      "index": 91,
+      "name": "Shave_4"
+    },
+    {
+      "index": 92,
+      "name": "Shave_5"
+    },
+    {
+      "index": 93,
+      "name": "Shave_6"
+    },
+    {
+      "index": 94,
+      "name": "Tool_Break"
+    },
+    {
+      "index": 95,
+      "name": "Torch_swing_1"
+    },
+    {
+      "index": 96,
+      "name": "Torch_swing_2"
+    },
+    {
+      "index": 97,
+      "name": "WilsonVoice_generic_10"
+    },
+    {
+      "index": 98,
+      "name": "WilsonVoice_generic_12"
+    },
+    {
+      "index": 99,
+      "name": "WilsonVoice_generic_13"
+    },
+    {
+      "index": 100,
+      "name": "WilsonVoice_generic_2"
+    },
+    {
+      "index": 101,
+      "name": "WilsonVoice_generic_3"
+    },
+    {
+      "index": 102,
+      "name": "WilsonVoice_generic_4"
+    },
+    {
+      "index": 103,
+      "name": "WilsonVoice_generic_6"
+    },
+    {
+      "index": 104,
+      "name": "WilsonVoice_generic_7"
+    },
+    {
+      "index": 105,
+      "name": "WilsonVoice_generic_8"
+    },
+    {
+      "index": 106,
+      "name": "WilsonVoice_generic_9"
+    },
+    {
+      "index": 107,
+      "name": "WilsonVoice_hurt_1"
+    },
+    {
+      "index": 108,
+      "name": "WilsonVoice_hurt_2"
+    },
+    {
+      "index": 109,
+      "name": "WilsonVoice_hurt_3"
+    },
+    {
+      "index": 110,
+      "name": "armour_break"
+    },
+    {
+      "index": 111,
+      "name": "death_voice_trumpet"
+    },
+    {
+      "index": 112,
+      "name": "eat_1"
+    },
+    {
+      "index": 113,
+      "name": "eat_2"
+    },
+    {
+      "index": 114,
+      "name": "eat_3"
+    },
+    {
+      "index": 115,
+      "name": "equip_goldItem"
+    },
+    {
+      "index": 116,
+      "name": "gather_reeds_1"
+    },
+    {
+      "index": 117,
+      "name": "gather_reeds_2"
+    },
+    {
+      "index": 118,
+      "name": "gather_reeds_3"
+    },
+    {
+      "index": 119,
+      "name": "gather_reeds_4"
+    },
+    {
+      "index": 120,
+      "name": "gather_wood_1"
+    },
+    {
+      "index": 121,
+      "name": "gather_wood_2"
+    },
+    {
+      "index": 122,
+      "name": "gather_wood_3"
+    },
+    {
+      "index": 123,
+      "name": "magicbubbleshield_LP"
+    },
+    {
+      "index": 124,
+      "name": "pickaxe_hitrock_v2"
+    },
+    {
+      "index": 125,
+      "name": "talkPopUp"
+    }
+  ],
+  "common": [
+    {
+      "index": 1,
+      "name": "firesupressor_impact"
+    },
+    {
+      "index": 2,
+      "name": "AMB_graveyard"
+    },
+    {
+      "index": 3,
+      "name": "Wind_LP"
+    },
+    {
+      "index": 4,
+      "name": "Wind_gusts_1"
+    },
+    {
+      "index": 5,
+      "name": "Wind_gusts_2"
+    },
+    {
+      "index": 6,
+      "name": "Wind_gusts_3"
+    },
+    {
+      "index": 7,
+      "name": "Wind_gusts_4"
+    },
+    {
+      "index": 8,
+      "name": "Wind_gusts_5"
+    },
+    {
+      "index": 9,
+      "name": "Wind_gusts_6"
+    },
+    {
+      "index": 10,
+      "name": "freezeoverlay_1st"
+    },
+    {
+      "index": 11,
+      "name": "freezeoverlay_2nd"
+    },
+    {
+      "index": 12,
+      "name": "freezeoverlay_3rd"
+    },
+    {
+      "index": 13,
+      "name": "freezeoverlay_4th"
+    },
+    {
+      "index": 14,
+      "name": "gravestone_1"
+    },
+    {
+      "index": 15,
+      "name": "gravestone_2"
+    },
+    {
+      "index": 16,
+      "name": "gravestone_3"
+    },
+    {
+      "index": 17,
+      "name": "gravestone_4"
+    },
+    {
+      "index": 18,
+      "name": "gravestone_5"
+    },
+    {
+      "index": 19,
+      "name": "gravestone_6"
+    },
+    {
+      "index": 20,
+      "name": "gravestone_7"
+    },
+    {
+      "index": 21,
+      "name": "gravestone_8"
+    },
+    {
+      "index": 22,
+      "name": "Butterfly_death_1"
+    },
+    {
+      "index": 23,
+      "name": "Butterfly_death_2"
+    },
+    {
+      "index": 24,
+      "name": "Butterfly_death_3"
+    },
+    {
+      "index": 25,
+      "name": "onewayworm_cough_1"
+    },
+    {
+      "index": 26,
+      "name": "onewayworm_cough_10"
+    },
+    {
+      "index": 27,
+      "name": "onewayworm_cough_2"
+    },
+    {
+      "index": 28,
+      "name": "onewayworm_cough_3"
+    },
+    {
+      "index": 29,
+      "name": "onewayworm_cough_4"
+    },
+    {
+      "index": 30,
+      "name": "onewayworm_cough_5"
+    },
+    {
+      "index": 31,
+      "name": "onewayworm_cough_6"
+    },
+    {
+      "index": 32,
+      "name": "onewayworm_cough_7"
+    },
+    {
+      "index": 33,
+      "name": "onewayworm_cough_8"
+    },
+    {
+      "index": 34,
+      "name": "onewayworm_cough_9"
+    },
+    {
+      "index": 35,
+      "name": "onewayworm_die"
+    },
+    {
+      "index": 36,
+      "name": "Feed_HUD"
+    },
+    {
+      "index": 37,
+      "name": "Object_dissappear"
+    },
+    {
+      "index": 38,
+      "name": "RecipeReady"
+    },
+    {
+      "index": 39,
+      "name": "Research_available"
+    },
+    {
+      "index": 40,
+      "name": "Research_unlock_v2"
+    },
+    {
+      "index": 41,
+      "name": "twirl_lava_weapons_01"
+    },
+    {
+      "index": 42,
+      "name": "maxwell_robotlaugh_V2"
+    },
+    {
+      "index": 43,
+      "name": "BirdTrap_close"
+    },
+    {
+      "index": 44,
+      "name": "BirdTrap_rattle_1"
+    },
+    {
+      "index": 45,
+      "name": "BirdTrap_rattle_2"
+    },
+    {
+      "index": 46,
+      "name": "BirdTrap_rattle_3"
+    },
+    {
+      "index": 47,
+      "name": "BirdTrap_rattle_4"
+    },
+    {
+      "index": 48,
+      "name": "Character_spawn"
+    },
+    {
+      "index": 49,
+      "name": "Cookingpot_rattle_1"
+    },
+    {
+      "index": 50,
+      "name": "Cookingpot_rattle_2"
+    },
+    {
+      "index": 51,
+      "name": "Cookingpot_rattle_3"
+    },
+    {
+      "index": 52,
+      "name": "Cookingpot_rattle_4"
+    },
+    {
+      "index": 53,
+      "name": "Cookingpot_rattle_5"
+    },
+    {
+      "index": 54,
+      "name": "Cookingpot_rattle_6"
+    },
+    {
+      "index": 55,
+      "name": "Cookingpot_rattle_7"
+    },
+    {
+      "index": 56,
+      "name": "Destroy_Smoke_v2_01"
+    },
+    {
+      "index": 57,
+      "name": "Destroy_Smoke_v2_02"
+    },
+    {
+      "index": 58,
+      "name": "Destroy_Smoke_v2_03"
+    },
+    {
+      "index": 59,
+      "name": "Destroy_Smoke_v2_04"
+    },
+    {
+      "index": 60,
+      "name": "Destroy_metal"
+    },
+    {
+      "index": 61,
+      "name": "Destroy_rock"
+    },
+    {
+      "index": 62,
+      "name": "Destroy_smoke"
+    },
+    {
+      "index": 63,
+      "name": "Destroy_straw"
+    },
+    {
+      "index": 64,
+      "name": "Destroy_wood"
+    },
+    {
+      "index": 65,
+      "name": "Drop_generic"
+    },
+    {
+      "index": 66,
+      "name": "Drop_wood"
+    },
+    {
+      "index": 67,
+      "name": "Fire_addFuelFlare"
+    },
+    {
+      "index": 68,
+      "name": "Flies_1"
+    },
+    {
+      "index": 69,
+      "name": "Flies_2"
+    },
+    {
+      "index": 70,
+      "name": "Flies_3"
+    },
+    {
+      "index": 71,
+      "name": "Flies_4"
+    },
+    {
+      "index": 72,
+      "name": "Flies_5"
+    },
+    {
+      "index": 73,
+      "name": "Flies_6"
+    },
+    {
+      "index": 74,
+      "name": "Flies_7"
+    },
+    {
+      "index": 75,
+      "name": "Flies_soothed_DST_-001"
+    },
+    {
+      "index": 76,
+      "name": "Flies_soothed_DST_-002"
+    },
+    {
+      "index": 77,
+      "name": "Flies_soothed_DST_-003"
+    },
+    {
+      "index": 78,
+      "name": "Flies_soothed_DST_-004"
+    },
+    {
+      "index": 79,
+      "name": "Flies_soothed_DST_-005"
+    },
+    {
+      "index": 80,
+      "name": "Flies_soothed_DST_-006"
+    },
+    {
+      "index": 81,
+      "name": "Flies_soothed_DST_-007"
+    },
+    {
+      "index": 82,
+      "name": "Plant_Is_harvestable"
+    },
+    {
+      "index": 83,
+      "name": "PurchaseMachine_bell"
+    },
+    {
+      "index": 84,
+      "name": "PurchaseMachine_rattleLP"
+    },
+    {
+      "index": 85,
+      "name": "RebirthExplosion"
+    },
+    {
+      "index": 86,
+      "name": "ResurectAmulet_poof_1"
+    },
+    {
+      "index": 87,
+      "name": "ResurectAmulet_raise_1"
+    },
+    {
+      "index": 88,
+      "name": "ScienceMachine_lvl2_finish"
+    },
+    {
+      "index": 89,
+      "name": "ScienceMachine_lvl2_run"
+    },
+    {
+      "index": 90,
+      "name": "SpawnPortal_armmove_1"
+    },
+    {
+      "index": 91,
+      "name": "SpawnPortal_armmove_2"
+    },
+    {
+      "index": 92,
+      "name": "SpawnPortal_armmove_3"
+    },
+    {
+      "index": 93,
+      "name": "SpawnPortal_blink"
+    },
+    {
+      "index": 94,
+      "name": "SpawnPortal_jacob_1"
+    },
+    {
+      "index": 95,
+      "name": "SpawnPortal_jacob_2"
+    },
+    {
+      "index": 96,
+      "name": "SpawnPortal_jacob_3"
+    },
+    {
+      "index": 97,
+      "name": "SpawnPortal_open"
+    },
+    {
+      "index": 98,
+      "name": "SpawnPortal_scratch_1"
+    },
+    {
+      "index": 99,
+      "name": "SpawnPortal_scratch_2"
+    },
+    {
+      "index": 100,
+      "name": "SpawnPortal_scratch_3"
+    },
+    {
+      "index": 101,
+      "name": "SpawnPortal_shake"
+    },
+    {
+      "index": 102,
+      "name": "SpawnPortal_spawning_LP"
+    },
+    {
+      "index": 103,
+      "name": "Tent_dissappear_pre"
+    },
+    {
+      "index": 104,
+      "name": "Tent_dissappear_twirl"
+    },
+    {
+      "index": 105,
+      "name": "Trap_teeth_reset"
+    },
+    {
+      "index": 106,
+      "name": "Trap_teeth_trigger"
+    },
+    {
+      "index": 107,
+      "name": "add_nightmarefuel"
+    },
+    {
+      "index": 108,
+      "name": "ancient_crafttable_LP"
+    },
+    {
+      "index": 109,
+      "name": "ancient_crafttable_activate"
+    },
+    {
+      "index": 110,
+      "name": "ancient_crafttable_craft"
+    },
+    {
+      "index": 111,
+      "name": "ancient_crafttable_repair"
+    },
+    {
+      "index": 112,
+      "name": "balloon_blowup_1"
+    },
+    {
+      "index": 113,
+      "name": "balloon_blowup_2"
+    },
+    {
+      "index": 114,
+      "name": "balloon_bounce_1"
+    },
+    {
+      "index": 115,
+      "name": "balloon_bounce_2"
+    },
+    {
+      "index": 116,
+      "name": "balloon_bounce_3"
+    },
+    {
+      "index": 117,
+      "name": "balloon_bounce_4"
+    },
+    {
+      "index": 118,
+      "name": "balloon_bounce_5"
+    },
+    {
+      "index": 119,
+      "name": "balloon_bounce_6"
+    },
+    {
+      "index": 120,
+      "name": "balloon_bounce_7"
+    },
+    {
+      "index": 121,
+      "name": "balloon_bounce_8"
+    },
+    {
+      "index": 122,
+      "name": "balloon_bounce_9"
+    },
+    {
+      "index": 123,
+      "name": "balloon_make_1"
+    },
+    {
+      "index": 124,
+      "name": "balloon_make_10"
+    },
+    {
+      "index": 125,
+      "name": "balloon_make_11"
+    },
+    {
+      "index": 126,
+      "name": "balloon_make_12"
+    },
+    {
+      "index": 127,
+      "name": "balloon_make_13"
+    },
+    {
+      "index": 128,
+      "name": "balloon_make_14"
+    },
+    {
+      "index": 129,
+      "name": "balloon_make_2"
+    },
+    {
+      "index": 130,
+      "name": "balloon_make_3"
+    },
+    {
+      "index": 131,
+      "name": "balloon_make_4"
+    },
+    {
+      "index": 132,
+      "name": "balloon_make_5"
+    },
+    {
+      "index": 133,
+      "name": "balloon_make_6"
+    },
+    {
+      "index": 134,
+      "name": "balloon_make_7"
+    },
+    {
+      "index": 135,
+      "name": "balloon_make_8"
+    },
+    {
+      "index": 136,
+      "name": "balloon_make_9"
+    },
+    {
+      "index": 137,
+      "name": "balloon_pop_1"
+    },
+    {
+      "index": 138,
+      "name": "balloon_pop_2"
+    },
+    {
+      "index": 139,
+      "name": "balloon_pop_3"
+    },
+    {
+      "index": 140,
+      "name": "balloon_pop_4"
+    },
+    {
+      "index": 141,
+      "name": "balloon_pop_5"
+    },
+    {
+      "index": 142,
+      "name": "balloon_pop_6"
+    },
+    {
+      "index": 143,
+      "name": "balloon_pop_7"
+    },
+    {
+      "index": 144,
+      "name": "blackpowder_explo_1"
+    },
+    {
+      "index": 145,
+      "name": "blackpowder_explo_2"
+    },
+    {
+      "index": 146,
+      "name": "blackpowder_explo_3"
+    },
+    {
+      "index": 147,
+      "name": "blackpowder_fuse_LP"
+    },
+    {
+      "index": 148,
+      "name": "book_spellcast"
+    },
+    {
+      "index": 149,
+      "name": "campfire_layer1_2_LP"
+    },
+    {
+      "index": 150,
+      "name": "campfire_layer1_3_LP"
+    },
+    {
+      "index": 151,
+      "name": "campfire_layer1_4_LP"
+    },
+    {
+      "index": 152,
+      "name": "campfire_layer1_LP"
+    },
+    {
+      "index": 153,
+      "name": "campfire_layer2_1_LP"
+    },
+    {
+      "index": 154,
+      "name": "campfire_layer2_2_LP"
+    },
+    {
+      "index": 155,
+      "name": "campfire_layer2_3_LP"
+    },
+    {
+      "index": 156,
+      "name": "campfire_layer2_4_LP"
+    },
+    {
+      "index": 157,
+      "name": "campfire_layer2_LP"
+    },
+    {
+      "index": 158,
+      "name": "campfire_layer3_1_LP"
+    },
+    {
+      "index": 159,
+      "name": "campfire_layer3_2_LP"
+    },
+    {
+      "index": 160,
+      "name": "campfire_layer3_3_LP"
+    },
+    {
+      "index": 161,
+      "name": "campfire_layer3_4_LP"
+    },
+    {
+      "index": 162,
+      "name": "chess_resurect"
+    },
+    {
+      "index": 163,
+      "name": "coolant_bubbles_granular_DST_-002"
+    },
+    {
+      "index": 164,
+      "name": "coolant_bubbles_granular_DST_-004"
+    },
+    {
+      "index": 165,
+      "name": "coolant_bubbles_granular_DST_-008"
+    },
+    {
+      "index": 166,
+      "name": "coolant_bubbles_granular_DST_-013"
+    },
+    {
+      "index": 167,
+      "name": "coolant_bubbles_granular_DST_-015"
+    },
+    {
+      "index": 168,
+      "name": "coolant_bubbles_granular_DST_-016"
+    },
+    {
+      "index": 169,
+      "name": "coolant_bubbles_granular_DST_-019"
+    },
+    {
+      "index": 170,
+      "name": "Plant_1"
+    },
+    {
+      "index": 171,
+      "name": "Plant_2"
+    },
+    {
+      "index": 172,
+      "name": "Plant_3"
+    },
+    {
+      "index": 173,
+      "name": "Plant_4"
+    },
+    {
+      "index": 174,
+      "name": "Plant_5"
+    },
+    {
+      "index": 175,
+      "name": "Sentryward_craft"
+    },
+    {
+      "index": 176,
+      "name": "Thermal_measurer_craft"
+    },
+    {
+      "index": 177,
+      "name": "chest_craft"
+    },
+    {
+      "index": 178,
+      "name": "farm_basic_craft"
+    },
+    {
+      "index": 179,
+      "name": "farm_improved_craft"
+    },
+    {
+      "index": 180,
+      "name": "ice_box_craft"
+    },
+    {
+      "index": 181,
+      "name": "lightning_rod_craft"
+    },
+    {
+      "index": 182,
+      "name": "rainmeter_craft"
+    },
+    {
+      "index": 183,
+      "name": "siesta_canopy_craft"
+    },
+    {
+      "index": 184,
+      "name": "tent_craft_2"
+    },
+    {
+      "index": 185,
+      "name": "deathmagic_LP1"
+    },
+    {
+      "index": 186,
+      "name": "deathmagic_LP2"
+    },
+    {
+      "index": 187,
+      "name": "deathpoof"
+    },
+    {
+      "index": 188,
+      "name": "destroy_clothing_1"
+    },
+    {
+      "index": 189,
+      "name": "destroy_magic_1"
+    },
+    {
+      "index": 190,
+      "name": "destroy_tool_1"
+    },
+    {
+      "index": 191,
+      "name": "diviningrod_pulse"
+    },
+    {
+      "index": 192,
+      "name": "dryrack_finished"
+    },
+    {
+      "index": 193,
+      "name": "dryrack_use"
+    },
+    {
+      "index": 194,
+      "name": "dustblowaway_1"
+    },
+    {
+      "index": 195,
+      "name": "dustblowaway_2"
+    },
+    {
+      "index": 196,
+      "name": "dustblowaway_3"
+    },
+    {
+      "index": 197,
+      "name": "dustblowaway_4"
+    },
+    {
+      "index": 198,
+      "name": "fire_out"
+    },
+    {
+      "index": 199,
+      "name": "fixed_furniture_stone_1"
+    },
+    {
+      "index": 200,
+      "name": "food_rot"
+    },
+    {
+      "index": 201,
+      "name": "fridge_close"
+    },
+    {
+      "index": 202,
+      "name": "fridge_open"
+    },
+    {
+      "index": 203,
+      "name": "gem_shatter"
+    },
+    {
+      "index": 204,
+      "name": "genericmachineplace"
+    },
+    {
+      "index": 205,
+      "name": "ghost_spawn"
+    },
+    {
+      "index": 206,
+      "name": "hauntedflower_LP"
+    },
+    {
+      "index": 207,
+      "name": "ice_box_running"
+    },
+    {
+      "index": 208,
+      "name": "iceblock_break"
+    },
+    {
+      "index": 209,
+      "name": "lightningrod_1"
+    },
+    {
+      "index": 210,
+      "name": "lightningrod_2"
+    },
+    {
+      "index": 211,
+      "name": "lightningrod_3"
+    },
+    {
+      "index": 212,
+      "name": "magic_sparkle"
+    },
+    {
+      "index": 213,
+      "name": "magichat_LP"
+    },
+    {
+      "index": 214,
+      "name": "magichat_use"
+    },
+    {
+      "index": 215,
+      "name": "meteor_explo_1"
+    },
+    {
+      "index": 216,
+      "name": "meteor_explo_2"
+    },
+    {
+      "index": 217,
+      "name": "meteor_explo_3"
+    },
+    {
+      "index": 218,
+      "name": "meteor_incoming_1"
+    },
+    {
+      "index": 219,
+      "name": "meteor_incoming_2"
+    },
+    {
+      "index": 220,
+      "name": "meteor_incoming_3"
+    },
+    {
+      "index": 221,
+      "name": "mushroom_down_1"
+    },
+    {
+      "index": 222,
+      "name": "mushroom_down_2"
+    },
+    {
+      "index": 223,
+      "name": "mushroom_down_3"
+    },
+    {
+      "index": 224,
+      "name": "mushroom_up_1"
+    },
+    {
+      "index": 225,
+      "name": "mushroom_up_2"
+    },
+    {
+      "index": 226,
+      "name": "mushroom_up_3"
+    },
+    {
+      "index": 227,
+      "name": "pighouse_door"
+    },
+    {
+      "index": 228,
+      "name": "place_ground_1"
+    },
+    {
+      "index": 229,
+      "name": "place_ground_2"
+    },
+    {
+      "index": 230,
+      "name": "place_ground_3"
+    },
+    {
+      "index": 231,
+      "name": "place_structure_stone"
+    },
+    {
+      "index": 232,
+      "name": "place_structure_straw"
+    },
+    {
+      "index": 233,
+      "name": "place_structure_wood"
+    },
+    {
+      "index": 234,
+      "name": "pond_freeze_1"
+    },
+    {
+      "index": 235,
+      "name": "pond_freeze_2"
+    },
+    {
+      "index": 236,
+      "name": "pond_freeze_3"
+    },
+    {
+      "index": 237,
+      "name": "popcorn_1"
+    },
+    {
+      "index": 238,
+      "name": "popcorn_2"
+    },
+    {
+      "index": 239,
+      "name": "popcorn_3"
+    },
+    {
+      "index": 240,
+      "name": "popcorn_4"
+    },
+    {
+      "index": 241,
+      "name": "popcorn_5"
+    },
+    {
+      "index": 242,
+      "name": "powderkeg_explod_1"
+    },
+    {
+      "index": 243,
+      "name": "powderkeg_explod_2"
+    },
+    {
+      "index": 244,
+      "name": "powderkeg_explod_3"
+    },
+    {
+      "index": 245,
+      "name": "repair_furniture_stone_1"
+    },
+    {
+      "index": 246,
+      "name": "repair_furniture_stone_2"
+    },
+    {
+      "index": 247,
+      "name": "repair_furniture_stone_3"
+    },
+    {
+      "index": 248,
+      "name": "researchmachine_lvl1_idle_LP"
+    },
+    {
+      "index": 249,
+      "name": "researchmachine_lvl2_idle_LP"
+    },
+    {
+      "index": 250,
+      "name": "researchmachine_lvl3_ding"
+    },
+    {
+      "index": 251,
+      "name": "researchmachine_lvl3_idle"
+    },
+    {
+      "index": 252,
+      "name": "researchmachine_lvl3_place"
+    },
+    {
+      "index": 253,
+      "name": "researchmachine_lvl3_run"
+    },
+    {
+      "index": 254,
+      "name": "resurectionstone_activate"
+    },
+    {
+      "index": 255,
+      "name": "resurectionstone_break"
+    },
+    {
+      "index": 256,
+      "name": "shrine_bigfirework_pop_1"
+    },
+    {
+      "index": 257,
+      "name": "shrine_bigfirework_pop_2"
+    },
+    {
+      "index": 258,
+      "name": "shrine_bigfirework_pop_3"
+    },
+    {
+      "index": 259,
+      "name": "shrine_click_1"
+    },
+    {
+      "index": 260,
+      "name": "shrine_final_1"
+    },
+    {
+      "index": 261,
+      "name": "shrine_sadfirework_pop_1"
+    },
+    {
+      "index": 262,
+      "name": "shrine_sadfirework_pop_2"
+    },
+    {
+      "index": 263,
+      "name": "shrine_sadfirework_pop_3"
+    },
+    {
+      "index": 264,
+      "name": "shrine_sadfirework_shoot_1"
+    },
+    {
+      "index": 265,
+      "name": "shrine_sadfirework_shoot_2"
+    },
+    {
+      "index": 266,
+      "name": "shrine_sadfirework_shoot_3"
+    },
+    {
+      "index": 267,
+      "name": "smash_pot_1"
+    },
+    {
+      "index": 268,
+      "name": "smash_pot_2"
+    },
+    {
+      "index": 269,
+      "name": "smash_pot_3"
+    },
+    {
+      "index": 270,
+      "name": "smash_pot_4"
+    },
+    {
+      "index": 271,
+      "name": "smash_pot_5"
+    },
+    {
+      "index": 272,
+      "name": "staff_dissassemble"
+    },
+    {
+      "index": 273,
+      "name": "staff_star_create"
+    },
+    {
+      "index": 274,
+      "name": "staff_star_fireLP"
+    },
+    {
+      "index": 275,
+      "name": "telebase_gemplace"
+    },
+    {
+      "index": 276,
+      "name": "telebase_hum_LP"
+    },
+    {
+      "index": 277,
+      "name": "teleportato_activate"
+    },
+    {
+      "index": 278,
+      "name": "teleportato_activate_prt2"
+    },
+    {
+      "index": 279,
+      "name": "teleportato_addpart"
+    },
+    {
+      "index": 280,
+      "name": "teleportato_idle_LP"
+    },
+    {
+      "index": 281,
+      "name": "teleportato_powerup"
+    },
+    {
+      "index": 282,
+      "name": "teleportato_pulled"
+    },
+    {
+      "index": 283,
+      "name": "teleportato_under"
+    },
+    {
+      "index": 284,
+      "name": "teleportstaff"
+    },
+    {
+      "index": 285,
+      "name": "teleportworm_close"
+    },
+    {
+      "index": 286,
+      "name": "teleportworm_open"
+    },
+    {
+      "index": 287,
+      "name": "teleportworm_swallow"
+    },
+    {
+      "index": 288,
+      "name": "teleportworm_travel"
+    },
+    {
+      "index": 289,
+      "name": "throne_disappear"
+    },
+    {
+      "index": 290,
+      "name": "throne_playerappear"
+    },
+    {
+      "index": 291,
+      "name": "trap_close_1"
+    },
+    {
+      "index": 292,
+      "name": "trap_close_2"
+    },
+    {
+      "index": 293,
+      "name": "trap_close_3"
+    },
+    {
+      "index": 294,
+      "name": "trap_rustle_1"
+    },
+    {
+      "index": 295,
+      "name": "trap_rustle_2"
+    },
+    {
+      "index": 296,
+      "name": "trap_rustle_3"
+    },
+    {
+      "index": 297,
+      "name": "trap_rustle_4"
+    },
+    {
+      "index": 298,
+      "name": "wanderingtrader_sleep_v2_LP_DST_-001"
+    },
+    {
+      "index": 299,
+      "name": "wanderingtrader_sleep_v2_LP_DST_-002"
+    },
+    {
+      "index": 300,
+      "name": "wanderingtrader_sleep_v2_LP_DST_-003"
+    },
+    {
+      "index": 301,
+      "name": "pack_tape_fix"
+    },
+    {
+      "index": 302,
+      "name": "Cookingpot_boil_lyr1_LP"
+    },
+    {
+      "index": 303,
+      "name": "Cookingpot_boil_lyr2_LP"
+    },
+    {
+      "index": 304,
+      "name": "Cookingpot_finish"
+    },
+    {
+      "index": 305,
+      "name": "Fishing_castSplash_1"
+    },
+    {
+      "index": 306,
+      "name": "Fishing_cast_1"
+    },
+    {
+      "index": 307,
+      "name": "Fishing_cast_2"
+    },
+    {
+      "index": 308,
+      "name": "Fishing_cast_3"
+    },
+    {
+      "index": 309,
+      "name": "Fishing_fishInWater_1"
+    },
+    {
+      "index": 310,
+      "name": "Fishing_fishInWater_2"
+    },
+    {
+      "index": 311,
+      "name": "Fishing_fishInWater_3"
+    },
+    {
+      "index": 312,
+      "name": "Fishing_fishOut_1"
+    },
+    {
+      "index": 313,
+      "name": "Fishing_fishOut_2"
+    },
+    {
+      "index": 314,
+      "name": "Fishing_fishOut_3"
+    },
+    {
+      "index": 315,
+      "name": "Fishing_fishSplat_1"
+    },
+    {
+      "index": 316,
+      "name": "Fishing_fishSplat_2"
+    },
+    {
+      "index": 317,
+      "name": "Fishing_fishSplat_3"
+    },
+    {
+      "index": 318,
+      "name": "Fishing_lineBreak_1"
+    },
+    {
+      "index": 319,
+      "name": "Fishing_lostRod"
+    },
+    {
+      "index": 320,
+      "name": "Fishing_poleStrain_1"
+    },
+    {
+      "index": 321,
+      "name": "Fishing_poleStrain_2"
+    },
+    {
+      "index": 322,
+      "name": "Fishing_poleStrain_3"
+    },
+    {
+      "index": 323,
+      "name": "Fishing_poleStrain_4"
+    },
+    {
+      "index": 324,
+      "name": "Fishing_poleStrain_5"
+    },
+    {
+      "index": 325,
+      "name": "Fishing_poleStrain_6"
+    },
+    {
+      "index": 326,
+      "name": "Horn_beefalo_1"
+    },
+    {
+      "index": 327,
+      "name": "Switch_toggle_1"
+    },
+    {
+      "index": 328,
+      "name": "Torch_LP"
+    },
+    {
+      "index": 329,
+      "name": "branchfoley_1"
+    },
+    {
+      "index": 330,
+      "name": "branchfoley_2"
+    },
+    {
+      "index": 331,
+      "name": "branchfoley_6"
+    },
+    {
+      "index": 332,
+      "name": "branchfoley_7"
+    },
+    {
+      "index": 333,
+      "name": "branchfoley_8"
+    },
+    {
+      "index": 334,
+      "name": "branchfoley_9"
+    },
+    {
+      "index": 335,
+      "name": "chop_tree_1"
+    },
+    {
+      "index": 336,
+      "name": "chop_tree_2"
+    },
+    {
+      "index": 337,
+      "name": "chop_tree_3"
+    },
+    {
+      "index": 338,
+      "name": "chop_tree_4"
+    },
+    {
+      "index": 339,
+      "name": "chop_tree_5"
+    },
+    {
+      "index": 340,
+      "name": "chop_tree_V2_1"
+    },
+    {
+      "index": 341,
+      "name": "chop_tree_V2_2"
+    },
+    {
+      "index": 342,
+      "name": "chop_tree_V2_3"
+    },
+    {
+      "index": 343,
+      "name": "cookpot_close"
+    },
+    {
+      "index": 344,
+      "name": "cookpot_open"
+    },
+    {
+      "index": 345,
+      "name": "freeze_creature"
+    },
+    {
+      "index": 346,
+      "name": "freeze_thaw_LP_V2"
+    },
+    {
+      "index": 347,
+      "name": "nightarmour_hit_1"
+    },
+    {
+      "index": 348,
+      "name": "nightarmour_hit_2"
+    },
+    {
+      "index": 349,
+      "name": "nightarmour_hit_3"
+    },
+    {
+      "index": 350,
+      "name": "nightarmour_hit_4"
+    },
+    {
+      "index": 351,
+      "name": "nightarmour_hit_5"
+    }
+  ],
+  "sfx": [
+    {
+      "index": 1,
+      "name": "GenWorld_LP"
+    },
+    {
+      "index": 2,
+      "name": "DST_hutch_pop"
+    },
+    {
+      "index": 3,
+      "name": "Sprat_curious_1"
+    },
+    {
+      "index": 4,
+      "name": "Sprat_curious_2"
+    },
+    {
+      "index": 5,
+      "name": "Sprat_curious_3"
+    },
+    {
+      "index": 6,
+      "name": "Sprat_curious_4"
+    },
+    {
+      "index": 7,
+      "name": "Sprat_curious_5"
+    },
+    {
+      "index": 8,
+      "name": "Sprat_curious_6"
+    },
+    {
+      "index": 9,
+      "name": "beehivehit_dull_1"
+    },
+    {
+      "index": 10,
+      "name": "beehivehit_dull_2"
+    },
+    {
+      "index": 11,
+      "name": "beehivehit_dull_3"
+    },
+    {
+      "index": 12,
+      "name": "impact_insect_dull_1"
+    },
+    {
+      "index": 13,
+      "name": "impact_insect_dull_2"
+    },
+    {
+      "index": 14,
+      "name": "impact_insect_dull_3"
+    },
+    {
+      "index": 15,
+      "name": "impact_insect_dull_4"
+    },
+    {
+      "index": 16,
+      "name": "impact_insect_sharp_1"
+    },
+    {
+      "index": 17,
+      "name": "impact_insect_sharp_2"
+    },
+    {
+      "index": 18,
+      "name": "impact_insect_sharp_3"
+    },
+    {
+      "index": 19,
+      "name": "impact_insect_sharp_4"
+    },
+    {
+      "index": 20,
+      "name": "Salt_lick_hit1"
+    },
+    {
+      "index": 21,
+      "name": "Salt_lick_hit2"
+    },
+    {
+      "index": 22,
+      "name": "Salt_lick_hit3"
+    },
+    {
+      "index": 23,
+      "name": "Salt_lick_hit4"
+    },
+    {
+      "index": 24,
+      "name": "Salt_lick_place"
+    },
+    {
+      "index": 25,
+      "name": "charlie_bite"
+    },
+    {
+      "index": 26,
+      "name": "charlie_warn_1"
+    },
+    {
+      "index": 27,
+      "name": "charlie_warn_2"
+    },
+    {
+      "index": 28,
+      "name": "charlie_warn_3"
+    },
+    {
+      "index": 29,
+      "name": "charlie_warn_4"
+    },
+    {
+      "index": 30,
+      "name": "ghost_girl_1"
+    },
+    {
+      "index": 31,
+      "name": "ghost_girl_2"
+    },
+    {
+      "index": 32,
+      "name": "ghost_girl_3"
+    },
+    {
+      "index": 33,
+      "name": "ghost_girl_4"
+    },
+    {
+      "index": 34,
+      "name": "ghost_girl_5"
+    },
+    {
+      "index": 35,
+      "name": "living_tree_grow_DSH"
+    },
+    {
+      "index": 36,
+      "name": "cooking_finish_madsciece_machine_madscience_machine_halloween_dst"
+    },
+    {
+      "index": 37,
+      "name": "cooking_madsciece_machine_madscience_machine_halloween_dst-001"
+    },
+    {
+      "index": 38,
+      "name": "cooking_madsciece_machine_madscience_machine_halloween_dst-002"
+    },
+    {
+      "index": 39,
+      "name": "cooking_madsciece_machine_madscience_machine_halloween_dst-003"
+    },
+    {
+      "index": 40,
+      "name": "idle_madsciece_machine_madscience_machine_halloween_dst-001"
+    },
+    {
+      "index": 41,
+      "name": "idle_madsciece_machine_madscience_machine_halloween_dst-002"
+    },
+    {
+      "index": 42,
+      "name": "idle_madsciece_machine_madscience_machine_halloween_dst-003"
+    },
+    {
+      "index": 43,
+      "name": "idle_madsciece_machine_madscience_machine_halloween_dst-004"
+    },
+    {
+      "index": 44,
+      "name": "place_madsciece_machine_halloween_dst"
+    },
+    {
+      "index": 45,
+      "name": "Shatter_FX_MoonMagic_Celestial_DST-001"
+    },
+    {
+      "index": 46,
+      "name": "Shatter_FX_MoonMagic_Celestial_DST-002"
+    },
+    {
+      "index": 47,
+      "name": "Shatter_FX_MoonMagic_Celestial_DST-003"
+    },
+    {
+      "index": 48,
+      "name": "complete_2_MoonMagic_Celestial_DST-001"
+    },
+    {
+      "index": 49,
+      "name": "complete_2_MoonMagic_Celestial_DST-002"
+    },
+    {
+      "index": 50,
+      "name": "complete_2_MoonMagic_Celestial_DST-003"
+    },
+    {
+      "index": 51,
+      "name": "idle_MoonMagic_Celestial_DST"
+    },
+    {
+      "index": 52,
+      "name": "Get_Gold"
+    },
+    {
+      "index": 53,
+      "name": "HUD_craft_close"
+    },
+    {
+      "index": 54,
+      "name": "HUD_craft_down_v2"
+    },
+    {
+      "index": 55,
+      "name": "HUD_craft_open"
+    },
+    {
+      "index": 56,
+      "name": "HUD_craft_up_v2"
+    },
+    {
+      "index": 57,
+      "name": "HUD_health_down"
+    },
+    {
+      "index": 58,
+      "name": "HUD_health_up"
+    },
+    {
+      "index": 59,
+      "name": "HUD_hunger_down"
+    },
+    {
+      "index": 60,
+      "name": "HUD_hunger_up"
+    },
+    {
+      "index": 61,
+      "name": "HUD_poi_v4_DST"
+    },
+    {
+      "index": 62,
+      "name": "HUD_sanity_down"
+    },
+    {
+      "index": 63,
+      "name": "HUD_sanity_up"
+    },
+    {
+      "index": 64,
+      "name": "Hunger_Filled"
+    },
+    {
+      "index": 65,
+      "name": "RecipeReady_mono"
+    },
+    {
+      "index": 66,
+      "name": "WorldDeathClick"
+    },
+    {
+      "index": 67,
+      "name": "XP_bar_fill"
+    },
+    {
+      "index": 68,
+      "name": "XP_bar_fill_short"
+    },
+    {
+      "index": 69,
+      "name": "XP_unlock"
+    },
+    {
+      "index": 70,
+      "name": "aqol_repair_v2_DST"
+    },
+    {
+      "index": 71,
+      "name": "click_mouseover"
+    },
+    {
+      "index": 72,
+      "name": "click_move"
+    },
+    {
+      "index": 73,
+      "name": "click_negative"
+    },
+    {
+      "index": 74,
+      "name": "click_object"
+    },
+    {
+      "index": 75,
+      "name": "creditpage_turn_mech"
+    },
+    {
+      "index": 76,
+      "name": "creditpage_turn_note_1"
+    },
+    {
+      "index": 77,
+      "name": "creditpage_turn_note_2"
+    },
+    {
+      "index": 78,
+      "name": "creditpage_turn_note_3"
+    },
+    {
+      "index": 79,
+      "name": "creditpage_turn_note_4"
+    },
+    {
+      "index": 80,
+      "name": "creditpage_turn_note_5"
+    },
+    {
+      "index": 81,
+      "name": "getNewItem"
+    },
+    {
+      "index": 82,
+      "name": "lucky_HUD_v2_DST"
+    },
+    {
+      "index": 83,
+      "name": "map_close_DST_v2"
+    },
+    {
+      "index": 84,
+      "name": "map_open_DST_v2"
+    },
+    {
+      "index": 85,
+      "name": "resourceFull"
+    },
+    {
+      "index": 86,
+      "name": "scrapbook_dropdown_DST_-001"
+    },
+    {
+      "index": 87,
+      "name": "scrapbook_dropdown_DST_-002"
+    },
+    {
+      "index": 88,
+      "name": "scrapbook_dropdown_DST_-003"
+    },
+    {
+      "index": 89,
+      "name": "unlucky_HUD_DST"
+    },
+    {
+      "index": 90,
+      "name": "DSS_limestone_armour_1"
+    },
+    {
+      "index": 91,
+      "name": "DSS_limestone_armour_2"
+    },
+    {
+      "index": 92,
+      "name": "DSS_limestone_armour_3"
+    },
+    {
+      "index": 93,
+      "name": "DSS_limestone_armour_4"
+    },
+    {
+      "index": 94,
+      "name": "DSS_limestone_armour_5"
+    },
+    {
+      "index": 95,
+      "name": "DSS_limestone_armour_6"
+    },
+    {
+      "index": 96,
+      "name": "DSS_seashell_suit_01"
+    },
+    {
+      "index": 97,
+      "name": "DSS_seashell_suit_02"
+    },
+    {
+      "index": 98,
+      "name": "DSS_seashell_suit_03"
+    },
+    {
+      "index": 99,
+      "name": "DSS_seashell_suit_04"
+    },
+    {
+      "index": 100,
+      "name": "DSS_seashell_suit_05"
+    },
+    {
+      "index": 101,
+      "name": "DSS_seashell_suit_06"
+    },
+    {
+      "index": 102,
+      "name": "DSS_seashell_suit_07"
+    },
+    {
+      "index": 103,
+      "name": "DSS_seashell_suit_08"
+    },
+    {
+      "index": 104,
+      "name": "DSS_seashell_suit_09"
+    },
+    {
+      "index": 105,
+      "name": "DSS_seashell_suit_10"
+    },
+    {
+      "index": 106,
+      "name": "DSS_seashell_suit_11"
+    },
+    {
+      "index": 107,
+      "name": "DSS_seashell_suit_12"
+    },
+    {
+      "index": 108,
+      "name": "DSS_seashell_suit_13"
+    },
+    {
+      "index": 109,
+      "name": "DSS_seashell_suit_14"
+    },
+    {
+      "index": 110,
+      "name": "DSS_shell_armour_1"
+    },
+    {
+      "index": 111,
+      "name": "DSS_shell_armour_2"
+    },
+    {
+      "index": 112,
+      "name": "DSS_shell_armour_3"
+    },
+    {
+      "index": 113,
+      "name": "DSS_shell_armour_4"
+    },
+    {
+      "index": 114,
+      "name": "DSS_shell_armour_5"
+    },
+    {
+      "index": 115,
+      "name": "Fertalize_1"
+    },
+    {
+      "index": 116,
+      "name": "Fertalize_2"
+    },
+    {
+      "index": 117,
+      "name": "Fertalize_3"
+    },
+    {
+      "index": 118,
+      "name": "Fertalize_4"
+    },
+    {
+      "index": 119,
+      "name": "bird_fall_drop_dead_DST_-001"
+    },
+    {
+      "index": 120,
+      "name": "bird_fall_drop_dead_DST_-002"
+    },
+    {
+      "index": 121,
+      "name": "bird_fall_drop_dead_DST_-003"
+    },
+    {
+      "index": 122,
+      "name": "eyeballturret_impact"
+    },
+    {
+      "index": 123,
+      "name": "impact_flesh_dull_1"
+    },
+    {
+      "index": 124,
+      "name": "impact_flesh_dull_2"
+    },
+    {
+      "index": 125,
+      "name": "impact_flesh_dull_3"
+    },
+    {
+      "index": 126,
+      "name": "impact_flesh_dull_4"
+    },
+    {
+      "index": 127,
+      "name": "impact_mech_dull_1"
+    },
+    {
+      "index": 128,
+      "name": "impact_mech_dull_2"
+    },
+    {
+      "index": 129,
+      "name": "impact_mech_dull_3"
+    },
+    {
+      "index": 130,
+      "name": "impact_mech_sharp_1"
+    },
+    {
+      "index": 131,
+      "name": "impact_mech_sharp_2"
+    },
+    {
+      "index": 132,
+      "name": "impact_mech_sharp_3"
+    },
+    {
+      "index": 133,
+      "name": "impact_shell_1"
+    },
+    {
+      "index": 134,
+      "name": "impact_shell_2"
+    },
+    {
+      "index": 135,
+      "name": "impact_shell_3"
+    },
+    {
+      "index": 136,
+      "name": "impact_shell_4"
+    },
+    {
+      "index": 137,
+      "name": "impact_wet_dull_1"
+    },
+    {
+      "index": 138,
+      "name": "impact_wet_dull_2"
+    },
+    {
+      "index": 139,
+      "name": "impact_wet_dull_3"
+    },
+    {
+      "index": 140,
+      "name": "impact_wet_dull_4"
+    },
+    {
+      "index": 141,
+      "name": "impact_wet_sharp_1"
+    },
+    {
+      "index": 142,
+      "name": "impact_wet_sharp_2"
+    },
+    {
+      "index": 143,
+      "name": "impact_wet_sharp_3"
+    },
+    {
+      "index": 144,
+      "name": "impact_wet_sharp_4"
+    },
+    {
+      "index": 145,
+      "name": "caves_bridge_footsteps_v2_DST_-001"
+    },
+    {
+      "index": 146,
+      "name": "caves_bridge_footsteps_v2_DST_-002"
+    },
+    {
+      "index": 147,
+      "name": "caves_bridge_footsteps_v2_DST_-003"
+    },
+    {
+      "index": 148,
+      "name": "caves_bridge_footsteps_v2_DST_-004"
+    },
+    {
+      "index": 149,
+      "name": "caves_bridge_footsteps_v2_DST_-005"
+    },
+    {
+      "index": 150,
+      "name": "caves_bridge_footsteps_v2_DST_-006"
+    },
+    {
+      "index": 151,
+      "name": "caves_bridge_footsteps_v2_DST_-007"
+    },
+    {
+      "index": 152,
+      "name": "caves_bridge_footsteps_v2_DST_-008"
+    },
+    {
+      "index": 153,
+      "name": "caves_bridge_footsteps_v2_DST_-009"
+    },
+    {
+      "index": 154,
+      "name": "caves_bridge_footsteps_v2_DST_-010"
+    },
+    {
+      "index": 155,
+      "name": "flip_twirl_LP"
+    },
+    {
+      "index": 156,
+      "name": "foley_backpack_1"
+    },
+    {
+      "index": 157,
+      "name": "foley_backpack_2"
+    },
+    {
+      "index": 158,
+      "name": "foley_backpack_3"
+    },
+    {
+      "index": 159,
+      "name": "foley_backpack_4"
+    },
+    {
+      "index": 160,
+      "name": "foley_backpack_5"
+    },
+    {
+      "index": 161,
+      "name": "foley_backpack_6"
+    },
+    {
+      "index": 162,
+      "name": "foley_backpack_7"
+    },
+    {
+      "index": 163,
+      "name": "foley_backpack_8"
+    },
+    {
+      "index": 164,
+      "name": "foley_backpack_9"
+    },
+    {
+      "index": 165,
+      "name": "foley_bushhat_1"
+    },
+    {
+      "index": 166,
+      "name": "foley_bushhat_2"
+    },
+    {
+      "index": 167,
+      "name": "foley_bushhat_3"
+    },
+    {
+      "index": 168,
+      "name": "foley_bushhat_4"
+    },
+    {
+      "index": 169,
+      "name": "foley_bushhat_5"
+    },
+    {
+      "index": 170,
+      "name": "foley_bushhat_6"
+    },
+    {
+      "index": 171,
+      "name": "foley_bushhat_7"
+    },
+    {
+      "index": 172,
+      "name": "foley_bushhat_8"
+    },
+    {
+      "index": 173,
+      "name": "foley_bushhat_9"
+    },
+    {
+      "index": 174,
+      "name": "foley_fur_1"
+    },
+    {
+      "index": 175,
+      "name": "foley_fur_10"
+    },
+    {
+      "index": 176,
+      "name": "foley_fur_11"
+    },
+    {
+      "index": 177,
+      "name": "foley_fur_2"
+    },
+    {
+      "index": 178,
+      "name": "foley_fur_3"
+    },
+    {
+      "index": 179,
+      "name": "foley_fur_4"
+    },
+    {
+      "index": 180,
+      "name": "foley_fur_5"
+    },
+    {
+      "index": 181,
+      "name": "foley_fur_6"
+    },
+    {
+      "index": 182,
+      "name": "foley_fur_7"
+    },
+    {
+      "index": 183,
+      "name": "foley_fur_8"
+    },
+    {
+      "index": 184,
+      "name": "foley_fur_9"
+    },
+    {
+      "index": 185,
+      "name": "foley_jewlery_1"
+    },
+    {
+      "index": 186,
+      "name": "foley_jewlery_2"
+    },
+    {
+      "index": 187,
+      "name": "foley_jewlery_3"
+    },
+    {
+      "index": 188,
+      "name": "foley_jewlery_4"
+    },
+    {
+      "index": 189,
+      "name": "foley_jewlery_5"
+    },
+    {
+      "index": 190,
+      "name": "foley_jewlery_6"
+    },
+    {
+      "index": 191,
+      "name": "foley_jewlery_7"
+    },
+    {
+      "index": 192,
+      "name": "foley_jewlery_8"
+    },
+    {
+      "index": 193,
+      "name": "foley_jewlery_9"
+    },
+    {
+      "index": 194,
+      "name": "foley_krampuspack_1"
+    },
+    {
+      "index": 195,
+      "name": "foley_krampuspack_2"
+    },
+    {
+      "index": 196,
+      "name": "foley_krampuspack_3"
+    },
+    {
+      "index": 197,
+      "name": "foley_krampuspack_4"
+    },
+    {
+      "index": 198,
+      "name": "foley_krampuspack_5"
+    },
+    {
+      "index": 199,
+      "name": "foley_krampuspack_6"
+    },
+    {
+      "index": 200,
+      "name": "foley_krampuspack_7"
+    },
+    {
+      "index": 201,
+      "name": "foley_krampuspack_8"
+    },
+    {
+      "index": 202,
+      "name": "foley_krampuspack_9"
+    },
+    {
+      "index": 203,
+      "name": "foley_logarmour_1"
+    },
+    {
+      "index": 204,
+      "name": "foley_logarmour_2"
+    },
+    {
+      "index": 205,
+      "name": "foley_logarmour_3"
+    },
+    {
+      "index": 206,
+      "name": "foley_logarmour_4"
+    },
+    {
+      "index": 207,
+      "name": "foley_logarmour_5"
+    },
+    {
+      "index": 208,
+      "name": "foley_logarmour_6"
+    },
+    {
+      "index": 209,
+      "name": "foley_logarmour_7"
+    },
+    {
+      "index": 210,
+      "name": "foley_logarmour_8"
+    },
+    {
+      "index": 211,
+      "name": "foley_logarmour_9"
+    },
+    {
+      "index": 212,
+      "name": "foley_marblearmour_1"
+    },
+    {
+      "index": 213,
+      "name": "foley_marblearmour_2"
+    },
+    {
+      "index": 214,
+      "name": "foley_marblearmour_3"
+    },
+    {
+      "index": 215,
+      "name": "foley_marblearmour_4"
+    },
+    {
+      "index": 216,
+      "name": "foley_marblearmour_5"
+    },
+    {
+      "index": 217,
+      "name": "foley_marblearmour_6"
+    },
+    {
+      "index": 218,
+      "name": "foley_marblearmour_7"
+    },
+    {
+      "index": 219,
+      "name": "foley_metalArmour_1"
+    },
+    {
+      "index": 220,
+      "name": "foley_metalArmour_2"
+    },
+    {
+      "index": 221,
+      "name": "foley_metalArmour_3"
+    },
+    {
+      "index": 222,
+      "name": "foley_metalArmour_4"
+    },
+    {
+      "index": 223,
+      "name": "foley_metalArmour_5"
+    },
+    {
+      "index": 224,
+      "name": "foley_metalArmour_6"
+    },
+    {
+      "index": 225,
+      "name": "foley_metalArmour_7"
+    },
+    {
+      "index": 226,
+      "name": "foley_metalArmour_8"
+    },
+    {
+      "index": 227,
+      "name": "foley_metalArmour_9"
+    },
+    {
+      "index": 228,
+      "name": "foley_trunksuit_1"
+    },
+    {
+      "index": 229,
+      "name": "foley_trunksuit_2"
+    },
+    {
+      "index": 230,
+      "name": "foley_trunksuit_3"
+    },
+    {
+      "index": 231,
+      "name": "foley_trunksuit_4"
+    },
+    {
+      "index": 232,
+      "name": "foley_trunksuit_5"
+    },
+    {
+      "index": 233,
+      "name": "foley_trunksuit_6"
+    },
+    {
+      "index": 234,
+      "name": "foley_trunksuit_7"
+    },
+    {
+      "index": 235,
+      "name": "foley_trunksuit_8"
+    },
+    {
+      "index": 236,
+      "name": "foley_trunksuit_9"
+    },
+    {
+      "index": 237,
+      "name": "rockyboss_armor_foley_DST_-001"
+    },
+    {
+      "index": 238,
+      "name": "rockyboss_armor_foley_DST_-002"
+    },
+    {
+      "index": 239,
+      "name": "rockyboss_armor_foley_DST_-003"
+    },
+    {
+      "index": 240,
+      "name": "rockyboss_armor_foley_DST_-004"
+    },
+    {
+      "index": 241,
+      "name": "wx78_foley_1"
+    },
+    {
+      "index": 242,
+      "name": "wx78_foley_10"
+    },
+    {
+      "index": 243,
+      "name": "wx78_foley_2"
+    },
+    {
+      "index": 244,
+      "name": "wx78_foley_3"
+    },
+    {
+      "index": 245,
+      "name": "wx78_foley_4"
+    },
+    {
+      "index": 246,
+      "name": "wx78_foley_5"
+    },
+    {
+      "index": 247,
+      "name": "wx78_foley_6"
+    },
+    {
+      "index": 248,
+      "name": "wx78_foley_8"
+    },
+    {
+      "index": 249,
+      "name": "wx78_foley_9"
+    },
+    {
+      "index": 250,
+      "name": "foley_hidebush_1"
+    },
+    {
+      "index": 251,
+      "name": "foley_hidebush_2"
+    },
+    {
+      "index": 252,
+      "name": "foley_hidebush_3"
+    },
+    {
+      "index": 253,
+      "name": "footstep_carpet_V2_1"
+    },
+    {
+      "index": 254,
+      "name": "footstep_carpet_V2_2"
+    },
+    {
+      "index": 255,
+      "name": "footstep_carpet_V2_3"
+    },
+    {
+      "index": 256,
+      "name": "footstep_carpet_V2_4"
+    },
+    {
+      "index": 257,
+      "name": "footstep_dirt_1"
+    },
+    {
+      "index": 258,
+      "name": "footstep_dirt_2"
+    },
+    {
+      "index": 259,
+      "name": "footstep_dirt_3"
+    },
+    {
+      "index": 260,
+      "name": "footstep_dirt_4"
+    },
+    {
+      "index": 261,
+      "name": "footstep_grass_1"
+    },
+    {
+      "index": 262,
+      "name": "footstep_grass_2"
+    },
+    {
+      "index": 263,
+      "name": "footstep_grass_3"
+    },
+    {
+      "index": 264,
+      "name": "footstep_grass_4"
+    },
+    {
+      "index": 265,
+      "name": "footstep_ice_1_v2"
+    },
+    {
+      "index": 266,
+      "name": "footstep_ice_2_v2"
+    },
+    {
+      "index": 267,
+      "name": "footstep_ice_3_v2"
+    },
+    {
+      "index": 268,
+      "name": "footstep_marble_1"
+    },
+    {
+      "index": 269,
+      "name": "footstep_marble_2"
+    },
+    {
+      "index": 270,
+      "name": "footstep_marble_3"
+    },
+    {
+      "index": 271,
+      "name": "footstep_marble_4"
+    },
+    {
+      "index": 272,
+      "name": "footstep_moss_1"
+    },
+    {
+      "index": 273,
+      "name": "footstep_moss_2"
+    },
+    {
+      "index": 274,
+      "name": "footstep_moss_3"
+    },
+    {
+      "index": 275,
+      "name": "footstep_moss_4"
+    },
+    {
+      "index": 276,
+      "name": "footstep_mud_1"
+    },
+    {
+      "index": 277,
+      "name": "footstep_mud_2"
+    },
+    {
+      "index": 278,
+      "name": "footstep_mud_3"
+    },
+    {
+      "index": 279,
+      "name": "footstep_mud_4"
+    },
+    {
+      "index": 280,
+      "name": "footstep_snow_1"
+    },
+    {
+      "index": 281,
+      "name": "footstep_snow_2"
+    },
+    {
+      "index": 282,
+      "name": "footstep_snow_3"
+    },
+    {
+      "index": 283,
+      "name": "footstep_tallgrass_"
+    },
+    {
+      "index": 284,
+      "name": "footstep_tallgrass_2"
+    },
+    {
+      "index": 285,
+      "name": "footstep_tallgrass_3"
+    },
+    {
+      "index": 286,
+      "name": "footstep_tallgrass_4"
+    },
+    {
+      "index": 287,
+      "name": "footstep_web_1"
+    },
+    {
+      "index": 288,
+      "name": "footstep_web_2"
+    },
+    {
+      "index": 289,
+      "name": "footstep_web_3"
+    },
+    {
+      "index": 290,
+      "name": "footstep_wood_1"
+    },
+    {
+      "index": 291,
+      "name": "footstep_wood_2"
+    },
+    {
+      "index": 292,
+      "name": "footstep_wood_3"
+    },
+    {
+      "index": 293,
+      "name": "footstep_wood_4"
+    },
+    {
+      "index": 294,
+      "name": "footstep_woods_1"
+    },
+    {
+      "index": 295,
+      "name": "footstep_woods_2"
+    },
+    {
+      "index": 296,
+      "name": "footstep_woods_3"
+    },
+    {
+      "index": 297,
+      "name": "footstep_woods_4"
+    },
+    {
+      "index": 298,
+      "name": "horse_footsteps_fs_v2_DST_-001"
+    },
+    {
+      "index": 299,
+      "name": "horse_footsteps_fs_v2_DST_-002"
+    },
+    {
+      "index": 300,
+      "name": "horse_footsteps_fs_v2_DST_-003"
+    },
+    {
+      "index": 301,
+      "name": "horse_footsteps_fs_v2_DST_-004"
+    },
+    {
+      "index": 302,
+      "name": "horse_footsteps_fs_v2_DST_-005"
+    },
+    {
+      "index": 303,
+      "name": "horse_footsteps_fs_v2_DST_-006"
+    },
+    {
+      "index": 304,
+      "name": "horse_footsteps_fs_v2_DST_-007"
+    },
+    {
+      "index": 305,
+      "name": "ice_slipping-001"
+    },
+    {
+      "index": 306,
+      "name": "ice_slipping-002"
+    },
+    {
+      "index": 307,
+      "name": "ice_slipping-003"
+    },
+    {
+      "index": 308,
+      "name": "ice_slipping-004"
+    },
+    {
+      "index": 309,
+      "name": "ice_slipping-005"
+    },
+    {
+      "index": 310,
+      "name": "ice_slipping-006"
+    },
+    {
+      "index": 311,
+      "name": "ice_slipping-007"
+    },
+    {
+      "index": 312,
+      "name": "ice_slipping-008"
+    },
+    {
+      "index": 313,
+      "name": "movement_foley_iceslab_step_v2_DST_-001"
+    },
+    {
+      "index": 314,
+      "name": "movement_foley_iceslab_step_v2_DST_-002"
+    },
+    {
+      "index": 315,
+      "name": "movement_foley_iceslab_step_v2_DST_-003"
+    },
+    {
+      "index": 316,
+      "name": "movement_foley_iceslab_step_v2_DST_-004"
+    },
+    {
+      "index": 317,
+      "name": "movement_foley_iceslab_step_v2_DST_-005"
+    },
+    {
+      "index": 318,
+      "name": "movement_foley_iceslab_step_v2_DST_-006"
+    },
+    {
+      "index": 319,
+      "name": "movement_foley_iceslab_step_v2_DST_-007"
+    },
+    {
+      "index": 320,
+      "name": "movement_foley_iceslab_step_v2_DST_-008"
+    },
+    {
+      "index": 321,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_001"
+    },
+    {
+      "index": 322,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_002"
+    },
+    {
+      "index": 323,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_003"
+    },
+    {
+      "index": 324,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_004"
+    },
+    {
+      "index": 325,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_005"
+    },
+    {
+      "index": 326,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_006"
+    },
+    {
+      "index": 327,
+      "name": "movement_footsteps_heatrocks_rocks_gravel_small_DST_007"
+    },
+    {
+      "index": 328,
+      "name": "player_slip_fall-005"
+    },
+    {
+      "index": 329,
+      "name": "player_slip_fall-006"
+    },
+    {
+      "index": 330,
+      "name": "player_slip_fall-007"
+    },
+    {
+      "index": 331,
+      "name": "player_slip_fall-008"
+    },
+    {
+      "index": 332,
+      "name": "player_slip_sweetner-001"
+    },
+    {
+      "index": 333,
+      "name": "player_slip_sweetner-005"
+    },
+    {
+      "index": 334,
+      "name": "player_slip_sweetner-006"
+    },
+    {
+      "index": 335,
+      "name": "player_slip_sweetner-007"
+    },
+    {
+      "index": 336,
+      "name": "player_slip_sweetner-008"
+    },
+    {
+      "index": 337,
+      "name": "wagpunk_flooring_footsteps_metal_hollow_DST_-002"
+    },
+    {
+      "index": 338,
+      "name": "wagpunk_flooring_footsteps_metal_hollow_DST_-006"
+    },
+    {
+      "index": 339,
+      "name": "wagpunk_flooring_footsteps_metal_hollow_DST_-007"
+    },
+    {
+      "index": 340,
+      "name": "wagpunk_flooring_footsteps_metal_hollow_DST_-009"
+    },
+    {
+      "index": 341,
+      "name": "BedRoll_deploy"
+    },
+    {
+      "index": 342,
+      "name": "Birdcage_craft"
+    },
+    {
+      "index": 343,
+      "name": "DS_book_close1"
+    },
+    {
+      "index": 344,
+      "name": "DS_book_close2"
+    },
+    {
+      "index": 345,
+      "name": "DS_book_close3"
+    },
+    {
+      "index": 346,
+      "name": "DS_book_close4"
+    },
+    {
+      "index": 347,
+      "name": "DS_maxwell_pageturn_1"
+    },
+    {
+      "index": 348,
+      "name": "DS_maxwell_pageturn_2"
+    },
+    {
+      "index": 349,
+      "name": "DS_maxwell_pageturn_3"
+    },
+    {
+      "index": 350,
+      "name": "DS_maxwell_pageturn_4"
+    },
+    {
+      "index": 351,
+      "name": "Dragonfly_chest"
+    },
+    {
+      "index": 352,
+      "name": "SpawnPortal_Layer1_LP"
+    },
+    {
+      "index": 353,
+      "name": "SpawnPortal_Layer2_LP"
+    },
+    {
+      "index": 354,
+      "name": "SpawnPortal_Layer3_LP"
+    },
+    {
+      "index": 355,
+      "name": "bee_box_v2"
+    },
+    {
+      "index": 356,
+      "name": "blowdart_blow_1"
+    },
+    {
+      "index": 357,
+      "name": "blowdart_blow_2"
+    },
+    {
+      "index": 358,
+      "name": "blowdart_blow_3"
+    },
+    {
+      "index": 359,
+      "name": "blowdart_impact_fire"
+    },
+    {
+      "index": 360,
+      "name": "blowdart_impact_sleep"
+    },
+    {
+      "index": 361,
+      "name": "book_pageturn_1"
+    },
+    {
+      "index": 362,
+      "name": "book_pageturn_2"
+    },
+    {
+      "index": 363,
+      "name": "book_pageturn_3"
+    },
+    {
+      "index": 364,
+      "name": "book_pageturn_4"
+    },
+    {
+      "index": 365,
+      "name": "book_pageturn_5"
+    },
+    {
+      "index": 366,
+      "name": "book_pageturn_6"
+    },
+    {
+      "index": 367,
+      "name": "book_pageturn_7"
+    },
+    {
+      "index": 368,
+      "name": "cooking_pot_craft_v3"
+    },
+    {
+      "index": 369,
+      "name": "meat_rack_craft"
+    },
+    {
+      "index": 370,
+      "name": "place_PigShrine_DSH"
+    },
+    {
+      "index": 371,
+      "name": "diviningrod_ping"
+    },
+    {
+      "index": 372,
+      "name": "electric_fence_connected_v2_DST_-001"
+    },
+    {
+      "index": 373,
+      "name": "electric_fence_place_DST"
+    },
+    {
+      "index": 374,
+      "name": "electric_fence_signal_pairing_beep_LP_DST"
+    },
+    {
+      "index": 375,
+      "name": "electric_fence_signal_pairing_disconnect_DST"
+    },
+    {
+      "index": 376,
+      "name": "eyeballturret_charge"
+    },
+    {
+      "index": 377,
+      "name": "eyeballturret_shoot"
+    },
+    {
+      "index": 378,
+      "name": "ice_box_close_v2"
+    },
+    {
+      "index": 379,
+      "name": "ice_box_open_v2"
+    },
+    {
+      "index": 380,
+      "name": "maxwellPortal_activate"
+    },
+    {
+      "index": 381,
+      "name": "maxwellPortal_close_v2"
+    },
+    {
+      "index": 382,
+      "name": "maxwellPortal_run_LP1"
+    },
+    {
+      "index": 383,
+      "name": "maxwellPortal_run_LP2"
+    },
+    {
+      "index": 384,
+      "name": "pumpkin_smash"
+    },
+    {
+      "index": 385,
+      "name": "rabbit_hutch_craft"
+    },
+    {
+      "index": 386,
+      "name": "sign_craft"
+    },
+    {
+      "index": 387,
+      "name": "teleportworm_idle_LP"
+    },
+    {
+      "index": 388,
+      "name": "teleportworm_idle_brth_1"
+    },
+    {
+      "index": 389,
+      "name": "teleportworm_idle_brth_2"
+    },
+    {
+      "index": 390,
+      "name": "teleportworm_idle_brth_3"
+    },
+    {
+      "index": 391,
+      "name": "tent_sleep_loop1"
+    },
+    {
+      "index": 392,
+      "name": "tent_sleep_loop10"
+    },
+    {
+      "index": 393,
+      "name": "tent_sleep_loop11"
+    },
+    {
+      "index": 394,
+      "name": "tent_sleep_loop2"
+    },
+    {
+      "index": 395,
+      "name": "tent_sleep_loop3"
+    },
+    {
+      "index": 396,
+      "name": "tent_sleep_loop4"
+    },
+    {
+      "index": 397,
+      "name": "tent_sleep_loop5"
+    },
+    {
+      "index": 398,
+      "name": "tent_sleep_loop6"
+    },
+    {
+      "index": 399,
+      "name": "tent_sleep_loop7"
+    },
+    {
+      "index": 400,
+      "name": "tent_sleep_loop8"
+    },
+    {
+      "index": 401,
+      "name": "tent_sleep_loop9"
+    },
+    {
+      "index": 402,
+      "name": "wardrobe_craft"
+    },
+    {
+      "index": 403,
+      "name": "Squish_WetSlime2"
+    },
+    {
+      "index": 404,
+      "name": "Squish_WetSlime3"
+    },
+    {
+      "index": 405,
+      "name": "Squish_WetSlime4"
+    },
+    {
+      "index": 406,
+      "name": "Squish_WetSlime5"
+    },
+    {
+      "index": 407,
+      "name": "land_splash_DST-001"
+    },
+    {
+      "index": 408,
+      "name": "land_splash_DST-002"
+    },
+    {
+      "index": 409,
+      "name": "land_splash_DST-003"
+    },
+    {
+      "index": 410,
+      "name": "land_splash_DST-004"
+    },
+    {
+      "index": 411,
+      "name": "land_splash_DST-005"
+    },
+    {
+      "index": 412,
+      "name": "ATK_KnifeSwipe1_V2"
+    },
+    {
+      "index": 413,
+      "name": "ATK_KnifeSwipe2_V2"
+    },
+    {
+      "index": 414,
+      "name": "ATK_KnifeSwipe3_V2"
+    },
+    {
+      "index": 415,
+      "name": "Impact_bloody_short_1"
+    },
+    {
+      "index": 416,
+      "name": "Impact_bloody_short_2"
+    },
+    {
+      "index": 417,
+      "name": "Impact_bloody_short_3"
+    },
+    {
+      "index": 418,
+      "name": "Impact_bloody_short_4"
+    },
+    {
+      "index": 419,
+      "name": "batHit1"
+    },
+    {
+      "index": 420,
+      "name": "batHit2"
+    },
+    {
+      "index": 421,
+      "name": "100-600hz"
+    },
+    {
+      "index": 422,
+      "name": "attack-Test01"
+    },
+    {
+      "index": 423,
+      "name": "attack_pre-Test01"
+    },
+    {
+      "index": 424,
+      "name": "burrow-Test01"
+    },
+    {
+      "index": 425,
+      "name": "dig-Test01"
+    },
+    {
+      "index": 426,
+      "name": "drop-Test01"
+    },
+    {
+      "index": 427,
+      "name": "eat-Test01"
+    },
+    {
+      "index": 428,
+      "name": "fight-Test01"
+    },
+    {
+      "index": 429,
+      "name": "fly-Test01"
+    },
+    {
+      "index": 430,
+      "name": "grunt-Test01"
+    },
+    {
+      "index": 431,
+      "name": "hit-Test01"
+    },
+    {
+      "index": 432,
+      "name": "looping-Test01"
+    },
+    {
+      "index": 433,
+      "name": "move-Test01"
+    },
+    {
+      "index": 434,
+      "name": "scream-Test01"
+    },
+    {
+      "index": 435,
+      "name": "steal-Test01"
+    },
+    {
+      "index": 436,
+      "name": "step-Test01"
+    },
+    {
+      "index": 437,
+      "name": "aqol_soothed_pickup_sound_v2_DST"
+    },
+    {
+      "index": 438,
+      "name": "aqol_gem_pickup_-002"
+    },
+    {
+      "index": 439,
+      "name": "aqol_gem_pickup_-003"
+    },
+    {
+      "index": 440,
+      "name": "aqol_gem_pickup_-004"
+    },
+    {
+      "index": 441,
+      "name": "rock_rumble_v2_DST_-001"
+    },
+    {
+      "index": 442,
+      "name": "rock_rumble_v2_DST_-002"
+    },
+    {
+      "index": 443,
+      "name": "rock_rumble_v2_DST_-003"
+    },
+    {
+      "index": 444,
+      "name": "rock_rumble_v2_DST_-004"
+    },
+    {
+      "index": 445,
+      "name": "rock_rumble_v2_DST_-005"
+    },
+    {
+      "index": 446,
+      "name": "rock_rumble_v2_DST_-006"
+    },
+    {
+      "index": 447,
+      "name": "rock_rumble_v2_DST_-007"
+    },
+    {
+      "index": 448,
+      "name": "rock_rumble_v2_DST_-008"
+    },
+    {
+      "index": 449,
+      "name": "DSS_grass_thatch_pack_01"
+    },
+    {
+      "index": 450,
+      "name": "DSS_grass_thatch_pack_02"
+    },
+    {
+      "index": 451,
+      "name": "DSS_grass_thatch_pack_03"
+    },
+    {
+      "index": 452,
+      "name": "DSS_grass_thatch_pack_04"
+    },
+    {
+      "index": 453,
+      "name": "DSS_grass_thatch_pack_05"
+    },
+    {
+      "index": 454,
+      "name": "DSS_grass_thatch_pack_06"
+    },
+    {
+      "index": 455,
+      "name": "DSS_grass_thatch_pack_07"
+    },
+    {
+      "index": 456,
+      "name": "DSS_grass_thatch_pack_08"
+    },
+    {
+      "index": 457,
+      "name": "DSS_grass_thatch_pack_09"
+    },
+    {
+      "index": 458,
+      "name": "DSS_grass_thatch_pack_10"
+    },
+    {
+      "index": 459,
+      "name": "DSS_grass_thatch_pack_11"
+    },
+    {
+      "index": 460,
+      "name": "DSS_grass_thatch_pack_12"
+    },
+    {
+      "index": 461,
+      "name": "DSS_grass_thatch_pack_13"
+    },
+    {
+      "index": 462,
+      "name": "DSS_grass_thatch_pack_14"
+    },
+    {
+      "index": 463,
+      "name": "DSS_grass_thatch_pack_15"
+    },
+    {
+      "index": 464,
+      "name": "DSS_volcano_cactus_attack_v2_1"
+    },
+    {
+      "index": 465,
+      "name": "DSS_volcano_cactus_attack_v2_2"
+    },
+    {
+      "index": 466,
+      "name": "DSS_volcano_cactus_attack_v2_3"
+    },
+    {
+      "index": 467,
+      "name": "DSS_volcano_cactus_attack_v2_4"
+    },
+    {
+      "index": 468,
+      "name": "DSS_volcano_cactus_chopped_1"
+    },
+    {
+      "index": 469,
+      "name": "DSS_volcano_cactus_chopped_2"
+    },
+    {
+      "index": 470,
+      "name": "DSS_volcano_cactus_chopped_3"
+    },
+    {
+      "index": 471,
+      "name": "DSS_volcano_cactus_chopped_4"
+    },
+    {
+      "index": 472,
+      "name": "on_battery_DST_LP-001"
+    },
+    {
+      "index": 473,
+      "name": "on_battery_DST_LP-002"
+    },
+    {
+      "index": 474,
+      "name": "on_battery_DST_LP-003"
+    },
+    {
+      "index": 475,
+      "name": "on_battery_DST_LP-004"
+    },
+    {
+      "index": 476,
+      "name": "place_battery_2_DST"
+    },
+    {
+      "index": 477,
+      "name": "place_battery_DST"
+    },
+    {
+      "index": 478,
+      "name": "activate_bernie_dst-001"
+    },
+    {
+      "index": 479,
+      "name": "activate_bernie_dst-002"
+    },
+    {
+      "index": 480,
+      "name": "activate_bernie_dst-003"
+    },
+    {
+      "index": 481,
+      "name": "atk_whoosh_bernie_dst-001"
+    },
+    {
+      "index": 482,
+      "name": "atk_whoosh_bernie_dst-002"
+    },
+    {
+      "index": 483,
+      "name": "atk_whoosh_bernie_dst-003"
+    },
+    {
+      "index": 484,
+      "name": "atk_whoosh_bernie_dst-004"
+    },
+    {
+      "index": 485,
+      "name": "atk_whoosh_bernie_dst-005"
+    },
+    {
+      "index": 486,
+      "name": "atk_whoosh_bernie_dst-006"
+    },
+    {
+      "index": 487,
+      "name": "atk_whoosh_bernie_dst-007"
+    },
+    {
+      "index": 488,
+      "name": "atk_whoosh_bernie_dst-008"
+    },
+    {
+      "index": 489,
+      "name": "atk_windup_bernie_dst-001"
+    },
+    {
+      "index": 490,
+      "name": "atk_windup_bernie_dst-002"
+    },
+    {
+      "index": 491,
+      "name": "atk_windup_bernie_dst-003"
+    },
+    {
+      "index": 492,
+      "name": "atk_windup_bernie_dst-004"
+    },
+    {
+      "index": 493,
+      "name": "atk_windup_bernie_dst-005"
+    },
+    {
+      "index": 494,
+      "name": "atk_windup_bernie_dst-006"
+    },
+    {
+      "index": 495,
+      "name": "atk_windup_bernie_dst-007"
+    },
+    {
+      "index": 496,
+      "name": "atk_windup_bernie_dst-008"
+    },
+    {
+      "index": 497,
+      "name": "deactivate_bernie_dst-001"
+    },
+    {
+      "index": 498,
+      "name": "deactivate_bernie_dst-002"
+    },
+    {
+      "index": 499,
+      "name": "deactivate_bernie_dst-003"
+    },
+    {
+      "index": 500,
+      "name": "death_collapse_bernie_dst-001"
+    },
+    {
+      "index": 501,
+      "name": "death_collapse_bernie_dst-002"
+    },
+    {
+      "index": 502,
+      "name": "death_collapse_bernie_dst-003"
+    },
+    {
+      "index": 503,
+      "name": "death_drop_bernie_dst-001"
+    },
+    {
+      "index": 504,
+      "name": "death_drop_bernie_dst-002"
+    },
+    {
+      "index": 505,
+      "name": "death_drop_bernie_dst-003"
+    },
+    {
+      "index": 506,
+      "name": "footstep_bernie_dst-001"
+    },
+    {
+      "index": 507,
+      "name": "footstep_bernie_dst-002"
+    },
+    {
+      "index": 508,
+      "name": "footstep_bernie_dst-003"
+    },
+    {
+      "index": 509,
+      "name": "footstep_bernie_dst-004"
+    },
+    {
+      "index": 510,
+      "name": "footstep_bernie_dst-005"
+    },
+    {
+      "index": 511,
+      "name": "footstep_bernie_dst-006"
+    },
+    {
+      "index": 512,
+      "name": "footstep_bernie_dst-007"
+    },
+    {
+      "index": 513,
+      "name": "footstep_bernie_dst-008"
+    },
+    {
+      "index": 514,
+      "name": "footstep_bernie_dst-009"
+    },
+    {
+      "index": 515,
+      "name": "footstep_bernie_dst-010"
+    },
+    {
+      "index": 516,
+      "name": "punch_self_bernie_dst-001"
+    },
+    {
+      "index": 517,
+      "name": "punch_self_bernie_dst-002"
+    },
+    {
+      "index": 518,
+      "name": "punch_self_bernie_dst-003"
+    },
+    {
+      "index": 519,
+      "name": "punch_self_bernie_dst-004"
+    },
+    {
+      "index": 520,
+      "name": "punch_self_bernie_dst-005"
+    },
+    {
+      "index": 521,
+      "name": "punch_self_bernie_dst-006"
+    },
+    {
+      "index": 522,
+      "name": "punch_self_bernie_dst-007"
+    },
+    {
+      "index": 523,
+      "name": "punch_self_bernie_dst-008"
+    },
+    {
+      "index": 524,
+      "name": "punch_self_bernie_dst-009"
+    },
+    {
+      "index": 525,
+      "name": "punch_self_bernie_dst-010"
+    },
+    {
+      "index": 526,
+      "name": "vo_atk_bernie_big_dst-001"
+    },
+    {
+      "index": 527,
+      "name": "vo_atk_bernie_big_dst-002"
+    },
+    {
+      "index": 528,
+      "name": "vo_atk_bernie_big_dst-003"
+    },
+    {
+      "index": 529,
+      "name": "vo_atk_bernie_big_dst-004"
+    },
+    {
+      "index": 530,
+      "name": "vo_atk_bernie_big_dst-005"
+    },
+    {
+      "index": 531,
+      "name": "vo_atk_bernie_big_dst-006"
+    },
+    {
+      "index": 532,
+      "name": "vo_atk_pre_bernie_big_dst-001"
+    },
+    {
+      "index": 533,
+      "name": "vo_atk_pre_bernie_big_dst-002"
+    },
+    {
+      "index": 534,
+      "name": "vo_atk_pre_bernie_big_dst-003"
+    },
+    {
+      "index": 535,
+      "name": "vo_atk_pre_bernie_big_dst-004"
+    },
+    {
+      "index": 536,
+      "name": "vo_atk_pre_bernie_big_dst-005"
+    },
+    {
+      "index": 537,
+      "name": "vo_atk_pre_bernie_big_dst-006"
+    },
+    {
+      "index": 538,
+      "name": "vo_atk_pre_bernie_big_dst-007"
+    },
+    {
+      "index": 539,
+      "name": "vo_death_collapse_bernie_big_dst-001"
+    },
+    {
+      "index": 540,
+      "name": "vo_death_collapse_bernie_big_dst-002"
+    },
+    {
+      "index": 541,
+      "name": "vo_death_collapse_bernie_big_dst-003"
+    },
+    {
+      "index": 542,
+      "name": "vo_death_drop_bernie_big_dst-001"
+    },
+    {
+      "index": 543,
+      "name": "vo_death_drop_bernie_big_dst-002"
+    },
+    {
+      "index": 544,
+      "name": "vo_death_drop_bernie_big_dst-003"
+    },
+    {
+      "index": 545,
+      "name": "vo_hit_bernie_big_dst-001"
+    },
+    {
+      "index": 546,
+      "name": "vo_hit_bernie_big_dst-002"
+    },
+    {
+      "index": 547,
+      "name": "vo_hit_bernie_big_dst-003"
+    },
+    {
+      "index": 548,
+      "name": "vo_hit_bernie_big_dst-004"
+    },
+    {
+      "index": 549,
+      "name": "vo_hit_bernie_big_dst-005"
+    },
+    {
+      "index": 550,
+      "name": "vo_hit_bernie_big_dst-006"
+    },
+    {
+      "index": 551,
+      "name": "vo_hit_bernie_big_dst-007"
+    },
+    {
+      "index": 552,
+      "name": "vo_hit_bernie_big_dst-008"
+    },
+    {
+      "index": 553,
+      "name": "vo_hit_bernie_big_dst-009"
+    },
+    {
+      "index": 554,
+      "name": "vo_run_start_bernie_big_dst-001"
+    },
+    {
+      "index": 555,
+      "name": "vo_run_start_bernie_big_dst-002"
+    },
+    {
+      "index": 556,
+      "name": "vo_run_start_bernie_big_dst-003"
+    },
+    {
+      "index": 557,
+      "name": "vo_run_start_bernie_big_dst-004"
+    },
+    {
+      "index": 558,
+      "name": "vo_run_start_bernie_big_dst-005"
+    },
+    {
+      "index": 559,
+      "name": "vo_run_start_bernie_big_dst-006"
+    },
+    {
+      "index": 560,
+      "name": "vo_taunt_bernie_big_dst-001"
+    },
+    {
+      "index": 561,
+      "name": "vo_taunt_bernie_big_dst-002"
+    },
+    {
+      "index": 562,
+      "name": "vo_taunt_bernie_big_dst-003"
+    },
+    {
+      "index": 563,
+      "name": "cracking_ice_dst-001"
+    },
+    {
+      "index": 564,
+      "name": "cracking_ice_dst-002"
+    },
+    {
+      "index": 565,
+      "name": "cracking_ice_dst-003"
+    },
+    {
+      "index": 566,
+      "name": "cracking_ice_dst-004"
+    },
+    {
+      "index": 567,
+      "name": "cracking_ice_dst-005"
+    },
+    {
+      "index": 568,
+      "name": "cracking_ice_dst-006"
+    },
+    {
+      "index": 569,
+      "name": "carnival_minigolf_tee_place_DST_001"
+    },
+    {
+      "index": 570,
+      "name": "flashlight_on"
+    },
+    {
+      "index": 571,
+      "name": "catapult_rock_hit_DST_01"
+    },
+    {
+      "index": 572,
+      "name": "catapult_rock_hit_DST_02"
+    },
+    {
+      "index": 573,
+      "name": "catapult_rock_hit_DST_03"
+    },
+    {
+      "index": 574,
+      "name": "catapult_rock_hit_DST_04"
+    },
+    {
+      "index": 575,
+      "name": "catapult_rock_hit_DST_05"
+    },
+    {
+      "index": 576,
+      "name": "catapult_rock_hit_DST_06"
+    },
+    {
+      "index": 577,
+      "name": "catapult_rock_hit_DST_07"
+    },
+    {
+      "index": 578,
+      "name": "catapult_rock_hit_DST_08"
+    },
+    {
+      "index": 579,
+      "name": "catapult_rock_hit_DST_09"
+    },
+    {
+      "index": 580,
+      "name": "catapult_rock_hit_DST_10"
+    },
+    {
+      "index": 581,
+      "name": "catapult_rock_hit_DST_11"
+    },
+    {
+      "index": 582,
+      "name": "catapult_rock_hit_DST_12"
+    },
+    {
+      "index": 583,
+      "name": "catapult_rock_hit_DST_13"
+    },
+    {
+      "index": 584,
+      "name": "catapult_rock_hit_DST_14"
+    },
+    {
+      "index": 585,
+      "name": "catapult_rock_hit_DST_15"
+    },
+    {
+      "index": 586,
+      "name": "catapult_rock_hit_DST_16"
+    },
+    {
+      "index": 587,
+      "name": "catapult_rock_hit_DST_17"
+    },
+    {
+      "index": 588,
+      "name": "catapult_rock_hit_DST_18"
+    },
+    {
+      "index": 589,
+      "name": "catapult_rock_hit_DST_19"
+    },
+    {
+      "index": 590,
+      "name": "catapult_rock_hit_DST_20"
+    },
+    {
+      "index": 591,
+      "name": "death_catapult_winona_DST-001"
+    },
+    {
+      "index": 592,
+      "name": "death_catapult_winona_DST-002"
+    },
+    {
+      "index": 593,
+      "name": "death_catapult_winona_DST-003"
+    },
+    {
+      "index": 594,
+      "name": "hit_catapult_winona_DST-001"
+    },
+    {
+      "index": 595,
+      "name": "hit_catapult_winona_DST-002"
+    },
+    {
+      "index": 596,
+      "name": "hit_catapult_winona_DST-003"
+    },
+    {
+      "index": 597,
+      "name": "hit_catapult_winona_DST-004"
+    },
+    {
+      "index": 598,
+      "name": "hit_catapult_winona_DST-005"
+    },
+    {
+      "index": 599,
+      "name": "hit_catapult_winona_DST-006"
+    },
+    {
+      "index": 600,
+      "name": "launch_catapult_winona_DST-001"
+    },
+    {
+      "index": 601,
+      "name": "launch_catapult_winona_DST-002"
+    },
+    {
+      "index": 602,
+      "name": "launch_catapult_winona_DST-003"
+    },
+    {
+      "index": 603,
+      "name": "launch_catapult_winona_DST-004"
+    },
+    {
+      "index": 604,
+      "name": "launch_catapult_winona_DST-005"
+    },
+    {
+      "index": 605,
+      "name": "launch_catapult_winona_DST-006"
+    },
+    {
+      "index": 606,
+      "name": "launch_catapult_winona_DST-007"
+    },
+    {
+      "index": 607,
+      "name": "launch_catapult_winona_DST-008"
+    },
+    {
+      "index": 608,
+      "name": "launch_catapult_winona_DST-009"
+    },
+    {
+      "index": 609,
+      "name": "launch_catapult_winona_DST-010"
+    },
+    {
+      "index": 610,
+      "name": "launch_catapult_winona_DST-011"
+    },
+    {
+      "index": 611,
+      "name": "launch_catapult_winona_DST-012"
+    },
+    {
+      "index": 612,
+      "name": "launch_catapult_winona_DST-013"
+    },
+    {
+      "index": 613,
+      "name": "launch_catapult_winona_DST-014"
+    },
+    {
+      "index": 614,
+      "name": "launch_catapult_winona_DST-015"
+    },
+    {
+      "index": 615,
+      "name": "launch_catapult_winona_DST-016"
+    },
+    {
+      "index": 616,
+      "name": "launch_catapult_winona_DST-017"
+    },
+    {
+      "index": 617,
+      "name": "launch_catapult_winona_DST-018"
+    },
+    {
+      "index": 618,
+      "name": "launch_catapult_winona_DST-019"
+    },
+    {
+      "index": 619,
+      "name": "launch_catapult_winona_DST-020"
+    },
+    {
+      "index": 620,
+      "name": "launch_catapult_winona_DST-021"
+    },
+    {
+      "index": 621,
+      "name": "launch_catapult_winona_DST-022"
+    },
+    {
+      "index": 622,
+      "name": "place_catapult_winona_DST"
+    },
+    {
+      "index": 623,
+      "name": "ratchet_catapult_winona_DST-001"
+    },
+    {
+      "index": 624,
+      "name": "ratchet_catapult_winona_DST-002"
+    },
+    {
+      "index": 625,
+      "name": "ratchet_catapult_winona_DST-003"
+    },
+    {
+      "index": 626,
+      "name": "ratchet_catapult_winona_DST-004"
+    },
+    {
+      "index": 627,
+      "name": "ratchet_catapult_winona_DST-005"
+    },
+    {
+      "index": 628,
+      "name": "claypot_hit_A_DSH-001"
+    },
+    {
+      "index": 629,
+      "name": "claypot_hit_A_DSH-002"
+    },
+    {
+      "index": 630,
+      "name": "claypot_hit_A_DSH-003"
+    },
+    {
+      "index": 631,
+      "name": "claypot_hit_A_DSH-004"
+    },
+    {
+      "index": 632,
+      "name": "claypot_hit_A_DSH-005"
+    },
+    {
+      "index": 633,
+      "name": "claypot_hit_A_DSH-006"
+    },
+    {
+      "index": 634,
+      "name": "claypot_hit_A_DSH-007"
+    },
+    {
+      "index": 635,
+      "name": "claypot_hit_A_DSH-008"
+    },
+    {
+      "index": 636,
+      "name": "claypot_hit_A_DSH-009"
+    },
+    {
+      "index": 637,
+      "name": "claypot_hit_A_DSH-010"
+    },
+    {
+      "index": 638,
+      "name": "claypot_hit_A_DSH-011"
+    },
+    {
+      "index": 639,
+      "name": "claypot_hit_A_DSH-012"
+    },
+    {
+      "index": 640,
+      "name": "dreadstone_foley_walk_DST_-001"
+    },
+    {
+      "index": 641,
+      "name": "dreadstone_foley_walk_DST_-002"
+    },
+    {
+      "index": 642,
+      "name": "dreadstone_foley_walk_DST_-003"
+    },
+    {
+      "index": 643,
+      "name": "dreadstone_foley_walk_DST_-004"
+    },
+    {
+      "index": 644,
+      "name": "dreadstone_hit_DST-001"
+    },
+    {
+      "index": 645,
+      "name": "dreadstone_hit_DST-002"
+    },
+    {
+      "index": 646,
+      "name": "dreadstone_hit_DST-003"
+    },
+    {
+      "index": 647,
+      "name": "dreadstone_hit_DST-004"
+    },
+    {
+      "index": 648,
+      "name": "dreadstone_hit_dull_DST-001"
+    },
+    {
+      "index": 649,
+      "name": "dreadstone_hit_dull_DST-002"
+    },
+    {
+      "index": 650,
+      "name": "dreadstone_hit_dull_DST-003"
+    },
+    {
+      "index": 651,
+      "name": "dreadstone_hit_dull_DST-004"
+    },
+    {
+      "index": 652,
+      "name": "dreadstone_hit_sharp_DST-001"
+    },
+    {
+      "index": 653,
+      "name": "dreadstone_hit_sharp_DST-002"
+    },
+    {
+      "index": 654,
+      "name": "dreadstone_hit_sharp_DST-003"
+    },
+    {
+      "index": 655,
+      "name": "dreadstone_hit_sharp_DST-004"
+    },
+    {
+      "index": 656,
+      "name": "DSS_Twisterboss_electric_1"
+    },
+    {
+      "index": 657,
+      "name": "DSS_Twisterboss_electric_10"
+    },
+    {
+      "index": 658,
+      "name": "DSS_Twisterboss_electric_11"
+    },
+    {
+      "index": 659,
+      "name": "DSS_Twisterboss_electric_12"
+    },
+    {
+      "index": 660,
+      "name": "DSS_Twisterboss_electric_13"
+    },
+    {
+      "index": 661,
+      "name": "DSS_Twisterboss_electric_14"
+    },
+    {
+      "index": 662,
+      "name": "DSS_Twisterboss_electric_15"
+    },
+    {
+      "index": 663,
+      "name": "DSS_Twisterboss_electric_16"
+    },
+    {
+      "index": 664,
+      "name": "DSS_Twisterboss_electric_17"
+    },
+    {
+      "index": 665,
+      "name": "DSS_Twisterboss_electric_18"
+    },
+    {
+      "index": 666,
+      "name": "DSS_Twisterboss_electric_19"
+    },
+    {
+      "index": 667,
+      "name": "DSS_Twisterboss_electric_2"
+    },
+    {
+      "index": 668,
+      "name": "DSS_Twisterboss_electric_3"
+    },
+    {
+      "index": 669,
+      "name": "DSS_Twisterboss_electric_4"
+    },
+    {
+      "index": 670,
+      "name": "DSS_Twisterboss_electric_5"
+    },
+    {
+      "index": 671,
+      "name": "DSS_Twisterboss_electric_6"
+    },
+    {
+      "index": 672,
+      "name": "DSS_Twisterboss_electric_7"
+    },
+    {
+      "index": 673,
+      "name": "DSS_Twisterboss_electric_8"
+    },
+    {
+      "index": 674,
+      "name": "DSS_Twisterboss_electric_9"
+    },
+    {
+      "index": 675,
+      "name": "DSS_jelly_fish_electric_land_1"
+    },
+    {
+      "index": 676,
+      "name": "DSS_jelly_fish_electric_land_2"
+    },
+    {
+      "index": 677,
+      "name": "DSS_jelly_fish_electric_land_3"
+    },
+    {
+      "index": 678,
+      "name": "DSS_jelly_fish_electric_land_4"
+    },
+    {
+      "index": 679,
+      "name": "DSS_jelly_fish_electric_land_5"
+    },
+    {
+      "index": 680,
+      "name": "DSS_jelly_fish_electric_land_6"
+    },
+    {
+      "index": 681,
+      "name": "DSS_jelly_fish_electric_land_7"
+    },
+    {
+      "index": 682,
+      "name": "electric_LP_thunderbird_DSH-001"
+    },
+    {
+      "index": 683,
+      "name": "electric_LP_thunderbird_DSH-002"
+    },
+    {
+      "index": 684,
+      "name": "electric_LP_thunderbird_DSH-003"
+    },
+    {
+      "index": 685,
+      "name": "electric_LP_thunderbird_DSH-004"
+    },
+    {
+      "index": 686,
+      "name": "electric_LP_thunderbird_DSH-005"
+    },
+    {
+      "index": 687,
+      "name": "electric_LP_thunderbird_DSH-006"
+    },
+    {
+      "index": 688,
+      "name": "electric_LP_thunderbird_DSH-007"
+    },
+    {
+      "index": 689,
+      "name": "electric_LP_thunderbird_DSH-008"
+    },
+    {
+      "index": 690,
+      "name": "electric_LP_thunderbird_DSH-009"
+    },
+    {
+      "index": 691,
+      "name": "electric_LP_thunderbird_DSH-010"
+    },
+    {
+      "index": 692,
+      "name": "electric_LP_thunderbird_DSH-011"
+    },
+    {
+      "index": 693,
+      "name": "electric_LP_thunderbird_DSH-012"
+    },
+    {
+      "index": 694,
+      "name": "electric_LP_thunderbird_DSH-013"
+    },
+    {
+      "index": 695,
+      "name": "electric_LP_thunderbird_DSH-014"
+    },
+    {
+      "index": 696,
+      "name": "electric_LP_thunderbird_DSH-015"
+    },
+    {
+      "index": 697,
+      "name": "electric_LP_thunderbird_DSH-016"
+    },
+    {
+      "index": 698,
+      "name": "electric_LP_thunderbird_DSH-017"
+    },
+    {
+      "index": 699,
+      "name": "bearger_swhoosh_1"
+    },
+    {
+      "index": 700,
+      "name": "bearger_swhoosh_2"
+    },
+    {
+      "index": 701,
+      "name": "bearger_swhoosh_3"
+    },
+    {
+      "index": 702,
+      "name": "bearger_swhoosh_4"
+    },
+    {
+      "index": 703,
+      "name": "FishOnHookStretch_DST-001"
+    },
+    {
+      "index": 704,
+      "name": "FishOnHookStretch_DST-002"
+    },
+    {
+      "index": 705,
+      "name": "FishOnHookStretch_DST-003"
+    },
+    {
+      "index": 706,
+      "name": "break_fishing_reel_DST-001"
+    },
+    {
+      "index": 707,
+      "name": "break_fishing_reel_DST-002"
+    },
+    {
+      "index": 708,
+      "name": "break_fishing_reel_DST-003"
+    },
+    {
+      "index": 709,
+      "name": "break_fishing_reel_DST-004"
+    },
+    {
+      "index": 710,
+      "name": "break_fishing_reel_DST-005"
+    },
+    {
+      "index": 711,
+      "name": "break_fishing_reel_DST-006"
+    },
+    {
+      "index": 712,
+      "name": "cast_fishing_DST-001"
+    },
+    {
+      "index": 713,
+      "name": "cast_fishing_DST-002"
+    },
+    {
+      "index": 714,
+      "name": "cast_fishing_DST-003"
+    },
+    {
+      "index": 715,
+      "name": "cast_fishing_DST-004"
+    },
+    {
+      "index": 716,
+      "name": "fishing_reel_DST-001"
+    },
+    {
+      "index": 717,
+      "name": "fishing_reel_DST-002"
+    },
+    {
+      "index": 718,
+      "name": "fishing_reel_DST-003"
+    },
+    {
+      "index": 719,
+      "name": "fishing_reel_DST-004"
+    },
+    {
+      "index": 720,
+      "name": "fishing_reel_DST-005"
+    },
+    {
+      "index": 721,
+      "name": "fishing_reel_DST-006"
+    },
+    {
+      "index": 722,
+      "name": "fishing_reel_DST-007"
+    },
+    {
+      "index": 723,
+      "name": "fishing_reel_DST-008"
+    },
+    {
+      "index": 724,
+      "name": "fishing_reel_DST-009"
+    },
+    {
+      "index": 725,
+      "name": "fishing_reel_DST-010"
+    },
+    {
+      "index": 726,
+      "name": "fishing_reel_DST-011"
+    },
+    {
+      "index": 727,
+      "name": "fishing_reel_DST-012"
+    },
+    {
+      "index": 728,
+      "name": "fishing_reel_DST-013"
+    },
+    {
+      "index": 729,
+      "name": "fishing_reel_DST-014"
+    },
+    {
+      "index": 730,
+      "name": "fishing_reel_DST-015"
+    },
+    {
+      "index": 731,
+      "name": "fishing_reel_DST-016"
+    },
+    {
+      "index": 732,
+      "name": "fishing_reel_DST-017"
+    },
+    {
+      "index": 733,
+      "name": "fishing_reel_DST-018"
+    },
+    {
+      "index": 734,
+      "name": "fishing_reel_DST-019"
+    },
+    {
+      "index": 735,
+      "name": "fishing_reel_IN_DST-001"
+    },
+    {
+      "index": 736,
+      "name": "fishing_reel_IN_DST-002"
+    },
+    {
+      "index": 737,
+      "name": "fishing_reel_IN_DST-003"
+    },
+    {
+      "index": 738,
+      "name": "fishing_reel_IN_DST-004"
+    },
+    {
+      "index": 739,
+      "name": "fishing_reel_IN_DST-005"
+    },
+    {
+      "index": 740,
+      "name": "fishing_reel_IN_DST-006"
+    },
+    {
+      "index": 741,
+      "name": "fishing_reel_IN_DST-007"
+    },
+    {
+      "index": 742,
+      "name": "fishing_reel_IN_DST-008"
+    },
+    {
+      "index": 743,
+      "name": "fishing_reel_IN_DST-009"
+    },
+    {
+      "index": 744,
+      "name": "fishing_reel_IN_DST-010"
+    },
+    {
+      "index": 745,
+      "name": "fishing_reel_IN_DST-011"
+    },
+    {
+      "index": 746,
+      "name": "fishing_reel_IN_DST-012"
+    },
+    {
+      "index": 747,
+      "name": "fishing_reel_IN_DST-013"
+    },
+    {
+      "index": 748,
+      "name": "line_tension_fishing_DST-001"
+    },
+    {
+      "index": 749,
+      "name": "line_tension_fishing_DST-002"
+    },
+    {
+      "index": 750,
+      "name": "line_tension_fishing_DST-003"
+    },
+    {
+      "index": 751,
+      "name": "line_tension_fishing_DST-004"
+    },
+    {
+      "index": 752,
+      "name": "line_tension_fishing_DST-005"
+    },
+    {
+      "index": 753,
+      "name": "fossil_repair_1"
+    },
+    {
+      "index": 754,
+      "name": "fossil_repair_10"
+    },
+    {
+      "index": 755,
+      "name": "fossil_repair_11"
+    },
+    {
+      "index": 756,
+      "name": "fossil_repair_12"
+    },
+    {
+      "index": 757,
+      "name": "fossil_repair_2"
+    },
+    {
+      "index": 758,
+      "name": "fossil_repair_3"
+    },
+    {
+      "index": 759,
+      "name": "fossil_repair_4"
+    },
+    {
+      "index": 760,
+      "name": "fossil_repair_5"
+    },
+    {
+      "index": 761,
+      "name": "fossil_repair_6"
+    },
+    {
+      "index": 762,
+      "name": "fossil_repair_7"
+    },
+    {
+      "index": 763,
+      "name": "fossil_repair_8"
+    },
+    {
+      "index": 764,
+      "name": "fossil_repair_9"
+    },
+    {
+      "index": 765,
+      "name": "LightSwitch_on_off_hermit_crab_DST-001"
+    },
+    {
+      "index": 766,
+      "name": "lunarplant_armor_foley_DST_-001"
+    },
+    {
+      "index": 767,
+      "name": "lunarplant_armor_foley_DST_-002"
+    },
+    {
+      "index": 768,
+      "name": "lunarplant_armor_foley_DST_-003"
+    },
+    {
+      "index": 769,
+      "name": "lunarplant_armor_foley_DST_-004"
+    },
+    {
+      "index": 770,
+      "name": "lunarplant_armor_foley_DST_-005"
+    },
+    {
+      "index": 771,
+      "name": "lunarplant_armor_foley_DST_-006"
+    },
+    {
+      "index": 772,
+      "name": "lunarplant_armor_foley_DST_-007"
+    },
+    {
+      "index": 773,
+      "name": "lunarplant_armor_hit_dull_DST_-001"
+    },
+    {
+      "index": 774,
+      "name": "lunarplant_armor_hit_dull_DST_-002"
+    },
+    {
+      "index": 775,
+      "name": "lunarplant_armor_hit_dull_DST_-003"
+    },
+    {
+      "index": 776,
+      "name": "lunarplant_armor_hit_dull_DST_-004"
+    },
+    {
+      "index": 777,
+      "name": "lunarplant_armor_hit_sharp_DST_-001"
+    },
+    {
+      "index": 778,
+      "name": "lunarplant_armor_hit_sharp_DST_-002"
+    },
+    {
+      "index": 779,
+      "name": "lunarplant_armor_hit_sharp_DST_-003"
+    },
+    {
+      "index": 780,
+      "name": "lunarplant_armor_hit_sharp_DST_-004"
+    },
+    {
+      "index": 781,
+      "name": "emote_cute_shake_f13_DST__001"
+    },
+    {
+      "index": 782,
+      "name": "footstep_dock_1"
+    },
+    {
+      "index": 783,
+      "name": "footstep_dock_2"
+    },
+    {
+      "index": 784,
+      "name": "footstep_dock_3"
+    },
+    {
+      "index": 785,
+      "name": "footstep_dock_4"
+    },
+    {
+      "index": 786,
+      "name": "footstep_dock_5"
+    },
+    {
+      "index": 787,
+      "name": "footstep_dock_6"
+    },
+    {
+      "index": 788,
+      "name": "footstep_dock_7"
+    },
+    {
+      "index": 789,
+      "name": "footstep_dock_8"
+    },
+    {
+      "index": 790,
+      "name": "Beam_2v3"
+    },
+    {
+      "index": 791,
+      "name": "beam_level_1"
+    },
+    {
+      "index": 792,
+      "name": "beam_level_3"
+    },
+    {
+      "index": 793,
+      "name": "beam_stop_fail"
+    },
+    {
+      "index": 794,
+      "name": "lasernotlaser_LP"
+    },
+    {
+      "index": 795,
+      "name": "moon_beam_stop_DST"
+    },
+    {
+      "index": 796,
+      "name": "polar_light_Loop_1"
+    },
+    {
+      "index": 797,
+      "name": "polar_light_Loop_2"
+    },
+    {
+      "index": 798,
+      "name": "mushlamp__craft_1"
+    },
+    {
+      "index": 799,
+      "name": "mushlamp__craft_2"
+    },
+    {
+      "index": 800,
+      "name": "mushlamp_change_colour_2"
+    },
+    {
+      "index": 801,
+      "name": "Cloth Sail_DSS_06"
+    },
+    {
+      "index": 802,
+      "name": "DST_carpetUnfurl"
+    },
+    {
+      "index": 803,
+      "name": "DST_dropFabricWood"
+    },
+    {
+      "index": 804,
+      "name": "Mine_IceBoulder_smash"
+    },
+    {
+      "index": 805,
+      "name": "close_container_DST"
+    },
+    {
+      "index": 806,
+      "name": "fireBlast_Pre.L"
+    },
+    {
+      "index": 807,
+      "name": "open_container_DST"
+    },
+    {
+      "index": 808,
+      "name": "scarecrow_craft"
+    },
+    {
+      "index": 809,
+      "name": "steal_resource"
+    },
+    {
+      "index": 810,
+      "name": "use_meatrack_dst-001"
+    },
+    {
+      "index": 811,
+      "name": "use_meatrack_dst-002"
+    },
+    {
+      "index": 812,
+      "name": "use_meatrack_dst-003"
+    },
+    {
+      "index": 813,
+      "name": "CoinToss_pigKingMiniGame_DST"
+    },
+    {
+      "index": 814,
+      "name": "Guard_Scream_CityPigs_DSH-004"
+    },
+    {
+      "index": 815,
+      "name": "Guard_Scream_CityPigs_DSH-005"
+    },
+    {
+      "index": 816,
+      "name": "Guard_Scream_CityPigs_DSH-007"
+    },
+    {
+      "index": 817,
+      "name": "Guard_Scream_CityPigs_DSH-009"
+    },
+    {
+      "index": 818,
+      "name": "Guard_Scream_CityPigs_DSH-014"
+    },
+    {
+      "index": 819,
+      "name": "Guard_Scream_CityPigs_DSH-017"
+    },
+    {
+      "index": 820,
+      "name": "Guard_Voice_CityPigs_DSH-020"
+    },
+    {
+      "index": 821,
+      "name": "Guard_Voice_CityPigs_DSH-021"
+    },
+    {
+      "index": 822,
+      "name": "Guard_Voice_CityPigs_DSH-022"
+    },
+    {
+      "index": 823,
+      "name": "Guard_Voice_CityPigs_DSH-023"
+    },
+    {
+      "index": 824,
+      "name": "Guard_Voice_CityPigs_DSH-024"
+    },
+    {
+      "index": 825,
+      "name": "Guard_Voice_CityPigs_DSH-025"
+    },
+    {
+      "index": 826,
+      "name": "Guard_Voice_CityPigs_DSH-026"
+    },
+    {
+      "index": 827,
+      "name": "Guard_Voice_CityPigs_DSH-027"
+    },
+    {
+      "index": 828,
+      "name": "reskin_tool_DST-001"
+    },
+    {
+      "index": 829,
+      "name": "reskin_tool_DST-002"
+    },
+    {
+      "index": 830,
+      "name": "reskin_tool_DST-003"
+    },
+    {
+      "index": 831,
+      "name": "reskin_tool_DST-004"
+    },
+    {
+      "index": 832,
+      "name": "reskin_tool_DST-005"
+    },
+    {
+      "index": 833,
+      "name": "reskin_tool_DST-006"
+    },
+    {
+      "index": 834,
+      "name": "wagpunk_lockon_telemetry_DST_-004"
+    },
+    {
+      "index": 835,
+      "name": "wagpunk_lockon_telemetry_DST_-005"
+    },
+    {
+      "index": 836,
+      "name": "wagpunk_lockon_telemetry_DST_-006"
+    },
+    {
+      "index": 837,
+      "name": "shadow_beefalo_revive_v2_a_DST"
+    },
+    {
+      "index": 838,
+      "name": "shadow_beefalo_revive_v2_b_DST"
+    },
+    {
+      "index": 839,
+      "name": "worm_boss_chew_small_DST_-002"
+    },
+    {
+      "index": 840,
+      "name": "worm_boss_chew_small_DST_-007"
+    },
+    {
+      "index": 841,
+      "name": "worm_boss_chew_small_DST_-008"
+    },
+    {
+      "index": 842,
+      "name": "wanderingtrader_appear_DST"
+    },
+    {
+      "index": 843,
+      "name": "wanderingtrader_conceal_DST"
+    },
+    {
+      "index": 844,
+      "name": "wanderingtrader_disappear_DST"
+    },
+    {
+      "index": 845,
+      "name": "wanderingtrader_reveal_DST"
+    },
+    {
+      "index": 846,
+      "name": "wanderingtrader_sleep_pst_DST_"
+    },
+    {
+      "index": 847,
+      "name": "wanderingtrader_trade_give_DST-001"
+    },
+    {
+      "index": 848,
+      "name": "wanderingtrader_trade_give_DST-002"
+    },
+    {
+      "index": 849,
+      "name": "wanderingtrader_trade_give_DST"
+    },
+    {
+      "index": 850,
+      "name": "wanderingtrader_trade_pre_DST"
+    },
+    {
+      "index": 851,
+      "name": "wanderingtrader_trade_pst_DST"
+    },
+    {
+      "index": 852,
+      "name": "pillarguard_footstep_DST__001"
+    },
+    {
+      "index": 853,
+      "name": "pillarguard_footstep_DST__002"
+    },
+    {
+      "index": 854,
+      "name": "pillarguard_footstep_DST__003"
+    },
+    {
+      "index": 855,
+      "name": "pillarguard_footstep_DST__004"
+    },
+    {
+      "index": 856,
+      "name": "pillarguard_stoney_whoosh_woosh_swing_big_DST-001"
+    },
+    {
+      "index": 857,
+      "name": "pillarguard_stoney_whoosh_woosh_swing_big_DST-002"
+    },
+    {
+      "index": 858,
+      "name": "charlie_standby_LP_dissonance"
+    },
+    {
+      "index": 859,
+      "name": "kingcane_use_corrupted_DST-001"
+    },
+    {
+      "index": 860,
+      "name": "kingcane_use_corrupted_short_ DST-001"
+    },
+    {
+      "index": 861,
+      "name": "kingcane_use_corrupted_short_ DST-002"
+    },
+    {
+      "index": 862,
+      "name": "kingcane_use_corrupted_short_ DST-003"
+    },
+    {
+      "index": 863,
+      "name": "kingcane_use_normal_DST"
+    },
+    {
+      "index": 864,
+      "name": "kingcane_use_short_ DST-001"
+    },
+    {
+      "index": 865,
+      "name": "kingcane_use_short_ DST-002"
+    },
+    {
+      "index": 866,
+      "name": "kingcane_use_short_ DST-003"
+    },
+    {
+      "index": 867,
+      "name": "queentorch_fire_crackle_gestalt_LP_DST"
+    },
+    {
+      "index": 868,
+      "name": "shrouden_lowHP_layer_DST-001"
+    },
+    {
+      "index": 869,
+      "name": "Medium_rock_impact_1"
+    },
+    {
+      "index": 870,
+      "name": "Medium_rock_impact_10"
+    },
+    {
+      "index": 871,
+      "name": "Medium_rock_impact_11"
+    },
+    {
+      "index": 872,
+      "name": "Medium_rock_impact_12"
+    },
+    {
+      "index": 873,
+      "name": "Medium_rock_impact_13"
+    },
+    {
+      "index": 874,
+      "name": "Medium_rock_impact_14"
+    },
+    {
+      "index": 875,
+      "name": "Medium_rock_impact_15"
+    },
+    {
+      "index": 876,
+      "name": "Medium_rock_impact_16"
+    },
+    {
+      "index": 877,
+      "name": "Medium_rock_impact_17"
+    },
+    {
+      "index": 878,
+      "name": "Medium_rock_impact_18"
+    },
+    {
+      "index": 879,
+      "name": "Medium_rock_impact_19"
+    },
+    {
+      "index": 880,
+      "name": "Medium_rock_impact_2"
+    },
+    {
+      "index": 881,
+      "name": "Medium_rock_impact_20"
+    },
+    {
+      "index": 882,
+      "name": "Medium_rock_impact_3"
+    },
+    {
+      "index": 883,
+      "name": "Medium_rock_impact_4"
+    },
+    {
+      "index": 884,
+      "name": "Medium_rock_impact_5"
+    },
+    {
+      "index": 885,
+      "name": "Medium_rock_impact_6"
+    },
+    {
+      "index": 886,
+      "name": "Medium_rock_impact_7"
+    },
+    {
+      "index": 887,
+      "name": "Medium_rock_impact_8"
+    },
+    {
+      "index": 888,
+      "name": "Medium_rock_impact_9"
+    },
+    {
+      "index": 889,
+      "name": "Medium_rock_move_1"
+    },
+    {
+      "index": 890,
+      "name": "Medium_rock_move_10"
+    },
+    {
+      "index": 891,
+      "name": "Medium_rock_move_11"
+    },
+    {
+      "index": 892,
+      "name": "Medium_rock_move_12"
+    },
+    {
+      "index": 893,
+      "name": "Medium_rock_move_13"
+    },
+    {
+      "index": 894,
+      "name": "Medium_rock_move_14"
+    },
+    {
+      "index": 895,
+      "name": "Medium_rock_move_15"
+    },
+    {
+      "index": 896,
+      "name": "Medium_rock_move_16"
+    },
+    {
+      "index": 897,
+      "name": "Medium_rock_move_17"
+    },
+    {
+      "index": 898,
+      "name": "Medium_rock_move_18"
+    },
+    {
+      "index": 899,
+      "name": "Medium_rock_move_19"
+    },
+    {
+      "index": 900,
+      "name": "Medium_rock_move_2"
+    },
+    {
+      "index": 901,
+      "name": "Medium_rock_move_20"
+    },
+    {
+      "index": 902,
+      "name": "Medium_rock_move_21"
+    },
+    {
+      "index": 903,
+      "name": "Medium_rock_move_22"
+    },
+    {
+      "index": 904,
+      "name": "Medium_rock_move_23"
+    },
+    {
+      "index": 905,
+      "name": "Medium_rock_move_24"
+    },
+    {
+      "index": 906,
+      "name": "Medium_rock_move_25"
+    },
+    {
+      "index": 907,
+      "name": "Medium_rock_move_26"
+    },
+    {
+      "index": 908,
+      "name": "Medium_rock_move_27"
+    },
+    {
+      "index": 909,
+      "name": "Medium_rock_move_28"
+    },
+    {
+      "index": 910,
+      "name": "Medium_rock_move_29"
+    },
+    {
+      "index": 911,
+      "name": "Medium_rock_move_3"
+    },
+    {
+      "index": 912,
+      "name": "Medium_rock_move_30"
+    },
+    {
+      "index": 913,
+      "name": "Medium_rock_move_31"
+    },
+    {
+      "index": 914,
+      "name": "Medium_rock_move_32"
+    },
+    {
+      "index": 915,
+      "name": "Medium_rock_move_33"
+    },
+    {
+      "index": 916,
+      "name": "Medium_rock_move_34"
+    },
+    {
+      "index": 917,
+      "name": "Medium_rock_move_35"
+    },
+    {
+      "index": 918,
+      "name": "Medium_rock_move_4"
+    },
+    {
+      "index": 919,
+      "name": "Medium_rock_move_5"
+    },
+    {
+      "index": 920,
+      "name": "Medium_rock_move_6"
+    },
+    {
+      "index": 921,
+      "name": "Medium_rock_move_7"
+    },
+    {
+      "index": 922,
+      "name": "Medium_rock_move_8"
+    },
+    {
+      "index": 923,
+      "name": "Medium_rock_move_9"
+    },
+    {
+      "index": 924,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-001"
+    },
+    {
+      "index": 925,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-002"
+    },
+    {
+      "index": 926,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-003"
+    },
+    {
+      "index": 927,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-004"
+    },
+    {
+      "index": 928,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-005"
+    },
+    {
+      "index": 929,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-006"
+    },
+    {
+      "index": 930,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-007"
+    },
+    {
+      "index": 931,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-008"
+    },
+    {
+      "index": 932,
+      "name": "pillarguard_rocks_crunchy_short_crack_DST_-009"
+    },
+    {
+      "index": 933,
+      "name": "sculpting_station_craft-01"
+    },
+    {
+      "index": 934,
+      "name": "sculpting_table_idle"
+    },
+    {
+      "index": 935,
+      "name": "shadow_armor_hit_dull_DST_-001"
+    },
+    {
+      "index": 936,
+      "name": "shadow_armor_hit_dull_DST_-002"
+    },
+    {
+      "index": 937,
+      "name": "shadow_armor_hit_dull_DST_-003"
+    },
+    {
+      "index": 938,
+      "name": "shadow_armor_hit_dull_DST_-004"
+    },
+    {
+      "index": 939,
+      "name": "shadow_armor_hit_sharp_DST_-001"
+    },
+    {
+      "index": 940,
+      "name": "shadow_armor_hit_sharp_DST_-002"
+    },
+    {
+      "index": 941,
+      "name": "shadow_armor_hit_sharp_DST_-003"
+    },
+    {
+      "index": 942,
+      "name": "shadow_armor_hit_sharp_DST_-004"
+    },
+    {
+      "index": 943,
+      "name": "shadow_armor_movementfoley_DST_-001"
+    },
+    {
+      "index": 944,
+      "name": "shadow_armor_movementfoley_DST_-002"
+    },
+    {
+      "index": 945,
+      "name": "shadow_armor_movementfoley_DST_-003"
+    },
+    {
+      "index": 946,
+      "name": "shadow_armor_movementfoley_DST_-004"
+    },
+    {
+      "index": 947,
+      "name": "shadow_armor_movementfoley_DST_-005"
+    },
+    {
+      "index": 948,
+      "name": "shadow_armor_movementfoley_DST_-006"
+    },
+    {
+      "index": 949,
+      "name": "shadow_armor_movementfoley_DST_-007"
+    },
+    {
+      "index": 950,
+      "name": "shadow_armor_movementfoley_DST_-008"
+    },
+    {
+      "index": 951,
+      "name": "shadow_armor_movementfoley_DST_-009"
+    },
+    {
+      "index": 952,
+      "name": "sizzle_Grill_burnt_cooking_single_DST_-002"
+    },
+    {
+      "index": 953,
+      "name": "sizzle_Grill_burnt_cooking_single_DST_-003"
+    },
+    {
+      "index": 954,
+      "name": "sizzle_Grill_burnt_cooking_single_DST_-004"
+    },
+    {
+      "index": 955,
+      "name": "sizzle_Grill_burnt_cooking_single_DST_-005"
+    },
+    {
+      "index": 956,
+      "name": "sizzle_Grill_burnt_cooking_single_DST_-006"
+    },
+    {
+      "index": 957,
+      "name": "DST_skin_tab_active"
+    },
+    {
+      "index": 958,
+      "name": "death_pst_spotlight_winnona_DST"
+    },
+    {
+      "index": 959,
+      "name": "electric_spotlight_winnona_DST-001"
+    },
+    {
+      "index": 960,
+      "name": "electric_spotlight_winnona_DST-002"
+    },
+    {
+      "index": 961,
+      "name": "electric_spotlight_winnona_DST-003"
+    },
+    {
+      "index": 962,
+      "name": "electric_spotlight_winnona_DST-004"
+    },
+    {
+      "index": 963,
+      "name": "electric_spotlight_winnona_DST-005"
+    },
+    {
+      "index": 964,
+      "name": "electric_spotlight_winnona_DST-006"
+    },
+    {
+      "index": 965,
+      "name": "electric_spotlight_winnona_DST-007"
+    },
+    {
+      "index": 966,
+      "name": "electric_spotlight_winnona_DST-008"
+    },
+    {
+      "index": 967,
+      "name": "electric_spotlight_winnona_DST-010"
+    },
+    {
+      "index": 968,
+      "name": "electric_spotlight_winnona_DST-011"
+    },
+    {
+      "index": 969,
+      "name": "hum_spotlight_winnona_DST_LP"
+    },
+    {
+      "index": 970,
+      "name": "move_spotlight_winnona_DST-001"
+    },
+    {
+      "index": 971,
+      "name": "move_spotlight_winnona_DST-002"
+    },
+    {
+      "index": 972,
+      "name": "move_spotlight_winnona_DST-003"
+    },
+    {
+      "index": 973,
+      "name": "move_spotlight_winnona_DST-004"
+    },
+    {
+      "index": 974,
+      "name": "move_spotlight_winnona_DST-005"
+    },
+    {
+      "index": 975,
+      "name": "move_spotlight_winnona_DST-006"
+    },
+    {
+      "index": 976,
+      "name": "move_spotlight_winnona_DST-007"
+    },
+    {
+      "index": 977,
+      "name": "move_spotlight_winnona_DST-008"
+    },
+    {
+      "index": 978,
+      "name": "move_spotlight_winnona_DST-009"
+    },
+    {
+      "index": 979,
+      "name": "move_spotlight_winnona_DST-010"
+    },
+    {
+      "index": 980,
+      "name": "move_spotlight_winnona_DST-011"
+    },
+    {
+      "index": 981,
+      "name": "move_spotlight_winnona_DST-012"
+    },
+    {
+      "index": 982,
+      "name": "move_spotlight_winnona_DST-013"
+    },
+    {
+      "index": 983,
+      "name": "move_spotlight_winnona_DST-014"
+    },
+    {
+      "index": 984,
+      "name": "move_spotlight_winnona_DST-015"
+    },
+    {
+      "index": 985,
+      "name": "move_spotlight_winnona_DST-016"
+    },
+    {
+      "index": 986,
+      "name": "move_spotlight_winnona_DST-017"
+    },
+    {
+      "index": 987,
+      "name": "move_spotlight_winnona_DST-018"
+    },
+    {
+      "index": 988,
+      "name": "on_spotlight_winnona_DST-001"
+    },
+    {
+      "index": 989,
+      "name": "on_spotlight_winnona_DST-002"
+    },
+    {
+      "index": 990,
+      "name": "on_spotlight_winnona_DST-003"
+    },
+    {
+      "index": 991,
+      "name": "place_spotlight_winnona_DST"
+    },
+    {
+      "index": 992,
+      "name": "powerDOWN_spotlight_winnona_DST"
+    },
+    {
+      "index": 993,
+      "name": "powerUP_spotlight_winnona_DST"
+    },
+    {
+      "index": 994,
+      "name": "crab_walk_marble_1"
+    },
+    {
+      "index": 995,
+      "name": "crab_walk_marble_2"
+    },
+    {
+      "index": 996,
+      "name": "crab_walk_marble_3"
+    },
+    {
+      "index": 997,
+      "name": "crab_walk_marble_4"
+    },
+    {
+      "index": 998,
+      "name": "stage_hand_stand_000"
+    },
+    {
+      "index": 999,
+      "name": "stage_hand_stand_001"
+    },
+    {
+      "index": 1000,
+      "name": "stage_hand_stand_002"
+    },
+    {
+      "index": 1001,
+      "name": "stage_hand_stand_003"
+    },
+    {
+      "index": 1002,
+      "name": "stage_hand_stand_004"
+    },
+    {
+      "index": 1003,
+      "name": "stage_hand_stand_005"
+    },
+    {
+      "index": 1004,
+      "name": "stage_hand_stand_006"
+    },
+    {
+      "index": 1005,
+      "name": "stage_hand_stand_007"
+    },
+    {
+      "index": 1006,
+      "name": "stage_hand_stand_008"
+    },
+    {
+      "index": 1007,
+      "name": "stage_hand_stand_009"
+    },
+    {
+      "index": 1008,
+      "name": "stage_hand_stand_010"
+    },
+    {
+      "index": 1009,
+      "name": "stage_hand_stand_011"
+    },
+    {
+      "index": 1010,
+      "name": "stage_hand_stand_012"
+    },
+    {
+      "index": 1011,
+      "name": "stage_hand_stand_013"
+    },
+    {
+      "index": 1012,
+      "name": "stage_hand_stand_014"
+    },
+    {
+      "index": 1013,
+      "name": "stage_hand_stand_015"
+    },
+    {
+      "index": 1014,
+      "name": "stage_hand_stand_016"
+    },
+    {
+      "index": 1015,
+      "name": "stage_hand_stand_017"
+    },
+    {
+      "index": 1016,
+      "name": "stage_hand_stand_018"
+    },
+    {
+      "index": 1017,
+      "name": "stage_hand_stand_019"
+    },
+    {
+      "index": 1018,
+      "name": "vase_foley_01-01"
+    },
+    {
+      "index": 1019,
+      "name": "vase_foley_01-02"
+    },
+    {
+      "index": 1020,
+      "name": "vase_foley_01-03"
+    },
+    {
+      "index": 1021,
+      "name": "vase_foley_01-04"
+    },
+    {
+      "index": 1022,
+      "name": "vase_foley_01-07"
+    },
+    {
+      "index": 1023,
+      "name": "vase_foley_01-08"
+    },
+    {
+      "index": 1024,
+      "name": "vase_foley_01-09"
+    },
+    {
+      "index": 1025,
+      "name": "vase_foley_01-10"
+    },
+    {
+      "index": 1026,
+      "name": "vase_foley_01-11"
+    },
+    {
+      "index": 1027,
+      "name": "vase_foley_01-12"
+    },
+    {
+      "index": 1028,
+      "name": "vase_foley_01-13"
+    },
+    {
+      "index": 1029,
+      "name": "vase_foley_01-14"
+    },
+    {
+      "index": 1030,
+      "name": "vase_foley_01-15"
+    },
+    {
+      "index": 1031,
+      "name": "vase_foley_01-18"
+    },
+    {
+      "index": 1032,
+      "name": "vase_foley_01-19"
+    },
+    {
+      "index": 1033,
+      "name": "vase_foley_01-20"
+    },
+    {
+      "index": 1034,
+      "name": "vase_foley_01-21"
+    },
+    {
+      "index": 1035,
+      "name": "vase_foley_01-22"
+    },
+    {
+      "index": 1036,
+      "name": "vase_foley_01-23"
+    },
+    {
+      "index": 1037,
+      "name": "vase_foley_01-24"
+    },
+    {
+      "index": 1038,
+      "name": "vase_foley_01-25"
+    },
+    {
+      "index": 1039,
+      "name": "vase_foley_01-26"
+    },
+    {
+      "index": 1040,
+      "name": "vase_foley_01-27"
+    },
+    {
+      "index": 1041,
+      "name": "vase_foley_01-28"
+    },
+    {
+      "index": 1042,
+      "name": "vase_foley_01-29"
+    },
+    {
+      "index": 1043,
+      "name": "vase_foley_01-30"
+    },
+    {
+      "index": 1044,
+      "name": "vase_foley_01"
+    },
+    {
+      "index": 1045,
+      "name": "vase_foley_02"
+    },
+    {
+      "index": 1046,
+      "name": "DST_vine_strike_A_1"
+    },
+    {
+      "index": 1047,
+      "name": "DST_vine_strike_B_1"
+    },
+    {
+      "index": 1048,
+      "name": "DST_vine_strike_B_10"
+    },
+    {
+      "index": 1049,
+      "name": "DST_vine_strike_B_11"
+    },
+    {
+      "index": 1050,
+      "name": "DST_vine_strike_B_12"
+    },
+    {
+      "index": 1051,
+      "name": "DST_vine_strike_B_13"
+    },
+    {
+      "index": 1052,
+      "name": "DST_vine_strike_B_14"
+    },
+    {
+      "index": 1053,
+      "name": "DST_vine_strike_B_15"
+    },
+    {
+      "index": 1054,
+      "name": "DST_vine_strike_B_16"
+    },
+    {
+      "index": 1055,
+      "name": "DST_vine_strike_B_17"
+    },
+    {
+      "index": 1056,
+      "name": "DST_vine_strike_B_18"
+    },
+    {
+      "index": 1057,
+      "name": "DST_vine_strike_B_19"
+    },
+    {
+      "index": 1058,
+      "name": "DST_vine_strike_B_2"
+    },
+    {
+      "index": 1059,
+      "name": "DST_vine_strike_B_20"
+    },
+    {
+      "index": 1060,
+      "name": "DST_vine_strike_B_21"
+    },
+    {
+      "index": 1061,
+      "name": "DST_vine_strike_B_22"
+    },
+    {
+      "index": 1062,
+      "name": "DST_vine_strike_B_23"
+    },
+    {
+      "index": 1063,
+      "name": "DST_vine_strike_B_24"
+    },
+    {
+      "index": 1064,
+      "name": "DST_vine_strike_B_25"
+    },
+    {
+      "index": 1065,
+      "name": "DST_vine_strike_B_26"
+    },
+    {
+      "index": 1066,
+      "name": "DST_vine_strike_B_27"
+    },
+    {
+      "index": 1067,
+      "name": "DST_vine_strike_B_28"
+    },
+    {
+      "index": 1068,
+      "name": "DST_vine_strike_B_29"
+    },
+    {
+      "index": 1069,
+      "name": "DST_vine_strike_B_3"
+    },
+    {
+      "index": 1070,
+      "name": "DST_vine_strike_B_30"
+    },
+    {
+      "index": 1071,
+      "name": "DST_vine_strike_B_31"
+    },
+    {
+      "index": 1072,
+      "name": "DST_vine_strike_B_32"
+    },
+    {
+      "index": 1073,
+      "name": "DST_vine_strike_B_4"
+    },
+    {
+      "index": 1074,
+      "name": "DST_vine_strike_B_5"
+    },
+    {
+      "index": 1075,
+      "name": "DST_vine_strike_B_6"
+    },
+    {
+      "index": 1076,
+      "name": "DST_vine_strike_B_7"
+    },
+    {
+      "index": 1077,
+      "name": "DST_vine_strike_B_8"
+    },
+    {
+      "index": 1078,
+      "name": "DST_vine_strike_B_9"
+    },
+    {
+      "index": 1079,
+      "name": "DST_vines_idle_10"
+    },
+    {
+      "index": 1080,
+      "name": "DST_vines_idle_11"
+    },
+    {
+      "index": 1081,
+      "name": "DST_vines_idle_12"
+    },
+    {
+      "index": 1082,
+      "name": "DST_vines_idle_13"
+    },
+    {
+      "index": 1083,
+      "name": "DST_vines_idle_14"
+    },
+    {
+      "index": 1084,
+      "name": "DST_vines_idle_15"
+    },
+    {
+      "index": 1085,
+      "name": "DST_vines_idle_16"
+    },
+    {
+      "index": 1086,
+      "name": "DST_vines_idle_17"
+    },
+    {
+      "index": 1087,
+      "name": "DST_vines_idle_18"
+    },
+    {
+      "index": 1088,
+      "name": "DST_vines_idle_19"
+    },
+    {
+      "index": 1089,
+      "name": "DST_vines_idle_2"
+    },
+    {
+      "index": 1090,
+      "name": "DST_vines_idle_20"
+    },
+    {
+      "index": 1091,
+      "name": "DST_vines_idle_21"
+    },
+    {
+      "index": 1092,
+      "name": "DST_vines_idle_22"
+    },
+    {
+      "index": 1093,
+      "name": "DST_vines_idle_23"
+    },
+    {
+      "index": 1094,
+      "name": "DST_vines_idle_24"
+    },
+    {
+      "index": 1095,
+      "name": "DST_vines_idle_25"
+    },
+    {
+      "index": 1096,
+      "name": "DST_vines_idle_26"
+    },
+    {
+      "index": 1097,
+      "name": "DST_vines_idle_3"
+    },
+    {
+      "index": 1098,
+      "name": "DST_vines_idle_4"
+    },
+    {
+      "index": 1099,
+      "name": "DST_vines_idle_5"
+    },
+    {
+      "index": 1100,
+      "name": "DST_vines_idle_6"
+    },
+    {
+      "index": 1101,
+      "name": "DST_vines_idle_7"
+    },
+    {
+      "index": 1102,
+      "name": "DST_vines_idle_8"
+    },
+    {
+      "index": 1103,
+      "name": "DST_vines_idle_9"
+    },
+    {
+      "index": 1104,
+      "name": "bramble_trap_set_DSH-001"
+    },
+    {
+      "index": 1105,
+      "name": "townportal_place"
+    },
+    {
+      "index": 1106,
+      "name": "wx78_gestaltposssessed_eye_rub_v2_DST"
+    },
+    {
+      "index": 1107,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_001"
+    },
+    {
+      "index": 1108,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_002"
+    },
+    {
+      "index": 1109,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_003"
+    },
+    {
+      "index": 1110,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_004"
+    },
+    {
+      "index": 1111,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_005"
+    },
+    {
+      "index": 1112,
+      "name": "wx78_gestaltposssessed_hurt_v2_DST_006"
+    },
+    {
+      "index": 1113,
+      "name": "wx78_gestaltposssessed_sinking_v2_DST"
+    },
+    {
+      "index": 1114,
+      "name": "DST_skincollector_VO_1"
+    },
+    {
+      "index": 1115,
+      "name": "DST_skincollector_VO_10"
+    },
+    {
+      "index": 1116,
+      "name": "DST_skincollector_VO_11"
+    },
+    {
+      "index": 1117,
+      "name": "DST_skincollector_VO_12"
+    },
+    {
+      "index": 1118,
+      "name": "DST_skincollector_VO_13"
+    },
+    {
+      "index": 1119,
+      "name": "DST_skincollector_VO_14"
+    },
+    {
+      "index": 1120,
+      "name": "DST_skincollector_VO_15"
+    },
+    {
+      "index": 1121,
+      "name": "DST_skincollector_VO_16"
+    },
+    {
+      "index": 1122,
+      "name": "DST_skincollector_VO_17"
+    },
+    {
+      "index": 1123,
+      "name": "DST_skincollector_VO_18"
+    },
+    {
+      "index": 1124,
+      "name": "DST_skincollector_VO_19"
+    },
+    {
+      "index": 1125,
+      "name": "DST_skincollector_VO_2"
+    },
+    {
+      "index": 1126,
+      "name": "DST_skincollector_VO_20"
+    },
+    {
+      "index": 1127,
+      "name": "DST_skincollector_VO_21"
+    },
+    {
+      "index": 1128,
+      "name": "DST_skincollector_VO_22"
+    },
+    {
+      "index": 1129,
+      "name": "DST_skincollector_VO_23"
+    },
+    {
+      "index": 1130,
+      "name": "DST_skincollector_VO_24"
+    },
+    {
+      "index": 1131,
+      "name": "DST_skincollector_VO_25"
+    },
+    {
+      "index": 1132,
+      "name": "DST_skincollector_VO_26"
+    },
+    {
+      "index": 1133,
+      "name": "DST_skincollector_VO_27"
+    },
+    {
+      "index": 1134,
+      "name": "DST_skincollector_VO_28"
+    },
+    {
+      "index": 1135,
+      "name": "DST_skincollector_VO_29"
+    },
+    {
+      "index": 1136,
+      "name": "DST_skincollector_VO_3"
+    },
+    {
+      "index": 1137,
+      "name": "DST_skincollector_VO_4"
+    },
+    {
+      "index": 1138,
+      "name": "DST_skincollector_VO_5"
+    },
+    {
+      "index": 1139,
+      "name": "DST_skincollector_VO_6"
+    },
+    {
+      "index": 1140,
+      "name": "DST_skincollector_VO_7"
+    },
+    {
+      "index": 1141,
+      "name": "DST_skincollector_VO_8"
+    },
+    {
+      "index": 1142,
+      "name": "DST_skincollector_VO_9"
+    },
+    {
+      "index": 1143,
+      "name": "electro_spark_metal_robots_DSH-003"
+    },
+    {
+      "index": 1144,
+      "name": "electro_spark_metal_robots_DSH-004"
+    },
+    {
+      "index": 1145,
+      "name": "electro_spark_metal_robots_DSH-005"
+    },
+    {
+      "index": 1146,
+      "name": "collapse_portable_blender"
+    },
+    {
+      "index": 1147,
+      "name": "collapse_portable_cookpot"
+    },
+    {
+      "index": 1148,
+      "name": "collapse_portable_spicer_v2"
+    },
+    {
+      "index": 1149,
+      "name": "cooking_PST_portable_spicer"
+    },
+    {
+      "index": 1150,
+      "name": "cooking_portable_spicer_LP"
+    },
+    {
+      "index": 1151,
+      "name": "lid_portable_spicer"
+    },
+    {
+      "index": 1152,
+      "name": "place_portable_blender"
+    },
+    {
+      "index": 1153,
+      "name": "place_portable_cookpot"
+    },
+    {
+      "index": 1154,
+      "name": "place_portable_spicer_v3"
+    },
+    {
+      "index": 1155,
+      "name": "prox_portable_blender_v2_LP"
+    },
+    {
+      "index": 1156,
+      "name": "use_portable_blender-001"
+    },
+    {
+      "index": 1157,
+      "name": "A_sheild_damage_abigail_dst-001"
+    },
+    {
+      "index": 1158,
+      "name": "A_sheild_damage_abigail_dst-002"
+    },
+    {
+      "index": 1159,
+      "name": "A_sheild_damage_abigail_dst-003"
+    },
+    {
+      "index": 1160,
+      "name": "A_sheild_damage_abigail_dst-004"
+    },
+    {
+      "index": 1161,
+      "name": "B_sheild_damage_abigail_dst-001"
+    },
+    {
+      "index": 1162,
+      "name": "B_sheild_damage_abigail_dst-002"
+    },
+    {
+      "index": 1163,
+      "name": "B_sheild_damage_abigail_dst-003"
+    },
+    {
+      "index": 1164,
+      "name": "attack_Bass_abigail_wendy_DST-001"
+    },
+    {
+      "index": 1165,
+      "name": "attack_Bass_abigail_wendy_DST-002"
+    },
+    {
+      "index": 1166,
+      "name": "attack_abigail_wendy_DST-001"
+    },
+    {
+      "index": 1167,
+      "name": "attack_abigail_wendy_DST-002"
+    },
+    {
+      "index": 1168,
+      "name": "attack_abigail_wendy_DST-003"
+    },
+    {
+      "index": 1169,
+      "name": "attack_abigail_wendy_DST-004"
+    },
+    {
+      "index": 1170,
+      "name": "channel_recall_abigail_DST-001"
+    },
+    {
+      "index": 1171,
+      "name": "channel_recall_abigail_DST-002"
+    },
+    {
+      "index": 1172,
+      "name": "channel_recall_abigail_DST-003"
+    },
+    {
+      "index": 1173,
+      "name": "channel_summon_abigail_DST-001"
+    },
+    {
+      "index": 1174,
+      "name": "channel_summon_abigail_DST-002"
+    },
+    {
+      "index": 1175,
+      "name": "channel_summon_abigail_DST-003"
+    },
+    {
+      "index": 1176,
+      "name": "channel_sumon_PRE_abigail_DST"
+    },
+    {
+      "index": 1177,
+      "name": "joy_small_Ghost_DST-001"
+    },
+    {
+      "index": 1178,
+      "name": "joy_small_Ghost_DST-002"
+    },
+    {
+      "index": 1179,
+      "name": "joy_small_Ghost_DST-003"
+    },
+    {
+      "index": 1180,
+      "name": "magic_ST_abigail_wendy_DST-001"
+    },
+    {
+      "index": 1181,
+      "name": "magic_ST_abigail_wendy_DST-002"
+    },
+    {
+      "index": 1182,
+      "name": "magic_ST_abigail_wendy_DST-003"
+    },
+    {
+      "index": 1183,
+      "name": "magic_ST_abigail_wendy_DST-004"
+    },
+    {
+      "index": 1184,
+      "name": "magic_ST_abigail_wendy_DST-005"
+    },
+    {
+      "index": 1185,
+      "name": "magic_ST_abigail_wendy_DST-006"
+    },
+    {
+      "index": 1186,
+      "name": "magic_ST_abigail_wendy_DST-007"
+    },
+    {
+      "index": 1187,
+      "name": "magic_ST_abigail_wendy_DST-008"
+    },
+    {
+      "index": 1188,
+      "name": "magic_ST_abigail_wendy_DST-009"
+    },
+    {
+      "index": 1189,
+      "name": "magic_ST_abigail_wendy_DST-010"
+    },
+    {
+      "index": 1190,
+      "name": "onlevelchange_abigail_DST-001"
+    },
+    {
+      "index": 1191,
+      "name": "onlevelchange_abigail_DST-003"
+    },
+    {
+      "index": 1192,
+      "name": "sheild_abigail_wendy_DST-001"
+    },
+    {
+      "index": 1193,
+      "name": "sheild_abigail_wendy_DST-002"
+    },
+    {
+      "index": 1194,
+      "name": "sheild_abigail_wendy_DST-003"
+    },
+    {
+      "index": 1195,
+      "name": "sheild_abigail_wendy_DST-004"
+    },
+    {
+      "index": 1196,
+      "name": "sheild_abigail_wendy_DST-005"
+    },
+    {
+      "index": 1197,
+      "name": "sheild_abigail_wendy_DST-006"
+    },
+    {
+      "index": 1198,
+      "name": "sheild_abigail_wendy_DST-007"
+    },
+    {
+      "index": 1199,
+      "name": "sheild_abigail_wendy_DST-008"
+    },
+    {
+      "index": 1200,
+      "name": "sheild_abigail_wendy_DST-009"
+    },
+    {
+      "index": 1201,
+      "name": "sheild_abigail_wendy_DST-010"
+    },
+    {
+      "index": 1202,
+      "name": "sheild_abigail_wendy_DST-011"
+    },
+    {
+      "index": 1203,
+      "name": "sheild_abigail_wendy_DST-012"
+    },
+    {
+      "index": 1204,
+      "name": "sheild_abigail_wendy_DST-013"
+    },
+    {
+      "index": 1205,
+      "name": "sheild_abigail_wendy_DST-014"
+    },
+    {
+      "index": 1206,
+      "name": "sheild_abigail_wendy_DST-015"
+    },
+    {
+      "index": 1207,
+      "name": "sheild_abigail_wendy_DST-016"
+    },
+    {
+      "index": 1208,
+      "name": "sheild_abigail_wendy_DST-017"
+    },
+    {
+      "index": 1209,
+      "name": "sheild_abigail_wendy_DST-018"
+    },
+    {
+      "index": 1210,
+      "name": "sheild_abigail_wendy_DST-019"
+    },
+    {
+      "index": 1211,
+      "name": "small_ghost_flower_LP"
+    },
+    {
+      "index": 1212,
+      "name": "small_ghost_flower_wisp-001"
+    },
+    {
+      "index": 1213,
+      "name": "small_ghost_flower_wisp-002"
+    },
+    {
+      "index": 1214,
+      "name": "small_ghost_flower_wisp-003"
+    },
+    {
+      "index": 1215,
+      "name": "small_ghost_flower_wisp-004"
+    },
+    {
+      "index": 1216,
+      "name": "small_ghost_flower_wisp-005"
+    },
+    {
+      "index": 1217,
+      "name": "thick_magic_abigail_wendy_DST-001"
+    },
+    {
+      "index": 1218,
+      "name": "thick_magic_abigail_wendy_DST-002"
+    },
+    {
+      "index": 1219,
+      "name": "thick_magic_abigail_wendy_DST-003"
+    },
+    {
+      "index": 1220,
+      "name": "thick_magic_abigail_wendy_DST-004"
+    },
+    {
+      "index": 1221,
+      "name": "thick_magic_abigail_wendy_DST-005"
+    },
+    {
+      "index": 1222,
+      "name": "thick_magic_abigail_wendy_DST-006"
+    },
+    {
+      "index": 1223,
+      "name": "place_sistern_DST"
+    },
+    {
+      "index": 1224,
+      "name": "sisturn_levetation_LP_dst"
+    },
+    {
+      "index": 1225,
+      "name": "branchfoley_v2_1"
+    },
+    {
+      "index": 1226,
+      "name": "branchfoley_v2_10"
+    },
+    {
+      "index": 1227,
+      "name": "branchfoley_v2_11"
+    },
+    {
+      "index": 1228,
+      "name": "branchfoley_v2_12"
+    },
+    {
+      "index": 1229,
+      "name": "branchfoley_v2_13"
+    },
+    {
+      "index": 1230,
+      "name": "branchfoley_v2_2"
+    },
+    {
+      "index": 1231,
+      "name": "branchfoley_v2_3"
+    },
+    {
+      "index": 1232,
+      "name": "branchfoley_v2_4"
+    },
+    {
+      "index": 1233,
+      "name": "branchfoley_v2_5"
+    },
+    {
+      "index": 1234,
+      "name": "branchfoley_v2_6"
+    },
+    {
+      "index": 1235,
+      "name": "branchfoley_v2_7"
+    },
+    {
+      "index": 1236,
+      "name": "branchfoley_v2_8"
+    },
+    {
+      "index": 1237,
+      "name": "branchfoley_v2_9"
+    },
+    {
+      "index": 1238,
+      "name": "rolling_ball_logDungBeetle"
+    },
+    {
+      "index": 1239,
+      "name": "Footstep_marsh_1"
+    },
+    {
+      "index": 1240,
+      "name": "Footstep_marsh_2"
+    },
+    {
+      "index": 1241,
+      "name": "Footstep_marsh_3"
+    },
+    {
+      "index": 1242,
+      "name": "Footstep_marsh_4"
+    },
+    {
+      "index": 1243,
+      "name": "Footstep_marsh_5"
+    },
+    {
+      "index": 1244,
+      "name": "attack_whoosh_1"
+    },
+    {
+      "index": 1245,
+      "name": "attack_whoosh_2"
+    },
+    {
+      "index": 1246,
+      "name": "attack_whoosh_3"
+    },
+    {
+      "index": 1247,
+      "name": "attack_whoosh_4"
+    },
+    {
+      "index": 1248,
+      "name": "attack_whoosh_darksword_1"
+    },
+    {
+      "index": 1249,
+      "name": "attack_whoosh_darksword_2"
+    },
+    {
+      "index": 1250,
+      "name": "attack_whoosh_darksword_3"
+    },
+    {
+      "index": 1251,
+      "name": "attack_whoosh_darksword_4"
+    },
+    {
+      "index": 1252,
+      "name": "attack_whoosh_darksword_5"
+    },
+    {
+      "index": 1253,
+      "name": "attack_whoosh_weapon_1"
+    },
+    {
+      "index": 1254,
+      "name": "attack_whoosh_weapon_2"
+    },
+    {
+      "index": 1255,
+      "name": "attack_whoosh_weapon_3"
+    },
+    {
+      "index": 1256,
+      "name": "attack_whoosh_weapon_4"
+    },
+    {
+      "index": 1257,
+      "name": "boomarang_catch"
+    },
+    {
+      "index": 1258,
+      "name": "boomarang_return"
+    },
+    {
+      "index": 1259,
+      "name": "boomarang_throw"
+    },
+    {
+      "index": 1260,
+      "name": "branchfoley_v2_1"
+    },
+    {
+      "index": 1261,
+      "name": "branchfoley_v2_10"
+    },
+    {
+      "index": 1262,
+      "name": "branchfoley_v2_11"
+    },
+    {
+      "index": 1263,
+      "name": "branchfoley_v2_12"
+    },
+    {
+      "index": 1264,
+      "name": "branchfoley_v2_13"
+    },
+    {
+      "index": 1265,
+      "name": "branchfoley_v2_2"
+    },
+    {
+      "index": 1266,
+      "name": "branchfoley_v2_3"
+    },
+    {
+      "index": 1267,
+      "name": "branchfoley_v2_4"
+    },
+    {
+      "index": 1268,
+      "name": "branchfoley_v2_5"
+    },
+    {
+      "index": 1269,
+      "name": "branchfoley_v2_6"
+    },
+    {
+      "index": 1270,
+      "name": "branchfoley_v2_7"
+    },
+    {
+      "index": 1271,
+      "name": "branchfoley_v2_8"
+    },
+    {
+      "index": 1272,
+      "name": "branchfoley_v2_9"
+    },
+    {
+      "index": 1273,
+      "name": "burned_1"
+    },
+    {
+      "index": 1274,
+      "name": "burned_2"
+    },
+    {
+      "index": 1275,
+      "name": "burned_3"
+    },
+    {
+      "index": 1276,
+      "name": "chop_mushtree_1"
+    },
+    {
+      "index": 1277,
+      "name": "chop_mushtree_2"
+    },
+    {
+      "index": 1278,
+      "name": "chop_mushtree_3"
+    },
+    {
+      "index": 1279,
+      "name": "deepfreeze_icestaff_lvl2_layer_DST__001"
+    },
+    {
+      "index": 1280,
+      "name": "deepfreeze_icestaff_whoosh_attack_DST__001"
+    },
+    {
+      "index": 1281,
+      "name": "deepfreeze_icestaff_whoosh_attack_DST__002"
+    },
+    {
+      "index": 1282,
+      "name": "deepfreeze_icestaff_whoosh_attack_DST__003"
+    },
+    {
+      "index": 1283,
+      "name": "fireball_explo"
+    },
+    {
+      "index": 1284,
+      "name": "firestaff_swing_1"
+    },
+    {
+      "index": 1285,
+      "name": "firestaff_swing_2"
+    },
+    {
+      "index": 1286,
+      "name": "firestaff_swing_3"
+    },
+    {
+      "index": 1287,
+      "name": "firestaff_swing_4"
+    },
+    {
+      "index": 1288,
+      "name": "hit_metal_1"
+    },
+    {
+      "index": 1289,
+      "name": "hit_metal_2"
+    },
+    {
+      "index": 1290,
+      "name": "hit_metal_3"
+    },
+    {
+      "index": 1291,
+      "name": "hit_stone_1"
+    },
+    {
+      "index": 1292,
+      "name": "hit_stone_2"
+    },
+    {
+      "index": 1293,
+      "name": "hit_stone_3"
+    },
+    {
+      "index": 1294,
+      "name": "hit_straw_1"
+    },
+    {
+      "index": 1295,
+      "name": "hit_straw_2"
+    },
+    {
+      "index": 1296,
+      "name": "hit_straw_3"
+    },
+    {
+      "index": 1297,
+      "name": "hit_unbreakablerock"
+    },
+    {
+      "index": 1298,
+      "name": "hit_wood_1"
+    },
+    {
+      "index": 1299,
+      "name": "hit_wood_2"
+    },
+    {
+      "index": 1300,
+      "name": "hit_wood_3"
+    },
+    {
+      "index": 1301,
+      "name": "icestaff_whoosh_1"
+    },
+    {
+      "index": 1302,
+      "name": "icestaff_whoosh_2"
+    },
+    {
+      "index": 1303,
+      "name": "icestaff_whoosh_3"
+    },
+    {
+      "index": 1304,
+      "name": "magicbubbleshield_impact"
+    },
+    {
+      "index": 1305,
+      "name": "nightarmour_foley_1"
+    },
+    {
+      "index": 1306,
+      "name": "nightarmour_foley_2"
+    },
+    {
+      "index": 1307,
+      "name": "nightarmour_foley_3"
+    },
+    {
+      "index": 1308,
+      "name": "nightarmour_foley_4"
+    },
+    {
+      "index": 1309,
+      "name": "nightarmour_foley_5"
+    },
+    {
+      "index": 1310,
+      "name": "player_sip_drink_DST_002"
+    },
+    {
+      "index": 1311,
+      "name": "torchthrow_land_short_stake_ground_stick_DST_-001"
+    }
+  ],
+  "music": [
+    {
+      "index": 1,
+      "name": "Balatro_Theme_44_108bpm"
+    },
+    {
+      "index": 2,
+      "name": "Boss fight No 4 (BeeQueen_V1)"
+    },
+    {
+      "index": 3,
+      "name": "Chaplinesque2"
+    },
+    {
+      "index": 4,
+      "name": "Clay_StatueResurrection_01"
+    },
+    {
+      "index": 5,
+      "name": "DST Wag Boss 41 LVL1 NEW 104bpm"
+    },
+    {
+      "index": 6,
+      "name": "DSTER - Boss 1 Orchestration V2"
+    },
+    {
+      "index": 7,
+      "name": "DST_AncientsVault_i_V5_Instru_NoChant"
+    },
+    {
+      "index": 8,
+      "name": "DST_BossFightNo3_V1"
+    },
+    {
+      "index": 9,
+      "name": "DST_Carnival_EggRides_2_MiniGolf_144bpm_V2"
+    },
+    {
+      "index": 10,
+      "name": "DST_CharlieShadow 56 MusicPhase1 12.8time 177bpm V1"
+    },
+    {
+      "index": 11,
+      "name": "DST_CharlieShadow 56 MusicPhase2 12.8time 177bpm V1"
+    },
+    {
+      "index": 12,
+      "name": "DST_CharlieShadow_StandbyLoop_166bpm"
+    },
+    {
+      "index": 13,
+      "name": "DST_CharlieShadow_TentacleWipe 166 bpm (2)"
+    },
+    {
+      "index": 14,
+      "name": "DST_Daywalker Fight 93bpm 6.8"
+    },
+    {
+      "index": 15,
+      "name": "DST_DragonBoat_150bpm_V6"
+    },
+    {
+      "index": 16,
+      "name": "DST_FrogBoss_V1"
+    },
+    {
+      "index": 17,
+      "name": "DST_JunkyatdHog_Fight_V4"
+    },
+    {
+      "index": 18,
+      "name": "DST_Krampus_Lvl1_V1"
+    },
+    {
+      "index": 19,
+      "name": "DST_Krampus_Lvl2_V1"
+    },
+    {
+      "index": 20,
+      "name": "DST_NewAntlion_V1"
+    },
+    {
+      "index": 21,
+      "name": "DST_PigKing_Intro_V1"
+    },
+    {
+      "index": 22,
+      "name": "DST_PigKing_V7"
+    },
+    {
+      "index": 23,
+      "name": "DST_RiftBattles_153bpm_6.8_V1"
+    },
+    {
+      "index": 24,
+      "name": "DST_Rift_Sanctum_BossFight_146bpm_V8"
+    },
+    {
+      "index": 25,
+      "name": "DST_ShadowBoss_ - transform sound"
+    },
+    {
+      "index": 26,
+      "name": "DST_Sharkboy_150bpm_v2"
+    },
+    {
+      "index": 27,
+      "name": "DST_Shop_specials_close"
+    },
+    {
+      "index": 28,
+      "name": "DST_Theme_FINAL_CNY gain"
+    },
+    {
+      "index": 29,
+      "name": "DST_Triggered_event_Fight_A_V2"
+    },
+    {
+      "index": 30,
+      "name": "DST_Triggered_event_Fight_B_V2"
+    },
+    {
+      "index": 31,
+      "name": "DST_WagBot_ii_PhaseA_154bpm_V1 (1)"
+    },
+    {
+      "index": 32,
+      "name": "DST_WagBot_ii_PhaseB_170bpm_V4"
+    },
+    {
+      "index": 33,
+      "name": "DST_WigfridValkyrie_170bpm_V3"
+    },
+    {
+      "index": 34,
+      "name": "DST_YearOfTheHorse_Battle_182BPM_v3"
+    },
+    {
+      "index": 35,
+      "name": "DS_Caves"
+    },
+    {
+      "index": 36,
+      "name": "DS_Caves_build"
+    },
+    {
+      "index": 37,
+      "name": "DS_Ruins EFS"
+    },
+    {
+      "index": 38,
+      "name": "DS_Ruins_Working_130bpm"
+    },
+    {
+      "index": 39,
+      "name": "DS_Winter_EFS_165bpm"
+    },
+    {
+      "index": 40,
+      "name": "DS_Winter_Fight_145bpm"
+    },
+    {
+      "index": 41,
+      "name": "DS_Winter_Working"
+    },
+    {
+      "index": 42,
+      "name": "DS_hoedown_vinyl"
+    },
+    {
+      "index": 43,
+      "name": "Dawn_150bpm_3.4time"
+    },
+    {
+      "index": 44,
+      "name": "Don't Starve - EFS 4_4 160bpm"
+    },
+    {
+      "index": 45,
+      "name": "Dusk_150bpm_3.4time"
+    },
+    {
+      "index": 46,
+      "name": "MakeFriend"
+    },
+    {
+      "index": 47,
+      "name": "Ruins_Fight"
+    },
+    {
+      "index": 48,
+      "name": "Working_Remix_V1_172bpm_DST"
+    },
+    {
+      "index": 49,
+      "name": "charlie_rise_pst_stinger_DST"
+    },
+    {
+      "index": 50,
+      "name": "dark_pad_Pig_king_DST"
+    },
+    {
+      "index": 51,
+      "name": "Boss Fight No 4 (BeeQueen_V1) Opera"
+    },
+    {
+      "index": 52,
+      "name": "DSTER - Boss 1 Orchestration 140bpm 4.4 V2_opera"
+    },
+    {
+      "index": 53,
+      "name": "DST_BossFightNo3_V1_opera"
+    },
+    {
+      "index": 54,
+      "name": "DST_CharlieShadow WigridVoxPhase1 12.8time 177bpm V1"
+    },
+    {
+      "index": 55,
+      "name": "DST_CharlieShadow WigridVoxPhase2 12.8time 177bpm V1"
+    },
+    {
+      "index": 56,
+      "name": "DST_FrogBoss_V1441k_opera"
+    },
+    {
+      "index": 57,
+      "name": "DST_Gestalt_ii_V2_opera 175bpm"
+    },
+    {
+      "index": 58,
+      "name": "DST_Krampus_Lvl1_V1441k_opera"
+    },
+    {
+      "index": 59,
+      "name": "DST_Krampus_Lvl2_V1441k_opera"
+    },
+    {
+      "index": 60,
+      "name": "DST_NewAntlion_V1441k_opera"
+    },
+    {
+      "index": 61,
+      "name": "DST_RiftBattles_153bpm_6.8_V1-opera"
+    },
+    {
+      "index": 62,
+      "name": "DST_Rift_Sanctum_BossFight_Wigfrid_146bpm_V1"
+    },
+    {
+      "index": 63,
+      "name": "DST_ShadowBoss_V2_High441k_opera"
+    },
+    {
+      "index": 64,
+      "name": "DST_ShadowBoss_V2_Low (1)-ZO45_01-02441k_opera"
+    },
+    {
+      "index": 65,
+      "name": "DST_Sharkboy_150bpm_v2_opera_FULL"
+    },
+    {
+      "index": 66,
+      "name": "DST_Triggered_event_Fight_A_V2441k_opera"
+    },
+    {
+      "index": 67,
+      "name": "DST_Triggered_event_Fight_B_V2441k_opera"
+    },
+    {
+      "index": 68,
+      "name": "DST_WagBot_ii_PhaseA_154bpm_Wig_V2"
+    },
+    {
+      "index": 69,
+      "name": "DST_WagBot_ii_PhaseB_170bpm_Wigfrid_V1"
+    },
+    {
+      "index": 70,
+      "name": "DST_YearOfTheHorse_Battle_WigfridLayer_182bpm_V2"
+    },
+    {
+      "index": 71,
+      "name": "DS_Caves_build_opera"
+    },
+    {
+      "index": 72,
+      "name": "DS_Winter_EFS_165bpm441k_opera"
+    },
+    {
+      "index": 73,
+      "name": "DS_Winter_Fight_145bpm_opera"
+    },
+    {
+      "index": 74,
+      "name": "Danger Remix V3 1 172bpm _opera"
+    },
+    {
+      "index": 75,
+      "name": "Daywalker_Fight 93bpm 6.8-opera"
+    },
+    {
+      "index": 76,
+      "name": "Don't Starve - EFS 4_4 160bpm_opera"
+    },
+    {
+      "index": 77,
+      "name": "Junkyard Hog Fight Wigfrid Vox 154bpm 6.4"
+    },
+    {
+      "index": 78,
+      "name": "Ruins_Fight441k_opera"
+    },
+    {
+      "index": 79,
+      "name": "music_CrabKing_v2_DST441k_opera"
+    },
+    {
+      "index": 80,
+      "name": "music_CrabKing_v2_DST"
+    },
+    {
+      "index": 81,
+      "name": "MermTransform_music_01"
+    },
+    {
+      "index": 82,
+      "name": "MermTransform_music_02"
+    },
+    {
+      "index": 83,
+      "name": "MermTransform_music_03"
+    },
+    {
+      "index": 84,
+      "name": "MermTransform_music_04"
+    },
+    {
+      "index": 85,
+      "name": "MermTransform_music_05"
+    },
+    {
+      "index": 86,
+      "name": "MermTransform_music_06"
+    },
+    {
+      "index": 87,
+      "name": "MermTransform_music_07"
+    },
+    {
+      "index": 88,
+      "name": "MermTransform_music_08"
+    },
+    {
+      "index": 89,
+      "name": "MermTransform_music_09"
+    },
+    {
+      "index": 90,
+      "name": "MermTransform_music_10"
+    },
+    {
+      "index": 91,
+      "name": "MermTransform_music_11"
+    },
+    {
+      "index": 92,
+      "name": "MermTransform_music_12"
+    }
+  ],
+  "forest": [
+    {
+      "index": 1,
+      "name": "burnedTree_pincconedrop"
+    },
+    {
+      "index": 2,
+      "name": "Appear_wood_1"
+    },
+    {
+      "index": 3,
+      "name": "Appear_wood_2"
+    },
+    {
+      "index": 4,
+      "name": "Appear_wood_3"
+    },
+    {
+      "index": 5,
+      "name": "Tree_crumble"
+    },
+    {
+      "index": 6,
+      "name": "Tree_grow"
+    },
+    {
+      "index": 7,
+      "name": "Tree_wilt"
+    },
+    {
+      "index": 8,
+      "name": "Tree_wilttogrow"
+    },
+    {
+      "index": 9,
+      "name": "tree_fall_1"
+    }
+  ],
+  "forest_stream": [
+    {
+      "index": 1,
+      "name": "AMB_badlands_day_1"
+    },
+    {
+      "index": 2,
+      "name": "AMB_badlands_day_10"
+    },
+    {
+      "index": 3,
+      "name": "AMB_badlands_day_11"
+    },
+    {
+      "index": 4,
+      "name": "AMB_badlands_day_12"
+    },
+    {
+      "index": 5,
+      "name": "AMB_badlands_day_2"
+    },
+    {
+      "index": 6,
+      "name": "AMB_badlands_day_3"
+    },
+    {
+      "index": 7,
+      "name": "AMB_badlands_day_4"
+    },
+    {
+      "index": 8,
+      "name": "AMB_badlands_day_5"
+    },
+    {
+      "index": 9,
+      "name": "AMB_badlands_day_6"
+    },
+    {
+      "index": 10,
+      "name": "AMB_badlands_day_7"
+    },
+    {
+      "index": 11,
+      "name": "AMB_badlands_day_8"
+    },
+    {
+      "index": 12,
+      "name": "AMB_badlands_day_9"
+    },
+    {
+      "index": 13,
+      "name": "AMB_badlands_night_1"
+    },
+    {
+      "index": 14,
+      "name": "AMB_badlands_night_2"
+    },
+    {
+      "index": 15,
+      "name": "AMB_badlands_night_3"
+    },
+    {
+      "index": 16,
+      "name": "AMB_badlands_night_4"
+    },
+    {
+      "index": 17,
+      "name": "AMB_badlands_night_5"
+    },
+    {
+      "index": 18,
+      "name": "AMB_badlands_night_6"
+    },
+    {
+      "index": 19,
+      "name": "AMB_badlands_night_7"
+    },
+    {
+      "index": 20,
+      "name": "AMB_birds_1"
+    },
+    {
+      "index": 21,
+      "name": "AMB_birds_2"
+    },
+    {
+      "index": 22,
+      "name": "AMB_birds_3"
+    },
+    {
+      "index": 23,
+      "name": "AMB_birds_night_1"
+    },
+    {
+      "index": 24,
+      "name": "AMB_birds_night_2"
+    },
+    {
+      "index": 25,
+      "name": "AMB_birds_night_3"
+    },
+    {
+      "index": 26,
+      "name": "AMB_bugfly_1"
+    },
+    {
+      "index": 27,
+      "name": "AMB_bugfly_2"
+    },
+    {
+      "index": 28,
+      "name": "AMB_bugfly_3"
+    },
+    {
+      "index": 29,
+      "name": "AMB_bugfly_bigNight_1"
+    },
+    {
+      "index": 30,
+      "name": "AMB_bugfly_bigNight_2"
+    },
+    {
+      "index": 31,
+      "name": "AMB_bugfly_bigNight_3"
+    },
+    {
+      "index": 32,
+      "name": "AMB_bugfly_bigNight_4"
+    },
+    {
+      "index": 33,
+      "name": "AMB_grassland_LP"
+    },
+    {
+      "index": 34,
+      "name": "AMB_marsh_day_1"
+    },
+    {
+      "index": 35,
+      "name": "AMB_marsh_day_2"
+    },
+    {
+      "index": 36,
+      "name": "AMB_marsh_day_3"
+    },
+    {
+      "index": 37,
+      "name": "AMB_marsh_day_4"
+    },
+    {
+      "index": 38,
+      "name": "AMB_marsh_day_5"
+    },
+    {
+      "index": 39,
+      "name": "AMB_marsh_day_6"
+    },
+    {
+      "index": 40,
+      "name": "AMB_marsh_day_7"
+    },
+    {
+      "index": 41,
+      "name": "AMB_marsh_day_8"
+    },
+    {
+      "index": 42,
+      "name": "AMB_marsh_day_9"
+    },
+    {
+      "index": 43,
+      "name": "AMB_marsh_day_LP"
+    },
+    {
+      "index": 44,
+      "name": "AMB_marsh_night_LP"
+    },
+    {
+      "index": 45,
+      "name": "AMB_meadow_day_LP"
+    },
+    {
+      "index": 46,
+      "name": "AMB_meadow_night_LP"
+    },
+    {
+      "index": 47,
+      "name": "AMB_moan_night_1"
+    },
+    {
+      "index": 48,
+      "name": "AMB_moan_night_10"
+    },
+    {
+      "index": 49,
+      "name": "AMB_moan_night_2"
+    },
+    {
+      "index": 50,
+      "name": "AMB_moan_night_3"
+    },
+    {
+      "index": 51,
+      "name": "AMB_moan_night_4"
+    },
+    {
+      "index": 52,
+      "name": "AMB_moan_night_5"
+    },
+    {
+      "index": 53,
+      "name": "AMB_moan_night_6"
+    },
+    {
+      "index": 54,
+      "name": "AMB_moan_night_7"
+    },
+    {
+      "index": 55,
+      "name": "AMB_moan_night_8"
+    },
+    {
+      "index": 56,
+      "name": "AMB_moan_night_9"
+    },
+    {
+      "index": 57,
+      "name": "AMB_rain_LP"
+    },
+    {
+      "index": 58,
+      "name": "AMB_rocky_LP"
+    },
+    {
+      "index": 59,
+      "name": "AMB_rocky_night_LP"
+    },
+    {
+      "index": 60,
+      "name": "AMB_waves_1"
+    },
+    {
+      "index": 61,
+      "name": "AMB_waves_10"
+    },
+    {
+      "index": 62,
+      "name": "AMB_waves_11"
+    },
+    {
+      "index": 63,
+      "name": "AMB_waves_12"
+    },
+    {
+      "index": 64,
+      "name": "AMB_waves_13"
+    },
+    {
+      "index": 65,
+      "name": "AMB_waves_2"
+    },
+    {
+      "index": 66,
+      "name": "AMB_waves_3"
+    },
+    {
+      "index": 67,
+      "name": "AMB_waves_4"
+    },
+    {
+      "index": 68,
+      "name": "AMB_waves_5"
+    },
+    {
+      "index": 69,
+      "name": "AMB_waves_6"
+    },
+    {
+      "index": 70,
+      "name": "AMB_waves_7"
+    },
+    {
+      "index": 71,
+      "name": "AMB_waves_8"
+    },
+    {
+      "index": 72,
+      "name": "AMB_waves_9"
+    },
+    {
+      "index": 73,
+      "name": "amb_meadow_day_nobirds_LP_DST"
+    },
+    {
+      "index": 74,
+      "name": "amb_rain_heavy_LP"
+    },
+    {
+      "index": 75,
+      "name": "amb_rain_light_LP"
+    },
+    {
+      "index": 76,
+      "name": "amb_rain_medium_LP"
+    },
+    {
+      "index": 77,
+      "name": "amb_winterwind_LP"
+    },
+    {
+      "index": 78,
+      "name": "chessworld_high_LP"
+    },
+    {
+      "index": 79,
+      "name": "chessworld_low_LP"
+    },
+    {
+      "index": 80,
+      "name": "chessworld_rnd_1"
+    },
+    {
+      "index": 81,
+      "name": "chessworld_rnd_10"
+    },
+    {
+      "index": 82,
+      "name": "chessworld_rnd_11"
+    },
+    {
+      "index": 83,
+      "name": "chessworld_rnd_12"
+    },
+    {
+      "index": 84,
+      "name": "chessworld_rnd_2"
+    },
+    {
+      "index": 85,
+      "name": "chessworld_rnd_3"
+    },
+    {
+      "index": 86,
+      "name": "chessworld_rnd_4"
+    },
+    {
+      "index": 87,
+      "name": "chessworld_rnd_5"
+    },
+    {
+      "index": 88,
+      "name": "chessworld_rnd_6"
+    },
+    {
+      "index": 89,
+      "name": "chessworld_rnd_7"
+    },
+    {
+      "index": 90,
+      "name": "chessworld_rnd_8"
+    },
+    {
+      "index": 91,
+      "name": "chessworld_rnd_9"
+    },
+    {
+      "index": 92,
+      "name": "forest_amb_day_nobirds_LP_DST"
+    },
+    {
+      "index": 93,
+      "name": "forest_amb_night_nobirds_amb_day_DST"
+    },
+    {
+      "index": 94,
+      "name": "thunder_close_1"
+    },
+    {
+      "index": 95,
+      "name": "thunder_close_2"
+    },
+    {
+      "index": 96,
+      "name": "thunder_close_3"
+    },
+    {
+      "index": 97,
+      "name": "thunder_close_4"
+    },
+    {
+      "index": 98,
+      "name": "thunder_far_1"
+    },
+    {
+      "index": 99,
+      "name": "thunder_far_2"
+    },
+    {
+      "index": 100,
+      "name": "thunder_far_3"
+    },
+    {
+      "index": 101,
+      "name": "thunder_far_4"
+    },
+    {
+      "index": 102,
+      "name": "void"
+    },
+    {
+      "index": 103,
+      "name": "winter_RDM_1"
+    },
+    {
+      "index": 104,
+      "name": "winter_RDM_2"
+    },
+    {
+      "index": 105,
+      "name": "winter_RDM_3"
+    },
+    {
+      "index": 106,
+      "name": "winter_RDM_4"
+    },
+    {
+      "index": 107,
+      "name": "winter_RDM_5"
+    },
+    {
+      "index": 108,
+      "name": "winter_RDM_6"
+    },
+    {
+      "index": 109,
+      "name": "winter_RDM_7"
+    },
+    {
+      "index": 110,
+      "name": "winter_RDM_8"
+    },
+    {
+      "index": 111,
+      "name": "DST_cave_rain_heavy"
+    },
+    {
+      "index": 112,
+      "name": "DST_cave_rain_light"
+    },
+    {
+      "index": 113,
+      "name": "DST_cave_rain_medium"
+    },
+    {
+      "index": 114,
+      "name": "DS_forestAMB_day_LP"
+    },
+    {
+      "index": 115,
+      "name": "DS_forestAMB_day_RND_1"
+    },
+    {
+      "index": 116,
+      "name": "DS_forestAMB_day_RND_10"
+    },
+    {
+      "index": 117,
+      "name": "DS_forestAMB_day_RND_11"
+    },
+    {
+      "index": 118,
+      "name": "DS_forestAMB_day_RND_12"
+    },
+    {
+      "index": 119,
+      "name": "DS_forestAMB_day_RND_13"
+    },
+    {
+      "index": 120,
+      "name": "DS_forestAMB_day_RND_14"
+    },
+    {
+      "index": 121,
+      "name": "DS_forestAMB_day_RND_15"
+    },
+    {
+      "index": 122,
+      "name": "DS_forestAMB_day_RND_16"
+    },
+    {
+      "index": 123,
+      "name": "DS_forestAMB_day_RND_17"
+    },
+    {
+      "index": 124,
+      "name": "DS_forestAMB_day_RND_2"
+    },
+    {
+      "index": 125,
+      "name": "DS_forestAMB_day_RND_3"
+    },
+    {
+      "index": 126,
+      "name": "DS_forestAMB_day_RND_4"
+    },
+    {
+      "index": 127,
+      "name": "DS_forestAMB_day_RND_5"
+    },
+    {
+      "index": 128,
+      "name": "DS_forestAMB_day_RND_6"
+    },
+    {
+      "index": 129,
+      "name": "DS_forestAMB_day_RND_7"
+    },
+    {
+      "index": 130,
+      "name": "DS_forestAMB_day_RND_8"
+    },
+    {
+      "index": 131,
+      "name": "DS_forestAMB_day_RND_9"
+    },
+    {
+      "index": 132,
+      "name": "DS_forestAMB_night_LP"
+    },
+    {
+      "index": 133,
+      "name": "DS_forestAMB_night_RND_1"
+    },
+    {
+      "index": 134,
+      "name": "DS_forestAMB_night_RND_10"
+    },
+    {
+      "index": 135,
+      "name": "DS_forestAMB_night_RND_11"
+    },
+    {
+      "index": 136,
+      "name": "DS_forestAMB_night_RND_2"
+    },
+    {
+      "index": 137,
+      "name": "DS_forestAMB_night_RND_3"
+    },
+    {
+      "index": 138,
+      "name": "DS_forestAMB_night_RND_4"
+    },
+    {
+      "index": 139,
+      "name": "DS_forestAMB_night_RND_5"
+    },
+    {
+      "index": 140,
+      "name": "DS_forestAMB_night_RND_6"
+    },
+    {
+      "index": 141,
+      "name": "DS_forestAMB_night_RND_7"
+    },
+    {
+      "index": 142,
+      "name": "DS_forestAMB_night_RND_8"
+    },
+    {
+      "index": 143,
+      "name": "DS_forestAMB_night_RND_9"
+    },
+    {
+      "index": 144,
+      "name": "umbrella_rain_LP"
+    }
+  ],
+  "amb_stream": [
+    {
+      "index": 1,
+      "name": "SG_SFX_puft_voice_inhale_01_v02"
+    },
+    {
+      "index": 2,
+      "name": "SG_SFX_puft_voice_inhale_01_v03"
+    },
+    {
+      "index": 3,
+      "name": "SG_SFX_puft_voice_inhale_02_v02"
+    },
+    {
+      "index": 4,
+      "name": "SG_SFX_puft_voice_inhale_02_v03"
+    },
+    {
+      "index": 5,
+      "name": "SG_SFX_puft_voice_inhale_03_v02"
+    },
+    {
+      "index": 6,
+      "name": "SG_SFX_puft_voice_inhale_03_v03"
+    },
+    {
+      "index": 7,
+      "name": "SG_SFX_puft_voice_inhale_04_v02"
+    },
+    {
+      "index": 8,
+      "name": "SG_SFX_puft_voice_inhale_05_v02"
+    },
+    {
+      "index": 9,
+      "name": "SG_SFX_puft_voice_inhale_05_v03"
+    },
+    {
+      "index": 10,
+      "name": "SG_SFX_puft_voice_inhale_06_v03"
+    },
+    {
+      "index": 11,
+      "name": "AMB_badlands_day_1"
+    },
+    {
+      "index": 12,
+      "name": "AMB_badlands_day_10"
+    },
+    {
+      "index": 13,
+      "name": "AMB_badlands_day_11"
+    },
+    {
+      "index": 14,
+      "name": "AMB_badlands_day_12"
+    },
+    {
+      "index": 15,
+      "name": "AMB_badlands_day_2"
+    },
+    {
+      "index": 16,
+      "name": "AMB_badlands_day_3"
+    },
+    {
+      "index": 17,
+      "name": "AMB_badlands_day_4"
+    },
+    {
+      "index": 18,
+      "name": "AMB_badlands_day_5"
+    },
+    {
+      "index": 19,
+      "name": "AMB_badlands_day_6"
+    },
+    {
+      "index": 20,
+      "name": "AMB_badlands_day_7"
+    },
+    {
+      "index": 21,
+      "name": "AMB_badlands_day_9"
+    },
+    {
+      "index": 22,
+      "name": "AMB_badlands_night_1"
+    },
+    {
+      "index": 23,
+      "name": "AMB_badlands_night_2"
+    },
+    {
+      "index": 24,
+      "name": "AMB_badlands_night_3"
+    },
+    {
+      "index": 25,
+      "name": "AMB_badlands_night_4"
+    },
+    {
+      "index": 26,
+      "name": "AMB_badlands_night_5"
+    },
+    {
+      "index": 27,
+      "name": "AMB_badlands_night_6"
+    },
+    {
+      "index": 28,
+      "name": "AMB_badlands_night_7"
+    },
+    {
+      "index": 29,
+      "name": "AMB_bugfly_bigNight_1"
+    },
+    {
+      "index": 30,
+      "name": "AMB_bugfly_bigNight_2"
+    },
+    {
+      "index": 31,
+      "name": "AMB_bugfly_bigNight_3"
+    },
+    {
+      "index": 32,
+      "name": "AMB_bugfly_bigNight_4"
+    },
+    {
+      "index": 33,
+      "name": "AMB_marsh_day_1"
+    },
+    {
+      "index": 34,
+      "name": "AMB_marsh_day_2"
+    },
+    {
+      "index": 35,
+      "name": "AMB_marsh_day_3"
+    },
+    {
+      "index": 36,
+      "name": "AMB_marsh_day_4"
+    },
+    {
+      "index": 37,
+      "name": "AMB_marsh_day_5"
+    },
+    {
+      "index": 38,
+      "name": "AMB_marsh_day_6"
+    },
+    {
+      "index": 39,
+      "name": "AMB_marsh_day_7"
+    },
+    {
+      "index": 40,
+      "name": "AMB_marsh_day_8"
+    },
+    {
+      "index": 41,
+      "name": "AMB_marsh_day_9"
+    },
+    {
+      "index": 42,
+      "name": "AMB_marsh_night_LP"
+    },
+    {
+      "index": 43,
+      "name": "AMB_moan_night_1"
+    },
+    {
+      "index": 44,
+      "name": "AMB_moan_night_10"
+    },
+    {
+      "index": 45,
+      "name": "AMB_moan_night_2"
+    },
+    {
+      "index": 46,
+      "name": "AMB_moan_night_3"
+    },
+    {
+      "index": 47,
+      "name": "AMB_moan_night_4"
+    },
+    {
+      "index": 48,
+      "name": "AMB_moan_night_5"
+    },
+    {
+      "index": 49,
+      "name": "AMB_moan_night_6"
+    },
+    {
+      "index": 50,
+      "name": "AMB_moan_night_7"
+    },
+    {
+      "index": 51,
+      "name": "AMB_moan_night_8"
+    },
+    {
+      "index": 52,
+      "name": "AMB_moan_night_9"
+    },
+    {
+      "index": 53,
+      "name": "AMB_waves_1"
+    },
+    {
+      "index": 54,
+      "name": "AMB_waves_10"
+    },
+    {
+      "index": 55,
+      "name": "AMB_waves_11"
+    },
+    {
+      "index": 56,
+      "name": "AMB_waves_12"
+    },
+    {
+      "index": 57,
+      "name": "AMB_waves_13"
+    },
+    {
+      "index": 58,
+      "name": "AMB_waves_2"
+    },
+    {
+      "index": 59,
+      "name": "AMB_waves_3"
+    },
+    {
+      "index": 60,
+      "name": "AMB_waves_4"
+    },
+    {
+      "index": 61,
+      "name": "AMB_waves_5"
+    },
+    {
+      "index": 62,
+      "name": "AMB_waves_6"
+    },
+    {
+      "index": 63,
+      "name": "AMB_waves_7"
+    },
+    {
+      "index": 64,
+      "name": "AMB_waves_8"
+    },
+    {
+      "index": 65,
+      "name": "AMB_waves_9"
+    },
+    {
+      "index": 66,
+      "name": "amb_badland_summer_LP"
+    },
+    {
+      "index": 67,
+      "name": "amb_forest_summer_LP"
+    },
+    {
+      "index": 68,
+      "name": "amb_grassland_summer_LP"
+    },
+    {
+      "index": 69,
+      "name": "amb_marsh_summer_LP"
+    },
+    {
+      "index": 70,
+      "name": "amb_meadow_summer_LP"
+    },
+    {
+      "index": 71,
+      "name": "amb_night1_summer_LP"
+    },
+    {
+      "index": 72,
+      "name": "amb_night2_summer_LP"
+    },
+    {
+      "index": 73,
+      "name": "amb_rocky_summer_LP"
+    },
+    {
+      "index": 74,
+      "name": "amb_winterwind_LP"
+    },
+    {
+      "index": 75,
+      "name": "chessworld_high_LP"
+    },
+    {
+      "index": 76,
+      "name": "chessworld_low_LP"
+    },
+    {
+      "index": 77,
+      "name": "chessworld_rnd_1"
+    },
+    {
+      "index": 78,
+      "name": "chessworld_rnd_10"
+    },
+    {
+      "index": 79,
+      "name": "chessworld_rnd_11"
+    },
+    {
+      "index": 80,
+      "name": "chessworld_rnd_12"
+    },
+    {
+      "index": 81,
+      "name": "chessworld_rnd_2"
+    },
+    {
+      "index": 82,
+      "name": "chessworld_rnd_3"
+    },
+    {
+      "index": 83,
+      "name": "chessworld_rnd_4"
+    },
+    {
+      "index": 84,
+      "name": "chessworld_rnd_5"
+    },
+    {
+      "index": 85,
+      "name": "chessworld_rnd_6"
+    },
+    {
+      "index": 86,
+      "name": "chessworld_rnd_7"
+    },
+    {
+      "index": 87,
+      "name": "chessworld_rnd_8"
+    },
+    {
+      "index": 88,
+      "name": "chessworld_rnd_9"
+    },
+    {
+      "index": 89,
+      "name": "leaf_rustle_1"
+    },
+    {
+      "index": 90,
+      "name": "leaf_rustle_10"
+    },
+    {
+      "index": 91,
+      "name": "leaf_rustle_2"
+    },
+    {
+      "index": 92,
+      "name": "leaf_rustle_3"
+    },
+    {
+      "index": 93,
+      "name": "leaf_rustle_4"
+    },
+    {
+      "index": 94,
+      "name": "leaf_rustle_5"
+    },
+    {
+      "index": 95,
+      "name": "leaf_rustle_6"
+    },
+    {
+      "index": 96,
+      "name": "leaf_rustle_7"
+    },
+    {
+      "index": 97,
+      "name": "leaf_rustle_8"
+    },
+    {
+      "index": 98,
+      "name": "leaf_rustle_9"
+    },
+    {
+      "index": 99,
+      "name": "smolder_1"
+    },
+    {
+      "index": 100,
+      "name": "winter_RDM_1"
+    },
+    {
+      "index": 101,
+      "name": "winter_RDM_2"
+    },
+    {
+      "index": 102,
+      "name": "winter_RDM_3"
+    },
+    {
+      "index": 103,
+      "name": "winter_RDM_4"
+    },
+    {
+      "index": 104,
+      "name": "winter_RDM_5"
+    },
+    {
+      "index": 105,
+      "name": "DS_forestAMB_day_RND_1"
+    },
+    {
+      "index": 106,
+      "name": "DS_forestAMB_day_RND_10"
+    },
+    {
+      "index": 107,
+      "name": "DS_forestAMB_day_RND_11"
+    },
+    {
+      "index": 108,
+      "name": "DS_forestAMB_day_RND_14"
+    },
+    {
+      "index": 109,
+      "name": "DS_forestAMB_day_RND_15"
+    },
+    {
+      "index": 110,
+      "name": "DS_forestAMB_day_RND_16"
+    },
+    {
+      "index": 111,
+      "name": "DS_forestAMB_day_RND_17"
+    },
+    {
+      "index": 112,
+      "name": "DS_forestAMB_day_RND_3"
+    },
+    {
+      "index": 113,
+      "name": "DS_forestAMB_day_RND_5"
+    },
+    {
+      "index": 114,
+      "name": "DS_forestAMB_day_RND_9"
+    },
+    {
+      "index": 115,
+      "name": "DS_forestAMB_night_RND_10"
+    },
+    {
+      "index": 116,
+      "name": "DS_forestAMB_night_RND_2"
+    },
+    {
+      "index": 117,
+      "name": "DS_forestAMB_night_RND_3"
+    },
+    {
+      "index": 118,
+      "name": "DS_forestAMB_night_RND_4"
+    },
+    {
+      "index": 119,
+      "name": "DS_forestAMB_night_RND_5"
+    },
+    {
+      "index": 120,
+      "name": "DS_forestAMB_night_RND_6"
+    },
+    {
+      "index": 121,
+      "name": "DS_forestAMB_night_RND_7"
+    },
+    {
+      "index": 122,
+      "name": "DS_forestAMB_night_RND_8"
+    },
+    {
+      "index": 123,
+      "name": "DS_forestAMB_night_RND_9"
+    },
+    {
+      "index": 124,
+      "name": "heatwave_level4"
+    },
+    {
+      "index": 125,
+      "name": "tumbleweed_bounce_1"
+    },
+    {
+      "index": 126,
+      "name": "tumbleweed_bounce_2"
+    },
+    {
+      "index": 127,
+      "name": "tumbleweed_bounce_3"
+    },
+    {
+      "index": 128,
+      "name": "tumbleweed_bounce_4"
+    },
+    {
+      "index": 129,
+      "name": "DST_pose_speach_v2_wigfrid"
+    },
+    {
+      "index": 130,
+      "name": "song_Wigfrid_DST-005"
+    }
+  ]
+}

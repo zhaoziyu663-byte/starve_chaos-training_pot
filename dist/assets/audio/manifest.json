@@ -1,0 +1,6262 @@
+{
+  "version": 2,
+  "gameVersion": "762172",
+  "format": "ogg-vorbis",
+  "events": {
+    "player_swing": {
+      "files": [
+        "assets/audio/sfx_1253.ogg",
+        "assets/audio/sfx_1254.ogg",
+        "assets/audio/sfx_1255.ogg",
+        "assets/audio/sfx_1256.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/wilson/attack_weapon",
+      "triggerFrames": 0
+    },
+    "player_hit": {
+      "files": [
+        "assets/audio/sfx_0415.ogg",
+        "assets/audio/sfx_0416.ogg",
+        "assets/audio/sfx_0417.ogg",
+        "assets/audio/sfx_0418.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/wilson/hit_animal",
+      "triggerFrames": 8
+    },
+    "player_hit_insect": {
+      "files": [
+        "assets/audio/sfx_0016.ogg",
+        "assets/audio/sfx_0017.ogg",
+        "assets/audio/sfx_0018.ogg",
+        "assets/audio/sfx_0019.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/impacts/impact_insect_sharp",
+      "triggerFrames": 8
+    },
+    "player_hit_wood": {
+      "files": [
+        "assets/audio/sfx_1298.ogg",
+        "assets/audio/sfx_1299.ogg",
+        "assets/audio/sfx_1300.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/wilson/hit_wood",
+      "triggerFrames": 8
+    },
+    "player_hit_metal": {
+      "files": [
+        "assets/audio/sfx_0130.ogg",
+        "assets/audio/sfx_0131.ogg",
+        "assets/audio/sfx_0132.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/impacts/impact_mech_sharp",
+      "triggerFrames": 0
+    },
+    "player_dash_prepare": {
+      "files": [
+        "assets/audio/common_0041.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/common/twirl",
+      "triggerFrames": 4
+    },
+    "player_dash": {
+      "files": [
+        "assets/audio/meta3_0077.ogg",
+        "assets/audio/meta3_0078.ogg",
+        "assets/audio/meta3_0079.ogg",
+        "assets/audio/meta3_0080.ogg"
+      ],
+      "volume": 0.58,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "meta3/wigfrid/spear_lighting_lunge",
+      "triggerFrames": 0
+    },
+    "player_dash_thunder": {
+      "files": [
+        "assets/audio/meta3_0094.ogg",
+        "assets/audio/meta3_0095.ogg",
+        "assets/audio/meta3_0096.ogg",
+        "assets/audio/meta3_0097.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "meta3/wigfrid/spear_lighting_lunge_thunder",
+      "triggerFrames": 0
+    },
+    "player_electric_hit": {
+      "files": [
+        "assets/audio/wx78_0002.ogg",
+        "assets/audio/wx78_0003.ogg",
+        "assets/audio/wx78_0004.ogg",
+        "assets/audio/wx78_0005.ogg"
+      ],
+      "volume": 0.45,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/characters/wx78/spark",
+      "triggerFrames": 0
+    },
+    "player_hurt": {
+      "files": [
+        "assets/audio/wathgrithr_0055.ogg",
+        "assets/audio/wathgrithr_0056.ogg",
+        "assets/audio/wathgrithr_0057.ogg",
+        "assets/audio/wathgrithr_0058.ogg"
+      ],
+      "volume": 0.58,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/characters/wathgrithr/hurt",
+      "triggerFrames": null
+    },
+    "player_step": {
+      "files": [
+        "assets/audio/sfx_0261.ogg",
+        "assets/audio/sfx_0262.ogg",
+        "assets/audio/sfx_0263.ogg",
+        "assets/audio/sfx_0264.ogg"
+      ],
+      "volume": 0.26,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/movement/run_grass",
+      "triggerFrames": null
+    },
+    "player_step_dirt": {
+      "files": [
+        "assets/audio/sfx_0257.ogg",
+        "assets/audio/sfx_0258.ogg",
+        "assets/audio/sfx_0259.ogg",
+        "assets/audio/sfx_0260.ogg"
+      ],
+      "volume": 0.26,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/movement/run_dirt",
+      "triggerFrames": null
+    },
+    "hound_attack": {
+      "files": [
+        "assets/audio/hound_0001.ogg",
+        "assets/audio/hound_0002.ogg",
+        "assets/audio/hound_0003.ogg",
+        "assets/audio/hound_0004.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/hound/attack",
+      "triggerFrames": 14
+    },
+    "hound_hurt": {
+      "files": [
+        "assets/audio/hound_0035.ogg",
+        "assets/audio/hound_0036.ogg",
+        "assets/audio/hound_0037.ogg",
+        "assets/audio/hound_0038.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/hound/hurt",
+      "triggerFrames": null
+    },
+    "hound_death": {
+      "files": [
+        "assets/audio/hound_0016.ogg",
+        "assets/audio/hound_0017.ogg",
+        "assets/audio/hound_0018.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/hound/death",
+      "triggerFrames": null
+    },
+    "hound_idle": {
+      "files": [
+        "assets/audio/hound_0043.ogg",
+        "assets/audio/hound_0044.ogg",
+        "assets/audio/hound_0045.ogg"
+      ],
+      "volume": 0.28,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/hound/pant",
+      "triggerFrames": null
+    },
+    "hound_bark": {
+      "files": [
+        "assets/audio/hound_0007.ogg",
+        "assets/audio/hound_0008.ogg",
+        "assets/audio/hound_0009.ogg",
+        "assets/audio/hound_0010.ogg"
+      ],
+      "volume": 0.45,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/hound/bark",
+      "triggerFrames": [
+        13,
+        24
+      ]
+    },
+    "spider_attack": {
+      "files": [
+        "assets/audio/spider_0066.ogg",
+        "assets/audio/spider_0067.ogg",
+        "assets/audio/spider_0068.ogg",
+        "assets/audio/spider_0069.ogg",
+        "assets/audio/spider_0070.ogg"
+      ],
+      "volume": 0.5,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spider/attack_grunt",
+      "triggerFrames": 10
+    },
+    "spider_hurt": {
+      "files": [
+        "assets/audio/sfx_0415.ogg",
+        "assets/audio/sfx_0416.ogg",
+        "assets/audio/sfx_0417.ogg",
+        "assets/audio/sfx_0418.ogg"
+      ],
+      "volume": 0.45,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spider/hit_response",
+      "triggerFrames": null
+    },
+    "spider_death": {
+      "files": [
+        "assets/audio/spider_0081.ogg",
+        "assets/audio/spider_0082.ogg",
+        "assets/audio/spider_0083.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spider/die",
+      "triggerFrames": null
+    },
+    "spider_idle": {
+      "files": [
+        "assets/audio/spider_0094.ogg",
+        "assets/audio/spider_0095.ogg",
+        "assets/audio/spider_0096.ogg"
+      ],
+      "volume": 0.38,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spider/scream",
+      "triggerFrames": null
+    },
+    "spider_step": {
+      "files": [
+        "assets/audio/spider_0106.ogg",
+        "assets/audio/spider_0107.ogg",
+        "assets/audio/spider_0108.ogg"
+      ],
+      "volume": 0.18,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spider/walk_spider",
+      "triggerFrames": null
+    },
+    "tallbird_attack": {
+      "files": [
+        "assets/audio/tallbird_0028.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/tallbird/attack",
+      "triggerFrames": 10
+    },
+    "tallbird_hurt": {
+      "files": [
+        "assets/audio/tallbird_0029.ogg",
+        "assets/audio/tallbird_0030.ogg",
+        "assets/audio/tallbird_0031.ogg",
+        "assets/audio/tallbird_0032.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/tallbird/hurt",
+      "triggerFrames": null
+    },
+    "tallbird_death": {
+      "files": [
+        "assets/audio/tallbird_0023.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/tallbird/death",
+      "triggerFrames": null
+    },
+    "tallbird_idle": {
+      "files": [
+        "assets/audio/tallbird_0019.ogg",
+        "assets/audio/tallbird_0020.ogg",
+        "assets/audio/tallbird_0021.ogg"
+      ],
+      "volume": 0.32,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/tallbird/chirp",
+      "triggerFrames": null
+    },
+    "leif_attack": {
+      "files": [
+        "assets/audio/leif_0001.ogg",
+        "assets/audio/leif_0002.ogg",
+        "assets/audio/leif_0003.ogg",
+        "assets/audio/leif_0004.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/attack_VO",
+      "triggerFrames": 5
+    },
+    "leif_hurt": {
+      "files": [
+        "assets/audio/leif_0018.ogg",
+        "assets/audio/leif_0019.ogg",
+        "assets/audio/leif_0020.ogg"
+      ],
+      "volume": 0.5,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/hurt_VO",
+      "triggerFrames": null
+    },
+    "leif_death": {
+      "files": [
+        "assets/audio/forest_0009.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/forest/treeFall",
+      "triggerFrames": null
+    },
+    "leif_idle": {
+      "files": [
+        "assets/audio/leif_0041.ogg",
+        "assets/audio/leif_0042.ogg",
+        "assets/audio/leif_0043.ogg"
+      ],
+      "volume": 0.28,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/walk_vo",
+      "triggerFrames": null
+    },
+    "leif_step": {
+      "files": [
+        "assets/audio/leif_0061.ogg",
+        "assets/audio/leif_0062.ogg",
+        "assets/audio/leif_0063.ogg"
+      ],
+      "volume": 0.3,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/footstep",
+      "triggerFrames": null
+    },
+    "leif_foley": {
+      "files": [
+        "assets/audio/leif_0051.ogg",
+        "assets/audio/leif_0052.ogg",
+        "assets/audio/leif_0053.ogg"
+      ],
+      "volume": 0.28,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/foley",
+      "triggerFrames": [
+        0,
+        22
+      ]
+    },
+    "tentacle_attack": {
+      "files": [
+        "assets/audio/tentacle_0001.ogg",
+        "assets/audio/tentacle_0002.ogg",
+        "assets/audio/tentacle_0003.ogg",
+        "assets/audio/tentacle_0004.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_attack",
+      "triggerFrames": [
+        2,
+        15
+      ]
+    },
+    "tentacle_hurt": {
+      "files": [
+        "assets/audio/tentacle_0017.ogg",
+        "assets/audio/tentacle_0018.ogg",
+        "assets/audio/tentacle_0019.ogg"
+      ],
+      "volume": 0.5,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_hurt_VO",
+      "triggerFrames": null
+    },
+    "tentacle_death": {
+      "files": [
+        "assets/audio/tentacle_0013.ogg",
+        "assets/audio/tentacle_0014.ogg",
+        "assets/audio/tentacle_0015.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_death_VO",
+      "triggerFrames": null
+    },
+    "tentacle_emerge": {
+      "files": [
+        "assets/audio/tentacle_0006.ogg"
+      ],
+      "volume": 0.45,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_emerge",
+      "triggerFrames": null
+    },
+    "tentacle_emerge_voice": {
+      "files": [
+        "assets/audio/tentacle_0009.ogg",
+        "assets/audio/tentacle_0010.ogg",
+        "assets/audio/tentacle_0011.ogg"
+      ],
+      "volume": 0.32,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_emerge_VO",
+      "triggerFrames": 20
+    },
+    "tentacle_disappear": {
+      "files": [
+        "assets/audio/tentacle_0007.ogg"
+      ],
+      "volume": 0.38,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_disappear",
+      "triggerFrames": 0
+    },
+    "tentacle_idle": {
+      "files": [
+        "assets/audio/tentacle_0009.ogg",
+        "assets/audio/tentacle_0010.ogg",
+        "assets/audio/tentacle_0011.ogg"
+      ],
+      "volume": 0.32,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/tentacle/tentacle_emerge_VO",
+      "triggerFrames": null
+    },
+    "killerbee_attack": {
+      "files": [
+        "assets/audio/bee_0010.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0012.ogg",
+        "assets/audio/bee_0013.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/killerbee_attack",
+      "triggerFrames": 10
+    },
+    "killerbee_hurt": {
+      "files": [
+        "assets/audio/bee_0010.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0012.ogg",
+        "assets/audio/bee_0013.ogg"
+      ],
+      "volume": 0.4,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/killerbee_hurt",
+      "triggerFrames": 0
+    },
+    "killerbee_death": {
+      "files": [
+        "assets/audio/bee_0008.ogg",
+        "assets/audio/bee_0009.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/killerbee_death",
+      "triggerFrames": 0
+    },
+    "killerbee_taunt": {
+      "files": [
+        "assets/audio/bee_0022.ogg",
+        "assets/audio/bee_0023.ogg"
+      ],
+      "volume": 0.35,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/killerbee_takeoff",
+      "triggerFrames": 0
+    },
+    "knight_attack": {
+      "files": [
+        "assets/audio/chess_0042.ogg",
+        "assets/audio/chess_0043.ogg",
+        "assets/audio/chess_0044.ogg",
+        "assets/audio/chess_0045.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/knight/attack",
+      "triggerFrames": 14
+    },
+    "knight_hurt": {
+      "files": [
+        "assets/audio/chess_0055.ogg",
+        "assets/audio/chess_0056.ogg",
+        "assets/audio/chess_0057.ogg",
+        "assets/audio/chess_0058.ogg"
+      ],
+      "volume": 0.46,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/knight/hurt",
+      "triggerFrames": 0
+    },
+    "knight_death": {
+      "files": [
+        "assets/audio/chess_0050.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/knight/death",
+      "triggerFrames": 0
+    },
+    "knight_taunt": {
+      "files": [
+        "assets/audio/chess_0068.ogg",
+        "assets/audio/chess_0069.ogg",
+        "assets/audio/chess_0070.ogg"
+      ],
+      "volume": 0.4,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/knight/voice",
+      "triggerFrames": 0
+    },
+    "knight_paw": {
+      "files": [
+        "assets/audio/chess_0062.ogg",
+        "assets/audio/chess_0063.ogg",
+        "assets/audio/chess_0064.ogg"
+      ],
+      "volume": 0.3,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/knight/pawground",
+      "triggerFrames": [
+        10,
+        28
+      ]
+    },
+    "werepig_attack": {
+      "files": [
+        "assets/audio/pig_0021.ogg",
+        "assets/audio/pig_0022.ogg",
+        "assets/audio/pig_0023.ogg",
+        "assets/audio/pig_0024.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/werepig/attack",
+      "triggerFrames": 15
+    },
+    "werepig_swing": {
+      "files": [
+        "assets/audio/bearger_0033.ogg",
+        "assets/audio/bearger_0034.ogg",
+        "assets/audio/bearger_0035.ogg",
+        "assets/audio/bearger_0036.ogg"
+      ],
+      "volume": 0.38,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/bearger/swhoosh",
+      "triggerFrames": 10
+    },
+    "werepig_hurt": {
+      "files": [
+        "assets/audio/pig_0034.ogg",
+        "assets/audio/pig_0035.ogg",
+        "assets/audio/pig_0036.ogg",
+        "assets/audio/pig_0037.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/werepig/hurt",
+      "triggerFrames": 0
+    },
+    "werepig_death": {
+      "files": [
+        "assets/audio/pig_0025.ogg",
+        "assets/audio/pig_0026.ogg",
+        "assets/audio/pig_0027.ogg",
+        "assets/audio/pig_0028.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/werepig/grunt",
+      "triggerFrames": 0
+    },
+    "werepig_howl": {
+      "files": [
+        "assets/audio/pig_0030.ogg",
+        "assets/audio/pig_0031.ogg",
+        "assets/audio/pig_0032.ogg",
+        "assets/audio/pig_0033.ogg"
+      ],
+      "volume": 0.42,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/werepig/howl",
+      "triggerFrames": 20
+    },
+    "werepig_idle": {
+      "files": [
+        "assets/audio/pig_0038.ogg",
+        "assets/audio/pig_0039.ogg",
+        "assets/audio/pig_0040.ogg"
+      ],
+      "volume": 0.3,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/werepig/idle",
+      "triggerFrames": 0
+    },
+    "bird_ambient": {
+      "files": [
+        "assets/audio/forest_stream_0020.ogg",
+        "assets/audio/forest_stream_0021.ogg",
+        "assets/audio/forest_stream_0022.ogg"
+      ],
+      "volume": 0.22,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "ambient birds (selected source samples)",
+      "triggerFrames": null
+    },
+    "ambient": {
+      "files": [
+        "assets/audio/ambient.ogg"
+      ],
+      "volume": 0.18,
+      "loop": true,
+      "kind": "ambient",
+      "scriptEvent": "grassland environmental loop",
+      "fadeSeconds": 1.2
+    },
+    "calm": {
+      "files": [
+        "assets/audio/calm.ogg"
+      ],
+      "volume": 0.19,
+      "loop": true,
+      "kind": "music",
+      "scriptEvent": "dontstarve/music/music_work",
+      "fadeSeconds": 1.2
+    },
+    "combat": {
+      "files": [
+        "assets/audio/combat.ogg"
+      ],
+      "volume": 0.25,
+      "loop": true,
+      "kind": "music",
+      "scriptEvent": "dontstarve/music/music_danger",
+      "fadeSeconds": 1.2
+    },
+    "combat_alt": {
+      "files": [
+        "assets/audio/combat_alt.ogg"
+      ],
+      "volume": 0.25,
+      "loop": true,
+      "kind": "music",
+      "scriptEvent": "dontstarve/music/music_danger",
+      "fadeSeconds": 1.2
+    },
+    "boss": {
+      "files": [
+        "assets/audio/boss.ogg"
+      ],
+      "volume": 0.25,
+      "loop": true,
+      "kind": "music",
+      "scriptEvent": "dontstarve/music/music_epicfight",
+      "fadeSeconds": 1.2
+    },
+    "pigman_attack": {
+      "files": [
+        "assets/audio/pig_0007.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "pigman_hurt": {
+      "files": [
+        "assets/audio/pig_0007.ogg",
+        "assets/audio/pig_0006.ogg",
+        "assets/audio/pig_0008.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/oink",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "pigman_death": {
+      "files": [
+        "assets/audio/pig_0020.ogg",
+        "assets/audio/pig_0019.ogg",
+        "assets/audio/pig_0015.ogg",
+        "assets/audio/pig_0016.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "pigguard_attack": {
+      "files": [
+        "assets/audio/pig_0007.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "pigguard_hurt": {
+      "files": [
+        "assets/audio/pig_0007.ogg",
+        "assets/audio/pig_0006.ogg",
+        "assets/audio/pig_0008.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/oink",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "pigguard_death": {
+      "files": [
+        "assets/audio/pig_0020.ogg",
+        "assets/audio/pig_0019.ogg",
+        "assets/audio/pig_0015.ogg",
+        "assets/audio/pig_0016.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/pig/grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "punch_whoosh": {
+      "files": [
+        "assets/audio/sfx_1247.ogg",
+        "assets/audio/sfx_1244.ogg",
+        "assets/audio/sfx_1246.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/wilson/attack_whoosh",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bunnyman_attack": {
+      "files": [
+        "assets/audio/bunnyman_0015.ogg",
+        "assets/audio/bunnyman_0010.ogg",
+        "assets/audio/bunnyman_0011.ogg",
+        "assets/audio/bunnyman_0013.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bunnyman/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bunnyman_bite": {
+      "files": [
+        "assets/audio/bunnyman_0018.ogg",
+        "assets/audio/bunnyman_0016.ogg",
+        "assets/audio/bunnyman_0017.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bunnyman/bite",
+      "triggerFrames": 13,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bunnyman_hurt": {
+      "files": [
+        "assets/audio/bunnyman_0042.ogg",
+        "assets/audio/bunnyman_0039.ogg",
+        "assets/audio/bunnyman_0037.ogg",
+        "assets/audio/bunnyman_0036.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bunnyman/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bunnyman_death": {
+      "files": [
+        "assets/audio/bunnyman_0024.ogg",
+        "assets/audio/bunnyman_0022.ogg",
+        "assets/audio/bunnyman_0021.ogg",
+        "assets/audio/bunnyman_0023.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bunnyman/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "merm_attack": {
+      "files": [
+        "assets/audio/merm_0001.ogg",
+        "assets/audio/merm_0003.ogg",
+        "assets/audio/merm_0002.ogg",
+        "assets/audio/merm_0007.ogg",
+        "assets/audio/merm_0005.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/merm/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "merm_hurt": {
+      "files": [
+        "assets/audio/merm_0018.ogg",
+        "assets/audio/merm_0019.ogg",
+        "assets/audio/merm_0017.ogg",
+        "assets/audio/merm_0016.ogg",
+        "assets/audio/merm_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/merm/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "merm_death": {
+      "files": [
+        "assets/audio/merm_0011.ogg",
+        "assets/audio/merm_0010.ogg",
+        "assets/audio/merm_0009.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/merm/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mermguard_attack": {
+      "files": [
+        "assets/audio/wurt_0134.ogg",
+        "assets/audio/wurt_0133.ogg",
+        "assets/audio/wurt_0132.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/characters/wurt/merm/warrior/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mermguard_hurt": {
+      "files": [
+        "assets/audio/wurt_0088.ogg",
+        "assets/audio/wurt_0093.ogg",
+        "assets/audio/wurt_0090.ogg",
+        "assets/audio/wurt_0087.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/characters/wurt/merm/warrior/hit",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mermguard_death": {
+      "files": [
+        "assets/audio/wurt_0076.ogg",
+        "assets/audio/wurt_0078.ogg",
+        "assets/audio/wurt_0074.ogg",
+        "assets/audio/wurt_0075.ogg",
+        "assets/audio/wurt_0077.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/characters/wurt/merm/warrior/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "beefalo_attack": {
+      "files": [
+        "assets/audio/beefalo_0048.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/beefalo/angry",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "beefalo_death": {
+      "files": [
+        "assets/audio/beefalo_0063.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/beefalo/yell",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "koalefant_summer_attack": {
+      "files": [
+        "assets/audio/koalefant_0014.ogg",
+        "assets/audio/koalefant_0013.ogg",
+        "assets/audio/koalefant_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/koalefant/angry",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "koalefant_summer_death": {
+      "files": [
+        "assets/audio/koalefant_0014.ogg",
+        "assets/audio/koalefant_0013.ogg",
+        "assets/audio/koalefant_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/koalefant/yell",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "koalefant_winter_attack": {
+      "files": [
+        "assets/audio/koalefant_0014.ogg",
+        "assets/audio/koalefant_0013.ogg",
+        "assets/audio/koalefant_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/koalefant/angry",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "koalefant_winter_death": {
+      "files": [
+        "assets/audio/koalefant_0014.ogg",
+        "assets/audio/koalefant_0013.ogg",
+        "assets/audio/koalefant_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/koalefant/yell",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_attack": {
+      "files": [
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0068.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/attack_grunt",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Attack",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_hurt": {
+      "files": [
+        "assets/audio/sfx_0415.ogg",
+        "assets/audio/sfx_0416.ogg",
+        "assets/audio/sfx_0418.ogg",
+        "assets/audio/sfx_0417.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/hit_response",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_death": {
+      "files": [
+        "assets/audio/spider_0082.ogg",
+        "assets/audio/spider_0083.ogg",
+        "assets/audio/spider_0081.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/die",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_taunt": {
+      "files": [
+        "assets/audio/spider_0094.ogg",
+        "assets/audio/spider_0096.ogg",
+        "assets/audio/spider_0095.ogg",
+        "assets/audio/spider_0100.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/scream",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_pounce": {
+      "files": [
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0068.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/attack_grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_jump": {
+      "files": [
+        "assets/audio/spider_0093.ogg",
+        "assets/audio/spider_0092.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Jump",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_warrior_pounce_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Attack",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_attack": {
+      "files": [
+        "assets/audio/spider_0072.ogg",
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0080.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/attack_grunt",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/Attack",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_hurt": {
+      "files": [
+        "assets/audio/sfx_0415.ogg",
+        "assets/audio/sfx_0416.ogg",
+        "assets/audio/sfx_0417.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/hit_response",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_death": {
+      "files": [
+        "assets/audio/spider_0082.ogg",
+        "assets/audio/spider_0083.ogg",
+        "assets/audio/spider_0081.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/die",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_taunt": {
+      "files": [
+        "assets/audio/spider_0098.ogg",
+        "assets/audio/spider_0095.ogg",
+        "assets/audio/spider_0097.ogg",
+        "assets/audio/spider_0099.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/scream",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_pounce": {
+      "files": [
+        "assets/audio/spider_0072.ogg",
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0080.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/attack_grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_jump": {
+      "files": [
+        "assets/audio/spider_0093.ogg",
+        "assets/audio/spider_0091.ogg",
+        "assets/audio/spider_0092.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/Jump",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_hider_pounce_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/cavespider/Attack",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_attack": {
+      "files": [
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0068.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/attack_grunt",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Attack",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_hurt": {
+      "files": [
+        "assets/audio/sfx_0415.ogg",
+        "assets/audio/sfx_0416.ogg",
+        "assets/audio/sfx_0418.ogg",
+        "assets/audio/sfx_0417.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/hit_response",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_death": {
+      "files": [
+        "assets/audio/spider_0082.ogg",
+        "assets/audio/spider_0083.ogg",
+        "assets/audio/spider_0081.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/die",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_taunt": {
+      "files": [
+        "assets/audio/spider_0094.ogg",
+        "assets/audio/spider_0096.ogg",
+        "assets/audio/spider_0095.ogg",
+        "assets/audio/spider_0100.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/scream",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_pounce": {
+      "files": [
+        "assets/audio/spider_0077.ogg",
+        "assets/audio/spider_0075.ogg",
+        "assets/audio/spider_0071.ogg",
+        "assets/audio/spider_0068.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/attack_grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_jump": {
+      "files": [
+        "assets/audio/spider_0093.ogg",
+        "assets/audio/spider_0092.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Jump",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "spider_dropper_pounce_swipe": {
+      "files": [
+        "assets/audio/spider_0127.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/spiderwarrior/Attack",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bat_attack": {
+      "files": [
+        "assets/audio/bat_0003.ogg",
+        "assets/audio/bat_0002.ogg",
+        "assets/audio/bat_0001.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bat/bite",
+      "triggerFrames": 8,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bat_flap": {
+      "files": [
+        "assets/audio/bat_0028.ogg",
+        "assets/audio/bat_0033.ogg",
+        "assets/audio/bat_0030.ogg",
+        "assets/audio/bat_0029.ogg",
+        "assets/audio/bat_0036.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bat/flap",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bat_hurt": {
+      "files": [
+        "assets/audio/bat_0021.ogg",
+        "assets/audio/bat_0019.ogg",
+        "assets/audio/bat_0023.ogg",
+        "assets/audio/bat_0022.ogg",
+        "assets/audio/bat_0025.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bat/hurt",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bat_death": {
+      "files": [
+        "assets/audio/bat_0010.ogg",
+        "assets/audio/bat_0012.ogg",
+        "assets/audio/bat_0011.ogg",
+        "assets/audio/bat_0008.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bat/death",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bat_taunt": {
+      "files": [
+        "assets/audio/bat_0013.ogg",
+        "assets/audio/bat_0017.ogg",
+        "assets/audio/bat_0014.ogg",
+        "assets/audio/bat_0016.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/bat/taunt",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "frog_attack": {
+      "files": [
+        "assets/audio/frog_0005.ogg",
+        "assets/audio/frog_0003.ogg",
+        "assets/audio/frog_0006.ogg",
+        "assets/audio/frog_0004.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/frog/attack_voice",
+      "triggerFrames": 20,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "frog_spit": {
+      "files": [
+        "assets/audio/frog_0002.ogg",
+        "assets/audio/frog_0001.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/frog/attack_spit",
+      "triggerFrames": 20,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "frog_hurt": {
+      "files": [
+        "assets/audio/frog_0011.ogg",
+        "assets/audio/frog_0012.ogg",
+        "assets/audio/frog_0014.ogg",
+        "assets/audio/frog_0010.ogg",
+        "assets/audio/frog_0013.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/frog/grunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "frog_death": {
+      "files": [
+        "assets/audio/frog_0007.ogg",
+        "assets/audio/frog_0008.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/frog/die",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bee_attack": {
+      "files": [
+        "assets/audio/bee_0013.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0010.ogg",
+        "assets/audio/bee_0012.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/bee_attack",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bee_hurt": {
+      "files": [
+        "assets/audio/bee_0013.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0010.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/bee_hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bee_death": {
+      "files": [
+        "assets/audio/bee_0008.ogg",
+        "assets/audio/bee_0009.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/bee_death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "bee_taunt": {
+      "files": [
+        "assets/audio/bee_0023.ogg",
+        "assets/audio/bee_0022.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/bee/bee_takeoff",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mosquito_attack": {
+      "files": [
+        "assets/audio/bee_0013.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0012.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/mosquito/mosquito_attack",
+      "triggerFrames": 10,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mosquito_hurt": {
+      "files": [
+        "assets/audio/bee_0013.ogg",
+        "assets/audio/bee_0011.ogg",
+        "assets/audio/bee_0010.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/mosquito/mosquito_hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mosquito_death": {
+      "files": [
+        "assets/audio/bee_0008.ogg",
+        "assets/audio/bee_0009.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/mosquito/mosquito_death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "mosquito_burst": {
+      "files": [
+        "assets/audio/bee_0001.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/mosquito/mosquito_explo",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "penguin_attack": {
+      "files": [
+        "assets/audio/pengull_0004.ogg",
+        "assets/audio/pengull_0002.ogg",
+        "assets/audio/pengull_0003.ogg",
+        "assets/audio/pengull_0012.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/pengull/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "penguin_death": {
+      "files": [
+        "assets/audio/pengull_0011.ogg",
+        "assets/audio/pengull_0009.ogg",
+        "assets/audio/pengull_0010.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/pengull/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "penguin_taunt": {
+      "files": [
+        "assets/audio/pengull_0054.ogg",
+        "assets/audio/pengull_0057.ogg",
+        "assets/audio/pengull_0055.ogg",
+        "assets/audio/pengull_0060.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/pengull/taunt",
+      "triggerFrames": [
+        0,
+        2,
+        22
+      ],
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_attack": {
+      "files": [
+        "assets/audio/catcoon_0086.ogg",
+        "assets/audio/catcoon_0082.ogg",
+        "assets/audio/catcoon_0085.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/swipe",
+      "triggerFrames": 5,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_swipe": {
+      "files": [
+        "assets/audio/stuff_0018.ogg",
+        "assets/audio/stuff_0017.ogg",
+        "assets/audio/stuff_0016.ogg",
+        "assets/audio/stuff_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/swipe_whoosh",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_pounce": {
+      "files": [
+        "assets/audio/catcoon_0005.ogg",
+        "assets/audio/catcoon_0007.ogg",
+        "assets/audio/catcoon_0010.ogg",
+        "assets/audio/catcoon_0011.ogg",
+        "assets/audio/catcoon_0004.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/attack",
+      "triggerFrames": 5,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_jump": {
+      "files": [
+        "assets/audio/stuff_0018.ogg",
+        "assets/audio/stuff_0017.ogg",
+        "assets/audio/stuff_0016.ogg",
+        "assets/audio/stuff_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/jump",
+      "triggerFrames": 14,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_hurt": {
+      "files": [
+        "assets/audio/catcoon_0053.ogg",
+        "assets/audio/catcoon_0050.ogg",
+        "assets/audio/catcoon_0048.ogg",
+        "assets/audio/catcoon_0051.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_death": {
+      "files": [
+        "assets/audio/catcoon_0016.ogg",
+        "assets/audio/catcoon_0017.ogg",
+        "assets/audio/catcoon_0014.ogg",
+        "assets/audio/catcoon_0012.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/death",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "catcoon_taunt": {
+      "files": [
+        "assets/audio/catcoon_0036.ogg",
+        "assets/audio/catcoon_0030.ogg",
+        "assets/audio/catcoon_0032.ogg",
+        "assets/audio/catcoon_0035.ogg",
+        "assets/audio/catcoon_0033.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/catcoon/hiss",
+      "triggerFrames": 19,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "krampus_attack": {
+      "files": [
+        "assets/audio/krampus_0004.ogg",
+        "assets/audio/krampus_0003.ogg",
+        "assets/audio/krampus_0002.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/krampus/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "krampus_swipe": {
+      "files": [
+        "assets/audio/krampus_0052.ogg",
+        "assets/audio/krampus_0050.ogg",
+        "assets/audio/krampus_0051.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/krampus/kick_whoosh",
+      "triggerFrames": 14,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "krampus_hurt": {
+      "files": [
+        "assets/audio/krampus_0038.ogg",
+        "assets/audio/krampus_0039.ogg",
+        "assets/audio/krampus_0041.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/krampus/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "krampus_death": {
+      "files": [
+        "assets/audio/krampus_0019.ogg",
+        "assets/audio/krampus_0018.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/krampus/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "krampus_taunt": {
+      "files": [
+        "assets/audio/krampus_0059.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/krampus/taunt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_attack": {
+      "files": [
+        "assets/audio/stuff_0018.ogg",
+        "assets/audio/stuff_0017.ogg",
+        "assets/audio/stuff_0016.ogg",
+        "assets/audio/stuff_0015.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/headbutt",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_hurt": {
+      "files": [
+        "assets/audio/lightninggoat_0031.ogg",
+        "assets/audio/lightninggoat_0034.ogg",
+        "assets/audio/lightninggoat_0033.ogg",
+        "assets/audio/lightninggoat_0032.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_death": {
+      "files": [
+        "assets/audio/lightninggoat_0026.ogg",
+        "assets/audio/lightninggoat_0027.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_taunt": {
+      "files": [
+        "assets/audio/lightninggoat_0062.ogg",
+        "assets/audio/lightninggoat_0061.ogg",
+        "assets/audio/lightninggoat_0059.ogg",
+        "assets/audio/lightninggoat_0057.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/taunt",
+      "triggerFrames": 5,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_charged": {
+      "files": [
+        "assets/audio/lightninggoat_0048.ogg",
+        "assets/audio/lightninggoat_0046.ogg",
+        "assets/audio/lightninggoat_0047.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/shocked_electric",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_charge_voice": {
+      "files": [
+        "assets/audio/lightninggoat_0044.ogg",
+        "assets/audio/lightninggoat_0043.ogg",
+        "assets/audio/lightninggoat_0042.ogg",
+        "assets/audio/lightninggoat_0045.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/shocked_bleet",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "lightninggoat_horn": {
+      "files": [
+        "assets/audio/lightninggoat_0037.ogg",
+        "assets/audio/lightninggoat_0038.ogg",
+        "assets/audio/lightninggoat_0036.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve_DLC001/creatures/lightninggoat/jacobshorn",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "slurtle_attack": {
+      "files": [
+        "assets/audio/slurtle_0004.ogg",
+        "assets/audio/slurtle_0002.ogg",
+        "assets/audio/slurtle_0003.ogg",
+        "assets/audio/slurtle_0005.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/slurtle/bite",
+      "triggerFrames": 9,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "slurtle_death": {
+      "files": [
+        "assets/audio/slurtle_0037.ogg",
+        "assets/audio/slurtle_0036.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/slurtle/death",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "slurtle_taunt": {
+      "files": [
+        "assets/audio/slurtle_0048.ogg",
+        "assets/audio/slurtle_0045.ogg",
+        "assets/audio/slurtle_0040.ogg",
+        "assets/audio/slurtle_0046.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/slurtle/taunt",
+      "triggerFrames": [
+        7,
+        20,
+        33
+      ],
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "slurtle_hide": {
+      "files": [
+        "assets/audio/slurtle_0027.ogg",
+        "assets/audio/slurtle_0030.ogg",
+        "assets/audio/slurtle_0028.ogg",
+        "assets/audio/slurtle_0029.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/slurtle/hide",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "slurtle_emerge": {
+      "files": [
+        "assets/audio/slurtle_0035.ogg",
+        "assets/audio/slurtle_0032.ogg",
+        "assets/audio/slurtle_0033.ogg",
+        "assets/audio/slurtle_0031.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/slurtle/emerge",
+      "triggerFrames": 1,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_attack": {
+      "files": [
+        "assets/audio/deerclops_0005.ogg",
+        "assets/audio/deerclops_0003.ogg",
+        "assets/audio/deerclops_0001.ogg",
+        "assets/audio/deerclops_0004.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/attack",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_swipe": {
+      "files": [
+        "assets/audio/deerclops_0036.ogg",
+        "assets/audio/deerclops_0038.ogg",
+        "assets/audio/deerclops_0037.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/swipe",
+      "triggerFrames": 34,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_hurt": {
+      "files": [
+        "assets/audio/deerclops_0014.ogg",
+        "assets/audio/deerclops_0017.ogg",
+        "assets/audio/deerclops_0019.ogg",
+        "assets/audio/deerclops_0015.ogg",
+        "assets/audio/deerclops_0016.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/hurt",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_death": {
+      "files": [
+        "assets/audio/deerclops_0009.ogg",
+        "assets/audio/deerclops_0008.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/death",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_taunt": {
+      "files": [
+        "assets/audio/deerclops_0046.ogg",
+        "assets/audio/deerclops_0047.ogg",
+        "assets/audio/deerclops_0048.ogg",
+        "assets/audio/deerclops_0044.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/taunt_grrr",
+      "triggerFrames": 4,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_howl": {
+      "files": [
+        "assets/audio/deerclops_0041.ogg",
+        "assets/audio/deerclops_0042.ogg",
+        "assets/audio/deerclops_0040.ogg",
+        "assets/audio/deerclops_0039.ogg",
+        "assets/audio/deerclops_0043.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/taunt_howl",
+      "triggerFrames": 16,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "deerclops_ice": {
+      "files": [
+        "assets/audio/deerclops_0026.ogg",
+        "assets/audio/deerclops_0024.ogg",
+        "assets/audio/deerclops_0025.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/deerclops/ice_small",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "freeze": {
+      "files": [
+        "assets/audio/common_0345.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/common/freezecreature",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "thaw": {
+      "files": [
+        "assets/audio/common_0346.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/common/freezethaw",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "breakfreeze": {
+      "files": [
+        "assets/audio/common_0208.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/common/break_iceblock",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_click": {
+      "files": [
+        "assets/audio/sfx_0074.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/HUD/click_object",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_negative": {
+      "files": [
+        "assets/audio/sfx_0073.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/HUD/click_negative",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_equip": {
+      "files": [
+        "assets/audio/wilson_0001.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/wilson/equip_item",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_pickup": {
+      "files": [
+        "assets/audio/sfx_0437.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/HUD/collect_resource",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_pickup_grass": {
+      "files": [
+        "assets/audio/aqol_0030.ogg",
+        "assets/audio/aqol_0032.ogg",
+        "assets/audio/aqol_0029.ogg",
+        "assets/audio/aqol_0031.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "aqol/new_test/vegetation_grassy",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "inventory_drop": {
+      "files": [
+        "assets/audio/common_0065.ogg"
+      ],
+      "volume": 0.48,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/common/dropGeneric",
+      "triggerFrames": 0,
+      "mapping": "native-event exact compressed sample prefix"
+    },
+    "beefalo_hurt": {
+      "files": [],
+      "volume": 0,
+      "loop": false,
+      "kind": "sfx",
+      "triggerFrames": 0,
+      "note": "Stock hit state has no dedicated voice; weapon material impact remains audible."
+    },
+    "koalefant_summer_hurt": {
+      "files": [],
+      "volume": 0,
+      "loop": false,
+      "kind": "sfx",
+      "triggerFrames": 0,
+      "note": "Stock hit state has no dedicated voice; weapon material impact remains audible."
+    },
+    "koalefant_winter_hurt": {
+      "files": [],
+      "volume": 0,
+      "loop": false,
+      "kind": "sfx",
+      "triggerFrames": 0,
+      "note": "Stock hit state has no dedicated voice; weapon material impact remains audible."
+    },
+    "penguin_hurt": {
+      "files": [],
+      "volume": 0,
+      "loop": false,
+      "kind": "sfx",
+      "triggerFrames": 0,
+      "note": "Stock hit state has no dedicated voice; weapon material impact remains audible."
+    },
+    "slurtle_hurt": {
+      "files": [],
+      "volume": 0,
+      "loop": false,
+      "kind": "sfx",
+      "triggerFrames": 0,
+      "note": "Stock hit state has no dedicated voice; weapon material impact remains audible."
+    },
+    "treeguard_attack": {
+      "files": [
+        "assets/audio/leif_0001.ogg",
+        "assets/audio/leif_0002.ogg",
+        "assets/audio/leif_0003.ogg",
+        "assets/audio/leif_0004.ogg"
+      ],
+      "volume": 0.52,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/attack_VO",
+      "triggerFrames": 5
+    },
+    "treeguard_hurt": {
+      "files": [
+        "assets/audio/leif_0018.ogg",
+        "assets/audio/leif_0019.ogg",
+        "assets/audio/leif_0020.ogg"
+      ],
+      "volume": 0.5,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/hurt_VO",
+      "triggerFrames": null
+    },
+    "treeguard_death": {
+      "files": [
+        "assets/audio/forest_0009.ogg"
+      ],
+      "volume": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/forest/treeFall",
+      "triggerFrames": null
+    },
+    "treeguard_idle": {
+      "files": [
+        "assets/audio/leif_0041.ogg",
+        "assets/audio/leif_0042.ogg",
+        "assets/audio/leif_0043.ogg"
+      ],
+      "volume": 0.28,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/walk_vo",
+      "triggerFrames": null
+    },
+    "treeguard_step": {
+      "files": [
+        "assets/audio/leif_0061.ogg",
+        "assets/audio/leif_0062.ogg",
+        "assets/audio/leif_0063.ogg"
+      ],
+      "volume": 0.3,
+      "loop": false,
+      "kind": "sfx",
+      "scriptEvent": "dontstarve/creatures/leif/footstep",
+      "triggerFrames": null
+    }
+  },
+  "clips": {
+    "sfx_1253.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1253,
+      "sampleName": "attack_whoosh_weapon_1",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.878387,
+      "bytes": 5987
+    },
+    "sfx_1254.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1254,
+      "sampleName": "attack_whoosh_weapon_2",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.921753,
+      "bytes": 6265
+    },
+    "sfx_1255.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1255,
+      "sampleName": "attack_whoosh_weapon_3",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.931763,
+      "bytes": 6223
+    },
+    "sfx_1256.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1256,
+      "sampleName": "attack_whoosh_weapon_4",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.929657,
+      "bytes": 6165
+    },
+    "sfx_0415.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 415,
+      "sampleName": "Impact_bloody_short_1",
+      "duration": 0.408095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.974335,
+      "bytes": 9725
+    },
+    "sfx_0416.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 416,
+      "sampleName": "Impact_bloody_short_2",
+      "duration": 0.368866,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.971893,
+      "bytes": 7785
+    },
+    "sfx_0417.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 417,
+      "sampleName": "Impact_bloody_short_3",
+      "duration": 0.396508,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8918
+    },
+    "sfx_0418.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 418,
+      "sampleName": "Impact_bloody_short_4",
+      "duration": 0.440794,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.980042,
+      "bytes": 8869
+    },
+    "sfx_0016.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 16,
+      "sampleName": "impact_insect_sharp_1",
+      "duration": 0.408118,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.992767,
+      "bytes": 9761
+    },
+    "sfx_0017.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 17,
+      "sampleName": "impact_insect_sharp_2",
+      "duration": 0.368889,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999237,
+      "bytes": 8480
+    },
+    "sfx_0018.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 18,
+      "sampleName": "impact_insect_sharp_3",
+      "duration": 0.396531,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.985626,
+      "bytes": 8599
+    },
+    "sfx_0019.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 19,
+      "sampleName": "impact_insect_sharp_4",
+      "duration": 0.440816,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9288
+    },
+    "sfx_1298.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1298,
+      "sampleName": "hit_wood_1",
+      "duration": 0.190635,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 5613
+    },
+    "sfx_1299.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1299,
+      "sampleName": "hit_wood_2",
+      "duration": 0.291995,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.998871,
+      "bytes": 6860
+    },
+    "sfx_1300.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1300,
+      "sampleName": "hit_wood_3",
+      "duration": 0.203424,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5702
+    },
+    "sfx_0130.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 130,
+      "sampleName": "impact_mech_sharp_1",
+      "duration": 0.633084,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 8587
+    },
+    "sfx_0131.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 131,
+      "sampleName": "impact_mech_sharp_2",
+      "duration": 0.633696,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9204
+    },
+    "sfx_0132.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 132,
+      "sampleName": "impact_mech_sharp_3",
+      "duration": 0.637528,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9244
+    },
+    "common_0041.ogg": {
+      "bank": "common.fsb",
+      "subsong": 41,
+      "sampleName": "twirl_lava_weapons_01",
+      "duration": 0.295737,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.875092,
+      "bytes": 6716
+    },
+    "meta3_0077.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 77,
+      "sampleName": "wigfrid_electric_spear_lunge_v2_DST-001",
+      "duration": 0.667868,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.73114,
+      "bytes": 10415
+    },
+    "meta3_0078.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 78,
+      "sampleName": "wigfrid_electric_spear_lunge_v2_DST-002",
+      "duration": 0.675465,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.742828,
+      "bytes": 10237
+    },
+    "meta3_0079.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 79,
+      "sampleName": "wigfrid_electric_spear_lunge_v2_DST-003",
+      "duration": 0.744649,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.793427,
+      "bytes": 11362
+    },
+    "meta3_0080.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 80,
+      "sampleName": "wigfrid_electric_spear_lunge_v2_DST-004",
+      "duration": 0.610907,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.454773,
+      "bytes": 9630
+    },
+    "meta3_0094.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 94,
+      "sampleName": "wigfrid_spear_thunderclap_DST_-001",
+      "duration": 1.984717,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.730927,
+      "bytes": 18299
+    },
+    "meta3_0095.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 95,
+      "sampleName": "wigfrid_spear_thunderclap_DST_-002",
+      "duration": 1.90839,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.869232,
+      "bytes": 16589
+    },
+    "meta3_0096.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 96,
+      "sampleName": "wigfrid_spear_thunderclap_DST_-003",
+      "duration": 1.828776,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.687469,
+      "bytes": 17868
+    },
+    "meta3_0097.ogg": {
+      "bank": "meta3.fsb",
+      "subsong": 97,
+      "sampleName": "wigfrid_spear_thunderclap_DST_-004",
+      "duration": 1.482154,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.8638,
+      "bytes": 16322
+    },
+    "wx78_0002.ogg": {
+      "bank": "wx78.fsb",
+      "subsong": 2,
+      "sampleName": "wx78_spark_1",
+      "duration": 0.416417,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 7962
+    },
+    "wx78_0003.ogg": {
+      "bank": "wx78.fsb",
+      "subsong": 3,
+      "sampleName": "wx78_spark_2",
+      "duration": 0.495351,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 9324
+    },
+    "wx78_0004.ogg": {
+      "bank": "wx78.fsb",
+      "subsong": 4,
+      "sampleName": "wx78_spark_3",
+      "duration": 0.474694,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.880188,
+      "bytes": 8418
+    },
+    "wx78_0005.ogg": {
+      "bank": "wx78.fsb",
+      "subsong": 5,
+      "sampleName": "wx78_spark_4",
+      "duration": 0.443129,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.994415,
+      "bytes": 8195
+    },
+    "wathgrithr_0055.ogg": {
+      "bank": "wathgrithr.fsb",
+      "subsong": 55,
+      "sampleName": "wathgrithr_hurt_1",
+      "duration": 1.294512,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.683807,
+      "bytes": 13972
+    },
+    "wathgrithr_0056.ogg": {
+      "bank": "wathgrithr.fsb",
+      "subsong": 56,
+      "sampleName": "wathgrithr_hurt_2",
+      "duration": 1.279841,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.658081,
+      "bytes": 13902
+    },
+    "wathgrithr_0057.ogg": {
+      "bank": "wathgrithr.fsb",
+      "subsong": 57,
+      "sampleName": "wathgrithr_hurt_3",
+      "duration": 1.42449,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.691681,
+      "bytes": 14481
+    },
+    "wathgrithr_0058.ogg": {
+      "bank": "wathgrithr.fsb",
+      "subsong": 58,
+      "sampleName": "wathgrithr_hurt_4",
+      "duration": 1.536122,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.658508,
+      "bytes": 15723
+    },
+    "sfx_0261.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 261,
+      "sampleName": "footstep_grass_1",
+      "duration": 0.33932,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.493805,
+      "bytes": 7421
+    },
+    "sfx_0262.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 262,
+      "sampleName": "footstep_grass_2",
+      "duration": 0.619728,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.938812,
+      "bytes": 10259
+    },
+    "sfx_0263.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 263,
+      "sampleName": "footstep_grass_3",
+      "duration": 0.60678,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.853394,
+      "bytes": 10546
+    },
+    "sfx_0264.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 264,
+      "sampleName": "footstep_grass_4",
+      "duration": 0.526644,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.680939,
+      "bytes": 9094
+    },
+    "sfx_0257.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 257,
+      "sampleName": "footstep_dirt_1",
+      "duration": 0.620612,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.971466,
+      "bytes": 10364
+    },
+    "sfx_0258.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 258,
+      "sampleName": "footstep_dirt_2",
+      "duration": 0.66678,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.369019,
+      "bytes": 10729
+    },
+    "sfx_0259.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 259,
+      "sampleName": "footstep_dirt_3",
+      "duration": 0.636757,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.552673,
+      "bytes": 10459
+    },
+    "sfx_0260.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 260,
+      "sampleName": "footstep_dirt_4",
+      "duration": 0.625283,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.544586,
+      "bytes": 10748
+    },
+    "hound_0001.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 1,
+      "sampleName": "Hound_attack_1",
+      "duration": 0.201813,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.965271,
+      "bytes": 5614
+    },
+    "hound_0002.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 2,
+      "sampleName": "Hound_attack_2",
+      "duration": 0.162156,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.996002,
+      "bytes": 5296
+    },
+    "hound_0003.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 3,
+      "sampleName": "Hound_attack_3",
+      "duration": 0.141156,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.912811,
+      "bytes": 5367
+    },
+    "hound_0004.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 4,
+      "sampleName": "Hound_attack_4",
+      "duration": 0.148156,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.674805,
+      "bytes": 5321
+    },
+    "hound_0035.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 35,
+      "sampleName": "Hound_hurt_1",
+      "duration": 0.257732,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 0.668488,
+      "bytes": 4961
+    },
+    "hound_0036.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 36,
+      "sampleName": "Hound_hurt_2",
+      "duration": 0.131247,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 0.850525,
+      "bytes": 4555
+    },
+    "hound_0037.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 37,
+      "sampleName": "Hound_hurt_3",
+      "duration": 0.161375,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.385803,
+      "bytes": 5143
+    },
+    "hound_0038.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 38,
+      "sampleName": "Hound_hurt_4",
+      "duration": 0.30975,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peak": 0.437958,
+      "bytes": 5504
+    },
+    "hound_0016.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 16,
+      "sampleName": "Hound_death_1",
+      "duration": 0.807688,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.970337,
+      "bytes": 9955
+    },
+    "hound_0017.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 17,
+      "sampleName": "Hound_death_2",
+      "duration": 0.866259,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8824
+    },
+    "hound_0018.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 18,
+      "sampleName": "Hound_death_3",
+      "duration": 0.863437,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.90332,
+      "bytes": 10304
+    },
+    "hound_0043.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 43,
+      "sampleName": "Hound_pant_1",
+      "duration": 0.196893,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5965
+    },
+    "hound_0044.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 44,
+      "sampleName": "Hound_pant_2",
+      "duration": 0.171565,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5636
+    },
+    "hound_0045.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 45,
+      "sampleName": "Hound_pant_3",
+      "duration": 0.194082,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5692
+    },
+    "hound_0007.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 7,
+      "sampleName": "Hound_bark_1",
+      "duration": 0.250656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6016
+    },
+    "hound_0008.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 8,
+      "sampleName": "Hound_bark_2",
+      "duration": 0.318656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.944122,
+      "bytes": 6317
+    },
+    "hound_0009.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 9,
+      "sampleName": "Hound_bark_3",
+      "duration": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.883453,
+      "bytes": 5876
+    },
+    "hound_0010.ogg": {
+      "bank": "hound.fsb",
+      "subsong": 10,
+      "sampleName": "Hound_bark_4",
+      "duration": 0.214656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.995544,
+      "bytes": 5823
+    },
+    "spider_0066.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 66,
+      "sampleName": "Spider_attack_1",
+      "duration": 0.487755,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 9886
+    },
+    "spider_0067.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 67,
+      "sampleName": "Spider_attack_10",
+      "duration": 0.278844,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 7006
+    },
+    "spider_0068.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 68,
+      "sampleName": "Spider_attack_11",
+      "duration": 0.263379,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.980682,
+      "bytes": 6333
+    },
+    "spider_0069.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 69,
+      "sampleName": "Spider_attack_12",
+      "duration": 0.29576,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 7573
+    },
+    "spider_0070.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 70,
+      "sampleName": "Spider_attack_13",
+      "duration": 0.472812,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.968719,
+      "bytes": 8659
+    },
+    "spider_0081.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 81,
+      "sampleName": "Spider_death_1",
+      "duration": 1.511474,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.955322,
+      "bytes": 18319
+    },
+    "spider_0082.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 82,
+      "sampleName": "Spider_death_2",
+      "duration": 1.265397,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.97049,
+      "bytes": 16492
+    },
+    "spider_0083.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 83,
+      "sampleName": "Spider_death_3",
+      "duration": 2.215125,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.962982,
+      "bytes": 27014
+    },
+    "spider_0094.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 94,
+      "sampleName": "Spider_scream_1",
+      "duration": 1.301723,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 16235
+    },
+    "spider_0095.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 95,
+      "sampleName": "Spider_scream_2",
+      "duration": 1.623424,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 19736
+    },
+    "spider_0096.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 96,
+      "sampleName": "Spider_scream_3",
+      "duration": 1.916553,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 22293
+    },
+    "spider_0106.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 106,
+      "sampleName": "Spider_step_1",
+      "duration": 0.04161,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.963165,
+      "bytes": 4383
+    },
+    "spider_0107.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 107,
+      "sampleName": "Spider_step_2",
+      "duration": 0.080204,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.918427,
+      "bytes": 4594
+    },
+    "spider_0108.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 108,
+      "sampleName": "Spider_step_3",
+      "duration": 0.046667,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.96405,
+      "bytes": 4535
+    },
+    "tallbird_0028.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 28,
+      "sampleName": "tallbird_headbut_1",
+      "duration": 0.136485,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.950226,
+      "bytes": 4644
+    },
+    "tallbird_0029.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 29,
+      "sampleName": "tallbird_hurt_1",
+      "duration": 0.236712,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6358
+    },
+    "tallbird_0030.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 30,
+      "sampleName": "tallbird_hurt_2",
+      "duration": 0.216531,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5642
+    },
+    "tallbird_0031.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 31,
+      "sampleName": "tallbird_hurt_3",
+      "duration": 0.174376,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5345
+    },
+    "tallbird_0032.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 32,
+      "sampleName": "tallbird_hurt_4",
+      "duration": 0.190454,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5421
+    },
+    "tallbird_0023.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 23,
+      "sampleName": "tallbird_death_1",
+      "duration": 0.548095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8405
+    },
+    "tallbird_0019.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 19,
+      "sampleName": "tallbird_chirp_1",
+      "duration": 0.818798,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 10113
+    },
+    "tallbird_0020.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 20,
+      "sampleName": "tallbird_chirp_2",
+      "duration": 0.78712,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 10453
+    },
+    "tallbird_0021.ogg": {
+      "bank": "tallbird.fsb",
+      "subsong": 21,
+      "sampleName": "tallbird_chirp_3",
+      "duration": 0.745329,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9495
+    },
+    "leif_0001.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 1,
+      "sampleName": "Leif_VO_attack_1",
+      "duration": 1.005488,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.996063,
+      "bytes": 8750
+    },
+    "leif_0002.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 2,
+      "sampleName": "Leif_VO_attack_10",
+      "duration": 0.962132,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.998444,
+      "bytes": 8745
+    },
+    "leif_0003.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 3,
+      "sampleName": "Leif_VO_attack_11",
+      "duration": 1.019546,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9079
+    },
+    "leif_0004.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 4,
+      "sampleName": "Leif_VO_attack_12",
+      "duration": 0.963288,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 8336
+    },
+    "leif_0018.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 18,
+      "sampleName": "Leif_VO_hurt_1",
+      "duration": 0.658141,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999176,
+      "bytes": 6774
+    },
+    "leif_0019.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 19,
+      "sampleName": "Leif_VO_hurt_2",
+      "duration": 0.54424,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 6621
+    },
+    "leif_0020.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 20,
+      "sampleName": "Leif_VO_hurt_3",
+      "duration": 0.5161,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6417
+    },
+    "forest_0009.ogg": {
+      "bank": "forest.fsb",
+      "subsong": 9,
+      "sampleName": "tree_fall_1",
+      "duration": 1.284014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.79187,
+      "bytes": 16108
+    },
+    "leif_0041.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 41,
+      "sampleName": "Leif_VO_walk_1",
+      "duration": 1.408005,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.830017,
+      "bytes": 10798
+    },
+    "leif_0042.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 42,
+      "sampleName": "Leif_VO_walk_10",
+      "duration": 1.190612,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.922882,
+      "bytes": 9645
+    },
+    "leif_0043.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 43,
+      "sampleName": "Leif_VO_walk_2",
+      "duration": 1.269342,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.974701,
+      "bytes": 9200
+    },
+    "leif_0061.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 61,
+      "sampleName": "Leif_step_1",
+      "duration": 0.2822,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6574
+    },
+    "leif_0062.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 62,
+      "sampleName": "Leif_step_2",
+      "duration": 0.30059,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.953735,
+      "bytes": 6373
+    },
+    "leif_0063.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 63,
+      "sampleName": "Leif_step_3",
+      "duration": 0.289456,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6341
+    },
+    "leif_0051.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 51,
+      "sampleName": "Leif_branchfoley_1",
+      "duration": 0.936259,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.767914,
+      "bytes": 13499
+    },
+    "leif_0052.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 52,
+      "sampleName": "Leif_branchfoley_10",
+      "duration": 0.944512,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.756531,
+      "bytes": 13063
+    },
+    "leif_0053.ogg": {
+      "bank": "leif.fsb",
+      "subsong": 53,
+      "sampleName": "Leif_branchfoley_2",
+      "duration": 0.98941,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.735474,
+      "bytes": 13089
+    },
+    "tentacle_0001.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 1,
+      "sampleName": "Tentacle_attack_1",
+      "duration": 0.327846,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.988708,
+      "bytes": 6811
+    },
+    "tentacle_0002.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 2,
+      "sampleName": "Tentacle_attack_2",
+      "duration": 0.369841,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.941223,
+      "bytes": 7335
+    },
+    "tentacle_0003.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 3,
+      "sampleName": "Tentacle_attack_3",
+      "duration": 0.281474,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.979065,
+      "bytes": 6470
+    },
+    "tentacle_0004.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 4,
+      "sampleName": "Tentacle_attack_4",
+      "duration": 0.291383,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 6535
+    },
+    "tentacle_0017.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 17,
+      "sampleName": "Tentacle_voice_hurt_1",
+      "duration": 2.422,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8083
+    },
+    "tentacle_0018.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 18,
+      "sampleName": "Tentacle_voice_hurt_2",
+      "duration": 2.48525,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.981079,
+      "bytes": 8099
+    },
+    "tentacle_0019.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 19,
+      "sampleName": "Tentacle_voice_hurt_3",
+      "duration": 2.4605,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.977173,
+      "bytes": 8446
+    },
+    "tentacle_0013.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 13,
+      "sampleName": "Tentacle_voice_death_1",
+      "duration": 3.658625,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.990112,
+      "bytes": 11668
+    },
+    "tentacle_0014.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 14,
+      "sampleName": "Tentacle_voice_death_2",
+      "duration": 3.672625,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 10926
+    },
+    "tentacle_0015.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 15,
+      "sampleName": "Tentacle_voice_death_3",
+      "duration": 3.560625,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.997467,
+      "bytes": 10555
+    },
+    "tentacle_0006.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 6,
+      "sampleName": "Tentacle_breakGround",
+      "duration": 1.515918,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 10636
+    },
+    "tentacle_0009.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 9,
+      "sampleName": "Tentacle_voice_appear_1",
+      "duration": 2.907875,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9699
+    },
+    "tentacle_0010.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 10,
+      "sampleName": "Tentacle_voice_appear_2",
+      "duration": 2.947,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 9563
+    },
+    "tentacle_0011.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 11,
+      "sampleName": "Tentacle_voice_appear_3",
+      "duration": 2.94925,
+      "sampleRate": 8000,
+      "channels": 1,
+      "peak": 0.83783,
+      "bytes": 9628
+    },
+    "tentacle_0007.ogg": {
+      "bank": "tentacle.fsb",
+      "subsong": 7,
+      "sampleName": "Tentacle_dissappear",
+      "duration": 1.334649,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 10102
+    },
+    "bee_0010.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 10,
+      "sampleName": "bee_attack_1",
+      "duration": 0.501293,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.925507,
+      "bytes": 10074
+    },
+    "bee_0011.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 11,
+      "sampleName": "bee_attack_2",
+      "duration": 0.523129,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.936462,
+      "bytes": 8865
+    },
+    "bee_0012.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 12,
+      "sampleName": "bee_attack_3",
+      "duration": 0.304104,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.789337,
+      "bytes": 8378
+    },
+    "bee_0013.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 13,
+      "sampleName": "bee_attack_4",
+      "duration": 0.30517,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6611
+    },
+    "bee_0008.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 8,
+      "sampleName": "Bee_death_1",
+      "duration": 0.638481,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.939087,
+      "bytes": 9411
+    },
+    "bee_0009.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 9,
+      "sampleName": "Bee_death_2",
+      "duration": 0.738798,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.943542,
+      "bytes": 10358
+    },
+    "bee_0022.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 22,
+      "sampleName": "bee_takeoff_1",
+      "duration": 1.481678,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.961823,
+      "bytes": 19345
+    },
+    "bee_0023.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 23,
+      "sampleName": "bee_takeoff_2",
+      "duration": 1.745351,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.957245,
+      "bytes": 19547
+    },
+    "chess_0042.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 42,
+      "sampleName": "knight_attacklean_1",
+      "duration": 0.557642,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.995972,
+      "bytes": 8411
+    },
+    "chess_0043.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 43,
+      "sampleName": "knight_attacklean_2",
+      "duration": 0.569184,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 9122
+    },
+    "chess_0044.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 44,
+      "sampleName": "knight_attacklean_3",
+      "duration": 0.594376,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 9627
+    },
+    "chess_0045.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 45,
+      "sampleName": "knight_attacklean_4",
+      "duration": 0.534399,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.963837,
+      "bytes": 9364
+    },
+    "chess_0055.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 55,
+      "sampleName": "knight_land_1",
+      "duration": 0.557687,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.994446,
+      "bytes": 8613
+    },
+    "chess_0056.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 56,
+      "sampleName": "knight_land_2",
+      "duration": 0.573628,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.998077,
+      "bytes": 8477
+    },
+    "chess_0057.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 57,
+      "sampleName": "knight_land_3",
+      "duration": 0.570408,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8515
+    },
+    "chess_0058.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 58,
+      "sampleName": "knight_land_4",
+      "duration": 0.534399,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8407
+    },
+    "chess_0050.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 50,
+      "sampleName": "knight_hitgroundhard_1",
+      "duration": 1.442313,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 14825
+    },
+    "chess_0068.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 68,
+      "sampleName": "knight_voice_1",
+      "duration": 1.542125,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.908478,
+      "bytes": 9481
+    },
+    "chess_0069.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 69,
+      "sampleName": "knight_voice_2",
+      "duration": 1.844273,
+      "sampleRate": 11000,
+      "channels": 1,
+      "peak": 0.991516,
+      "bytes": 9947
+    },
+    "chess_0070.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 70,
+      "sampleName": "knight_voice_3",
+      "duration": 2.296875,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.946014,
+      "bytes": 11915
+    },
+    "chess_0062.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 62,
+      "sampleName": "knight_pawground_1",
+      "duration": 0.573356,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.982025,
+      "bytes": 9723
+    },
+    "chess_0063.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 63,
+      "sampleName": "knight_pawground_2",
+      "duration": 0.572313,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.916168,
+      "bytes": 9311
+    },
+    "chess_0064.ogg": {
+      "bank": "chess.fsb",
+      "subsong": 64,
+      "sampleName": "knight_pawground_3",
+      "duration": 0.577029,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.980042,
+      "bytes": 9074
+    },
+    "pig_0021.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 21,
+      "sampleName": "werepig_attack_1",
+      "duration": 0.712938,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.830322,
+      "bytes": 6564
+    },
+    "pig_0022.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 22,
+      "sampleName": "werepig_attack_2",
+      "duration": 0.835313,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.816803,
+      "bytes": 6687
+    },
+    "pig_0023.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 23,
+      "sampleName": "werepig_attack_3",
+      "duration": 1.051875,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.859711,
+      "bytes": 7449
+    },
+    "pig_0024.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 24,
+      "sampleName": "werepig_attack_4",
+      "duration": 0.882,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.881195,
+      "bytes": 6870
+    },
+    "bearger_0033.ogg": {
+      "bank": "bearger.fsb",
+      "subsong": 33,
+      "sampleName": "bearger_swhoosh_1",
+      "duration": 0.740794,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.633362,
+      "bytes": 9921
+    },
+    "bearger_0034.ogg": {
+      "bank": "bearger.fsb",
+      "subsong": 34,
+      "sampleName": "bearger_swhoosh_2",
+      "duration": 0.714671,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.697723,
+      "bytes": 10123
+    },
+    "bearger_0035.ogg": {
+      "bank": "bearger.fsb",
+      "subsong": 35,
+      "sampleName": "bearger_swhoosh_3",
+      "duration": 0.73068,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.573029,
+      "bytes": 10087
+    },
+    "bearger_0036.ogg": {
+      "bank": "bearger.fsb",
+      "subsong": 36,
+      "sampleName": "bearger_swhoosh_4",
+      "duration": 0.925351,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.590332,
+      "bytes": 11519
+    },
+    "pig_0034.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 34,
+      "sampleName": "werepig_hurt_1",
+      "duration": 1.1095,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.866608,
+      "bytes": 7497
+    },
+    "pig_0035.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 35,
+      "sampleName": "werepig_hurt_2",
+      "duration": 0.860545,
+      "sampleRate": 11000,
+      "channels": 1,
+      "peak": 0.931763,
+      "bytes": 5897
+    },
+    "pig_0036.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 36,
+      "sampleName": "werepig_hurt_3",
+      "duration": 0.833875,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.702362,
+      "bytes": 6819
+    },
+    "pig_0037.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 37,
+      "sampleName": "werepig_hurt_4",
+      "duration": 0.746182,
+      "sampleRate": 11000,
+      "channels": 1,
+      "peak": 0.782257,
+      "bytes": 5823
+    },
+    "pig_0025.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 25,
+      "sampleName": "werepig_grunt_1",
+      "duration": 0.53925,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.888428,
+      "bytes": 5900
+    },
+    "pig_0026.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 26,
+      "sampleName": "werepig_grunt_2",
+      "duration": 0.579375,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.926605,
+      "bytes": 5768
+    },
+    "pig_0027.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 27,
+      "sampleName": "werepig_grunt_3",
+      "duration": 0.614437,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.932281,
+      "bytes": 6226
+    },
+    "pig_0028.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 28,
+      "sampleName": "werepig_grunt_4",
+      "duration": 0.552687,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.825439,
+      "bytes": 5783
+    },
+    "pig_0030.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 30,
+      "sampleName": "werepig_howl_1_new",
+      "duration": 1.785937,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.936066,
+      "bytes": 11233
+    },
+    "pig_0031.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 31,
+      "sampleName": "werepig_howl_2_new",
+      "duration": 1.303562,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.877563,
+      "bytes": 8979
+    },
+    "pig_0032.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 32,
+      "sampleName": "werepig_howl_3",
+      "duration": 1.560938,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.865448,
+      "bytes": 10246
+    },
+    "pig_0033.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 33,
+      "sampleName": "werepig_howl_4",
+      "duration": 1.487812,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.929565,
+      "bytes": 9800
+    },
+    "pig_0038.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 38,
+      "sampleName": "werepig_idle_1",
+      "duration": 1.161563,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.808411,
+      "bytes": 8634
+    },
+    "pig_0039.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 39,
+      "sampleName": "werepig_idle_2",
+      "duration": 0.9745,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.881592,
+      "bytes": 7497
+    },
+    "pig_0040.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 40,
+      "sampleName": "werepig_idle_3",
+      "duration": 1.427312,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.907196,
+      "bytes": 9323
+    },
+    "forest_stream_0020.ogg": {
+      "bank": "forest_stream.fsb",
+      "subsong": 20,
+      "sampleName": "AMB_birds_1",
+      "duration": 1.656916,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.490723,
+      "bytes": 18878
+    },
+    "forest_stream_0021.ogg": {
+      "bank": "forest_stream.fsb",
+      "subsong": 21,
+      "sampleName": "AMB_birds_2",
+      "duration": 1.685488,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.873505,
+      "bytes": 19258
+    },
+    "forest_stream_0022.ogg": {
+      "bank": "forest_stream.fsb",
+      "subsong": 22,
+      "sampleName": "AMB_birds_3",
+      "duration": 1.714059,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.88916,
+      "bytes": 19880
+    },
+    "ambient.ogg": {
+      "bank": "forest_stream.fsb",
+      "subsong": 33,
+      "sampleName": "AMB_grassland_LP",
+      "duration": 123.12,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.995636,
+      "bytes": 1611259
+    },
+    "calm.ogg": {
+      "bank": "music.fsb",
+      "subsong": 48,
+      "sampleName": "Working_Remix_V1_172bpm_DST",
+      "duration": 89.302313,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.477905,
+      "bytes": 1209211
+    },
+    "combat.ogg": {
+      "bank": "together.fsb",
+      "subsong": 9,
+      "sampleName": "Danger_Remix_V3_1_172bpm_DST",
+      "duration": 66.97675,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peak": 0.775513,
+      "bytes": 898979
+    },
+    "combat_alt.ogg": {
+      "bank": "together.fsb",
+      "subsong": 10,
+      "sampleName": "Danger_Remix_V3_2_172bpm_DST",
+      "duration": 66.976729,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peak": 0.772766,
+      "bytes": 896221
+    },
+    "boss.ogg": {
+      "bank": "music.fsb",
+      "subsong": 44,
+      "sampleName": "Don't Starve - EFS 4_4 160bpm",
+      "duration": 48.0,
+      "sampleRate": 44100,
+      "channels": 2,
+      "peak": 0.522156,
+      "bytes": 730421
+    },
+    "pig_0007.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 7,
+      "sampleName": "Pig_oink_2",
+      "duration": 0.544014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.81543,
+      "bytes": 8650
+    },
+    "pig_0006.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 6,
+      "sampleName": "Pig_oink_1",
+      "duration": 0.370656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.855957,
+      "bytes": 7279
+    },
+    "pig_0008.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 8,
+      "sampleName": "Pig_oink_3",
+      "duration": 0.392018,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.847473,
+      "bytes": 7606
+    },
+    "pig_0020.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 20,
+      "sampleName": "pig_grunts_6",
+      "duration": 0.685351,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.694489,
+      "bytes": 10068
+    },
+    "pig_0019.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 19,
+      "sampleName": "pig_grunts_5",
+      "duration": 0.637347,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.66095,
+      "bytes": 9876
+    },
+    "pig_0015.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 15,
+      "sampleName": "pig_grunts_1",
+      "duration": 0.544014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.546631,
+      "bytes": 8595
+    },
+    "pig_0016.ogg": {
+      "bank": "pig.fsb",
+      "subsong": 16,
+      "sampleName": "pig_grunts_2",
+      "duration": 1.322676,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.511627,
+      "bytes": 15480
+    },
+    "sfx_1247.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1247,
+      "sampleName": "attack_whoosh_4",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.729004,
+      "bytes": 6163
+    },
+    "sfx_1244.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1244,
+      "sampleName": "attack_whoosh_1",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.640411,
+      "bytes": 6144
+    },
+    "sfx_1246.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 1246,
+      "sampleName": "attack_whoosh_3",
+      "duration": 0.258073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.900177,
+      "bytes": 6193
+    },
+    "bunnyman_0015.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 15,
+      "sampleName": "bunnyman_attack_6",
+      "duration": 0.14907,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.981598,
+      "bytes": 5945
+    },
+    "bunnyman_0010.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 10,
+      "sampleName": "bunnyman_attack_1",
+      "duration": 0.210952,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.957642,
+      "bytes": 6155
+    },
+    "bunnyman_0011.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 11,
+      "sampleName": "bunnyman_attack_2",
+      "duration": 0.255941,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.870697,
+      "bytes": 6409
+    },
+    "bunnyman_0013.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 13,
+      "sampleName": "bunnyman_attack_4",
+      "duration": 0.194082,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.933197,
+      "bytes": 6051
+    },
+    "bunnyman_0018.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 18,
+      "sampleName": "bunnyman_bite_3",
+      "duration": 0.263968,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.991486,
+      "bytes": 6037
+    },
+    "bunnyman_0016.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 16,
+      "sampleName": "bunnyman_bite_1",
+      "duration": 0.164512,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 5432
+    },
+    "bunnyman_0017.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 17,
+      "sampleName": "bunnyman_bite_2",
+      "duration": 0.189002,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 5701
+    },
+    "bunnyman_0042.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 42,
+      "sampleName": "bunnyman_hurt_8",
+      "duration": 0.175,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.966644,
+      "bytes": 5373
+    },
+    "bunnyman_0039.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 39,
+      "sampleName": "bunnyman_hurt_5",
+      "duration": 0.118481,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.684387,
+      "bytes": 4991
+    },
+    "bunnyman_0037.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 37,
+      "sampleName": "bunnyman_hurt_3",
+      "duration": 0.097392,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.789917,
+      "bytes": 4874
+    },
+    "bunnyman_0036.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 36,
+      "sampleName": "bunnyman_hurt_2",
+      "duration": 0.102676,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999939,
+      "bytes": 5559
+    },
+    "bunnyman_0024.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 24,
+      "sampleName": "bunnyman_die_4",
+      "duration": 0.54,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.991852,
+      "bytes": 8895
+    },
+    "bunnyman_0022.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 22,
+      "sampleName": "bunnyman_die_2",
+      "duration": 0.669375,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.956207,
+      "bytes": 9059
+    },
+    "bunnyman_0021.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 21,
+      "sampleName": "bunnyman_die_1",
+      "duration": 0.618753,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.964569,
+      "bytes": 9318
+    },
+    "bunnyman_0023.ogg": {
+      "bank": "bunnyman.fsb",
+      "subsong": 23,
+      "sampleName": "bunnyman_die_3",
+      "duration": 0.573764,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 9408
+    },
+    "merm_0001.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 1,
+      "sampleName": "merm_attack_1",
+      "duration": 0.60288,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.86734,
+      "bytes": 9827
+    },
+    "merm_0003.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 3,
+      "sampleName": "merm_attack_3",
+      "duration": 0.524127,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.9086,
+      "bytes": 8975
+    },
+    "merm_0002.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 2,
+      "sampleName": "merm_attack_2",
+      "duration": 0.551542,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.690704,
+      "bytes": 9675
+    },
+    "merm_0007.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 7,
+      "sampleName": "merm_attack_7",
+      "duration": 0.479138,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.914032,
+      "bytes": 8615
+    },
+    "merm_0005.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 5,
+      "sampleName": "merm_attack_5",
+      "duration": 0.524127,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.595795,
+      "bytes": 9742
+    },
+    "merm_0018.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 18,
+      "sampleName": "merm_hurt_6",
+      "duration": 0.241224,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.894012,
+      "bytes": 6322
+    },
+    "merm_0019.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 19,
+      "sampleName": "merm_hurt_7",
+      "duration": 0.208254,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.979279,
+      "bytes": 5837
+    },
+    "merm_0017.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 17,
+      "sampleName": "merm_hurt_5",
+      "duration": 0.254921,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.888031,
+      "bytes": 6383
+    },
+    "merm_0016.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 16,
+      "sampleName": "merm_hurt_4",
+      "duration": 0.230719,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.94986,
+      "bytes": 5812
+    },
+    "merm_0015.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 15,
+      "sampleName": "merm_hurt_3",
+      "duration": 0.183175,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.904327,
+      "bytes": 5977
+    },
+    "merm_0011.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 11,
+      "sampleName": "merm_death_4",
+      "duration": 0.661519,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.975464,
+      "bytes": 13108
+    },
+    "merm_0010.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 10,
+      "sampleName": "merm_death_3",
+      "duration": 0.842336,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.911102,
+      "bytes": 12148
+    },
+    "merm_0009.ogg": {
+      "bank": "merm.fsb",
+      "subsong": 9,
+      "sampleName": "merm_death_2",
+      "duration": 0.801519,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.960815,
+      "bytes": 12032
+    },
+    "wurt_0134.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 134,
+      "sampleName": "warcry_merm_king_warrior-003",
+      "duration": 1.050113,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.892212,
+      "bytes": 15026
+    },
+    "wurt_0133.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 133,
+      "sampleName": "warcry_merm_king_warrior-002",
+      "duration": 1.485669,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.893341,
+      "bytes": 18952
+    },
+    "wurt_0132.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 132,
+      "sampleName": "warcry_merm_king_warrior-001",
+      "duration": 1.51932,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.892151,
+      "bytes": 20567
+    },
+    "wurt_0088.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 88,
+      "sampleName": "hurt_merm_king_warrior-002",
+      "duration": 0.382857,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.888062,
+      "bytes": 8760
+    },
+    "wurt_0093.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 93,
+      "sampleName": "hurt_merm_king_warrior-007",
+      "duration": 0.195782,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.893158,
+      "bytes": 6535
+    },
+    "wurt_0090.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 90,
+      "sampleName": "hurt_merm_king_warrior-004",
+      "duration": 0.39381,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.84964,
+      "bytes": 8193
+    },
+    "wurt_0087.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 87,
+      "sampleName": "hurt_merm_king_warrior-001",
+      "duration": 0.329184,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.84726,
+      "bytes": 8199
+    },
+    "wurt_0076.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 76,
+      "sampleName": "death_merm_warrior-004",
+      "duration": 1.069864,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.896729,
+      "bytes": 15580
+    },
+    "wurt_0078.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 78,
+      "sampleName": "death_merm_warrior-006",
+      "duration": 0.750567,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.89447,
+      "bytes": 10943
+    },
+    "wurt_0074.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 74,
+      "sampleName": "death_merm_warrior-002",
+      "duration": 1.764101,
+      "sampleRate": 40246,
+      "channels": 1,
+      "peak": 0.891602,
+      "bytes": 19939
+    },
+    "wurt_0075.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 75,
+      "sampleName": "death_merm_warrior-003",
+      "duration": 1.076505,
+      "sampleRate": 35109,
+      "channels": 1,
+      "peak": 0.870209,
+      "bytes": 13610
+    },
+    "wurt_0077.ogg": {
+      "bank": "wurt.fsb",
+      "subsong": 77,
+      "sampleName": "death_merm_warrior-005",
+      "duration": 0.791655,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.892639,
+      "bytes": 11680
+    },
+    "beefalo_0048.ogg": {
+      "bank": "beefalo.fsb",
+      "subsong": 48,
+      "sampleName": "Beefalo_angry_1",
+      "duration": 0.548481,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.922272,
+      "bytes": 8576
+    },
+    "beefalo_0063.ogg": {
+      "bank": "beefalo.fsb",
+      "subsong": 63,
+      "sampleName": "Beefalo_yell_1",
+      "duration": 1.039229,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 7168
+    },
+    "koalefant_0014.ogg": {
+      "bank": "koalefant.fsb",
+      "subsong": 14,
+      "sampleName": "koalephant_bellow_2",
+      "duration": 2.027392,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.856628,
+      "bytes": 20656
+    },
+    "koalefant_0013.ogg": {
+      "bank": "koalefant.fsb",
+      "subsong": 13,
+      "sampleName": "koalephant_bellow_1",
+      "duration": 2.446893,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.970612,
+      "bytes": 21828
+    },
+    "koalefant_0015.ogg": {
+      "bank": "koalefant.fsb",
+      "subsong": 15,
+      "sampleName": "koalephant_bellow_3",
+      "duration": 2.145941,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.822021,
+      "bytes": 22380
+    },
+    "spider_0077.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 77,
+      "sampleName": "Spider_attack_6",
+      "duration": 0.695918,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 10614
+    },
+    "spider_0075.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 75,
+      "sampleName": "Spider_attack_4",
+      "duration": 0.661701,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 11503
+    },
+    "spider_0071.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 71,
+      "sampleName": "Spider_attack_14",
+      "duration": 0.431973,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.998718,
+      "bytes": 8084
+    },
+    "spider_0127.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 127,
+      "sampleName": "blood_squirt",
+      "duration": 1.684898,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.977417,
+      "bytes": 18049
+    },
+    "spider_0100.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 100,
+      "sampleName": "Spider_scream_7",
+      "duration": 0.793628,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 11603
+    },
+    "spider_0093.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 93,
+      "sampleName": "Spider_jump_3",
+      "duration": 0.253129,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.789764,
+      "bytes": 6082
+    },
+    "spider_0092.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 92,
+      "sampleName": "Spider_jump_2",
+      "duration": 0.216576,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.941467,
+      "bytes": 5834
+    },
+    "spider_0072.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 72,
+      "sampleName": "Spider_attack_15",
+      "duration": 0.383356,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.902161,
+      "bytes": 7554
+    },
+    "spider_0080.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 80,
+      "sampleName": "Spider_attack_9",
+      "duration": 0.355556,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 8147
+    },
+    "spider_0098.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 98,
+      "sampleName": "Spider_scream_5",
+      "duration": 0.737392,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 11260
+    },
+    "spider_0097.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 97,
+      "sampleName": "Spider_scream_4",
+      "duration": 0.838844,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 12193
+    },
+    "spider_0099.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 99,
+      "sampleName": "Spider_scream_6",
+      "duration": 0.807642,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 11971
+    },
+    "spider_0091.ogg": {
+      "bank": "spider.fsb",
+      "subsong": 91,
+      "sampleName": "Spider_jump_1",
+      "duration": 0.19898,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.942657,
+      "bytes": 5672
+    },
+    "bat_0003.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 3,
+      "sampleName": "bat_bite_3",
+      "duration": 0.185465,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.983307,
+      "bytes": 5901
+    },
+    "bat_0002.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 2,
+      "sampleName": "bat_bite_2",
+      "duration": 0.192154,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999542,
+      "bytes": 5775
+    },
+    "bat_0001.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 1,
+      "sampleName": "bat_bite_1",
+      "duration": 0.175102,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.974274,
+      "bytes": 5742
+    },
+    "bat_0028.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 28,
+      "sampleName": "bat_wingflap_11",
+      "duration": 0.272834,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.643921,
+      "bytes": 6189
+    },
+    "bat_0033.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 33,
+      "sampleName": "bat_wingflap_6",
+      "duration": 0.271429,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.792847,
+      "bytes": 6233
+    },
+    "bat_0030.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 30,
+      "sampleName": "bat_wingflap_3",
+      "duration": 0.313605,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.769745,
+      "bytes": 6411
+    },
+    "bat_0029.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 29,
+      "sampleName": "bat_wingflap_2",
+      "duration": 0.3122,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.868805,
+      "bytes": 6672
+    },
+    "bat_0036.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 36,
+      "sampleName": "bat_wingflap_9",
+      "duration": 0.245397,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.767487,
+      "bytes": 5800
+    },
+    "bat_0021.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 21,
+      "sampleName": "bat_shortchirp_4",
+      "duration": 0.1065,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.936096,
+      "bytes": 4111
+    },
+    "bat_0019.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 19,
+      "sampleName": "bat_shortchirp_2",
+      "duration": 0.120188,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.875458,
+      "bytes": 4229
+    },
+    "bat_0023.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 23,
+      "sampleName": "bat_shortchirp_6",
+      "duration": 0.163125,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.673798,
+      "bytes": 4335
+    },
+    "bat_0022.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 22,
+      "sampleName": "bat_shortchirp_5",
+      "duration": 0.117438,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.812408,
+      "bytes": 4178
+    },
+    "bat_0025.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 25,
+      "sampleName": "bat_shortchirp_8",
+      "duration": 0.162375,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.93811,
+      "bytes": 4334
+    },
+    "bat_0010.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 10,
+      "sampleName": "bat_mediumvocal_3",
+      "duration": 0.502041,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.913879,
+      "bytes": 7162
+    },
+    "bat_0012.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 12,
+      "sampleName": "bat_mediumvocal_5",
+      "duration": 0.439456,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 0.978394,
+      "bytes": 5483
+    },
+    "bat_0011.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 11,
+      "sampleName": "bat_mediumvocal_4",
+      "duration": 0.541937,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.928375,
+      "bytes": 6829
+    },
+    "bat_0008.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 8,
+      "sampleName": "bat_mediumvocal_1",
+      "duration": 0.532937,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 5732
+    },
+    "bat_0013.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 13,
+      "sampleName": "bat_scream_1",
+      "duration": 0.91825,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.981659,
+      "bytes": 7270
+    },
+    "bat_0017.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 17,
+      "sampleName": "bat_scream_5",
+      "duration": 1.018125,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 7909
+    },
+    "bat_0014.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 14,
+      "sampleName": "bat_scream_2",
+      "duration": 0.959562,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 7506
+    },
+    "bat_0016.ogg": {
+      "bank": "bat.fsb",
+      "subsong": 16,
+      "sampleName": "bat_scream_4",
+      "duration": 1.098821,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peak": 0.995636,
+      "bytes": 8346
+    },
+    "frog_0005.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 5,
+      "sampleName": "Frog_attackvoice_3",
+      "duration": 1.320884,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.993134,
+      "bytes": 10941
+    },
+    "frog_0003.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 3,
+      "sampleName": "Frog_attackvoice_1",
+      "duration": 1.119887,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.727203,
+      "bytes": 9732
+    },
+    "frog_0006.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 6,
+      "sampleName": "Frog_attackvoice_4",
+      "duration": 1.066757,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.920807,
+      "bytes": 9174
+    },
+    "frog_0004.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 4,
+      "sampleName": "Frog_attackvoice_2",
+      "duration": 1.062404,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.930969,
+      "bytes": 8935
+    },
+    "frog_0002.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 2,
+      "sampleName": "Frog_attackspit_2",
+      "duration": 0.331701,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.909546,
+      "bytes": 6660
+    },
+    "frog_0001.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 1,
+      "sampleName": "Frog_attackspit_1",
+      "duration": 0.420862,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.970856,
+      "bytes": 7219
+    },
+    "frog_0011.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 11,
+      "sampleName": "Frog_idle_3",
+      "duration": 1.614059,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.992004,
+      "bytes": 9647
+    },
+    "frog_0012.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 12,
+      "sampleName": "Frog_idle_4",
+      "duration": 1.424354,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.951294,
+      "bytes": 9303
+    },
+    "frog_0014.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 14,
+      "sampleName": "Frog_idle_6",
+      "duration": 1.396259,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.959839,
+      "bytes": 9754
+    },
+    "frog_0010.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 10,
+      "sampleName": "Frog_idle_2",
+      "duration": 1.655147,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.942322,
+      "bytes": 9706
+    },
+    "frog_0013.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 13,
+      "sampleName": "Frog_idle_5",
+      "duration": 1.724762,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.946533,
+      "bytes": 11143
+    },
+    "frog_0007.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 7,
+      "sampleName": "Frog_die_1",
+      "duration": 1.91229,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.86911,
+      "bytes": 12024
+    },
+    "frog_0008.ogg": {
+      "bank": "frog.fsb",
+      "subsong": 8,
+      "sampleName": "Frog_die_2",
+      "duration": 1.633787,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.99353,
+      "bytes": 10869
+    },
+    "bee_0001.ogg": {
+      "bank": "bee.fsb",
+      "subsong": 1,
+      "sampleName": "misquito_explo",
+      "duration": 0.866667,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.983093,
+      "bytes": 14034
+    },
+    "pengull_0004.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 4,
+      "sampleName": "pengull_attack_4",
+      "duration": 0.376893,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.892151,
+      "bytes": 8494
+    },
+    "pengull_0002.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 2,
+      "sampleName": "pengull_attack_2",
+      "duration": 0.550907,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.957581,
+      "bytes": 8831
+    },
+    "pengull_0003.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 3,
+      "sampleName": "pengull_attack_3",
+      "duration": 0.555488,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.887268,
+      "bytes": 9041
+    },
+    "pengull_0012.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 12,
+      "sampleName": "pengull_hurt_1",
+      "duration": 0.273424,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.930664,
+      "bytes": 6071
+    },
+    "pengull_0011.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 11,
+      "sampleName": "pengull_death_3",
+      "duration": 1.041633,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.981812,
+      "bytes": 14039
+    },
+    "pengull_0009.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 9,
+      "sampleName": "pengull_death_1",
+      "duration": 0.956689,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.961029,
+      "bytes": 12637
+    },
+    "pengull_0010.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 10,
+      "sampleName": "pengull_death_2",
+      "duration": 0.909433,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.930695,
+      "bytes": 12464
+    },
+    "pengull_0054.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 54,
+      "sampleName": "pengull_taunt_3",
+      "duration": 0.523719,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.862854,
+      "bytes": 9133
+    },
+    "pengull_0057.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 57,
+      "sampleName": "pengull_taunt_6",
+      "duration": 0.569751,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.88501,
+      "bytes": 9686
+    },
+    "pengull_0055.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 55,
+      "sampleName": "pengull_taunt_4",
+      "duration": 0.696735,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.865448,
+      "bytes": 11046
+    },
+    "pengull_0060.ogg": {
+      "bank": "pengull.fsb",
+      "subsong": 60,
+      "sampleName": "pengull_taunt_9",
+      "duration": 0.504014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.947906,
+      "bytes": 9322
+    },
+    "catcoon_0086.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 86,
+      "sampleName": "catcoon_swipe_6",
+      "duration": 0.256,
+      "sampleRate": 16000,
+      "channels": 1,
+      "peak": 0.950714,
+      "bytes": 4773
+    },
+    "catcoon_0082.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 82,
+      "sampleName": "catcoon_swipe_2",
+      "duration": 0.274656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.84082,
+      "bytes": 5944
+    },
+    "catcoon_0085.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 85,
+      "sampleName": "catcoon_swipe_5",
+      "duration": 0.485344,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.871948,
+      "bytes": 7536
+    },
+    "stuff_0018.ogg": {
+      "bank": "stuff.fsb",
+      "subsong": 18,
+      "sampleName": "attack_swipe_4",
+      "duration": 0.258095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.896881,
+      "bytes": 6089
+    },
+    "stuff_0017.ogg": {
+      "bank": "stuff.fsb",
+      "subsong": 17,
+      "sampleName": "attack_swipe_3",
+      "duration": 0.258095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.973969,
+      "bytes": 6013
+    },
+    "stuff_0016.ogg": {
+      "bank": "stuff.fsb",
+      "subsong": 16,
+      "sampleName": "attack_swipe_2",
+      "duration": 0.258095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.869385,
+      "bytes": 6148
+    },
+    "stuff_0015.ogg": {
+      "bank": "stuff.fsb",
+      "subsong": 15,
+      "sampleName": "attack_swipe_1",
+      "duration": 0.258095,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.932556,
+      "bytes": 6070
+    },
+    "catcoon_0005.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 5,
+      "sampleName": "catcoon_attack_3",
+      "duration": 0.458656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.927216,
+      "bytes": 7447
+    },
+    "catcoon_0007.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 7,
+      "sampleName": "catcoon_attack_5",
+      "duration": 0.542656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.920868,
+      "bytes": 8197
+    },
+    "catcoon_0010.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 10,
+      "sampleName": "catcoon_attack_8",
+      "duration": 0.434656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.957336,
+      "bytes": 6938
+    },
+    "catcoon_0011.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 11,
+      "sampleName": "catcoon_attack_9",
+      "duration": 0.425344,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.848511,
+      "bytes": 6975
+    },
+    "catcoon_0004.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 4,
+      "sampleName": "catcoon_attack_2",
+      "duration": 0.458656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.941681,
+      "bytes": 7283
+    },
+    "catcoon_0053.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 53,
+      "sampleName": "catcoon_hurt_9",
+      "duration": 0.488,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.818146,
+      "bytes": 7568
+    },
+    "catcoon_0050.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 50,
+      "sampleName": "catcoon_hurt_6",
+      "duration": 0.416,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.760803,
+      "bytes": 7091
+    },
+    "catcoon_0048.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 48,
+      "sampleName": "catcoon_hurt_4",
+      "duration": 0.397344,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.84967,
+      "bytes": 6882
+    },
+    "catcoon_0051.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 51,
+      "sampleName": "catcoon_hurt_7",
+      "duration": 0.557344,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.835083,
+      "bytes": 8298
+    },
+    "catcoon_0016.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 16,
+      "sampleName": "catcoon_death_5",
+      "duration": 1.488,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.871399,
+      "bytes": 14166
+    },
+    "catcoon_0017.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 17,
+      "sampleName": "catcoon_death_6",
+      "duration": 1.712,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.711365,
+      "bytes": 16074
+    },
+    "catcoon_0014.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 14,
+      "sampleName": "catcoon_death_3",
+      "duration": 1.530656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.699249,
+      "bytes": 14417
+    },
+    "catcoon_0012.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 12,
+      "sampleName": "catcoon_death_1",
+      "duration": 1.530656,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.832336,
+      "bytes": 14513
+    },
+    "catcoon_0036.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 36,
+      "sampleName": "catcoon_hiss_7",
+      "duration": 0.754671,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 10364
+    },
+    "catcoon_0030.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 30,
+      "sampleName": "catcoon_hiss_1",
+      "duration": 1.183333,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.877502,
+      "bytes": 14900
+    },
+    "catcoon_0032.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 32,
+      "sampleName": "catcoon_hiss_3",
+      "duration": 1.509501,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.80426,
+      "bytes": 17305
+    },
+    "catcoon_0035.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 35,
+      "sampleName": "catcoon_hiss_6",
+      "duration": 0.944014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.916626,
+      "bytes": 12637
+    },
+    "catcoon_0033.ogg": {
+      "bank": "catcoon.fsb",
+      "subsong": 33,
+      "sampleName": "catcoon_hiss_4",
+      "duration": 0.904014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.679718,
+      "bytes": 12396
+    },
+    "krampus_0004.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 4,
+      "sampleName": "Krampus_attack_4",
+      "duration": 0.492766,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.691681,
+      "bytes": 9477
+    },
+    "krampus_0003.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 3,
+      "sampleName": "Krampus_attack_3",
+      "duration": 0.481837,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.932068,
+      "bytes": 8972
+    },
+    "krampus_0002.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 2,
+      "sampleName": "Krampus_attack_2",
+      "duration": 0.592086,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.973785,
+      "bytes": 9662
+    },
+    "krampus_0052.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 52,
+      "sampleName": "Krampus_kickswipe_3",
+      "duration": 0.095669,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.566345,
+      "bytes": 4678
+    },
+    "krampus_0050.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 50,
+      "sampleName": "Krampus_kickswipe_1",
+      "duration": 0.147007,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.746277,
+      "bytes": 5235
+    },
+    "krampus_0051.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 51,
+      "sampleName": "Krampus_kickswipe_2",
+      "duration": 0.177937,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.674957,
+      "bytes": 5407
+    },
+    "krampus_0038.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 38,
+      "sampleName": "Krampus_hurt_4",
+      "duration": 0.245011,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 6248
+    },
+    "krampus_0039.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 39,
+      "sampleName": "Krampus_hurt_5",
+      "duration": 0.235669,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.979858,
+      "bytes": 5845
+    },
+    "krampus_0041.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 41,
+      "sampleName": "Krampus_hurt_7",
+      "duration": 0.320839,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.980042,
+      "bytes": 7315
+    },
+    "krampus_0019.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 19,
+      "sampleName": "Krampus_death_2",
+      "duration": 1.558685,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.80069,
+      "bytes": 17711
+    },
+    "krampus_0018.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 18,
+      "sampleName": "Krampus_death_1",
+      "duration": 1.688186,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.873322,
+      "bytes": 20181
+    },
+    "krampus_0059.ogg": {
+      "bank": "krampus.fsb",
+      "subsong": 59,
+      "sampleName": "Krampus_taunt_1",
+      "duration": 1.129342,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.906006,
+      "bytes": 15247
+    },
+    "lightninggoat_0031.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 31,
+      "sampleName": "lightninggoat_hurt_1",
+      "duration": 0.194558,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.864166,
+      "bytes": 5493
+    },
+    "lightninggoat_0034.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 34,
+      "sampleName": "lightninggoat_hurt_4",
+      "duration": 0.131812,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.886688,
+      "bytes": 4852
+    },
+    "lightninggoat_0033.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 33,
+      "sampleName": "lightninggoat_hurt_3",
+      "duration": 0.144014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.708588,
+      "bytes": 5242
+    },
+    "lightninggoat_0032.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 32,
+      "sampleName": "lightninggoat_hurt_2",
+      "duration": 0.219,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.835693,
+      "bytes": 5638
+    },
+    "lightninggoat_0026.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 26,
+      "sampleName": "lightninggoat_die_2",
+      "duration": 0.597344,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.901062,
+      "bytes": 8351
+    },
+    "lightninggoat_0027.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 27,
+      "sampleName": "lightninggoat_die_3",
+      "duration": 0.864187,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.912384,
+      "bytes": 11036
+    },
+    "lightninggoat_0062.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 62,
+      "sampleName": "lightninggoat_taunt_6",
+      "duration": 0.4261,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.839233,
+      "bytes": 7762
+    },
+    "lightninggoat_0061.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 61,
+      "sampleName": "lightninggoat_taunt_5",
+      "duration": 0.545625,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peak": 0.827484,
+      "bytes": 6898
+    },
+    "lightninggoat_0059.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 59,
+      "sampleName": "lightninggoat_taunt_3",
+      "duration": 0.646893,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.792603,
+      "bytes": 9946
+    },
+    "lightninggoat_0057.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 57,
+      "sampleName": "lightninggoat_taunt_1",
+      "duration": 0.520312,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.639923,
+      "bytes": 7910
+    },
+    "lightninggoat_0048.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 48,
+      "sampleName": "lightninggoat_shockedelec_3",
+      "duration": 1.369342,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.979553,
+      "bytes": 16502
+    },
+    "lightninggoat_0046.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 46,
+      "sampleName": "lightninggoat_shockedelec_1",
+      "duration": 1.624014,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.928772,
+      "bytes": 18798
+    },
+    "lightninggoat_0047.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 47,
+      "sampleName": "lightninggoat_shockedelec_2",
+      "duration": 1.185397,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.91394,
+      "bytes": 14901
+    },
+    "lightninggoat_0044.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 44,
+      "sampleName": "lightninggoat_shockedVO_5",
+      "duration": 0.464062,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.908936,
+      "bytes": 7445
+    },
+    "lightninggoat_0043.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 43,
+      "sampleName": "lightninggoat_shockedVO_4",
+      "duration": 0.495,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.793213,
+      "bytes": 7884
+    },
+    "lightninggoat_0042.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 42,
+      "sampleName": "lightninggoat_shockedVO_3",
+      "duration": 0.285469,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.716858,
+      "bytes": 6214
+    },
+    "lightninggoat_0045.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 45,
+      "sampleName": "lightninggoat_shockedVO_6",
+      "duration": 0.250312,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.907471,
+      "bytes": 5907
+    },
+    "lightninggoat_0037.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 37,
+      "sampleName": "lightninggoat_jacobshorn_3",
+      "duration": 1.021338,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.75,
+      "bytes": 13402
+    },
+    "lightninggoat_0038.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 38,
+      "sampleName": "lightninggoat_jacobshorn_4",
+      "duration": 1.098685,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.759308,
+      "bytes": 14500
+    },
+    "lightninggoat_0036.ogg": {
+      "bank": "lightninggoat.fsb",
+      "subsong": 36,
+      "sampleName": "lightninggoat_jacobshorn_2",
+      "duration": 0.997347,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.541595,
+      "bytes": 13443
+    },
+    "slurtle_0004.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 4,
+      "sampleName": "slurtle_chew_3",
+      "duration": 0.188118,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.394287,
+      "bytes": 6072
+    },
+    "slurtle_0002.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 2,
+      "sampleName": "slurtle_chew_1",
+      "duration": 0.183333,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.961151,
+      "bytes": 6102
+    },
+    "slurtle_0003.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 3,
+      "sampleName": "slurtle_chew_2",
+      "duration": 0.171995,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.532837,
+      "bytes": 5799
+    },
+    "slurtle_0005.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 5,
+      "sampleName": "slurtle_chew_4",
+      "duration": 0.233583,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.563263,
+      "bytes": 6609
+    },
+    "slurtle_0037.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 37,
+      "sampleName": "slurtle_slide_out_7",
+      "duration": 0.396576,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.827515,
+      "bytes": 9072
+    },
+    "slurtle_0036.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 36,
+      "sampleName": "slurtle_slide_out_6",
+      "duration": 0.390952,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.915924,
+      "bytes": 9305
+    },
+    "slurtle_0048.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 48,
+      "sampleName": "slurtle_taunt_9",
+      "duration": 0.251429,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.906647,
+      "bytes": 6372
+    },
+    "slurtle_0045.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 45,
+      "sampleName": "slurtle_taunt_6",
+      "duration": 0.261338,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.815247,
+      "bytes": 6642
+    },
+    "slurtle_0040.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 40,
+      "sampleName": "slurtle_taunt_11",
+      "duration": 0.250476,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.906708,
+      "bytes": 6345
+    },
+    "slurtle_0046.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 46,
+      "sampleName": "slurtle_taunt_7",
+      "duration": 0.253175,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.892303,
+      "bytes": 6503
+    },
+    "slurtle_0027.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 27,
+      "sampleName": "slurtle_slide_in_2",
+      "duration": 0.300952,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.775452,
+      "bytes": 7852
+    },
+    "slurtle_0030.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 30,
+      "sampleName": "slurtle_slide_in_5",
+      "duration": 0.298141,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.768951,
+      "bytes": 8059
+    },
+    "slurtle_0028.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 28,
+      "sampleName": "slurtle_slide_in_3",
+      "duration": 0.292517,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.608795,
+      "bytes": 7856
+    },
+    "slurtle_0029.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 29,
+      "sampleName": "slurtle_slide_in_4",
+      "duration": 0.303764,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.702271,
+      "bytes": 7997
+    },
+    "slurtle_0035.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 35,
+      "sampleName": "slurtle_slide_out_5",
+      "duration": 0.399388,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.925995,
+      "bytes": 9599
+    },
+    "slurtle_0032.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 32,
+      "sampleName": "slurtle_slide_out_2",
+      "duration": 0.416259,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.936798,
+      "bytes": 10241
+    },
+    "slurtle_0033.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 33,
+      "sampleName": "slurtle_slide_out_3",
+      "duration": 0.399388,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.962463,
+      "bytes": 8694
+    },
+    "slurtle_0031.ogg": {
+      "bank": "slurtle.fsb",
+      "subsong": 31,
+      "sampleName": "slurtle_slide_out_1",
+      "duration": 0.399388,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.965271,
+      "bytes": 9409
+    },
+    "deerclops_0005.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 5,
+      "sampleName": "deerclops_attack_5",
+      "duration": 0.901723,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.74942,
+      "bytes": 10918
+    },
+    "deerclops_0003.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 3,
+      "sampleName": "deerclops_attack_3",
+      "duration": 0.889002,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 11827
+    },
+    "deerclops_0001.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 1,
+      "sampleName": "deerclops_attack_1",
+      "duration": 0.911678,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.996307,
+      "bytes": 11918
+    },
+    "deerclops_0004.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 4,
+      "sampleName": "deerclops_attack_4",
+      "duration": 0.818458,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.872192,
+      "bytes": 11106
+    },
+    "deerclops_0036.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 36,
+      "sampleName": "deerclops_swipe_1",
+      "duration": 0.756576,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.919312,
+      "bytes": 10222
+    },
+    "deerclops_0038.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 38,
+      "sampleName": "deerclops_swipe_3",
+      "duration": 0.905646,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.886902,
+      "bytes": 10911
+    },
+    "deerclops_0037.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 37,
+      "sampleName": "deerclops_swipe_2",
+      "duration": 0.821769,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.82135,
+      "bytes": 10634
+    },
+    "deerclops_0014.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 14,
+      "sampleName": "deerclops_hurt_1",
+      "duration": 0.354376,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.985748,
+      "bytes": 7279
+    },
+    "deerclops_0017.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 17,
+      "sampleName": "deerclops_hurt_4",
+      "duration": 0.438413,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 7936
+    },
+    "deerclops_0019.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 19,
+      "sampleName": "deerclops_hurt_6",
+      "duration": 0.507664,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 8556
+    },
+    "deerclops_0015.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 15,
+      "sampleName": "deerclops_hurt_2",
+      "duration": 0.481655,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.763214,
+      "bytes": 8284
+    },
+    "deerclops_0016.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 16,
+      "sampleName": "deerclops_hurt_3",
+      "duration": 0.487619,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.877136,
+      "bytes": 8470
+    },
+    "deerclops_0009.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 9,
+      "sampleName": "deerclops_death_2",
+      "duration": 2.698073,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.974335,
+      "bytes": 26791
+    },
+    "deerclops_0008.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 8,
+      "sampleName": "deerclops_death_1",
+      "duration": 2.430975,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.919647,
+      "bytes": 26415
+    },
+    "deerclops_0046.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 46,
+      "sampleName": "deerclops_tauntgrrr_3",
+      "duration": 0.506259,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.453827,
+      "bytes": 8876
+    },
+    "deerclops_0047.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 47,
+      "sampleName": "deerclops_tauntgrrr_4",
+      "duration": 0.652517,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.665375,
+      "bytes": 10249
+    },
+    "deerclops_0048.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 48,
+      "sampleName": "deerclops_tauntgrrr_5",
+      "duration": 0.793129,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.640564,
+      "bytes": 10764
+    },
+    "deerclops_0044.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 44,
+      "sampleName": "deerclops_tauntgrrr_1",
+      "duration": 0.469705,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.564667,
+      "bytes": 8607
+    },
+    "deerclops_0041.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 41,
+      "sampleName": "deerclops_taunt_3",
+      "duration": 0.916893,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.940796,
+      "bytes": 11338
+    },
+    "deerclops_0042.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 42,
+      "sampleName": "deerclops_taunt_4",
+      "duration": 0.949546,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 13089
+    },
+    "deerclops_0040.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 40,
+      "sampleName": "deerclops_taunt_2",
+      "duration": 0.926395,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 12338
+    },
+    "deerclops_0039.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 39,
+      "sampleName": "deerclops_taunt_1",
+      "duration": 0.972925,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999817,
+      "bytes": 12775
+    },
+    "deerclops_0043.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 43,
+      "sampleName": "deerclops_taunt_5",
+      "duration": 0.927438,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 12955
+    },
+    "deerclops_0026.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 26,
+      "sampleName": "deerclops_iceattack_small_4",
+      "duration": 0.615805,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.969177,
+      "bytes": 9440
+    },
+    "deerclops_0024.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 24,
+      "sampleName": "deerclops_iceattack_small_2",
+      "duration": 0.752608,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.963654,
+      "bytes": 10979
+    },
+    "deerclops_0025.ogg": {
+      "bank": "deerclops.fsb",
+      "subsong": 25,
+      "sampleName": "deerclops_iceattack_small_3",
+      "duration": 0.480068,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.990753,
+      "bytes": 8388
+    },
+    "common_0345.ogg": {
+      "bank": "common.fsb",
+      "subsong": 345,
+      "sampleName": "freeze_creature",
+      "duration": 1.514649,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 19858
+    },
+    "common_0346.ogg": {
+      "bank": "common.fsb",
+      "subsong": 346,
+      "sampleName": "freeze_thaw_LP_V2",
+      "duration": 2.683129,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.99588,
+      "bytes": 36708
+    },
+    "common_0208.ogg": {
+      "bank": "common.fsb",
+      "subsong": 208,
+      "sampleName": "iceblock_break",
+      "duration": 1.595782,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 20285
+    },
+    "sfx_0074.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 74,
+      "sampleName": "click_object",
+      "duration": 0.074218,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.6651,
+      "bytes": 5055
+    },
+    "sfx_0073.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 73,
+      "sampleName": "click_negative",
+      "duration": 0.117007,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.928192,
+      "bytes": 4879
+    },
+    "wilson_0001.ogg": {
+      "bank": "wilson.fsb",
+      "subsong": 1,
+      "sampleName": "Pickup_item",
+      "duration": 0.331313,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.980682,
+      "bytes": 6592
+    },
+    "sfx_0437.ogg": {
+      "bank": "sfx.fsb",
+      "subsong": 437,
+      "sampleName": "aqol_soothed_pickup_sound_v2_DST",
+      "duration": 0.357619,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.58136,
+      "bytes": 6968
+    },
+    "aqol_0030.ogg": {
+      "bank": "aqol.fsb",
+      "subsong": 30,
+      "sampleName": "DSS_grass_thatch_pack_11",
+      "duration": 0.64381,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.984222,
+      "bytes": 10742
+    },
+    "aqol_0032.ogg": {
+      "bank": "aqol.fsb",
+      "subsong": 32,
+      "sampleName": "DSS_grass_thatch_pack_14",
+      "duration": 0.887823,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.947266,
+      "bytes": 13422
+    },
+    "aqol_0029.ogg": {
+      "bank": "aqol.fsb",
+      "subsong": 29,
+      "sampleName": "DSS_grass_thatch_pack_09",
+      "duration": 0.685351,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.999969,
+      "bytes": 11187
+    },
+    "aqol_0031.ogg": {
+      "bank": "aqol.fsb",
+      "subsong": 31,
+      "sampleName": "DSS_grass_thatch_pack_13",
+      "duration": 0.950136,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.897339,
+      "bytes": 14377
+    },
+    "common_0065.ogg": {
+      "bank": "common.fsb",
+      "subsong": 65,
+      "sampleName": "Drop_generic",
+      "duration": 0.289524,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 1.0,
+      "bytes": 6375
+    }
+  },
+  "sources": {
+    "aqol.fsb": "f54639e4df08f51a3a5889e8d83b44dfcb6678fcfb279901d0128653b713693d",
+    "bat.fsb": "a191846f3dfcc6ce95488d1b414f557ad58265defad3ff99b36054dd04068398",
+    "bearger.fsb": "42c8e0511f2701609b122970171cfcde2258c1996753589ecb1975273b6b3541",
+    "bee.fsb": "eb41419cb42a8f1c5d7bb11519298cde344ae2df4b372bf0bcbde264eb3e6958",
+    "beefalo.fsb": "41fd25be0c9a634c8988f8b06a5826c1dc8790c5366b6d8b74f345cbb9e565ac",
+    "bunnyman.fsb": "d4bb3ddcec80ab839ba32395c81ac870b7939358787ff3e08d1e0fe52f7eb52c",
+    "catcoon.fsb": "1bd9da3d760e3d2be0bbef5dd5d8b4f7f4955f6085da961b7061cec10a7a5d6c",
+    "chess.fsb": "f1f3f8a9418df8f9b1ec05ebe2accba35d4cbcce779de2fe89acc0b005ffac8a",
+    "common.fsb": "1ce63f134e2cc15cc55a11cc80042c7ca8e45bfa3f053ee24e01817cd5491c57",
+    "deerclops.fsb": "3f18a1cecdfbd33972c9b0eb4090c955723fe7e5a926d7b4c99bbfbb0b3f2122",
+    "forest.fsb": "dcbdee584f0e4e353ccb246a8b598edbfbc35eb06b7f39bc98083ddadccde52c",
+    "forest_stream.fsb": "b000b9832d0b47b580b52250a9160492bce389d6979576cb70f63448980a11c2",
+    "frog.fsb": "e09197d7a0b29d301f4cf352f21f58383ed24428219bb23a6288c7d9272958cc",
+    "hound.fsb": "b16006433d85f298a1dcd33c60857b91e8c9cde06d43f93e5ade2dddfd4845b5",
+    "koalefant.fsb": "f72d3dc1bd667bdaf5ac1dc6b6e0fde3f6b7b59ca54c55851f69df05022ae8d9",
+    "krampus.fsb": "1d23de2cb77a675b9cf9ba3a83f7a6ab8b9b56133a014971bc6198c1a6154f65",
+    "leif.fsb": "e989d2e8eebe14f9c7fb9007362d429f4c6b72966a3ba8be055560109dc7871a",
+    "lightninggoat.fsb": "1e6b4c2294226233443dde29acfaf559d7dce80801bf13b6b07fb4512e9bacf7",
+    "merm.fsb": "94b77970a5d85b35ce4e025839340f1ce96df55223cc9f773c92d4044c3c83d8",
+    "meta3.fsb": "e749fd32802ea9cc1c84ce96d157496ddc97de9bf0ea60e833211fe7afa31eed",
+    "music.fsb": "c28b772f34af2040e045cb3c41562b0f8a9f9a2dd2725fafd99e39b045e5aab7",
+    "pengull.fsb": "116bf7f984c5f8b3b0e99ec80d16f7ea4d4e84b2e9479de05860e4fcf582976f",
+    "pig.fsb": "3e502f7cb1442809f87fac362b36087dfb209dff34fc334024cf237e77a77554",
+    "sfx.fsb": "116e00b434440b2ac70e94c801fbee04a3bdc1e66dc0f64c57167450a933c3f9",
+    "slurtle.fsb": "4117fe302f5d23c06eedd66e7461f6d73cae5da81e04e62156a6a9b2dbe8c5f6",
+    "spider.fsb": "4f4a40de27c8d95f957f66539fec1501e5baad285d50753a1fa0daa73f55f8cf",
+    "stuff.fsb": "d5d3c5bd6c0d955f596ff66c0ea621078b0f996740b635826e008d55837f384b",
+    "tallbird.fsb": "d9e8f56e0ab618cee6d508e40f03e37009fb35f90aa8272721987a705798e024",
+    "tentacle.fsb": "9a08c93325bf8ffbf61c0504c4a7802a6280b4020cfc7e99e009c2352beb5b15",
+    "together.fsb": "b6408070c8d4f5bc3c4060849bc40666e075ae8fd36e41aedd341e5cefd7fc66",
+    "wathgrithr.fsb": "b71b638e06e3985a752f44a0d273b346cee12c416daeae523a2ac2bae8eba966",
+    "wilson.fsb": "9e281334ad7b5b31ba2f3bcef7333de99196fd163540c08df345762279d3bf4f",
+    "wurt.fsb": "2d98be7423542461605dc967fae8c391b800c1f74d7cdd8be98f7ea410cc4e4c",
+    "wx78.fsb": "79c303f21374176db792135499192a75578560a5ca123bed1a7879158c50d5f2"
+  },
+  "notes": [
+    "Original local game samples; no generated replacement audio.",
+    "Gains are browser mix defaults, not recovered FMOD attenuation values.",
+    "Sample selection uses bank names and Lua events; full FEV DSP, layering and randomisation are not emulated.",
+    "Music uses complete original source tracks with browser looping and crossfades; source tracks are not guaranteed sample-perfect loop boundaries.",
+    "AudioContext must be unlocked by the user start gesture."
+  ]
+}

@@ -1,0 +1,27 @@
+DST inventory/new-monster audio update — 2026-11-11
+
+Scope and output
+- Staging only: dist/audio.js, dist/assets/audio, tools/extract_audio.py, tools/test-audio.mjs and this research directory.
+- Game directory and E:/DST-Combat-Trainer are read-only sources. No game files or system PATH changed.
+- 177 manifest events, 397 original Ogg Vorbis clips, 9,084,625 bytes of audio. The original 170 clips were reused; subsequent incremental passes also reuse decoded clips.
+- All 20 requested additional species plus ordinary Deerclops have native attack/death voices and a documented hurt policy. Beefalo, both koalefants, penguin and slurtle have no dedicated stock voice in the hit state; weapon impacts remain audible.
+
+Source verification
+- scripts.zip: stock stategraphs determine cue frames; original FEV event reader runs NOSOUND only to select original FSB samples. Event sample names are null in FMOD, and PCM length alone is ambiguous. Final mapping instead matches the exact first 512 compressed bytes of each playing native sample to FSB5 sample payloads, preserving identical shared-bank candidates in native-audio-selection.json.
+- This corrects otherwise plausible but wrong matches (spider damage vs equal-length rabbit voice, cat/goat swipe vs unrelated equal-length clips). Selected random sample variants are a bounded subset of each source event.
+- Portable vgmstream and soundfile are reused from E:/DST-Combat-Trainer/tools. WAV intermediates live in staging tools/audio_cache and are removed after successful Ogg conversion. Each clip records bank, subsong, name, duration, sample rate, channels, peak and bytes; bank hashes are in manifest.json.
+
+Event wiring (already implemented; no extra root wiring needed)
+- attack {id,time,attackVariant}: melee default; spider pounce uses grunt+Jump at 0 and swipe at 9; cat pounce uses voice at 5 and jump at 14. Standing/running penguin both use its stock entry attack voice. Other cues follow source graph frames.
+- hit {id,sourceId,electric}: source-specific hurt policy and impact material. Bat hurt respects frame 1; electric sparks also work when the player is victim.
+- death {id,time,cause}: native delayed death cues for bat/cat/slurtle at frame 1; mosquito cause=overfed suppresses ordinary death, burst {id} plays its explosion at the simulation's frame 11.
+- charged {id}: goat electric/bleat/horn entry layers; charged attack adds horn at frame 1. State observer handles slurtle hide/emerge and hider hide attack sounds; interrupted states cancel pending cues.
+- icespike {id,hazardId,sound}: only marked spikes sound, independently of the owner's current attack state. Removed hazards cancel pending decode; per-field marks can produce all six intended sounds without general SFX cooldown suppression.
+- freeze {id}: freeze creature. Player state thaw runs the stock thaw loop, stops on leaving state, and resumes once after pause. unfreeze {id,reason}: ice block break.
+- equip/unequip: shared stock equip cue with short duplicate suppression for one swap. inventorychange reason slot/return: stock HUD click for cursor take/place/swap; damage/add do not generate UI sounds.
+- pickup {slot,itemType?}: picks current inventory slot's item material; cutgrass/grass -> aqol/new_test/vegetation_grassy, ordinary weapons/cane/unknown -> stock DEFAULT_FALLBACK collect_resource. itemdrop -> stock dropGeneric, including stolen grass. Source: player_common.lua OnGotNewItem/OnEquip/OnDropItem, constants.lua PICKUPSOUNDS, cutgrass.lua pickupsound; invslot.lua for cursor clicks.
+- Existing setMode('boss') selects original dontstarve/music/music_epicfight, sample Don't Starve - EFS 4_4 160bpm, duration 48 s. Existing environment/calm/combat tracks remain intact and non-overlapping music transitions are tested.
+
+Validation and limits
+- node tools/test-audio.mjs: 41 checks, preserving previous 26 and adding all 21 species, source provenance/files, actual Deerclops ice events, pounce layers, cancellation, delayed death, shell, charge, burst, freeze/thaw/pause, inventory and grass pickup/drop.
+- Original pitch/volume randomisation, FMOD DSP and full spatial attenuation are not emulated. Browser volumes remain mix defaults. This update does not add all idle voices or all movement foley; combat/state/ice/inventory cues are the implemented scope.

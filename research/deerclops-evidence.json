@@ -1,0 +1,48 @@
+{
+  "gameBuild": "762172",
+  "sourceArchive": "E:/steam/steamapps/common/Don't Starve Together/data/databundles/scripts.zip",
+  "sourceAccess": "Read-only zipfile reads; no extraction or writes to the game installation.",
+  "scope": "Ordinary Deerclops, non-Winter's Feast. No laser, mutated ice aura, ice lance, or frenzy.",
+  "evidence": [
+    {
+      "source": "scripts/tuning.lua:1069-1076; scripts/prefabs/deerclops.lua:379-398,419-420,438-442,505-509",
+      "facts": "4000 HP, base damage 150, damage to players multiplied by 0.5, attack period 4 seconds, initiation range 8 plus target radius; movement speed 3, radius 0.5, mass 1000, visual scale 1.65; epic tag; hide head_neutral."
+    },
+    {
+      "source": "scripts/stategraphs/SGdeerclops.lua:855-929",
+      "facts": "Facing tracks the target while angular difference is less than 45 degrees, stops tracking permanently if target leaves the cone, and clears tracked target at frame 16. Frame 31 schedules ice, frame 34 swipe audio, frame 35 clears attack tag, frame 51 allows hit interruption, frame 56 clears busy. Damage is explicitly delegated to ice spikes."
+    },
+    {
+      "source": "scripts/stategraphs/SGdeerclops.lua:35-175",
+      "facts": "Three center spikes at 8/3,16/3,8 units; 12-17 spikes in a +/-35-degree forward fan with radius 8*sqrt(random); 5-8 close spikes in the remaining arc with radius 1+2*random. Sort by radius, biased random near-to-far selection, spread appearance across 0.25 seconds. Four big spikes and at most six ice sound triggers. Each spike AOE radius is 1 plus victim physics radius and uses strict '<'. Each swing shares a target set, so overlapping spikes never damage a victim twice. Coldness also applies once per hit, not once per overlapping spike."
+    },
+    {
+      "source": "scripts/stategraphs/SGdeerclops.lua:72-88,150-173",
+      "facts": "For each spawned spike, hitdelay=max(0,3*FRAMES-spawnDelay). If below one frame it hits immediately on appearance; otherwise it schedules a delayed AOE task. Web simulation processes both appearance and delayed hits on 30 Hz ticks; earliest damage is frame 34."
+    },
+    {
+      "source": "scripts/prefabs/deerclops_icespike_fx.lua:19-22,35-39",
+      "facts": "FX bank/build deerclops_icespike, four facings, no extra visual scale. Animation is spike1..4 or spike_big1..4 and is removed at animation completion. Converted asset ID is deerclops_ice."
+    },
+    {
+      "source": "scripts/prefabs/deerclops.lua:205-219; scripts/prefabs/player_common.lua:2712-2714; scripts/tuning.lua:2267; scripts/components/freezable.lua:10-32,137-167,248-311; scripts/stategraphs/SGwilson.lua:12737-12743,19135-19230",
+      "facts": "Ordinary Deerclops adds 2 coldness after damage. Player resistance 4, wear-off interval 3 seconds. Non-frozen coldness loses 1 per interval; freeze lasts 3 seconds, then thaw lasts 3 seconds. Damage breaks an existing freeze (default damagetobreak=0) before the new hit adds coldness. Unfreeze triggers a 10-frame hit reaction and blanks attacks for 0.3 seconds. Animation frozen uses swap_frozen, then frozen_loop_pst while thawing."
+    },
+    {
+      "source": "scripts/stategraphs/SGdeerclops.lua:377-397,703-744",
+      "facts": "Normal hit recovery is 0.75 seconds. Attacks are not interrupted before caninterrupt at frame 51. A hit state can buffer an attack, released at frame 10."
+    }
+  ],
+  "extractedAnimationFrames": {
+    "deerclops": {"idle_loop":57,"walk_pre":8,"walk_loop":48,"walk_pst":14,"atk":59,"hit":15,"death":68,"taunt":52,"shock_loop":6,"shock_pst":9},
+    "deerclops_ice": {"spike1":28,"spike2":28,"spike3":28,"spike4":26,"spike_big1":26,"spike_big2":28,"spike_big3":28,"spike_big4":28},
+    "player": {"frozen":6,"frozen_loop_pst":6}
+  },
+  "intentionalTrainingLimits": [
+    "No NPC frozen-state reactions: ice AOE damages eligible non-Deerclops monsters, but coldness/freeze is modeled only for the player.",
+    "No world temperature, sanity aura, buildings, seasonal behavior, or construction destruction in the isolated arena.",
+    "Unresolved spike damage is suppressed after its owner dies or the training round ends; existing ice visuals finish their clips.",
+    "Physics and pursuit use the trainer's open-arena simulation, not the native game engine or multiplayer prediction."
+  ],
+  "validation": "tools/test-deerclops.mjs: 13 checks for event timing, spike geometry, per-swing deduplication, radius, retreat, aiming lock, interruption, cooldown, lifetime, freeze decay/thaw/break."
+}
