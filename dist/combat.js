@@ -113,7 +113,7 @@ function monsterId(id) { return id === 'treeguard' ? 'leif' : id; }
 
 export class CombatWorld {
   constructor(options = {}) {
-    this.bounds = finite(options.bounds, 30);
+    this.bounds = options.bounds === Infinity ? Infinity : finite(options.bounds, 30);
     this.seed = (options.seed ?? 762172) >>> 0;
     this.animationDurations = {};
     this.onEvent = typeof options.onEvent === 'function' ? options.onEvent : null;
@@ -960,6 +960,7 @@ export class CombatWorld {
   }
 
   _bound(entity) {
+    if (!Number.isFinite(this.bounds)) return;
     const radius = Math.hypot(entity.x, entity.z);
     const limit = this.bounds - entity.radius;
     if (radius > limit) { entity.x *= limit / radius; entity.z *= limit / radius; }

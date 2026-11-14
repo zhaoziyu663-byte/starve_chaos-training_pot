@@ -2,13 +2,15 @@ import { CombatWorld, MONSTERS, WEAPONS } from './combat.js';
 import { Sprites } from './sprites.js';
 import { GameAudio } from './audio.js';
 import { InventoryHUD } from './inventory-ui.js';
+import { FollowCamera, CAMERA_GROUND_Y } from './camera.js';
 
 const $ = s => document.querySelector(s);
 const canvas = $('#world'), ctx = canvas.getContext('2d', { alpha: false });
 const sprites = new Sprites(), audio = new GameAudio();
-const world = new CombatWorld({weapon:'spear',damage:34,seed:337});
+const world = new CombatWorld({weapon:'spear',damage:34,seed:337,bounds:Infinity});
+const camera = new FollowCamera();
 const keys = new Set(), effects = [], spellEffects=[];
-let ready=false, loading=false, width=0,height=0,dpr=1, scale=46, camera={x:0,z:0}, last=0, screenEntities=[], screenItems=[], mouseAttack=false, clickMove=null;
+let ready=false, loading=false, width=0,height=0,dpr=1, scale=46, last=0, screenEntities=[], screenItems=[], mouseAttack=false, clickMove=null;
 let weapon='spear', lastStatus='ready', audioMovementTime=0, visualTime=0;
 let pointerAim=null, aiming=false, aimPoint=null, lastHandId=undefined, inventoryHUD=null;
 let floorImage=null, groundPattern=null, groundShade=null, bgmCombat='ambient', uiImages={};
@@ -20,11 +22,11 @@ const HEAD_HEIGHTS={player:379,spider:274,hound:388,tallbird:893,leif:1239,tenta
 const LABELS={player:'薇格弗德',spider:'蜘蛛',hound:'猎犬',tallbird:'高脚鸟',leif:'树精守卫',tentacle:'触手',killerbee:'杀人蜂',knight:'发条骑士',werepig:'疯猪'};
 
 function isBoss(e){return !!e._definition?.epic||e.type==='leif'||e.type==='deerclops';}
-function resize(){width=innerWidth;height=innerHeight;dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);scale=Math.max(20,Math.min(49,width/24,height/16));const maxHeight=Math.max(3,...world.monsters.map(e=>{const m=sprites.metadata?.(e.type,e.renderVariant)||{};return (m.headHeight||HEAD_HEIGHTS[e.type]||400)*(m.renderScale||1)/150;}));scale=Math.max(18,Math.min(scale,(groundY()-(world.monsters.some(isBoss)?(width<1000?190:140):110))/maxHeight));ctx.setTransform(dpr,0,0,dpr,0,0);makeShade();}
+function resize(){width=innerWidth;height=innerHeight;dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);scale=Math.max(20,Math.min(49,width/24,height/16));const maxHeight=Math.max(3,...world.monsters.map(e=>{const m=sprites.metadata?.(e.type,e.renderVariant)||{};return (m.headHeight||HEAD_HEIGHTS[e.type]||400)*(m.renderScale||1)/150;}));scale=Math.max(18,Math.min(scale,(groundY()-(world.monsters.some(isBoss)?(width<1000?190:140):110))/maxHeight));camera.resize(width,height,scale);if(ready)camera.follow(world.player,0);ctx.setTransform(dpr,0,0,dpr,0,0);makeShade();}
 addEventListener('resize',resize);resize();
-function groundY(){return height*(world.monsters.some(isBoss)?.72:.56);}
-function project(x,z){return {x:width*.5+(x-camera.x)*scale,y:groundY()+(z-camera.z)*scale*.64};}
-function unproject(x,y){return {x:(x-width*.5)/scale+camera.x,z:(y-groundY())/(scale*.64)+camera.z};}
+function groundY(){return height*CAMERA_GROUND_Y;}
+function project(x,z){return camera.project(x,z);}
+function unproject(x,y){return camera.unproject(x,y);}
 function clamp(n,a,b){return Math.max(a,Math.min(b,n));}
 function alive(e){return e.hp>0;}
 function isTyping(){return ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName);}
@@ -194,7 +196,7 @@ function frame(now){
     const active=world.status==='running'&&!world.paused&&world.monsters.some(e=>alive(e)&&Math.hypot(e.x-world.player.x,e.z-world.player.z)<9);
     const mode=active?(world.monsters.some(e=>isBoss(e)&&alive(e))?'boss':'combat'):'ambient';
     if(mode!==bgmCombat){bgmCombat=mode;audio.setMode(mode);}
-    const follow=1-Math.exp(-dt*3.5);camera.x+=(world.player.x*.45-camera.x)*follow;camera.z+=(world.player.z*.4-camera.z)*follow;
+    camera.follow(world.player,world.paused?0:dt);
     if(lastStatus!==world.status){lastStatus=world.status;if(world.status==='dead')showOverlay('你死了','再来一次');else if(world.status==='won')showOverlay('已击败','再来一次');}
   }
   ctx.setTransform(dpr,0,0,dpr,0,0);drawGround();screenEntities=[];
@@ -207,7 +209,7 @@ async function loadMonster(type){await sprites.ensure?.(type);world.setAnimation
 function setLoading(value){loading=value;$('#start').disabled=value;$('#monster').disabled=value;$('#count').disabled=value;$('#start').textContent=value?'载入中':'开始';}
 async function start(){
   if(!ready||loading)return;cancelAim();world.cancelCursor();keys.clear();mouseAttack=false;clickMove=null;pointerAim=null;world.paused=true;setLoading(true);
-  try{await loadMonster($('#monster').value);audio.pending.length=0;audio.unlock();effects.length=0;spellEffects.length=0;world.reset(config());lastHandId=undefined;inventoryHUD.recharges.clear();syncEquipment();inventoryHUD.render();world.paused=false;world.status='running';lastStatus='running';camera={x:0,z:0};resize();$('#overlay').classList.add('hidden');$('#load-error').classList.add('hidden');$('#pause').textContent='Ⅱ';canvas.focus();}
+  try{await loadMonster($('#monster').value);audio.pending.length=0;audio.unlock();effects.length=0;spellEffects.length=0;world.reset(config());lastHandId=undefined;inventoryHUD.recharges.clear();syncEquipment();inventoryHUD.render();world.paused=false;world.status='running';lastStatus='running';camera.reset(world.player);resize();$('#overlay').classList.add('hidden');$('#load-error').classList.add('hidden');$('#pause').textContent='Ⅱ';canvas.focus();}
   catch(error){$('#load-error').textContent=`资源载入失败：${error.message}`;$('#load-error').classList.remove('hidden');console.error(error);}
   finally{setLoading(false);}
 }
@@ -217,7 +219,7 @@ $('#setup').addEventListener('submit',e=>{e.preventDefault();start();});$('#rese
 $('#overlay-action').addEventListener('click',()=>{if(world.status==='running')togglePause();else start();});
 $('#damage').addEventListener('change',()=>{const n=clamp(Number($('#damage').value)||world.baseDamage,1,9999);$('#damage').value=n;world.setDamage(n);inventoryHUD?.render();});
 $('#count').addEventListener('change',()=>{$('#count').value=clamp(Math.floor(Number($('#count').value)||1),1,12);});
-$('#monster').addEventListener('change',async()=>{if(ready&&world.status==='ready'&&!loading){setLoading(true);try{await loadMonster($('#monster').value);world.cancelCursor();world.reset(config());world.status='ready';lastHandId=undefined;syncEquipment();inventoryHUD.render();resize();}catch(error){$('#load-error').textContent=`资源载入失败：${error.message}`;$('#load-error').classList.remove('hidden');}finally{setLoading(false);}}});
+$('#monster').addEventListener('change',async()=>{if(ready&&world.status==='ready'&&!loading){setLoading(true);try{await loadMonster($('#monster').value);world.cancelCursor();world.reset(config());camera.reset(world.player);world.status='ready';lastHandId=undefined;syncEquipment();inventoryHUD.render();resize();}catch(error){$('#load-error').textContent=`资源载入失败：${error.message}`;$('#load-error').classList.remove('hidden');}finally{setLoading(false);}}});
 $('#sound').addEventListener('click',()=>{audio.unlock();audio.muted=!audio.muted;audio.setVolume(Number($('#volume').value)/100);$('#sound').setAttribute('aria-pressed',String(audio.muted));$('#sound').textContent=audio.muted?'♪':'♫';});
 $('#volume').addEventListener('input',()=>audio.setVolume(Number($('#volume').value)/100));
 addEventListener('keydown',e=>{
@@ -244,7 +246,7 @@ async function init(){
     await Promise.all([sprites.load(),audio.load(),(async()=>{const data=await(await fetch('./assets/ui.json')).json();await Promise.all(['epic-frame','epic-meter_bg','epic-meter_fg','spear','spear_wathgrithr_lightning','cane','cutgrass','Ground_noise'].map(async key=>{uiImages[key]=await sprites.loadImage(data[key].src);}));})()]);
     world.setAnimationDurations?.(sprites.durations());
     inventoryHUD=new InventoryHUD({world,sprites,onChange:()=>{syncEquipment();audio.unlock();},onInteraction:cancelAim});
-    world.reset(config());world.status='ready';ready=true;syncEquipment();inventoryHUD.render();resize();$('#start').disabled=false;$('#start').textContent='开始';audio.setVolume(.45);
+    world.reset(config());camera.reset(world.player);world.status='ready';ready=true;syncEquipment();inventoryHUD.render();resize();$('#start').disabled=false;$('#start').textContent='开始';audio.setVolume(.45);
     floorImage=uiImages.Ground_noise;makeGround();
     window.trainer={world,sprites,audio,start,config,ready:true};
   }catch(error){$('#load-error').textContent=`资源载入失败：${error.message}。请刷新重试。`;$('#load-error').classList.remove('hidden');console.error(error);}
